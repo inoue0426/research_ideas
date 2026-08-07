@@ -1,0 +1,78 @@
+name: Quick Research Idea
+description: Capture a research idea quickly before it disappears.
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Capture first, evaluate later. Keep this lightweight.
+
+        The minimum useful record is: **Problem → Impact → Risk → First test**.
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Core idea
+      description: State the idea in 1–3 sentences.
+      placeholder: What is the idea?
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What important problem or limitation does this address?
+      placeholder: The current problem is...
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Why could this matter?
+      description: If this works, what becomes possible or what do we learn?
+      placeholder: If successful, this could...
+    validations:
+      required: true
+
+  - type: textarea
+    id: insight
+    attributes:
+      label: Key insight / hypothesis
+      description: What is the non-obvious idea, mechanism, or connection?
+      placeholder: The key insight is...
+
+  - type: textarea
+    id: risk
+    attributes:
+      label: Biggest uncertainty
+      description: What is the most important assumption that might be wrong?
+      placeholder: This depends on the assumption that...
+
+  - type: textarea
+    id: first_test
+    attributes:
+      label: Fastest useful test
+      description: What is the cheapest or fastest analysis, experiment, prototype, or literature check that could change your mind?
+      placeholder: The first thing to test is...
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Trigger / source
+      description: Paper, observation, dataset, conversation, limitation, link, or other source that triggered the idea.
+      placeholder: Links, citations, notes...
+
+  - type: dropdown
+    id: next_step
+    attributes:
+      label: Current disposition
+      options:
+        - Just capture it
+        - Worth a literature check
+        - Worth a quick experiment / analysis
+        - Worth deep evaluation
+        - Potentially high priority
+    validations:
+      required: true
