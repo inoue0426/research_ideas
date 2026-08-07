@@ -1,0 +1,228 @@
+name: Research Idea — Deep Evaluation
+description: Evaluate a research direction before committing substantial time.
+title: "[Research Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for ideas that may justify real research investment.
+
+        The objective is not to make every section look strong. It is to expose **impact, assumptions, risk, competition, and decision points** clearly enough to make a good choice.
+
+  - type: textarea
+    id: one_sentence
+    attributes:
+      label: One-sentence research question
+      description: State the problem, not merely the method.
+      placeholder: Can / how / why ...?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: project_type
+    attributes:
+      label: Project type
+      multiple: true
+      options:
+        - Basic science
+        - Technology development
+        - Perturbation
+        - Measurement
+        - Theory / computation
+        - Platform / infrastructure
+    validations:
+      required: true
+
+  - type: textarea
+    id: importance
+    attributes:
+      label: Problem and importance
+      description: Who cares, what is blocked today, what would change if solved, and why now?
+      placeholder: |
+        Current bottleneck:
+        Why it matters:
+        Why now:
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Best-case impact
+      description: Describe the strongest credible outcome if the project succeeds.
+      placeholder: |
+        If successful, we would learn / enable...
+
+        Basic science: How much would we learn? How general is the object of study?
+        Technology: How widely could it be used? How critical would it be?
+    validations:
+      required: true
+
+  - type: textarea
+    id: weak_success
+    attributes:
+      label: Could it succeed and still not matter?
+      description: Describe the technically successful but scientifically unimportant outcome.
+      placeholder: A weak-success outcome would be...
+
+  - type: textarea
+    id: insight
+    attributes:
+      label: Key insight / hypothesis
+      description: What is the non-obvious idea that makes this direction interesting?
+      placeholder: The central insight is...
+    validations:
+      required: true
+
+  - type: textarea
+    id: edge
+    attributes:
+      label: Competitive advantage
+      description: Why are you or your collaborators unusually well positioned to solve this?
+      placeholder: |
+        Expertise:
+        Data:
+        Technology:
+        Collaborators / access:
+        Unique combination:
+
+  - type: textarea
+    id: competition
+    attributes:
+      label: Competitive landscape
+      description: Who else is working on this? Is the field early or crowded? What remains differentiated?
+      placeholder: |
+        Relevant groups / papers:
+        Degree of competition (1–5):
+        Why we could win:
+        If scooped, Plan B:
+        Should we go directly to Plan B?
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Assumption analysis
+        List the assumptions that must hold from the beginning of the project through the claimed conclusion. Distinguish assumptions about **underlying reality** from assumptions about **technical capability**.
+
+  - type: textarea
+    id: assumptions
+    attributes:
+      label: Critical assumptions
+      description: Include risk and time-to-learn for each important assumption.
+      placeholder: |
+        | # | Assumption | Type (Reality / Technology) | Risk (1–5) | Time to learn | How to test |
+        |---|---|---|---:|---|---|
+        | 1 | | | | | |
+        | 2 | | | | | |
+        | 3 | | | | | |
+    validations:
+      required: true
+
+  - type: textarea
+    id: highest_risk
+    attributes:
+      label: Highest-risk assumption
+      description: Which single assumption most threatens the project, and why?
+      placeholder: The project most strongly depends on...
+    validations:
+      required: true
+
+  - type: textarea
+    id: first_test
+    attributes:
+      label: Earliest go / no-go test
+      description: What is the earliest feasible experiment, analysis, prototype, or data check that could invalidate the direction?
+      placeholder: |
+        Minimal test:
+        GO if:
+        CONDITIONAL GO if:
+        NO-GO if:
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Fixed vs. floating parameters
+        Avoid accidentally fixing the question, system, method, model, dataset, and endpoint all at once.
+
+  - type: textarea
+    id: parameters
+    attributes:
+      label: Fixed and floating parameters
+      description: What must remain fixed, and what could change if a better route appears?
+      placeholder: |
+        | Component | Current choice | Fixed or floating? | Alternatives |
+        |---|---|---|---|
+        | Scientific question | | | |
+        | Biological system | | | |
+        | Dataset | | | |
+        | Experimental method | | | |
+        | Computational method / model | | | |
+        | Endpoint | | | |
+
+        Most important fixed parameter:
+        Parameters that may be unnecessarily fixed:
+
+  - type: textarea
+    id: decision_tree
+    attributes:
+      label: Decision tree
+      description: For the first major experiments or analyses, write the likely result branches and what you would do next.
+      placeholder: |
+        Test 1:
+          Result A →
+          Result B →
+          Ambiguous → validation →
+
+        Test 2:
+          Result A →
+          Result B →
+
+  - type: textarea
+    id: pivot
+    attributes:
+      label: Pivot triggers and Plan B
+      description: What observations, competitive events, or technical changes would make you change direction?
+      placeholder: |
+        Pivot if:
+        - ...
+
+        Best alternative path:
+
+  - type: textarea
+    id: inversion
+    attributes:
+      label: Turn the problem on its head
+      description: If the original formulation fails, can you invert or generalize the question?
+      placeholder: |
+        Original question:
+        Inverted question:
+        More general question:
+
+  - type: textarea
+    id: future
+    attributes:
+      label: If this works, what comes next?
+      description: What larger problem, platform, dataset, experiment, or research program would this unlock?
+      placeholder: This would open the door to...
+
+  - type: dropdown
+    id: decision
+    attributes:
+      label: Current decision
+      options:
+        - Keep exploring
+        - Run the first test
+        - High-priority candidate
+        - Park for later
+        - Reject / stop
+    validations:
+      required: true
+
+  - type: textarea
+    id: why_now
+    attributes:
+      label: Decision note
+      description: In a few sentences, record why this idea should or should not receive more time now.
+      placeholder: The current decision is ... because ...
