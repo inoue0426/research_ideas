@@ -6,6 +6,19 @@ The goal is to **store ideas early, sharpen them into falsifiable questions, com
 
 The structure is inspired by Michael A. Fischbach's framework for problem choice and decision trees in science and engineering.
 
+<!-- RESEARCH_ELO_START -->
+## Research Elo
+
+Relative LLM-judge ranking of open research ideas. Ratings are comparative feedback, **not an objective measure of scientific value**.
+
+| Rank | Issue | Rating | Games | Record |
+|---:|---|---:|---:|---:|
+| 1 | [#4 — \[Idea\] CCC + Spatial Transcriptomics + DTI/DRP](https://github.com/inoue0426/research_ideas/issues/4) | **1512** | 1 | 1W / 0D / 0L |
+| 2 | [#3 — \[Idea\] LLMでDrug Target InteractionのMechanismをTextGrad的に更新していく, Mechanism Optimization](https://github.com/inoue0426/research_ideas/issues/3) | **1488** | 1 | 0W / 0D / 1L |
+
+_Updated automatically after owner-authored issues are opened, edited, or reopened._
+<!-- RESEARCH_ELO_END -->
+
 ## Language
 
 Use whichever language helps you think most precisely. The templates are written in English because research questions, literature searches, papers, and collaborations are often conducted in English, but issue responses may be written in Japanese, English, or a mixture of both. Prefer clarity of reasoning over forced translation.

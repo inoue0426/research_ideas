@@ -7,6 +7,8 @@ on:
         description: "Issue number to rate"
         required: true
         type: string
+  issues:
+    types: [opened, edited, reopened]
 
 permissions:
   contents: write
@@ -19,6 +21,7 @@ concurrency:
 
 jobs:
   rate:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.issue.user.login == github.repository_owner }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -37,13 +40,25 @@ jobs:
       - name: Install Copilot CLI
         run: npm install -g @github/copilot
 
+      - name: Resolve issue number
+        id: issue
+        env:
+          MANUAL_ISSUE: ${{ inputs.issue_number }}
+          EVENT_ISSUE: ${{ github.event.issue.number }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "number=$MANUAL_ISSUE" >> "$GITHUB_OUTPUT"
+          else
+            echo "number=$EVENT_ISSUE" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Prepare pairwise judging prompt
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           python scripts/research_elo.py prepare \
-            --issue "${{ inputs.issue_number }}" \
+            --issue "${{ steps.issue.outputs.number }}" \
             --prompt-file /tmp/research-elo-prompt.txt \
             --context-file /tmp/research-elo-context.json
 
@@ -60,18 +75,24 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           python scripts/research_elo.py apply \
-            --issue "${{ inputs.issue_number }}" \
+            --issue "${{ steps.issue.outputs.number }}" \
             --context-file /tmp/research-elo-context.json \
             --result-file /tmp/research-elo-result.txt
 
-      - name: Commit rating state
+      - name: Render README ranking
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python scripts/render_research_elo.py
+
+      - name: Commit rating state and README ranking
         run: |
-          if git diff --quiet -- .research-elo/ratings.json; then
-            echo "No rating state change."
+          if git diff --quiet -- .research-elo/ratings.json README.md; then
+            echo "No rating or README change."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .research-elo/ratings.json
-          git commit -m "Update Research Elo ratings"
+          git add .research-elo/ratings.json README.md
+          git commit -m "Update Research Elo ranking"
           git push
