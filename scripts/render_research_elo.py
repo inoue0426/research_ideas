@@ -10,6 +10,8 @@ STATE_PATH = Path('.research-elo/ratings.json')
 README_PATH = Path('README.md')
 START_MARKER = '<!-- RESEARCH_ELO_START -->'
 END_MARKER = '<!-- RESEARCH_ELO_END -->'
+PROVISIONAL_GAMES = 10
+TIE_THRESHOLD = 20
 
 
 def github_request(path):
@@ -56,6 +58,25 @@ def escape_markdown(text):
     )
 
 
+def rank_labels(rows):
+    labels = []
+    i = 0
+    while i < len(rows):
+        anchor_rating = float(rows[i][1].get('rating', 1500))
+        j = i + 1
+        while j < len(rows):
+            rating = float(rows[j][1].get('rating', 1500))
+            if anchor_rating - rating > TIE_THRESHOLD:
+                break
+            j += 1
+        group_size = j - i
+        rank = i + 1
+        label = f'≈{rank}' if group_size > 1 else str(rank)
+        labels.extend([label] * group_size)
+        i = j
+    return labels
+
+
 def build_section(state, issues, repo):
     rows = []
     for key, entry in state.get('ratings', {}).items():
@@ -66,6 +87,7 @@ def build_section(state, issues, repo):
         rows.append((number, entry, issue))
 
     rows.sort(key=lambda x: (-float(x[1].get('rating', 1500)), x[0]))
+    labels = rank_labels(rows)
 
     lines = [
         START_MARKER,
@@ -73,14 +95,18 @@ def build_section(state, issues, repo):
         '',
         'Relative LLM-judge ranking of open research ideas. Ratings are comparative feedback, **not an objective measure of scientific value**.',
         '',
+        f'- Ratings within **{TIE_THRESHOLD} points** are shown as approximate ties.',
+        f'- Issues remain **Provisional** until they have at least **{PROVISIONAL_GAMES} games**.',
+        '- Small rating changes should not be interpreted as meaningful differences in scientific quality.',
+        '',
     ]
 
     if rows:
         lines.extend([
-            '| Rank | Issue | Rating | Games | Record |',
-            '|---:|---|---:|---:|---:|',
+            '| Rank | Issue | Rating | Games | Status | Record |',
+            '|---:|---|---:|---:|---|---:|',
         ])
-        for rank, (number, entry, issue) in enumerate(rows, start=1):
+        for rank_label, (number, entry, issue) in zip(labels, rows):
             title = escape_markdown(issue.get('title', ''))
             url = f'https://github.com/{repo}/issues/{number}'
             rating = round(float(entry.get('rating', 1500)))
@@ -88,8 +114,9 @@ def build_section(state, issues, repo):
             wins = int(entry.get('wins', 0))
             draws = int(entry.get('draws', 0))
             losses = int(entry.get('losses', 0))
+            status = '🟡 Provisional' if games < PROVISIONAL_GAMES else '🟢 Established'
             lines.append(
-                f'| {rank} | [#{number} — {title}]({url}) | **{rating}** | {games} | {wins}W / {draws}D / {losses}L |'
+                f'| {rank_label} | [#{number} — {title}]({url}) | **{rating}** | {games} | {status} | {wins}W / {draws}D / {losses}L |'
             )
     else:
         lines.append('_No open issues have been rated yet._')
