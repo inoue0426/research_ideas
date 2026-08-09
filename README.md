@@ -13,10 +13,11 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 
 | Rank | Issue | Rating | Games | Record |
 |---:|---|---:|---:|---:|
-| 1 | [#3 — \[Idea\] Resolving Conflicting Drug–Target Evidence via TextGrad-Based Mechanism Optimization](https://github.com/inoue0426/research_ideas/issues/3) | **1501** | 2 | 1W / 0D / 1L |
-| 2 | [#4 — \[Idea\] CCC + Spatial Transcriptomics + DTI/DRP](https://github.com/inoue0426/research_ideas/issues/4) | **1499** | 2 | 1W / 0D / 1L |
+| 1 | [#7 — \[Idea\] Uncertainty-aware Drug-conditioned spatial INR](https://github.com/inoue0426/research_ideas/issues/7) | **1524** | 2 | 2W / 0D / 0L |
+| 2 | [#3 — \[Idea\] Resolving Conflicting Drug–Target Evidence via TextGrad-Based Mechanism Optimization](https://github.com/inoue0426/research_ideas/issues/3) | **1489** | 3 | 1W / 0D / 2L |
+| 3 | [#4 — \[Idea\] CCC + Spatial Transcriptomics + DTI/DRP](https://github.com/inoue0426/research_ideas/issues/4) | **1487** | 3 | 1W / 0D / 2L |
 
-_Updated automatically after owner-authored issues are opened, edited, or reopened. Last update: 2026-08-09 16:18 UTC._
+_Updated automatically after owner-authored issues are opened, edited, or reopened. Last update: 2026-08-09 16:26 UTC._
 <!-- RESEARCH_ELO_END -->
 
 ## Language
