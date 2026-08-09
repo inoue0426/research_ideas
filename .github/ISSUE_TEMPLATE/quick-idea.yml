@@ -1,5 +1,5 @@
 name: Quick Research Idea
-description: Capture a research idea quickly before it disappears.
+description: Capture an observation or research idea quickly before it disappears.
 title: "[Idea] "
 body:
   - type: markdown
@@ -7,14 +7,23 @@ body:
       value: |
         Capture first, evaluate later. Keep this lightweight.
 
-        The minimum useful record is: **Problem → Impact → Risk → First test**.
+        A useful minimal record is: **Observation → Problem → Impact → Hypothesis → Risk → First test**.
+
+  - type: textarea
+    id: observation
+    attributes:
+      label: Observation / anomaly
+      description: What did you notice before explaining it? Record the empirical pattern, limitation, tension, contradiction, or surprising result separately from your interpretation.
+      placeholder: I noticed that...
+    validations:
+      required: true
 
   - type: textarea
     id: idea
     attributes:
-      label: Core idea
-      description: State the idea in 1–3 sentences.
-      placeholder: What is the idea?
+      label: Core idea / question
+      description: State the possible research direction or question in 1–3 sentences.
+      placeholder: The question or idea is...
     validations:
       required: true
 
@@ -22,7 +31,7 @@ body:
     id: problem
     attributes:
       label: Problem
-      description: What important problem or limitation does this address?
+      description: What important problem or unresolved limitation does this address?
       placeholder: The current problem is...
     validations:
       required: true
@@ -31,7 +40,7 @@ body:
     id: impact
     attributes:
       label: Why could this matter?
-      description: If this works, what becomes possible or what do we learn?
+      description: If resolved, what becomes possible, what decision changes, or what do we learn?
       placeholder: If successful, this could...
     validations:
       required: true
@@ -40,8 +49,24 @@ body:
     id: insight
     attributes:
       label: Key insight / hypothesis
-      description: What is the non-obvious idea, mechanism, or connection?
-      placeholder: The key insight is...
+      description: What is the non-obvious explanation, mechanism, or connection?
+      placeholder: The key hypothesis is...
+
+  - type: textarea
+    id: prediction
+    attributes:
+      label: Discriminating prediction
+      description: If the hypothesis is correct, what should you observe? What would you expect instead if it is wrong?
+      placeholder: |
+        If correct, I expect...
+        If wrong / an alternative explanation is true, I expect...
+
+  - type: textarea
+    id: why_unsolved
+    attributes:
+      label: Why might this still be unsolved?
+      description: What has prevented this from being resolved already? Data, measurement, computation, incentives, framing, or perhaps it is already mostly solved.
+      placeholder: This may remain unsolved because...
 
   - type: textarea
     id: risk
@@ -54,7 +79,7 @@ body:
     id: first_test
     attributes:
       label: Fastest useful test
-      description: What is the cheapest or fastest analysis, experiment, prototype, or literature check that could change your mind?
+      description: What is the cheapest analysis, experiment, prototype, or literature check that could materially change your mind?
       placeholder: The first thing to test is...
 
   - type: textarea

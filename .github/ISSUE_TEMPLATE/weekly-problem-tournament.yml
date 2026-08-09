@@ -1,0 +1,110 @@
+name: Weekly Problem Tournament
+description: Compare several research questions and force a current priority choice.
+title: "[Problem Tournament] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this periodically to train **problem selection**, not just evaluation of one idea in isolation.
+
+        Compare candidate questions under roughly the same research-time budget. The goal is to choose, not to make every idea look attractive.
+
+  - type: textarea
+    id: candidates
+    attributes:
+      label: Candidate questions
+      description: List 3–5 concrete research questions. Link existing idea issues when available.
+      placeholder: |
+        A. ...
+        B. ...
+        C. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: scorecard
+    attributes:
+      label: Comparative scorecard
+      description: Score each dimension from 1–5. Treat a fatal weakness as more important than the total score.
+      placeholder: |
+        | Question | Importance | Novelty | Tractability | Time-to-learn | Leverage | Fatal weakness? |
+        |---|---:|---:|---:|---:|---:|---|
+        | A | | | | | | |
+        | B | | | | | | |
+        | C | | | | | | |
+    validations:
+      required: true
+
+  - type: textarea
+    id: discriminators
+    attributes:
+      label: What actually separates them?
+      description: Identify the 1–3 considerations that genuinely change the ranking instead of repeating every score.
+      placeholder: |
+        The ranking mainly depends on:
+        1. ...
+        2. ...
+
+  - type: textarea
+    id: cheapest_learning
+    attributes:
+      label: Cheapest information that could change the ranking
+      description: What literature check, dataset inspection, conversation, or experiment could most efficiently change which question you select?
+      placeholder: |
+        Test / check:
+        Which candidates it discriminates:
+        What result would change the ranking:
+
+  - type: textarea
+    id: winner
+    attributes:
+      label: Forced choice
+      description: If you could work on only one of these questions now, which one would you choose?
+      placeholder: I would choose ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: why_winner
+    attributes:
+      label: Why this one now?
+      description: Explain why the winner deserves scarce research time now, not merely why it is interesting.
+      placeholder: |
+        Why now:
+        Why this beats the alternatives:
+        What I am giving up by choosing it:
+    validations:
+      required: true
+
+  - type: textarea
+    id: losers
+    attributes:
+      label: Why not the others?
+      description: Record the main reason each alternative loses today. This creates a useful decision history and makes later reversals interpretable.
+      placeholder: |
+        A loses because...
+        B loses because...
+        C loses because...
+
+  - type: textarea
+    id: revisit
+    attributes:
+      label: Revisit triggers
+      description: What new evidence or change in circumstances would make you reconsider the ranking?
+      placeholder: |
+        Re-rank if:
+        - ...
+        - ...
+
+  - type: dropdown
+    id: action
+    attributes:
+      label: Next action
+      options:
+        - Deep-evaluate the winner
+        - Run the winner's first test
+        - Gather information before choosing
+        - Keep current project; none beats it
+        - Park all candidates
+    validations:
+      required: true

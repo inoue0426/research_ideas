@@ -7,13 +7,24 @@ body:
       value: |
         Use this for ideas that may justify real research investment.
 
-        The objective is not to make every section look strong. It is to expose **impact, assumptions, risk, competition, and decision points** clearly enough to make a good choice.
+        The objective is not to make every section look strong. It is to expose **importance, falsifiability, assumptions, risk, competition, and decision points** clearly enough to make a good choice.
+
+  - type: textarea
+    id: observation
+    attributes:
+      label: Observation / motivating tension
+      description: What was observed before proposing an explanation or method? Separate the empirical fact, anomaly, limitation, or contradiction from your interpretation.
+      placeholder: |
+        Observation:
+        Why it is surprising / unresolved:
+    validations:
+      required: true
 
   - type: textarea
     id: one_sentence
     attributes:
       label: One-sentence research question
-      description: State the problem, not merely the method.
+      description: State the scientific or engineering question, not merely the method.
       placeholder: Can / how / why ...?
     validations:
       required: true
@@ -40,7 +51,8 @@ body:
       description: Who cares, what is blocked today, what would change if solved, and why now?
       placeholder: |
         Current bottleneck:
-        Why it matters:
+        Who is affected:
+        What changes if solved:
         Why now:
     validations:
       required: true
@@ -62,15 +74,45 @@ body:
     id: weak_success
     attributes:
       label: Could it succeed and still not matter?
-      description: Describe the technically successful but scientifically unimportant outcome.
+      description: Describe the technically successful but scientifically or practically unimportant outcome.
       placeholder: A weak-success outcome would be...
 
   - type: textarea
-    id: insight
+    id: hypothesis
     attributes:
       label: Key insight / hypothesis
-      description: What is the non-obvious idea that makes this direction interesting?
-      placeholder: The central insight is...
+      description: What is the non-obvious explanation, mechanism, or possibility that makes this direction interesting?
+      placeholder: The central hypothesis is...
+    validations:
+      required: true
+
+  - type: textarea
+    id: predictions
+    attributes:
+      label: Discriminating predictions
+      description: State observations that distinguish the hypothesis from plausible alternatives. Avoid predictions that would be compatible with almost any outcome.
+      placeholder: |
+        If the hypothesis is correct, we should observe:
+        1. ...
+        2. ...
+
+        If the strongest alternative is correct, we should instead observe:
+        1. ...
+        2. ...
+
+        Result that would make me change my mind:
+    validations:
+      required: true
+
+  - type: textarea
+    id: why_unsolved
+    attributes:
+      label: Why is this still unsolved?
+      description: Explain the barrier. Consider missing data, measurement limits, computational constraints, incentives, poor framing, lack of cross-field connection, or the possibility that the problem is already largely solved.
+      placeholder: |
+        Main barrier:
+        What changed recently that may remove it:
+        Evidence that this is genuinely unresolved:
     validations:
       required: true
 
@@ -94,6 +136,8 @@ body:
       placeholder: |
         Relevant groups / papers:
         Degree of competition (1–5):
+        What is already solved:
+        What remains unresolved:
         Why we could win:
         If scooped, Plan B:
         Should we go directly to Plan B?
@@ -131,12 +175,14 @@ body:
     id: first_test
     attributes:
       label: Earliest go / no-go test
-      description: What is the earliest feasible experiment, analysis, prototype, or data check that could invalidate the direction?
+      description: What is the earliest feasible experiment, analysis, prototype, or data check that could invalidate the direction or distinguish the main hypothesis from its strongest alternative?
       placeholder: |
         Minimal test:
+        Competing explanations tested:
         GO if:
         CONDITIONAL GO if:
         NO-GO if:
+        Estimated time / cost to learn:
     validations:
       required: true
 
@@ -201,6 +247,16 @@ body:
         More general question:
 
   - type: textarea
+    id: opportunity_cost
+    attributes:
+      label: Opportunity cost
+      description: What other research question would receive this time if you do not pursue this one? Why is this idea currently better or worse?
+      placeholder: |
+        Best competing use of the same time:
+        Why this idea deserves priority now:
+        Reason to choose the alternative instead:
+
+  - type: textarea
     id: future
     attributes:
       label: If this works, what comes next?
@@ -221,7 +277,7 @@ body:
       required: true
 
   - type: textarea
-    id: why_now
+    id: decision_note
     attributes:
       label: Decision note
       description: In a few sentences, record why this idea should or should not receive more time now.
