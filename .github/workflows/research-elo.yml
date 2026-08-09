@@ -1,0 +1,77 @@
+name: Research Elo
+
+on:
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: "Issue number to rate"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  issues: write
+  copilot-requests: write
+
+concurrency:
+  group: research-elo
+  cancel-in-progress: false
+
+jobs:
+  rate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+
+      - name: Install Copilot CLI
+        run: npm install -g @github/copilot
+
+      - name: Prepare pairwise judging prompt
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python scripts/research_elo.py prepare \
+            --issue "${{ inputs.issue_number }}" \
+            --prompt-file /tmp/research-elo-prompt.txt \
+            --context-file /tmp/research-elo-context.json
+
+      - name: Judge with GitHub Copilot
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          copilot -p "$(cat /tmp/research-elo-prompt.txt)" --no-ask-user > /tmp/research-elo-result.txt
+          cat /tmp/research-elo-result.txt
+
+      - name: Apply Elo updates and comment on issue
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python scripts/research_elo.py apply \
+            --issue "${{ inputs.issue_number }}" \
+            --context-file /tmp/research-elo-context.json \
+            --result-file /tmp/research-elo-result.txt
+
+      - name: Commit rating state
+        run: |
+          if git diff --quiet -- .research-elo/ratings.json; then
+            echo "No rating state change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .research-elo/ratings.json
+          git commit -m "Update Research Elo ratings"
+          git push
