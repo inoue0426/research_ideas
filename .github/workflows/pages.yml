@@ -6,6 +6,8 @@ on:
     paths:
       - "docs/**"
       - "assets/**"
+      - "README.md"
+      - "scripts/render_pages_elo.py"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -35,6 +37,7 @@ jobs:
           cp -R docs/. _site/
           cp assets/idea-landscape.svg _site/assets/idea-landscape.svg
           cp assets/research-program.svg _site/assets/research-program.svg
+          python scripts/render_pages_elo.py --page _site/index.html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
