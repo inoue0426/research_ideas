@@ -636,35 +636,70 @@
       "reason": "Issue 10 poses a fundamental question about biological structure invariance with clear evaluation strategy (test across domain pairs systematically) and high leverage; issue 3 is more applied and narrower in scope.",
       "target": 3,
       "timestamp": "2026-08-14T17:35:28.754811+00:00"
+    },
+    {
+      "opponent": 14,
+      "outcome": "loss",
+      "reason": "Broader and more technically grounded: shared causal geometry has clearer leverage across modalities, while 9 is important but more of an evaluation framing question.",
+      "target": 9,
+      "timestamp": "2026-08-14T18:00:24.797617+00:00"
+    },
+    {
+      "opponent": 10,
+      "outcome": "loss",
+      "reason": "9 has a sharper, more falsifiable core question about evaluating multiple valid mechanisms; 10 is broader but currently more open-ended and less tractable.",
+      "target": 9,
+      "timestamp": "2026-08-14T18:00:24.797617+00:00"
+    },
+    {
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "3 is a more concrete six-month study with an identifiable benchmark-and-method comparison, whereas 9 is more foundational but less directly actionable.",
+      "target": 9,
+      "timestamp": "2026-08-14T18:00:24.797617+00:00"
+    },
+    {
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "17 is partly an interface/workflow idea and may have weaker scientific contribution; 9 is more centrally about a missing evaluation problem with broader methodological value.",
+      "target": 9,
+      "timestamp": "2026-08-14T18:00:24.797617+00:00"
+    },
+    {
+      "opponent": 7,
+      "outcome": "loss",
+      "reason": "7 is a concrete modeling project with plausible empirical tests, while 9 is higher-level and its key benchmark/curation challenge makes it less immediately tractable.",
+      "target": 9,
+      "timestamp": "2026-08-14T18:00:24.797617+00:00"
     }
   ],
   "k_factor": 12,
   "rating_snapshots": [
     {
       "ratings": {
-        "10": 1473.52,
+        "10": 1479.36,
         "11": 1523.08,
         "12": 1515.42,
         "13": 1522.95,
-        "14": 1471.04,
+        "14": 1477.03,
         "15": 1522.31,
         "16": 1504.58,
-        "17": 1464.96,
+        "17": 1458.96,
         "19": 1557.2,
         "20": 1487.93,
         "21": 1505.12,
-        "3": 1475.45,
+        "3": 1469.16,
         "4": 1524.73,
-        "7": 1481.37,
-        "9": 1470.34
+        "7": 1487.19,
+        "9": 1464.98
       },
-      "timestamp": "2026-08-14T17:35:29.421214+00:00"
+      "timestamp": "2026-08-14T18:00:25.499770+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 1,
-      "games": 18,
+      "games": 19,
       "losses": 11,
       "opponents": [
         3,
@@ -677,8 +712,8 @@
         17,
         20
       ],
-      "rating": 1473.52,
-      "wins": 6
+      "rating": 1479.36,
+      "wins": 7
     },
     "11": {
       "draws": 0,
@@ -733,7 +768,7 @@
     },
     "14": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 8,
       "opponents": [
         3,
@@ -745,8 +780,8 @@
         15,
         16
       ],
-      "rating": 1471.04,
-      "wins": 3
+      "rating": 1477.03,
+      "wins": 4
     },
     "15": {
       "draws": 0,
@@ -782,8 +817,8 @@
     },
     "17": {
       "draws": 0,
-      "games": 10,
-      "losses": 8,
+      "games": 11,
+      "losses": 9,
       "opponents": [
         3,
         4,
@@ -794,7 +829,7 @@
         16,
         19
       ],
-      "rating": 1464.96,
+      "rating": 1458.96,
       "wins": 2
     },
     "19": {
@@ -847,8 +882,8 @@
     },
     "3": {
       "draws": 0,
-      "games": 18,
-      "losses": 11,
+      "games": 19,
+      "losses": 12,
       "opponents": [
         4,
         7,
@@ -861,7 +896,7 @@
         15,
         17
       ],
-      "rating": 1475.45,
+      "rating": 1469.16,
       "wins": 7
     },
     "4": {
@@ -889,7 +924,7 @@
     },
     "7": {
       "draws": 2,
-      "games": 19,
+      "games": 20,
       "losses": 11,
       "opponents": [
         3,
@@ -907,13 +942,13 @@
         20,
         21
       ],
-      "rating": 1481.37,
-      "wins": 6
+      "rating": 1487.19,
+      "wins": 7
     },
     "9": {
       "draws": 0,
-      "games": 17,
-      "losses": 11,
+      "games": 22,
+      "losses": 14,
       "opponents": [
         3,
         4,
@@ -930,8 +965,8 @@
         20,
         21
       ],
-      "rating": 1470.34,
-      "wins": 6
+      "rating": 1464.98,
+      "wins": 8
     }
   },
   "version": 1
