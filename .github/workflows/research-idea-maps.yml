@@ -4,13 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "30 15 * * 0"
-  issues:
-    types: [opened, edited, reopened, closed]
-  push:
-    branches: [main]
-    paths:
-      - "scripts/research_idea_maps.py"
-      - ".github/workflows/research-idea-maps.yml"
 
 permissions:
   contents: write
@@ -22,7 +15,6 @@ concurrency:
 
 jobs:
   render-maps:
-    if: ${{ github.event_name != 'issues' || github.event.issue.user.login == github.repository_owner }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
