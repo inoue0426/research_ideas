@@ -19,14 +19,15 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 |---:|---|---:|---:|---|---:|
 | ≈1 | [#11 — \[Idea\] Intervention geometry may transfer better than state geometry](https://github.com/inoue0426/research_ideas/issues/11) | **1529** | 5 | 🟡 Provisional | 5W / 0D / 0L |
 | ≈1 | [#13 — \[Idea\] What makes a representation preserve intervention geometry?](https://github.com/inoue0426/research_ideas/issues/13) | **1529** | 5 | 🟡 Provisional | 5W / 0D / 0L |
-| ≈1 | [#12 — \[Idea\] Context-aware chemical ↔ genetic shared perturbation space](https://github.com/inoue0426/research_ideas/issues/12) | **1516** | 6 | 🟡 Provisional | 4W / 1D / 1L |
-| ≈4 | [#7 — \[Idea\] Uncertainty-aware Drug-conditioned spatial INR](https://github.com/inoue0426/research_ideas/issues/7) | **1504** | 7 | 🟡 Provisional | 3W / 0D / 4L |
-| ≈4 | [#9 — \[Idea\] Dataset generation for drug response/target interaction mechanism](https://github.com/inoue0426/research_ideas/issues/9) | **1494** | 7 | 🟡 Provisional | 3W / 0D / 4L |
-| ≈6 | [#4 — \[Idea\] CCC + Spatial Transcriptomics + DTI/DRP](https://github.com/inoue0426/research_ideas/issues/4) | **1482** | 8 | 🟡 Provisional | 3W / 0D / 5L |
-| ≈6 | [#3 — \[Idea\] Resolving Conflicting Drug–Target Evidence via TextGrad-Based Mechanism Optimization](https://github.com/inoue0426/research_ideas/issues/3) | **1473** | 8 | 🟡 Provisional | 2W / 0D / 6L |
-| ≈6 | [#10 — \[Idea\] Shared Latent Geometry Across Biological Domains and Modalities](https://github.com/inoue0426/research_ideas/issues/10) | **1472** | 6 | 🟡 Provisional | 0W / 1D / 5L |
+| ≈1 | [#12 — \[Idea\] Context-aware chemical ↔ genetic shared perturbation space](https://github.com/inoue0426/research_ideas/issues/12) | **1522** | 7 | 🟡 Provisional | 5W / 1D / 1L |
+| ≈4 | [#9 — \[Idea\] Dataset generation for drug response/target interaction mechanism](https://github.com/inoue0426/research_ideas/issues/9) | **1500** | 8 | 🟡 Provisional | 4W / 0D / 4L |
+| ≈4 | [#7 — \[Idea\] Uncertainty-aware Drug-conditioned spatial INR](https://github.com/inoue0426/research_ideas/issues/7) | **1498** | 8 | 🟡 Provisional | 3W / 0D / 5L |
+| ≈4 | [#4 — \[Idea\] CCC + Spatial Transcriptomics + DTI/DRP](https://github.com/inoue0426/research_ideas/issues/4) | **1488** | 9 | 🟡 Provisional | 4W / 0D / 5L |
+| ≈4 | [#14 — \[Idea\] Shared causal geometry across biological modalities](https://github.com/inoue0426/research_ideas/issues/14) | **1482** | 5 | 🟡 Provisional | 1W / 0D / 4L |
+| ≈8 | [#3 — \[Idea\] Resolving Conflicting Drug–Target Evidence via TextGrad-Based Mechanism Optimization](https://github.com/inoue0426/research_ideas/issues/3) | **1479** | 9 | 🟡 Provisional | 3W / 0D / 6L |
+| ≈8 | [#10 — \[Idea\] Shared Latent Geometry Across Biological Domains and Modalities](https://github.com/inoue0426/research_ideas/issues/10) | **1472** | 6 | 🟡 Provisional | 0W / 1D / 5L |
 
-_Updated automatically after owner-authored issues are opened, edited, or reopened. Last update: 2026-08-14 16:44 UTC._
+_Updated automatically after owner-authored issues are opened, edited, or reopened. Last update: 2026-08-14 16:45 UTC._
 <!-- RESEARCH_ELO_END -->
 
 ## Language
