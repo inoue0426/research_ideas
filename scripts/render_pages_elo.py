@@ -9,14 +9,25 @@ README_PATH = Path('README.md')
 START_MARKER = '<!-- RESEARCH_ELO_START -->'
 END_MARKER = '<!-- RESEARCH_ELO_END -->'
 PLACEHOLDER = '<!-- ELO_TABLE -->'
+LINK_PATTERN = re.compile(r'\[(.+?)\]\((https://[^)]+)\)')
+
+
+def clean_text(text):
+    return text.replace('\\[', '[').replace('\\]', ']').replace('**', '')
 
 
 def inline_md(text):
-    text = text.strip().replace('\\[', '[').replace('\\]', ']')
-    text = text.replace('**', '')
-    escaped = html.escape(text, quote=True)
-    pattern = re.compile(r'\[([^\]]+)\]\((https://[^)]+)\)')
-    return pattern.sub(lambda m: f'<a href="{m.group(2)}">{m.group(1)}</a>', escaped)
+    text = text.strip()
+    out = []
+    cursor = 0
+    for match in LINK_PATTERN.finditer(text):
+        out.append(html.escape(clean_text(text[cursor:match.start()]), quote=True))
+        label = html.escape(clean_text(match.group(1)), quote=True)
+        url = html.escape(match.group(2), quote=True)
+        out.append(f'<a href="{url}">{label}</a>')
+        cursor = match.end()
+    out.append(html.escape(clean_text(text[cursor:]), quote=True))
+    return ''.join(out)
 
 
 def extract_table(readme):
@@ -40,7 +51,7 @@ def extract_table(readme):
 
 
 def render_table(headers, body, updated):
-    out = ['<div class="table-wrap">', '<table>', '<thead><tr>']
+    out = ['<div class="table-wrap">', '<table class="elo-table">', '<thead><tr>']
     for header in headers:
         out.append(f'<th>{inline_md(header)}</th>')
     out.extend(['</tr></thead>', '<tbody>'])
