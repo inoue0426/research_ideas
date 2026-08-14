@@ -1,0 +1,78 @@
+name: Research Idea Maps
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 15 * * 0"
+  issues:
+    types: [opened, edited, reopened, closed]
+  push:
+    branches: [main]
+    paths:
+      - "scripts/research_idea_maps.py"
+      - ".github/workflows/research-idea-maps.yml"
+
+permissions:
+  contents: write
+  copilot-requests: write
+
+concurrency:
+  group: research-idea-maps
+  cancel-in-progress: true
+
+jobs:
+  render-maps:
+    if: ${{ github.event_name != 'issues' || github.event.issue.user.login == github.repository_owner }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+
+      - name: Install Copilot CLI
+        run: npm install -g @github/copilot
+
+      - name: Prepare map inference prompt
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python scripts/research_idea_maps.py prepare \
+            --prompt-file /tmp/research-idea-maps-prompt.txt
+
+      - name: Infer themes and research relations
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          copilot -p "$(cat /tmp/research-idea-maps-prompt.txt)" --no-ask-user > /tmp/research-idea-maps-result.txt
+          cat /tmp/research-idea-maps-result.txt
+
+      - name: Render SVG maps and README section
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python scripts/research_idea_maps.py render \
+            --result-file /tmp/research-idea-maps-result.txt \
+            --model-file .research-elo/idea-map.json
+
+      - name: Commit generated maps
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/idea-landscape.svg assets/research-program.svg .research-elo/idea-map.json
+          if git diff --cached --quiet; then
+            echo "No map changes."
+            exit 0
+          fi
+          git commit -m "Update research idea maps"
+          git push
