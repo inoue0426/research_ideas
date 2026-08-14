@@ -426,6 +426,41 @@
       "reason": "4 has broader practical leverage by unifying CCC, DTI, and DRP around spatial context, whereas 21 is narrower; despite data risk, 4 could unlock a larger integrated framework if feasible.",
       "target": 21,
       "timestamp": "2026-08-14T17:03:22.902266+00:00"
+    },
+    {
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "19 asks a more concrete, testable question about failure modes of transfer across biological domains, while 13 is broader and more abstract about representation properties.",
+      "target": 19,
+      "timestamp": "2026-08-14T17:07:18.527429+00:00"
+    },
+    {
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "19 is more practically grounded and falsifiable by examining transfer failures across drugs and contexts; 11 is interesting but narrower and depends more on matched post-treatment data that may be scarce.",
+      "target": 19,
+      "timestamp": "2026-08-14T17:07:18.527429+00:00"
+    },
+    {
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "19 has clearer practical leverage and a directly measurable outcome—when transfer fails—whereas 15 depends on a harder benchmark of genuinely conflicting mechanisms that may be less tractable.",
+      "target": 19,
+      "timestamp": "2026-08-14T17:07:18.527429+00:00"
+    },
+    {
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "12 is more specific and likely to yield a reusable decomposition of shared vs context-specific perturbation effects, while 19 is broader and more contingent on disentangling correlated failure factors.",
+      "target": 19,
+      "timestamp": "2026-08-14T17:07:18.527429+00:00"
+    },
+    {
+      "opponent": 16,
+      "outcome": "win",
+      "reason": "16 is highly speculative and hinges on hard-to-define identifiability proxies, whereas 19 is more immediately testable and likely to produce actionable criteria for transfer failure.",
+      "target": 19,
+      "timestamp": "2026-08-14T17:07:18.527429+00:00"
     }
   ],
   "k_factor": 12,
@@ -439,23 +474,23 @@
     },
     "11": {
       "draws": 0,
-      "games": 5,
-      "losses": 0,
-      "rating": 1528.98,
+      "games": 6,
+      "losses": 1,
+      "rating": 1523.08,
       "wins": 5
     },
     "12": {
       "draws": 1,
-      "games": 11,
-      "losses": 3,
-      "rating": 1520.98,
+      "games": 12,
+      "losses": 4,
+      "rating": 1515.42,
       "wins": 7
     },
     "13": {
       "draws": 0,
-      "games": 5,
-      "losses": 0,
-      "rating": 1528.96,
+      "games": 6,
+      "losses": 1,
+      "rating": 1522.95,
       "wins": 5
     },
     "14": {
@@ -467,16 +502,16 @@
     },
     "15": {
       "draws": 0,
-      "games": 5,
-      "losses": 0,
-      "rating": 1528.1,
+      "games": 6,
+      "losses": 1,
+      "rating": 1522.31,
       "wins": 5
     },
     "16": {
       "draws": 1,
-      "games": 8,
-      "losses": 2,
-      "rating": 1515.92,
+      "games": 9,
+      "losses": 3,
+      "rating": 1510.54,
       "wins": 5
     },
     "17": {
@@ -488,10 +523,10 @@
     },
     "19": {
       "draws": 0,
-      "games": 5,
+      "games": 10,
       "losses": 0,
-      "rating": 1528.56,
-      "wins": 5
+      "rating": 1557.2,
+      "wins": 10
     },
     "20": {
       "draws": 0,

@@ -17,13 +17,13 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 
 | Rank | Issue | Rating | Games | Status | Record |
 |---:|---|---:|---:|---|---:|
-| ≈1 | [#11 — \[Idea\] Intervention geometry may transfer better than state geometry](https://github.com/inoue0426/research_ideas/issues/11) | **1529** | 5 | 🟡 Provisional | 5W / 0D / 0L |
-| ≈1 | [#13 — \[Idea\] What makes a representation preserve intervention geometry?](https://github.com/inoue0426/research_ideas/issues/13) | **1529** | 5 | 🟡 Provisional | 5W / 0D / 0L |
-| ≈1 | [#19 — \[Idea\] **When does perturbation transfer fail across biological domains?**](https://github.com/inoue0426/research_ideas/issues/19) | **1529** | 5 | 🟡 Provisional | 5W / 0D / 0L |
-| ≈1 | [#15 — \[Idea\] Mechanism arbitration under conflicting evidence](https://github.com/inoue0426/research_ideas/issues/15) | **1528** | 5 | 🟡 Provisional | 5W / 0D / 0L |
-| ≈1 | [#12 — \[Idea\] Context-aware chemical ↔ genetic shared perturbation space](https://github.com/inoue0426/research_ideas/issues/12) | **1521** | 11 | 🟢 Established | 7W / 1D / 3L |
-| ≈1 | [#16 — \[Idea\] Foundation models as enablers of otherwise impossible cross-domain translation](https://github.com/inoue0426/research_ideas/issues/16) | **1516** | 8 | 🟡 Provisional | 5W / 1D / 2L |
-| ≈1 | [#21 — \[Idea\] Can response-relevant perturbation geometry be separated from mechanistically faithful perturbation geometry?](https://github.com/inoue0426/research_ideas/issues/21) | **1511** | 5 | 🟡 Provisional | 3W / 1D / 1L |
+| 1 | [#19 — \[Idea\] When does perturbation transfer fail across biological domains?](https://github.com/inoue0426/research_ideas/issues/19) | **1557** | 10 | 🟢 Established | 10W / 0D / 0L |
+| ≈2 | [#11 — \[Idea\] Intervention geometry may transfer better than state geometry](https://github.com/inoue0426/research_ideas/issues/11) | **1523** | 6 | 🟡 Provisional | 5W / 0D / 1L |
+| ≈2 | [#13 — \[Idea\] What makes a representation preserve intervention geometry?](https://github.com/inoue0426/research_ideas/issues/13) | **1523** | 6 | 🟡 Provisional | 5W / 0D / 1L |
+| ≈2 | [#15 — \[Idea\] Mechanism arbitration under conflicting evidence](https://github.com/inoue0426/research_ideas/issues/15) | **1522** | 6 | 🟡 Provisional | 5W / 0D / 1L |
+| ≈2 | [#12 — \[Idea\] Context-aware chemical ↔ genetic shared perturbation space](https://github.com/inoue0426/research_ideas/issues/12) | **1515** | 12 | 🟢 Established | 7W / 1D / 4L |
+| ≈2 | [#21 — \[Idea\] Can response-relevant perturbation geometry be separated from mechanistically faithful perturbation geometry?](https://github.com/inoue0426/research_ideas/issues/21) | **1511** | 5 | 🟡 Provisional | 3W / 1D / 1L |
+| ≈2 | [#16 — \[Idea\] Foundation models as enablers of otherwise impossible cross-domain translation](https://github.com/inoue0426/research_ideas/issues/16) | **1511** | 9 | 🟡 Provisional | 5W / 1D / 3L |
 | ≈8 | [#9 — \[Idea\] Dataset generation for drug response/target interaction mechanism](https://github.com/inoue0426/research_ideas/issues/9) | **1489** | 14 | 🟢 Established | 6W / 0D / 8L |
 | ≈8 | [#20 — \[Idea\] Is there a compositional algebra of biological perturbations?](https://github.com/inoue0426/research_ideas/issues/20) | **1488** | 6 | 🟡 Provisional | 2W / 0D / 4L |
 | ≈8 | [#7 — \[Idea\] Uncertainty-aware Drug-conditioned spatial INR](https://github.com/inoue0426/research_ideas/issues/7) | **1487** | 14 | 🟢 Established | 4W / 2D / 8L |
@@ -33,7 +33,7 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 | ≈8 | [#10 — \[Idea\] Shared Latent Geometry Across Biological Domains and Modalities](https://github.com/inoue0426/research_ideas/issues/10) | **1472** | 6 | 🟡 Provisional | 0W / 1D / 5L |
 | ≈8 | [#14 — \[Idea\] Shared causal geometry across biological modalities](https://github.com/inoue0426/research_ideas/issues/14) | **1471** | 7 | 🟡 Provisional | 1W / 0D / 6L |
 
-_Updated automatically after owner-authored issues are opened, edited, or reopened. Last update: 2026-08-14 17:03 UTC._
+_Updated automatically after owner-authored issues are opened, edited, or reopened. Last update: 2026-08-14 17:07 UTC._
 <!-- RESEARCH_ELO_END -->
 
 ## Language
