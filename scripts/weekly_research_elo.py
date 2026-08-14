@@ -17,6 +17,41 @@ from research_elo import (
     update_stats,
 )
 
+RECENT_WEEK_COOLDOWN = 4
+
+
+def recent_weekly_opponents(state, issue_number, current_week):
+    weeks = []
+    for item in reversed(state.get('history', [])):
+        if item.get('source') != 'weekly_cross_rank':
+            continue
+        week = item.get('week')
+        if not week or week == current_week:
+            continue
+        if week not in weeks:
+            weeks.append(week)
+        if len(weeks) >= RECENT_WEEK_COOLDOWN:
+            break
+
+    recent_weeks = set(weeks)
+    opponents = set()
+    for item in state.get('history', []):
+        if item.get('source') != 'weekly_cross_rank' or item.get('week') not in recent_weeks:
+            continue
+        target = int(item.get('target', -1))
+        opponent = int(item.get('opponent', -1))
+        if target == issue_number:
+            opponents.add(opponent)
+        elif opponent == issue_number:
+            opponents.add(target)
+    return opponents
+
+
+def choose_with_cooldown(rng, candidates, recent_opponents):
+    fresh = [issue for issue in candidates if issue['number'] not in recent_opponents]
+    pool = fresh if fresh else candidates
+    return rng.choice(pool)
+
 
 def prepare(args):
     all_issues = fetch_open_owner_issues()
@@ -41,16 +76,19 @@ def prepare(args):
     rng = random.Random(seed)
 
     # Each issue nominates one random opponent above it and one below it.
+    # Prefer opponents not faced in the previous few weekly tournaments.
+    # If every candidate is on cooldown, fall back to the full candidate pool.
     # Top and bottom issues only nominate from the side that exists.
     # Canonicalize pairs so reciprocal nominations are judged only once.
     selected_pairs = set()
     for idx, issue in enumerate(ranked):
         issue_number = issue['number']
+        recent_opponents = recent_weekly_opponents(state, issue_number, week)
         if idx > 0:
-            opponent = rng.choice(ranked[:idx])['number']
+            opponent = choose_with_cooldown(rng, ranked[:idx], recent_opponents)['number']
             selected_pairs.add(tuple(sorted((issue_number, opponent))))
         if idx + 1 < len(ranked):
-            opponent = rng.choice(ranked[idx + 1:])['number']
+            opponent = choose_with_cooldown(rng, ranked[idx + 1:], recent_opponents)['number']
             selected_pairs.add(tuple(sorted((issue_number, opponent))))
 
     ordered_pairs = sorted(selected_pairs)
@@ -64,6 +102,7 @@ def prepare(args):
     context = {
         'mode': 'weekly_cross_rank',
         'week': week,
+        'cooldown_weeks': RECENT_WEEK_COOLDOWN,
         'issues': issues,
         'pairs': pairs,
     }
@@ -106,7 +145,8 @@ winner must be exactly "A", "B", or "draw". Include one comparison for every pai
     Path(args.prompt_file).write_text(prompt, encoding='utf-8')
     print(
         f'Prepared weekly cross-rank matches for {len(ranked)} issues: '
-        f'{len(pairs)} unique pairwise comparisons.'
+        f'{len(pairs)} unique pairwise comparisons with a '
+        f'{RECENT_WEEK_COOLDOWN}-week opponent cooldown when possible.'
     )
 
 
