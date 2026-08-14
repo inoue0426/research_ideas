@@ -461,15 +461,50 @@
       "reason": "16 is highly speculative and hinges on hard-to-define identifiability proxies, whereas 19 is more immediately testable and likely to produce actionable criteria for transfer failure.",
       "target": 19,
       "timestamp": "2026-08-14T17:07:18.527429+00:00"
+    },
+    {
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "4 is clearer and more directly testable; 17 risks collapsing into HCI/UX unless the scientific contribution is sharpened.",
+      "target": 4,
+      "timestamp": "2026-08-14T17:19:32.617939+00:00"
+    },
+    {
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "4 poses a concrete biological question with a plausible evaluation path, while 3 is more method-centric and depends on constructing a benchmark that may be hard to define.",
+      "target": 4,
+      "timestamp": "2026-08-14T17:19:32.617939+00:00"
+    },
+    {
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "4 is more grounded in a specific falsifiable question about spatial microenvironment effects, whereas 10 is broader and more ambiguous about whether any shared geometry is biological rather than model-induced.",
+      "target": 4,
+      "timestamp": "2026-08-14T17:19:32.617939+00:00"
+    },
+    {
+      "opponent": 14,
+      "outcome": "loss",
+      "reason": "14 is more conceptually targeted and potentially higher-leverage because it links shared representations to perturbational evidence, though the exact notion of causal geometry is uncertain.",
+      "target": 4,
+      "timestamp": "2026-08-14T17:19:32.617939+00:00"
+    },
+    {
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "4 is the stronger research question because it addresses a substantive biological mechanism; 7 is interesting but depends more on dataset availability and model-comparison choices.",
+      "target": 4,
+      "timestamp": "2026-08-14T17:19:32.617939+00:00"
     }
   ],
   "k_factor": 12,
   "ratings": {
     "10": {
       "draws": 1,
-      "games": 6,
-      "losses": 5,
-      "rating": 1472.32,
+      "games": 7,
+      "losses": 6,
+      "rating": 1466.63,
       "wins": 0
     },
     "11": {
@@ -495,10 +530,10 @@
     },
     "14": {
       "draws": 0,
-      "games": 7,
+      "games": 8,
       "losses": 6,
-      "rating": 1471.02,
-      "wins": 1
+      "rating": 1477.45,
+      "wins": 2
     },
     "15": {
       "draws": 0,
@@ -516,9 +551,9 @@
     },
     "17": {
       "draws": 0,
-      "games": 6,
-      "losses": 5,
-      "rating": 1477.46,
+      "games": 7,
+      "losses": 6,
+      "rating": 1471.48,
       "wins": 1
     },
     "19": {
@@ -544,23 +579,23 @@
     },
     "3": {
       "draws": 0,
-      "games": 10,
-      "losses": 7,
-      "rating": 1473.93,
+      "games": 11,
+      "losses": 8,
+      "rating": 1468.12,
       "wins": 3
     },
     "4": {
       "draws": 0,
-      "games": 15,
-      "losses": 9,
-      "rating": 1478.71,
-      "wins": 6
+      "games": 20,
+      "losses": 10,
+      "rating": 1495.72,
+      "wins": 10
     },
     "7": {
       "draws": 2,
-      "games": 14,
-      "losses": 8,
-      "rating": 1487.4,
+      "games": 15,
+      "losses": 9,
+      "rating": 1481.44,
       "wins": 4
     },
     "9": {
