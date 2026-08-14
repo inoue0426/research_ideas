@@ -111,15 +111,50 @@
       "reason": "11 offers a more specific, rejectable hypothesis than 10’s broader shared-geometry program, whose novelty and interpretation are more uncertain.",
       "target": 11,
       "timestamp": "2026-08-14T16:40:21.586042+00:00"
+    },
+    {
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "Issue 12 poses a clearer, falsifiable scientific question with a tractable decomposition test, whereas Issue 9 is high-impact but mostly a dataset-construction agenda with major novelty/curation uncertainty.",
+      "target": 12,
+      "timestamp": "2026-08-14T16:41:58.144456+00:00"
+    },
+    {
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "Issue 12 is more tractable and testable now because it targets a specific shared-perturbation hypothesis, while Issue 4 depends on unusually rich multi-modal spatial drug datasets that may make a six-month answer hard.",
+      "target": 12,
+      "timestamp": "2026-08-14T16:41:58.144456+00:00"
+    },
+    {
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "Issue 12 has stronger scientific leverage and falsifiability around biological proxy validity, while Issue 3 is method-driven and its novelty/validity is uncertain given dependence on LLM optimization behavior and scarce contradictory evidence.",
+      "target": 12,
+      "timestamp": "2026-08-14T16:41:58.144456+00:00"
+    },
+    {
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Issue 12 states a sharper biological question with broader downstream relevance, whereas Issue 7 reads more like a model proposal and explicitly faces uncertain data availability and unclear advantage over alternatives.",
+      "target": 12,
+      "timestamp": "2026-08-14T16:41:58.144456+00:00"
+    },
+    {
+      "opponent": 10,
+      "outcome": "draw",
+      "reason": "Both are important and potentially high-leverage but hinge on unproven assumptions (identifiability/coverage for 12, genuine shared geometry vs model artifact for 10), so the provided evidence is insufficient to prefer one confidently.",
+      "target": 12,
+      "timestamp": "2026-08-14T16:41:58.144456+00:00"
     }
   ],
   "k_factor": 12,
   "ratings": {
     "10": {
-      "draws": 0,
-      "games": 5,
+      "draws": 1,
+      "games": 6,
       "losses": 5,
-      "rating": 1471.43,
+      "rating": 1472.32,
       "wins": 0
     },
     "11": {
@@ -129,32 +164,39 @@
       "rating": 1528.98,
       "wins": 5
     },
+    "12": {
+      "draws": 1,
+      "games": 5,
+      "losses": 0,
+      "rating": 1522.49,
+      "wins": 4
+    },
     "3": {
       "draws": 0,
-      "games": 6,
-      "losses": 4,
-      "rating": 1483.76,
+      "games": 7,
+      "losses": 5,
+      "rating": 1478.24,
       "wins": 2
     },
     "4": {
       "draws": 0,
-      "games": 6,
-      "losses": 3,
-      "rating": 1493.54,
+      "games": 7,
+      "losses": 4,
+      "rating": 1487.76,
       "wins": 3
     },
     "7": {
       "draws": 0,
-      "games": 5,
-      "losses": 2,
-      "rating": 1516.48,
+      "games": 6,
+      "losses": 3,
+      "rating": 1510.5,
       "wins": 3
     },
     "9": {
       "draws": 0,
-      "games": 5,
-      "losses": 2,
-      "rating": 1505.81,
+      "games": 6,
+      "losses": 3,
+      "rating": 1499.71,
       "wins": 3
     }
   },
