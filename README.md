@@ -28,14 +28,14 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 | ≈2 | [#21 — \[Idea\] Can response-relevant perturbation geometry be separated from mechanistically faithful perturbation geometry?](https://github.com/inoue0426/research_ideas/issues/21) | **1505** | — | 6 | 5 | 🟡 Provisional | 3W / 1D / 2L |
 | ≈8 | [#16 — \[Idea\] Foundation models as enablers of otherwise impossible cross-domain translation](https://github.com/inoue0426/research_ideas/issues/16) | **1505** | — | 10 | 8 | 🟢 Established | 5W / 1D / 4L |
 | ≈8 | [#20 — \[Idea\] Is there a compositional algebra of biological perturbations?](https://github.com/inoue0426/research_ideas/issues/20) | **1488** | — | 8 | 7 | 🟡 Provisional | 3W / 0D / 5L |
-| ≈10 | [#10 — \[Idea\] What biological structures remain transferable across domain shifts?](https://github.com/inoue0426/research_ideas/issues/10) | **1480** | — | 17 | 9 | 🟢 Established | 6W / 1D / 10L |
-| ≈10 | [#14 — \[Idea\] Shared causal geometry across biological modalities](https://github.com/inoue0426/research_ideas/issues/14) | **1477** | — | 10 | 8 | 🟢 Established | 3W / 0D / 7L |
-| ≈10 | [#9 — \[Idea\] Dataset generation for drug response/target interaction mechanism](https://github.com/inoue0426/research_ideas/issues/9) | **1477** | — | 16 | 14 | 🟢 Established | 6W / 0D / 10L |
-| ≈10 | [#7 — \[Idea\] Uncertainty-aware Drug-conditioned spatial INR](https://github.com/inoue0426/research_ideas/issues/7) | **1476** | — | 18 | 14 | 🟢 Established | 5W / 2D / 11L |
-| ≈10 | [#17 — \[Idea\] Human-in-the-loop mechanism refinement](https://github.com/inoue0426/research_ideas/issues/17) | **1471** | — | 9 | 7 | 🟡 Provisional | 2W / 0D / 7L |
-| 15 | [#3 — \[Idea\] Resolving Conflicting Drug–Target Evidence via TextGrad-Based Mechanism Optimization](https://github.com/inoue0426/research_ideas/issues/3) | **1456** | — | 13 | 9 | 🟢 Established | 3W / 0D / 10L |
+| ≈10 | [#7 — \[Idea\] Uncertainty-aware Drug-conditioned spatial INR](https://github.com/inoue0426/research_ideas/issues/7) | **1481** | — | 19 | 14 | 🟢 Established | 6W / 2D / 11L |
+| ≈10 | [#3 — \[Idea\] Can iterative optimization improve mechanism arbitration under conflicting evidence?](https://github.com/inoue0426/research_ideas/issues/3) | **1475** | — | 18 | 10 | 🟢 Established | 7W / 0D / 11L |
+| ≈10 | [#10 — \[Idea\] What biological structures remain transferable across domain shifts?](https://github.com/inoue0426/research_ideas/issues/10) | **1474** | — | 18 | 9 | 🟢 Established | 6W / 1D / 11L |
+| ≈10 | [#14 — \[Idea\] Shared causal geometry across biological modalities](https://github.com/inoue0426/research_ideas/issues/14) | **1471** | — | 11 | 8 | 🟢 Established | 3W / 0D / 8L |
+| ≈10 | [#9 — \[Idea\] Dataset generation for drug response/target interaction mechanism](https://github.com/inoue0426/research_ideas/issues/9) | **1470** | — | 17 | 14 | 🟢 Established | 6W / 0D / 11L |
+| ≈10 | [#17 — \[Idea\] Human-in-the-loop mechanism refinement](https://github.com/inoue0426/research_ideas/issues/17) | **1465** | — | 10 | 8 | 🟢 Established | 2W / 0D / 8L |
 
-_Updated automatically by Research Elo workflows. Last update: 2026-08-14 17:32 UTC._
+_Updated automatically by Research Elo workflows. Last update: 2026-08-14 17:35 UTC._
 <!-- RESEARCH_ELO_END -->
 
 ## Language
