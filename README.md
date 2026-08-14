@@ -11,13 +11,18 @@ The structure is inspired by Michael A. Fischbach's framework for problem choice
 
 Relative LLM-judge ranking of open research ideas. Ratings are comparative feedback, **not an objective measure of scientific value**.
 
-| Rank | Issue | Rating | Games | Record |
-|---:|---|---:|---:|---:|
-| 1 | [#7 — \[Idea\] Uncertainty-aware Drug-conditioned spatial INR](https://github.com/inoue0426/research_ideas/issues/7) | **1524** | 2 | 2W / 0D / 0L |
-| 2 | [#3 — \[Idea\] Resolving Conflicting Drug–Target Evidence via TextGrad-Based Mechanism Optimization](https://github.com/inoue0426/research_ideas/issues/3) | **1489** | 3 | 1W / 0D / 2L |
-| 3 | [#4 — \[Idea\] CCC + Spatial Transcriptomics + DTI/DRP](https://github.com/inoue0426/research_ideas/issues/4) | **1487** | 3 | 1W / 0D / 2L |
+- Ratings within **20 points** are shown as approximate ties.
+- Issues remain **Provisional** until they have at least **10 games**.
+- Small rating changes should not be interpreted as meaningful differences in scientific quality.
 
-_Updated automatically after owner-authored issues are opened, edited, or reopened. Last update: 2026-08-09 16:26 UTC._
+| Rank | Issue | Rating | Games | Status | Record |
+|---:|---|---:|---:|---|---:|
+| ≈1 | [#7 — \[Idea\] Uncertainty-aware Drug-conditioned spatial INR](https://github.com/inoue0426/research_ideas/issues/7) | **1517** | 3 | 🟡 Provisional | 2W / 0D / 1L |
+| ≈1 | [#9 — \[Idea\] Dataset generation for drug response/target interaction mechanism](https://github.com/inoue0426/research_ideas/issues/9) | **1506** | 3 | 🟡 Provisional | 2W / 0D / 1L |
+| ≈3 | [#4 — \[Idea\] CCC + Spatial Transcriptomics + DTI/DRP](https://github.com/inoue0426/research_ideas/issues/4) | **1494** | 4 | 🟡 Provisional | 2W / 0D / 2L |
+| ≈3 | [#3 — \[Idea\] Resolving Conflicting Drug–Target Evidence via TextGrad-Based Mechanism Optimization](https://github.com/inoue0426/research_ideas/issues/3) | **1483** | 4 | 🟡 Provisional | 1W / 0D / 3L |
+
+_Updated automatically after owner-authored issues are opened, edited, or reopened. Last update: 2026-08-14 13:52 UTC._
 <!-- RESEARCH_ELO_END -->
 
 ## Language
