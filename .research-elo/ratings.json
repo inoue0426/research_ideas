@@ -146,6 +146,41 @@
       "reason": "Both are important and potentially high-leverage but hinge on unproven assumptions (identifiability/coverage for 12, genuine shared geometry vs model artifact for 10), so the provided evidence is insufficient to prefer one confidently.",
       "target": 12,
       "timestamp": "2026-08-14T16:41:58.144456+00:00"
+    },
+    {
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "Issue 13 asks a fundamental principles question with clear testability; Issue 9 is primarily a dataset-curation project whose tractability depends on reliably defining 'correct' mechanistic reasoning at scale, which remains uncertain.",
+      "target": 13,
+      "timestamp": "2026-08-14T16:44:00.752867+00:00"
+    },
+    {
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Issue 13 seeks generalizable representation principles with broad leverage; Issue 7 proposes a specific method combination (INR + drug conditioning + uncertainty) without articulating a clear scientific question or advantage over existing alternatives.",
+      "target": 13,
+      "timestamp": "2026-08-14T16:44:00.752867+00:00"
+    },
+    {
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "Issue 13 establishes testable principles independent of data availability; Issue 4 is ambitious but heavily constrained by spatial drug-perturbation dataset scarcity and unclear whether integration improves outcomes beyond standard joint modeling.",
+      "target": 13,
+      "timestamp": "2026-08-14T16:44:00.752867+00:00"
+    },
+    {
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "Issue 13 poses a more fundamental and generalizable question; Issue 3 applies a specific LLM optimization technique to evidence synthesis but depends on collecting reliable negative evidence, which the author acknowledges as a major unresolved blocker.",
+      "target": 13,
+      "timestamp": "2026-08-14T16:44:00.752867+00:00"
+    },
+    {
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "Issue 13 identifies general representation properties that transfer across contexts; Issue 12 targets a more specific problem (chemical vs genetic perturbations) and depends critically on matched drug-target-CRISPR data coverage, which is unverified.",
+      "target": 13,
+      "timestamp": "2026-08-14T16:44:00.752867+00:00"
     }
   ],
   "k_factor": 12,
@@ -166,37 +201,44 @@
     },
     "12": {
       "draws": 1,
+      "games": 6,
+      "losses": 1,
+      "rating": 1516.5,
+      "wins": 4
+    },
+    "13": {
+      "draws": 0,
       "games": 5,
       "losses": 0,
-      "rating": 1522.49,
-      "wins": 4
+      "rating": 1528.96,
+      "wins": 5
     },
     "3": {
       "draws": 0,
-      "games": 7,
-      "losses": 5,
-      "rating": 1478.24,
+      "games": 8,
+      "losses": 6,
+      "rating": 1472.92,
       "wins": 2
     },
     "4": {
       "draws": 0,
-      "games": 7,
-      "losses": 4,
-      "rating": 1487.76,
+      "games": 8,
+      "losses": 5,
+      "rating": 1482.18,
       "wins": 3
     },
     "7": {
       "draws": 0,
-      "games": 6,
-      "losses": 3,
-      "rating": 1510.5,
+      "games": 7,
+      "losses": 4,
+      "rating": 1504.42,
       "wins": 3
     },
     "9": {
       "draws": 0,
-      "games": 6,
-      "losses": 3,
-      "rating": 1499.71,
+      "games": 7,
+      "losses": 4,
+      "rating": 1493.72,
       "wins": 3
     }
   },
