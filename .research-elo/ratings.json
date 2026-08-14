@@ -251,6 +251,41 @@
       "reason": "15 is more tractable and falsifiable than 3, which is a method-centric idea that may just optimize toward fluent but still unreliable explanations.",
       "target": 15,
       "timestamp": "2026-08-14T16:52:30.649617+00:00"
+    },
+    {
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "More scientifically general and falsifiable: it asks whether foundation-model embeddings change identifiability/translation, whereas B is mainly a dataset-building effort with weaker intrinsic novelty.",
+      "target": 16,
+      "timestamp": "2026-08-14T16:53:21.934779+00:00"
+    },
+    {
+      "opponent": 7,
+      "outcome": "draw",
+      "reason": "A is more conceptual and potentially higher-leverage, while B is more tractable and immediately useful; based on the prompt alone neither clearly dominates on six-month research value.",
+      "target": 16,
+      "timestamp": "2026-08-14T16:53:21.934779+00:00"
+    },
+    {
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "A has a clearer core claim about identifiable cross-domain translation and broader leverage across modalities, while B looks more contingent on scarce spatial perturbation data and an ambitious integration of several modalities.",
+      "target": 16,
+      "timestamp": "2026-08-14T16:53:21.934779+00:00"
+    },
+    {
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "A is more focused and testable as a research question, while B is more of a representation-learning decomposition whose feasibility depends heavily on matched coverage that may or may not exist.",
+      "target": 16,
+      "timestamp": "2026-08-14T16:53:21.934779+00:00"
+    },
+    {
+      "opponent": 14,
+      "outcome": "win",
+      "reason": "A has a sharper, more falsifiable scientific question with broader payoff; B is interesting but more abstract and depends on defining and validating 'causal geometry' well enough to make it testable.",
+      "target": 16,
+      "timestamp": "2026-08-14T16:53:21.934779+00:00"
     }
   ],
   "k_factor": 12,
@@ -271,9 +306,9 @@
     },
     "12": {
       "draws": 1,
-      "games": 7,
-      "losses": 1,
-      "rating": 1522.21,
+      "games": 8,
+      "losses": 2,
+      "rating": 1516.02,
       "wins": 5
     },
     "13": {
@@ -285,9 +320,9 @@
     },
     "14": {
       "draws": 0,
-      "games": 6,
-      "losses": 5,
-      "rating": 1476.31,
+      "games": 7,
+      "losses": 6,
+      "rating": 1471.02,
       "wins": 1
     },
     "15": {
@@ -296,6 +331,13 @@
       "losses": 0,
       "rating": 1528.1,
       "wins": 5
+    },
+    "16": {
+      "draws": 1,
+      "games": 5,
+      "losses": 0,
+      "rating": 1522.76,
+      "wins": 4
     },
     "3": {
       "draws": 0,
@@ -306,23 +348,23 @@
     },
     "4": {
       "draws": 0,
-      "games": 10,
-      "losses": 6,
-      "rating": 1482.79,
+      "games": 11,
+      "losses": 7,
+      "rating": 1477.18,
       "wins": 4
     },
     "7": {
-      "draws": 0,
-      "games": 9,
+      "draws": 1,
+      "games": 10,
       "losses": 6,
-      "rating": 1492.47,
+      "rating": 1492.7,
       "wins": 3
     },
     "9": {
       "draws": 0,
-      "games": 9,
-      "losses": 5,
-      "rating": 1493.93,
+      "games": 10,
+      "losses": 6,
+      "rating": 1488.03,
       "wins": 4
     }
   },
