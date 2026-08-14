@@ -321,6 +321,41 @@
       "reason": "Issue 4 addresses more fundamental drug-response prediction with spatial context; Issue 17's contribution beyond existing HCI patterns is unclear.",
       "target": 17,
       "timestamp": "2026-08-14T16:54:39.153870+00:00"
+    },
+    {
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Issue 19 is a more fundamental research question (understanding failure modes) with clearer falsifiability than Issue 7's method-focused proposal, which explicitly flags uncertainty about data availability and whether INRs offer advantage over alternatives.",
+      "target": 19,
+      "timestamp": "2026-08-14T17:00:07.452247+00:00"
+    },
+    {
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "Issue 19 is more tractable and self-contained; Issue 9's success depends on settling external uncertainties (whether similar datasets exist, whether 'correct' mechanisms can be reliably curated at scale), making it riskier for a six-month project.",
+      "target": 19,
+      "timestamp": "2026-08-14T17:00:07.452247+00:00"
+    },
+    {
+      "opponent": 16,
+      "outcome": "win",
+      "reason": "Issue 19 offers a concrete empirical characterization with a clear path forward; Issue 16's theoretical angle is interesting but depends on developing measurable identifiability proxies that may not work well in practice, adding tractability risk.",
+      "target": 19,
+      "timestamp": "2026-08-14T17:00:07.452247+00:00"
+    },
+    {
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "Issue 19 can proceed with existing data; Issue 4's main bottleneck is data availability (explicitly uncertain) and whether necessary datasets exist at sufficient scale—both outside the research team's control.",
+      "target": 19,
+      "timestamp": "2026-08-14T17:00:07.452247+00:00"
+    },
+    {
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "Issue 19 addresses a fundamental scientific question about transfer learning limits; Issue 17 is more HCI/usability-focused with unclear scientific contribution beyond visualization, and depends on validating that expert corrections improve biological validity.",
+      "target": 19,
+      "timestamp": "2026-08-14T17:00:07.452247+00:00"
     }
   ],
   "k_factor": 12,
@@ -369,17 +404,24 @@
     },
     "16": {
       "draws": 1,
-      "games": 6,
-      "losses": 1,
-      "rating": 1516.06,
+      "games": 7,
+      "losses": 2,
+      "rating": 1509.99,
       "wins": 4
     },
     "17": {
       "draws": 0,
-      "games": 5,
-      "losses": 4,
-      "rating": 1482.76,
+      "games": 6,
+      "losses": 5,
+      "rating": 1477.46,
       "wins": 1
+    },
+    "19": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1528.56,
+      "wins": 5
     },
     "3": {
       "draws": 0,
@@ -390,23 +432,23 @@
     },
     "4": {
       "draws": 0,
-      "games": 12,
-      "losses": 7,
-      "rating": 1483.38,
+      "games": 13,
+      "losses": 8,
+      "rating": 1477.97,
       "wins": 5
     },
     "7": {
       "draws": 1,
-      "games": 11,
-      "losses": 6,
-      "rating": 1498.83,
+      "games": 12,
+      "losses": 7,
+      "rating": 1492.85,
       "wins": 4
     },
     "9": {
       "draws": 0,
-      "games": 11,
-      "losses": 6,
-      "rating": 1494.13,
+      "games": 12,
+      "losses": 7,
+      "rating": 1488.33,
       "wins": 5
     }
   },

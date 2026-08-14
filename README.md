@@ -19,18 +19,19 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 |---:|---|---:|---:|---|---:|
 | ≈1 | [#11 — \[Idea\] Intervention geometry may transfer better than state geometry](https://github.com/inoue0426/research_ideas/issues/11) | **1529** | 5 | 🟡 Provisional | 5W / 0D / 0L |
 | ≈1 | [#13 — \[Idea\] What makes a representation preserve intervention geometry?](https://github.com/inoue0426/research_ideas/issues/13) | **1529** | 5 | 🟡 Provisional | 5W / 0D / 0L |
+| ≈1 | [#19 — \[Idea\] **When does perturbation transfer fail across biological domains?**](https://github.com/inoue0426/research_ideas/issues/19) | **1529** | 5 | 🟡 Provisional | 5W / 0D / 0L |
 | ≈1 | [#15 — \[Idea\] Mechanism arbitration under conflicting evidence](https://github.com/inoue0426/research_ideas/issues/15) | **1528** | 5 | 🟡 Provisional | 5W / 0D / 0L |
 | ≈1 | [#12 — \[Idea\] Context-aware chemical ↔ genetic shared perturbation space](https://github.com/inoue0426/research_ideas/issues/12) | **1522** | 9 | 🟡 Provisional | 6W / 1D / 2L |
-| ≈1 | [#16 — \[Idea\] Foundation models as enablers of otherwise impossible cross-domain translation](https://github.com/inoue0426/research_ideas/issues/16) | **1516** | 6 | 🟡 Provisional | 4W / 1D / 1L |
-| ≈6 | [#7 — \[Idea\] Uncertainty-aware Drug-conditioned spatial INR](https://github.com/inoue0426/research_ideas/issues/7) | **1499** | 11 | 🟢 Established | 4W / 1D / 6L |
-| ≈6 | [#9 — \[Idea\] Dataset generation for drug response/target interaction mechanism](https://github.com/inoue0426/research_ideas/issues/9) | **1494** | 11 | 🟢 Established | 5W / 0D / 6L |
-| ≈6 | [#4 — \[Idea\] CCC + Spatial Transcriptomics + DTI/DRP](https://github.com/inoue0426/research_ideas/issues/4) | **1483** | 12 | 🟢 Established | 5W / 0D / 7L |
-| ≈6 | [#17 — \[Idea\] Human-in-the-loop mechanism refinement](https://github.com/inoue0426/research_ideas/issues/17) | **1483** | 5 | 🟡 Provisional | 1W / 0D / 4L |
-| ≈10 | [#3 — \[Idea\] Resolving Conflicting Drug–Target Evidence via TextGrad-Based Mechanism Optimization](https://github.com/inoue0426/research_ideas/issues/3) | **1474** | 10 | 🟢 Established | 3W / 0D / 7L |
-| ≈10 | [#10 — \[Idea\] Shared Latent Geometry Across Biological Domains and Modalities](https://github.com/inoue0426/research_ideas/issues/10) | **1472** | 6 | 🟡 Provisional | 0W / 1D / 5L |
-| ≈10 | [#14 — \[Idea\] Shared causal geometry across biological modalities](https://github.com/inoue0426/research_ideas/issues/14) | **1471** | 7 | 🟡 Provisional | 1W / 0D / 6L |
+| ≈1 | [#16 — \[Idea\] Foundation models as enablers of otherwise impossible cross-domain translation](https://github.com/inoue0426/research_ideas/issues/16) | **1510** | 7 | 🟡 Provisional | 4W / 1D / 2L |
+| ≈7 | [#7 — \[Idea\] Uncertainty-aware Drug-conditioned spatial INR](https://github.com/inoue0426/research_ideas/issues/7) | **1493** | 12 | 🟢 Established | 4W / 1D / 7L |
+| ≈7 | [#9 — \[Idea\] Dataset generation for drug response/target interaction mechanism](https://github.com/inoue0426/research_ideas/issues/9) | **1488** | 12 | 🟢 Established | 5W / 0D / 7L |
+| ≈7 | [#4 — \[Idea\] CCC + Spatial Transcriptomics + DTI/DRP](https://github.com/inoue0426/research_ideas/issues/4) | **1478** | 13 | 🟢 Established | 5W / 0D / 8L |
+| ≈7 | [#17 — \[Idea\] Human-in-the-loop mechanism refinement](https://github.com/inoue0426/research_ideas/issues/17) | **1477** | 6 | 🟡 Provisional | 1W / 0D / 5L |
+| ≈7 | [#3 — \[Idea\] Resolving Conflicting Drug–Target Evidence via TextGrad-Based Mechanism Optimization](https://github.com/inoue0426/research_ideas/issues/3) | **1474** | 10 | 🟢 Established | 3W / 0D / 7L |
+| ≈12 | [#10 — \[Idea\] Shared Latent Geometry Across Biological Domains and Modalities](https://github.com/inoue0426/research_ideas/issues/10) | **1472** | 6 | 🟡 Provisional | 0W / 1D / 5L |
+| ≈12 | [#14 — \[Idea\] Shared causal geometry across biological modalities](https://github.com/inoue0426/research_ideas/issues/14) | **1471** | 7 | 🟡 Provisional | 1W / 0D / 6L |
 
-_Updated automatically after owner-authored issues are opened, edited, or reopened. Last update: 2026-08-14 16:54 UTC._
+_Updated automatically after owner-authored issues are opened, edited, or reopened. Last update: 2026-08-14 17:00 UTC._
 <!-- RESEARCH_ELO_END -->
 
 ## Language
