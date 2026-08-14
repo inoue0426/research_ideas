@@ -48,37 +48,72 @@
       "reason": "Issue 9 (dataset) is foundational and addresses a clear infrastructure gap. Issue 7 (uncertainty-aware INR) is methodologically incremental—INRs for spatial data exist—with unclear advantages over GPs or GNNs, and depends on the same dataset availability uncertainty.",
       "target": 9,
       "timestamp": "2026-08-14T13:52:53.609228+00:00"
+    },
+    {
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "A is more concrete and tractable: building a mechanistic reasoning dataset is a clear, falsifiable project with reusable downstream value, while B is broader and more speculative about shared latent geometry across many biological domains.",
+      "target": 10,
+      "timestamp": "2026-08-14T14:18:58.729736+00:00"
+    },
+    {
+      "opponent": 4,
+      "outcome": "loss",
+      "reason": "B has a sharper, more testable question with clearer leverage on biological integration and transfer, whereas A depends heavily on whether suitable spatial drug-perturbation data exist and may become too data-limited.",
+      "target": 10,
+      "timestamp": "2026-08-14T14:18:58.729736+00:00"
+    },
+    {
+      "opponent": 3,
+      "outcome": "loss",
+      "reason": "B is a more direct scientific question about whether shared latent structure exists, with a clearer falsifiable core; A is method-driven and its payoff depends on unresolved evidence-quality issues and a narrower controlled setting.",
+      "target": 10,
+      "timestamp": "2026-08-14T14:18:58.729736+00:00"
+    },
+    {
+      "opponent": 7,
+      "outcome": "loss",
+      "reason": "A is more tractable and timing-sensitive because uncertainty-aware prediction on spatial drug data can be evaluated directly if datasets exist, while B is broader and more speculative about cross-domain latent geometry.",
+      "target": 10,
+      "timestamp": "2026-08-14T14:18:58.729736+00:00"
     }
   ],
   "k_factor": 12,
   "ratings": {
-    "3": {
+    "10": {
       "draws": 0,
       "games": 4,
+      "losses": 4,
+      "rating": 1476.62,
+      "wins": 0
+    },
+    "3": {
+      "draws": 0,
+      "games": 5,
       "losses": 3,
-      "rating": 1483.4,
-      "wins": 1
+      "rating": 1489.48,
+      "wins": 2
     },
     "4": {
       "draws": 0,
-      "games": 4,
+      "games": 5,
       "losses": 2,
-      "rating": 1493.52,
-      "wins": 2
+      "rating": 1499.53,
+      "wins": 3
     },
     "7": {
       "draws": 0,
-      "games": 3,
+      "games": 4,
       "losses": 1,
-      "rating": 1517.17,
-      "wins": 2
+      "rating": 1522.56,
+      "wins": 3
     },
     "9": {
       "draws": 0,
-      "games": 3,
+      "games": 4,
       "losses": 1,
-      "rating": 1505.91,
-      "wins": 2
+      "rating": 1511.81,
+      "wins": 3
     }
   },
   "version": 1
