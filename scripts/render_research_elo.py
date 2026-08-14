@@ -3,7 +3,7 @@
 import json
 import os
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 STATE_PATH = Path('.research-elo/ratings.json')
@@ -12,6 +12,9 @@ START_MARKER = '<!-- RESEARCH_ELO_START -->'
 END_MARKER = '<!-- RESEARCH_ELO_END -->'
 PROVISIONAL_GAMES = 10
 TIE_THRESHOLD = 20
+MOVEMENT_WINDOW_DAYS = 7
+SNAPSHOT_RETENTION_DAYS = 90
+MAX_MOVERS_PER_DIRECTION = 3
 
 
 def github_request(path):
@@ -58,6 +61,107 @@ def escape_markdown(text):
     )
 
 
+def parse_timestamp(value):
+    try:
+        return datetime.fromisoformat(str(value).replace('Z', '+00:00'))
+    except (TypeError, ValueError):
+        return None
+
+
+def refresh_unique_opponents(state):
+    """Persist opponent diversity so history truncation cannot erase it later."""
+    ratings = state.setdefault('ratings', {})
+    opponent_sets = {
+        key: set(int(n) for n in entry.get('opponents', []) if str(n).isdigit())
+        for key, entry in ratings.items()
+    }
+
+    for item in state.get('history', []):
+        try:
+            target = int(item['target'])
+            opponent = int(item['opponent'])
+        except (KeyError, TypeError, ValueError):
+            continue
+        if str(target) in ratings:
+            opponent_sets.setdefault(str(target), set()).add(opponent)
+        if str(opponent) in ratings:
+            opponent_sets.setdefault(str(opponent), set()).add(target)
+
+    for key, entry in ratings.items():
+        entry['opponents'] = sorted(opponent_sets.get(key, set()))
+
+
+def capture_daily_snapshot(state, now):
+    """Keep one end-of-render rating snapshot per UTC day."""
+    cutoff = now - timedelta(days=SNAPSHOT_RETENTION_DAYS)
+    snapshots = []
+    for snapshot in state.get('rating_snapshots', []):
+        timestamp = parse_timestamp(snapshot.get('timestamp'))
+        if timestamp is None or timestamp < cutoff:
+            continue
+        if not isinstance(snapshot.get('ratings'), dict):
+            continue
+        snapshots.append(snapshot)
+
+    snapshots.sort(key=lambda snapshot: snapshot['timestamp'])
+    current = {
+        'timestamp': now.isoformat(),
+        'ratings': {
+            key: round(float(entry.get('rating', 1500)), 2)
+            for key, entry in state.get('ratings', {}).items()
+        },
+    }
+
+    if snapshots:
+        latest = parse_timestamp(snapshots[-1].get('timestamp'))
+        if latest is not None and latest.date() == now.date():
+            snapshots[-1] = current
+        else:
+            snapshots.append(current)
+    else:
+        snapshots.append(current)
+
+    state['rating_snapshots'] = snapshots
+
+
+def snapshot_at_or_before(state, cutoff):
+    best = None
+    best_time = None
+    for snapshot in state.get('rating_snapshots', []):
+        timestamp = parse_timestamp(snapshot.get('timestamp'))
+        if timestamp is None or timestamp > cutoff:
+            continue
+        if best_time is None or timestamp > best_time:
+            best = snapshot
+            best_time = timestamp
+    return best
+
+
+def rating_deltas(state, now, days=MOVEMENT_WINDOW_DAYS):
+    baseline = snapshot_at_or_before(state, now - timedelta(days=days))
+    if baseline is None:
+        return {}
+
+    previous = baseline.get('ratings', {})
+    deltas = {}
+    for key, entry in state.get('ratings', {}).items():
+        if key not in previous:
+            continue
+        deltas[int(key)] = float(entry.get('rating', 1500)) - float(previous[key])
+    return deltas
+
+
+def format_delta(delta):
+    if delta is None:
+        return '—'
+    rounded = round(delta)
+    if rounded > 0:
+        return f'**+{rounded}**'
+    if rounded < 0:
+        return f'**{rounded}**'
+    return '0'
+
+
 def rank_labels(rows):
     labels = []
     i = 0
@@ -77,7 +181,35 @@ def rank_labels(rows):
     return labels
 
 
-def build_section(state, issues, repo):
+def build_movers(rows, deltas, repo):
+    available = [
+        (number, entry, issue, deltas[number])
+        for number, entry, issue in rows
+        if number in deltas and round(deltas[number]) != 0
+    ]
+    if not available:
+        return []
+
+    risers = sorted(available, key=lambda item: (-item[3], item[0]))[:MAX_MOVERS_PER_DIRECTION]
+    fallers = sorted(available, key=lambda item: (item[3], item[0]))[:MAX_MOVERS_PER_DIRECTION]
+    risers = [item for item in risers if item[3] > 0]
+    fallers = [item for item in fallers if item[3] < 0]
+    if not risers and not fallers:
+        return []
+
+    lines = ['', '### Weekly movers', '']
+    for number, _, issue, delta in risers:
+        title = escape_markdown(issue.get('title', ''))
+        url = f'https://github.com/{repo}/issues/{number}'
+        lines.append(f'- 🚀 [#{number} — {title}]({url}): **+{round(delta)} Elo**')
+    for number, _, issue, delta in fallers:
+        title = escape_markdown(issue.get('title', ''))
+        url = f'https://github.com/{repo}/issues/{number}'
+        lines.append(f'- 📉 [#{number} — {title}]({url}): **{round(delta)} Elo**')
+    return lines
+
+
+def build_section(state, issues, repo, now):
     rows = []
     for key, entry in state.get('ratings', {}).items():
         number = int(key)
@@ -88,6 +220,7 @@ def build_section(state, issues, repo):
 
     rows.sort(key=lambda x: (-float(x[1].get('rating', 1500)), x[0]))
     labels = rank_labels(rows)
+    deltas = rating_deltas(state, now)
 
     lines = [
         START_MARKER,
@@ -97,14 +230,16 @@ def build_section(state, issues, repo):
         '',
         f'- Ratings within **{TIE_THRESHOLD} points** are shown as approximate ties.',
         f'- Issues remain **Provisional** until they have at least **{PROVISIONAL_GAMES} games**.',
+        f'- **Δ{MOVEMENT_WINDOW_DAYS}d** compares the current rating with the latest stored snapshot at least {MOVEMENT_WINDOW_DAYS} days old; it shows **—** until enough history exists.',
+        '- **Opp.** is the number of distinct opponents an issue has faced.',
         '- Small rating changes should not be interpreted as meaningful differences in scientific quality.',
         '',
     ]
 
     if rows:
         lines.extend([
-            '| Rank | Issue | Rating | Games | Status | Record |',
-            '|---:|---|---:|---:|---|---:|',
+            f'| Rank | Issue | Rating | Δ{MOVEMENT_WINDOW_DAYS}d | Games | Opp. | Status | Record |',
+            '|---:|---|---:|---:|---:|---:|---|---:|',
         ])
         for rank_label, (number, entry, issue) in zip(labels, rows):
             title = escape_markdown(issue.get('title', ''))
@@ -114,20 +249,30 @@ def build_section(state, issues, repo):
             wins = int(entry.get('wins', 0))
             draws = int(entry.get('draws', 0))
             losses = int(entry.get('losses', 0))
+            opponents = len(entry.get('opponents', []))
             status = '🟡 Provisional' if games < PROVISIONAL_GAMES else '🟢 Established'
+            delta = format_delta(deltas.get(number))
             lines.append(
-                f'| {rank_label} | [#{number} — {title}]({url}) | **{rating}** | {games} | {status} | {wins}W / {draws}D / {losses}L |'
+                f'| {rank_label} | [#{number} — {title}]({url}) | **{rating}** | {delta} | {games} | {opponents} | {status} | {wins}W / {draws}D / {losses}L |'
             )
     else:
         lines.append('_No open issues have been rated yet._')
 
-    timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
+    lines.extend(build_movers(rows, deltas, repo))
+    timestamp = now.strftime('%Y-%m-%d %H:%M UTC')
     lines.extend([
         '',
-        f'_Updated automatically after owner-authored issues are opened, edited, or reopened. Last update: {timestamp}._',
+        f'_Updated automatically by Research Elo workflows. Last update: {timestamp}._',
         END_MARKER,
     ])
     return '\n'.join(lines)
+
+
+def save_state(state):
+    STATE_PATH.write_text(
+        json.dumps(state, ensure_ascii=False, indent=2, sort_keys=True) + '\n',
+        encoding='utf-8',
+    )
 
 
 def main():
@@ -136,8 +281,13 @@ def main():
         raise RuntimeError('GITHUB_REPOSITORY is required')
 
     state = json.loads(STATE_PATH.read_text(encoding='utf-8'))
+    now = datetime.now(timezone.utc)
+    refresh_unique_opponents(state)
+    capture_daily_snapshot(state, now)
+    save_state(state)
+
     issues = fetch_open_owner_issues(repo)
-    section = build_section(state, issues, repo)
+    section = build_section(state, issues, repo, now)
     readme = README_PATH.read_text(encoding='utf-8')
 
     if START_MARKER in readme and END_MARKER in readme:
