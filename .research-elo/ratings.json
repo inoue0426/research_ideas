@@ -76,43 +76,85 @@
       "reason": "A is more tractable and timing-sensitive because uncertainty-aware prediction on spatial drug data can be evaluated directly if datasets exist, while B is broader and more speculative about cross-domain latent geometry.",
       "target": 10,
       "timestamp": "2026-08-14T14:18:58.729736+00:00"
+    },
+    {
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "11 is a clearer, more falsifiable question with a plausible cross-domain biology payoff; 4 is broader and more data-limited.",
+      "target": 11,
+      "timestamp": "2026-08-14T16:40:21.586042+00:00"
+    },
+    {
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "11 has a sharper core claim about transfer across domains, while 3 leans toward a method wrapper around evidence aggregation and is less clearly a research question.",
+      "target": 11,
+      "timestamp": "2026-08-14T16:40:21.586042+00:00"
+    },
+    {
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "11 targets a potentially generalizable biological principle; 9 is important but mostly a dataset-building effort with feasibility and definition risks.",
+      "target": 11,
+      "timestamp": "2026-08-14T16:40:21.586042+00:00"
+    },
+    {
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "11 is more tractable and testable; 7 depends heavily on scarce spatial drug-perturbation data and an uncertain model advantage.",
+      "target": 11,
+      "timestamp": "2026-08-14T16:40:21.586042+00:00"
+    },
+    {
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "11 offers a more specific, rejectable hypothesis than 10’s broader shared-geometry program, whose novelty and interpretation are more uncertain.",
+      "target": 11,
+      "timestamp": "2026-08-14T16:40:21.586042+00:00"
     }
   ],
   "k_factor": 12,
   "ratings": {
     "10": {
       "draws": 0,
-      "games": 4,
-      "losses": 4,
-      "rating": 1476.62,
+      "games": 5,
+      "losses": 5,
+      "rating": 1471.43,
       "wins": 0
+    },
+    "11": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1528.98,
+      "wins": 5
     },
     "3": {
       "draws": 0,
-      "games": 5,
-      "losses": 3,
-      "rating": 1489.48,
+      "games": 6,
+      "losses": 4,
+      "rating": 1483.76,
       "wins": 2
     },
     "4": {
       "draws": 0,
-      "games": 5,
-      "losses": 2,
-      "rating": 1499.53,
+      "games": 6,
+      "losses": 3,
+      "rating": 1493.54,
       "wins": 3
     },
     "7": {
       "draws": 0,
-      "games": 4,
-      "losses": 1,
-      "rating": 1522.56,
+      "games": 5,
+      "losses": 2,
+      "rating": 1516.48,
       "wins": 3
     },
     "9": {
       "draws": 0,
-      "games": 4,
-      "losses": 1,
-      "rating": 1511.81,
+      "games": 5,
+      "losses": 2,
+      "rating": 1505.81,
       "wins": 3
     }
   },
