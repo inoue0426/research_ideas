@@ -356,6 +356,41 @@
       "reason": "Issue 19 addresses a fundamental scientific question about transfer learning limits; Issue 17 is more HCI/usability-focused with unclear scientific contribution beyond visualization, and depends on validating that expert corrections improve biological validity.",
       "target": 19,
       "timestamp": "2026-08-14T17:00:07.452247+00:00"
+    },
+    {
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Issue 20 is a direct, testable question about fundamental perturbation structure with clear leverage (multi-drug prediction). Issue 7 depends on unresolved data availability and unclear advantage over existing spatial modeling approaches.",
+      "target": 20,
+      "timestamp": "2026-08-14T17:01:47.864085+00:00"
+    },
+    {
+      "opponent": 16,
+      "outcome": "loss",
+      "reason": "Issue 20 asks a concrete, directly testable question about whether operators obey compositional rules. Issue 16 is more abstract, requiring undefined proxies for the core construct (identifiability), making validation challenging within 6 months.",
+      "target": 20,
+      "timestamp": "2026-08-14T17:01:47.864085+00:00"
+    },
+    {
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "For a research-focused 6-month project, issue 20 offers a discovery-oriented science question with testable hypotheses. Issue 9 is primarily dataset curation and infrastructure work, which, while valuable, yields limited novel scientific insight per unit effort.",
+      "target": 20,
+      "timestamp": "2026-08-14T17:01:47.864085+00:00"
+    },
+    {
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "Both are latent factorization approaches, but issue 20 addresses compositional structure more broadly (chemistry, genetics, context). Issue 12 focuses narrowly on chemical–genetic equivalence, making it more specialized and lower leverage.",
+      "target": 20,
+      "timestamp": "2026-08-14T17:01:47.864085+00:00"
+    },
+    {
+      "opponent": 4,
+      "outcome": "loss",
+      "reason": "Issue 4 explicitly identifies data availability as the main limitation, undermining tractability for a fixed 6-month project. Issue 20 works with existing perturbation models and asks a well-scoped compositional question with clearer feasibility.",
+      "target": 20,
+      "timestamp": "2026-08-14T17:01:47.864085+00:00"
     }
   ],
   "k_factor": 12,
@@ -376,9 +411,9 @@
     },
     "12": {
       "draws": 1,
-      "games": 9,
-      "losses": 2,
-      "rating": 1521.53,
+      "games": 10,
+      "losses": 3,
+      "rating": 1515.05,
       "wins": 6
     },
     "13": {
@@ -404,10 +439,10 @@
     },
     "16": {
       "draws": 1,
-      "games": 7,
+      "games": 8,
       "losses": 2,
-      "rating": 1509.99,
-      "wins": 4
+      "rating": 1515.92,
+      "wins": 5
     },
     "17": {
       "draws": 0,
@@ -423,6 +458,13 @@
       "rating": 1528.56,
       "wins": 5
     },
+    "20": {
+      "draws": 0,
+      "games": 5,
+      "losses": 3,
+      "rating": 1493.85,
+      "wins": 2
+    },
     "3": {
       "draws": 0,
       "games": 10,
@@ -432,24 +474,24 @@
     },
     "4": {
       "draws": 0,
-      "games": 13,
+      "games": 14,
       "losses": 8,
-      "rating": 1477.97,
-      "wins": 5
+      "rating": 1484.35,
+      "wins": 6
     },
     "7": {
       "draws": 1,
-      "games": 12,
-      "losses": 7,
-      "rating": 1492.85,
+      "games": 13,
+      "losses": 8,
+      "rating": 1486.97,
       "wins": 4
     },
     "9": {
       "draws": 0,
-      "games": 12,
+      "games": 13,
       "losses": 7,
-      "rating": 1488.33,
-      "wins": 5
+      "rating": 1494.53,
+      "wins": 6
     }
   },
   "version": 1
