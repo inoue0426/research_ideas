@@ -1,0 +1,126 @@
+name: Reseed Research Elo
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".research-elo/reseed-v1"
+
+permissions:
+  contents: write
+  issues: write
+  copilot-requests: write
+
+concurrency:
+  group: research-elo
+  cancel-in-progress: false
+
+jobs:
+  reseed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+
+      - name: Install Copilot CLI
+        run: npm install -g @github/copilot
+
+      - name: Reset Elo state
+        run: |
+          cat > .research-elo/ratings.json <<'JSON'
+          {
+            "history": [],
+            "k_factor": 12,
+            "ratings": {},
+            "version": 1
+          }
+          JSON
+
+      - name: Collect open owner-authored issues
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python - <<'PY' > /tmp/research-elo-issues.txt
+          import json
+          import os
+          import urllib.request
+
+          repo = os.environ['GITHUB_REPOSITORY']
+          owner = repo.split('/', 1)[0]
+          token = os.environ['GITHUB_TOKEN']
+          page = 1
+          numbers = []
+          while True:
+              req = urllib.request.Request(
+                  f'https://api.github.com/repos/{repo}/issues?state=open&per_page=100&page={page}',
+                  headers={
+                      'Authorization': f'Bearer {token}',
+                      'Accept': 'application/vnd.github+json',
+                      'X-GitHub-Api-Version': '2022-11-28',
+                  },
+              )
+              with urllib.request.urlopen(req) as resp:
+                  batch = json.load(resp)
+              if not batch:
+                  break
+              for item in batch:
+                  if 'pull_request' in item:
+                      continue
+                  if (item.get('user') or {}).get('login') == owner:
+                      numbers.append(item['number'])
+              if len(batch) < 100:
+                  break
+              page += 1
+          for number in sorted(numbers):
+              print(number)
+          PY
+          echo "Issues to reseed: $(tr '\n' ' ' < /tmp/research-elo-issues.txt)"
+
+      - name: Re-rate every open issue from scratch
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          while read -r issue; do
+            [ -n "$issue" ] || continue
+            echo "=== Rating issue #$issue ==="
+            python scripts/research_elo.py prepare \
+              --issue "$issue" \
+              --prompt-file /tmp/research-elo-prompt.txt \
+              --context-file /tmp/research-elo-context.json
+            copilot -p "$(cat /tmp/research-elo-prompt.txt)" --no-ask-user > /tmp/research-elo-result.txt
+            cat /tmp/research-elo-result.txt
+            python scripts/research_elo.py apply \
+              --issue "$issue" \
+              --context-file /tmp/research-elo-context.json \
+              --result-file /tmp/research-elo-result.txt
+          done < /tmp/research-elo-issues.txt
+
+      - name: Render README ranking
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python scripts/render_research_elo.py
+
+      - name: Commit fresh ratings
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .research-elo/ratings.json README.md
+          if git diff --cached --quiet; then
+            echo "No rating or README change."
+            exit 0
+          fi
+          git commit -m "Reseed Research Elo ratings"
+          git push

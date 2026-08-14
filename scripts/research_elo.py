@@ -14,7 +14,7 @@ from pathlib import Path
 
 STATE_PATH = Path('.research-elo/ratings.json')
 DEFAULT_RATING = 1500.0
-MAX_OPPONENTS = 5
+MAX_OPPONENTS = 10
 MAX_BODY_CHARS = 3500
 
 
