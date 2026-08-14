@@ -57,6 +57,12 @@ jobs:
             --result-file /tmp/research-idea-maps-result.txt \
             --model-file .research-elo/idea-map.json
 
+      - name: Re-render program graph hierarchically
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python scripts/render_research_program_hierarchy.py
+
       - name: Commit generated maps
         run: |
           git config user.name "github-actions[bot]"
