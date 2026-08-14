@@ -38,6 +38,30 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 _Updated automatically by Research Elo workflows. Last update: 2026-08-14 17:35 UTC._
 <!-- RESEARCH_ELO_END -->
 
+<!-- RESEARCH_MAPS_START -->
+## Research Idea Maps
+
+Two complementary views of the open research-idea portfolio. **The landscape shows thematic proximity; the program graph shows typed research relationships.** Neither graph is a measure of scientific importance.
+
+<details>
+<summary><strong>🗺️ Idea Landscape</strong> — semantic similarity and theme clusters</summary>
+
+![Idea Landscape](assets/idea-landscape.svg)
+
+_Current themes: Mechanism reasoning, Perturbation transfer, Spatial drug response, Latent geometry, Causal representation._
+
+</details>
+
+<details>
+<summary><strong>🧭 Research Program Graph</strong> — subquestions, methods, testbeds, and alternatives</summary>
+
+![Research Program Graph](assets/research-program.svg)
+
+_Typed relations shown: 11. Relations are LLM-inferred and should be treated as organizational suggestions, not ground truth._
+
+</details>
+<!-- RESEARCH_MAPS_END -->
+
 ## Language
 
 Use whichever language helps you think most precisely. The templates are written in English because research questions, literature searches, papers, and collaborations are often conducted in English, but issue responses may be written in Japanese, English, or a mixture of both. Prefer clarity of reasoning over forced translation.

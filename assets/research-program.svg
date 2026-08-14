@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="48" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#111827">Research Program Graph</text>
+<text x="40" y="76" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Typed relations only; semantic similarity alone does not create an arrow.</text>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="context-stroke"/></marker></defs>
+<line x1="175.0" y1="150.0" x2="175.0" y2="615.0" stroke="#dc2626" stroke-width="2.2" opacity="0.72" marker-end="url(#arrow)"/>
+<rect x="133.0" y="371.5" width="84" height="19" rx="8" fill="#ffffff" opacity="0.92"/>
+<text x="175.0" y="385.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#dc2626">alternative</text>
+<line x1="175.0" y1="150.0" x2="1030.0" y2="460.0" stroke="#7c3aed" stroke-width="2.2" opacity="0.72" marker-end="url(#arrow)"/>
+<rect x="560.5" y="294.0" width="84" height="19" rx="8" fill="#ffffff" opacity="0.92"/>
+<text x="602.5" y="308.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#7c3aed">method</text>
+<line x1="745.0" y1="150.0" x2="175.0" y2="615.0" stroke="#2563eb" stroke-width="2.2" opacity="0.72" marker-end="url(#arrow)"/>
+<rect x="418.0" y="371.5" width="84" height="19" rx="8" fill="#ffffff" opacity="0.92"/>
+<text x="460.0" y="385.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#2563eb">subquestion</text>
+<line x1="460.0" y1="150.0" x2="1030.0" y2="305.0" stroke="#2563eb" stroke-width="2.2" opacity="0.72" marker-end="url(#arrow)"/>
+<rect x="703.0" y="216.5" width="84" height="19" rx="8" fill="#ffffff" opacity="0.92"/>
+<text x="745.0" y="230.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#2563eb">subquestion</text>
+<line x1="460.0" y1="150.0" x2="175.0" y2="460.0" stroke="#2563eb" stroke-width="2.2" opacity="0.72" marker-end="url(#arrow)"/>
+<rect x="275.5" y="294.0" width="84" height="19" rx="8" fill="#ffffff" opacity="0.92"/>
+<text x="317.5" y="308.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#2563eb">subquestion</text>
+<line x1="1030.0" y1="305.0" x2="460.0" y2="460.0" stroke="#2563eb" stroke-width="2.2" opacity="0.72" marker-end="url(#arrow)"/>
+<rect x="703.0" y="371.5" width="84" height="19" rx="8" fill="#ffffff" opacity="0.92"/>
+<text x="745.0" y="385.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#2563eb">subquestion</text>
+<line x1="1030.0" y1="150.0" x2="745.0" y2="460.0" stroke="#2563eb" stroke-width="2.2" opacity="0.72" marker-end="url(#arrow)"/>
+<rect x="845.5" y="294.0" width="84" height="19" rx="8" fill="#ffffff" opacity="0.92"/>
+<text x="887.5" y="308.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#2563eb">subquestion</text>
+<line x1="175.0" y1="460.0" x2="460.0" y2="615.0" stroke="#2563eb" stroke-width="2.2" opacity="0.72" marker-end="url(#arrow)"/>
+<rect x="275.5" y="526.5" width="84" height="19" rx="8" fill="#ffffff" opacity="0.92"/>
+<text x="317.5" y="540.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#2563eb">subquestion</text>
+<line x1="175.0" y1="305.0" x2="460.0" y2="615.0" stroke="#2563eb" stroke-width="2.2" opacity="0.72" marker-end="url(#arrow)"/>
+<rect x="275.5" y="449.0" width="84" height="19" rx="8" fill="#ffffff" opacity="0.92"/>
+<text x="317.5" y="463.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#2563eb">subquestion</text>
+<line x1="460.0" y1="460.0" x2="745.0" y2="615.0" stroke="#2563eb" stroke-width="2.2" opacity="0.72" marker-end="url(#arrow)"/>
+<rect x="560.5" y="526.5" width="84" height="19" rx="8" fill="#ffffff" opacity="0.92"/>
+<text x="602.5" y="540.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#2563eb">subquestion</text>
+<line x1="745.0" y1="460.0" x2="745.0" y2="615.0" stroke="#2563eb" stroke-width="2.2" opacity="0.72" marker-end="url(#arrow)"/>
+<rect x="703.0" y="526.5" width="84" height="19" rx="8" fill="#ffffff" opacity="0.92"/>
+<text x="745.0" y="540.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#2563eb">subquestion</text>
+<a href="https://github.com/inoue0426/research_ideas/issues/3" target="_blank">
+<rect x="63.0" y="107.0" width="224" height="86" rx="16" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<text x="175.0" y="133.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">#3 · Elo 1475</text>
+<text x="175.0" y="153.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">Can iterative optimization</text>
+<text x="175.0" y="168.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">improve mechanism arbitration</text>
+</a>
+<a href="https://github.com/inoue0426/research_ideas/issues/4" target="_blank">
+<rect x="348.0" y="262.0" width="224" height="86" rx="16" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<text x="460.0" y="288.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">#4 · Elo 1525</text>
+<text x="460.0" y="308.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">When does the spatial</text>
+<text x="460.0" y="323.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">microenvironment override</text>
+</a>
+<a href="https://github.com/inoue0426/research_ideas/issues/7" target="_blank">
+<rect x="633.0" y="262.0" width="224" height="86" rx="16" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<text x="745.0" y="288.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">#7 · Elo 1481</text>
+<text x="745.0" y="308.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">Uncertainty-aware Drug-</text>
+<text x="745.0" y="323.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">conditioned spatial INR</text>
+</a>
+<a href="https://github.com/inoue0426/research_ideas/issues/9" target="_blank">
+<rect x="633.0" y="107.0" width="224" height="86" rx="16" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<text x="745.0" y="133.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">#9 · Elo 1470</text>
+<text x="745.0" y="153.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">Dataset generation for drug</text>
+<text x="745.0" y="168.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">response/target interaction</text>
+</a>
+<a href="https://github.com/inoue0426/research_ideas/issues/10" target="_blank">
+<rect x="348.0" y="107.0" width="224" height="86" rx="16" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<text x="460.0" y="133.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">#10 · Elo 1474</text>
+<text x="460.0" y="153.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">What biological structures</text>
+<text x="460.0" y="168.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">remain transferable across</text>
+</a>
+<a href="https://github.com/inoue0426/research_ideas/issues/11" target="_blank">
+<rect x="918.0" y="262.0" width="224" height="86" rx="16" fill="#ffffff" stroke="#334155" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="1030.0" y="288.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">#11 · Elo 1523</text>
+<text x="1030.0" y="308.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">Intervention geometry may</text>
+<text x="1030.0" y="323.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">transfer better than state</text>
+</a>
+<a href="https://github.com/inoue0426/research_ideas/issues/12" target="_blank">
+<rect x="918.0" y="107.0" width="224" height="86" rx="16" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<text x="1030.0" y="133.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">#12 · Elo 1515</text>
+<text x="1030.0" y="153.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">Context-aware chemical ↔</text>
+<text x="1030.0" y="168.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">genetic shared perturbation</text>
+</a>
+<a href="https://github.com/inoue0426/research_ideas/issues/13" target="_blank">
+<rect x="63.0" y="417.0" width="224" height="86" rx="16" fill="#ffffff" stroke="#334155" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="175.0" y="443.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">#13 · Elo 1523</text>
+<text x="175.0" y="463.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">What makes a representation</text>
+<text x="175.0" y="478.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">preserve intervention</text>
+</a>
+<a href="https://github.com/inoue0426/research_ideas/issues/14" target="_blank">
+<rect x="63.0" y="262.0" width="224" height="86" rx="16" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<text x="175.0" y="288.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">#14 · Elo 1471</text>
+<text x="175.0" y="308.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">Shared causal geometry across</text>
+<text x="175.0" y="323.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">biological modalities</text>
+</a>
+<a href="https://github.com/inoue0426/research_ideas/issues/15" target="_blank">
+<rect x="63.0" y="572.0" width="224" height="86" rx="16" fill="#ffffff" stroke="#334155" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="175.0" y="598.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">#15 · Elo 1522</text>
+<text x="175.0" y="618.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">Mechanism arbitration under</text>
+<text x="175.0" y="633.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">conflicting evidence</text>
+</a>
+<a href="https://github.com/inoue0426/research_ideas/issues/16" target="_blank">
+<rect x="348.0" y="572.0" width="224" height="86" rx="16" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<text x="460.0" y="598.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">#16 · Elo 1505</text>
+<text x="460.0" y="618.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">Foundation models as enablers</text>
+<text x="460.0" y="633.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">of otherwise impossible cross-</text>
+</a>
+<a href="https://github.com/inoue0426/research_ideas/issues/17" target="_blank">
+<rect x="918.0" y="417.0" width="224" height="86" rx="16" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<text x="1030.0" y="443.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">#17 · Elo 1465</text>
+<text x="1030.0" y="463.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">Human-in-the-loop mechanism</text>
+<text x="1030.0" y="478.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">refinement</text>
+</a>
+<a href="https://github.com/inoue0426/research_ideas/issues/19" target="_blank">
+<rect x="348.0" y="417.0" width="224" height="86" rx="16" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+<text x="460.0" y="443.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">#19 · Elo 1557</text>
+<text x="460.0" y="463.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">When does perturbation</text>
+<text x="460.0" y="478.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">transfer fail across</text>
+</a>
+<a href="https://github.com/inoue0426/research_ideas/issues/20" target="_blank">
+<rect x="633.0" y="417.0" width="224" height="86" rx="16" fill="#ffffff" stroke="#334155" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="745.0" y="443.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">#20 · Elo 1488</text>
+<text x="745.0" y="463.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">Is there a compositional</text>
+<text x="745.0" y="478.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">algebra of biological</text>
+</a>
+<a href="https://github.com/inoue0426/research_ideas/issues/21" target="_blank">
+<rect x="633.0" y="572.0" width="224" height="86" rx="16" fill="#ffffff" stroke="#334155" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="745.0" y="598.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">#21 · Elo 1505</text>
+<text x="745.0" y="618.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">Can response-relevant</text>
+<text x="745.0" y="633.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#475569">perturbation geometry be</text>
+</a>
+<line x1="50" y1="768" x2="84" y2="768" stroke="#2563eb" stroke-width="3"/>
+<text x="92" y="772" font-family="Arial, sans-serif" font-size="11" fill="#334155">subquestion</text>
+<line x1="240" y1="768" x2="274" y2="768" stroke="#7c3aed" stroke-width="3"/>
+<text x="282" y="772" font-family="Arial, sans-serif" font-size="11" fill="#334155">method</text>
+<line x1="430" y1="768" x2="464" y2="768" stroke="#059669" stroke-width="3"/>
+<text x="472" y="772" font-family="Arial, sans-serif" font-size="11" fill="#334155">testbed</text>
+<line x1="620" y1="768" x2="654" y2="768" stroke="#dc2626" stroke-width="3"/>
+<text x="662" y="772" font-family="Arial, sans-serif" font-size="11" fill="#334155">alternative</text>
+</svg>

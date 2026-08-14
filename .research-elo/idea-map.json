@@ -1,0 +1,217 @@
+{
+  "themes": [
+    {
+      "id": "mechanism-ai",
+      "label": "Mechanism reasoning"
+    },
+    {
+      "id": "perturb-transfer",
+      "label": "Perturbation transfer"
+    },
+    {
+      "id": "spatial-response",
+      "label": "Spatial drug response"
+    },
+    {
+      "id": "latent-geometry",
+      "label": "Latent geometry"
+    },
+    {
+      "id": "causal-representation",
+      "label": "Causal representation"
+    }
+  ],
+  "nodes": [
+    {
+      "issue": 3,
+      "theme": "mechanism-ai"
+    },
+    {
+      "issue": 4,
+      "theme": "spatial-response"
+    },
+    {
+      "issue": 7,
+      "theme": "spatial-response"
+    },
+    {
+      "issue": 9,
+      "theme": "mechanism-ai"
+    },
+    {
+      "issue": 10,
+      "theme": "latent-geometry"
+    },
+    {
+      "issue": 11,
+      "theme": "perturb-transfer"
+    },
+    {
+      "issue": 12,
+      "theme": "perturb-transfer"
+    },
+    {
+      "issue": 13,
+      "theme": "latent-geometry"
+    },
+    {
+      "issue": 14,
+      "theme": "causal-representation"
+    },
+    {
+      "issue": 15,
+      "theme": "mechanism-ai"
+    },
+    {
+      "issue": 16,
+      "theme": "causal-representation"
+    },
+    {
+      "issue": 17,
+      "theme": "mechanism-ai"
+    },
+    {
+      "issue": 19,
+      "theme": "perturb-transfer"
+    },
+    {
+      "issue": 20,
+      "theme": "latent-geometry"
+    },
+    {
+      "issue": 21,
+      "theme": "perturb-transfer"
+    }
+  ],
+  "similarities": [
+    {
+      "a": 3,
+      "b": 15,
+      "score": 0.95
+    },
+    {
+      "a": 11,
+      "b": 19,
+      "score": 0.86
+    },
+    {
+      "a": 9,
+      "b": 15,
+      "score": 0.82
+    },
+    {
+      "a": 10,
+      "b": 13,
+      "score": 0.81
+    },
+    {
+      "a": 11,
+      "b": 13,
+      "score": 0.78
+    },
+    {
+      "a": 14,
+      "b": 16,
+      "score": 0.74
+    },
+    {
+      "a": 3,
+      "b": 17,
+      "score": 0.7
+    },
+    {
+      "a": 10,
+      "b": 20,
+      "score": 0.68
+    },
+    {
+      "a": 12,
+      "b": 19,
+      "score": 0.66
+    },
+    {
+      "a": 20,
+      "b": 21,
+      "score": 0.6
+    }
+  ],
+  "relations": [
+    {
+      "source": 3,
+      "target": 15,
+      "type": "alternative",
+      "confidence": 0.98,
+      "reason": "Both ask how to arbitrate competing mechanistic explanations under conflicting evidence; one emphasizes iterative optimization, the other evidence weighting."
+    },
+    {
+      "source": 3,
+      "target": 17,
+      "type": "method",
+      "confidence": 0.72,
+      "reason": "Human-in-the-loop refinement could implement iterative evidence-guided mechanism arbitration."
+    },
+    {
+      "source": 9,
+      "target": 15,
+      "type": "subquestion",
+      "confidence": 0.87,
+      "reason": "A mechanistic reasoning dataset would directly support benchmarking mechanism arbitration under conflicting evidence."
+    },
+    {
+      "source": 10,
+      "target": 11,
+      "type": "subquestion",
+      "confidence": 0.77,
+      "reason": "Intervention geometry is a narrower candidate structure within the broader question of what biological structures transfer across domains."
+    },
+    {
+      "source": 10,
+      "target": 13,
+      "type": "subquestion",
+      "confidence": 0.94,
+      "reason": "Preserving intervention geometry is one specific instance of preserving transferable biological representation structure."
+    },
+    {
+      "source": 11,
+      "target": 19,
+      "type": "subquestion",
+      "confidence": 0.91,
+      "reason": "Failure analysis of perturbation transfer directly instantiates the broader claim that intervention geometry may transfer better than state geometry."
+    },
+    {
+      "source": 12,
+      "target": 20,
+      "type": "subquestion",
+      "confidence": 0.76,
+      "reason": "A shared chemical/genetic perturbation space is a specific form of compositional perturbation structure."
+    },
+    {
+      "source": 13,
+      "target": 16,
+      "type": "subquestion",
+      "confidence": 0.79,
+      "reason": "If foundation-model embeddings preserve intervention geometry, they may make cross-domain translation more identifiable or easier."
+    },
+    {
+      "source": 14,
+      "target": 16,
+      "type": "subquestion",
+      "confidence": 0.84,
+      "reason": "Foundation-model embeddings are a candidate route to constrained shared causal representations across modalities."
+    },
+    {
+      "source": 19,
+      "target": 21,
+      "type": "subquestion",
+      "confidence": 0.9,
+      "reason": "Separating predictive from mechanistically faithful geometry is a narrower question about when perturbation transfer fails and what it learns."
+    },
+    {
+      "source": 20,
+      "target": 21,
+      "type": "subquestion",
+      "confidence": 0.73,
+      "reason": "Compositional perturbation algebra and response-vs-mechanism geometry both concern the structure of latent perturbation operators."
+    }
+  ]
+}
