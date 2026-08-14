@@ -496,16 +496,51 @@
       "reason": "4 is the stronger research question because it addresses a substantive biological mechanism; 7 is interesting but depends more on dataset availability and model-comparison choices.",
       "target": 4,
       "timestamp": "2026-08-14T17:19:32.617939+00:00"
+    },
+    {
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "Broader scientific question about invariant transferable structure is clearer and more general than a specific mechanism-ranking implementation.",
+      "target": 10,
+      "timestamp": "2026-08-14T17:25:25.513588+00:00"
+    },
+    {
+      "opponent": 17,
+      "outcome": "loss",
+      "reason": "Issue 10 has a cleaner falsifiable question and broader leverage, while 17 is more HCI-adjacent and its contribution is less clearly scientific from the text alone.",
+      "target": 10,
+      "timestamp": "2026-08-14T17:25:25.513588+00:00"
+    },
+    {
+      "opponent": 14,
+      "outcome": "win",
+      "reason": "Shared causal geometry has more potential to yield a differentiated, reusable biological principle, though feasibility depends on defining testable causal geometry.",
+      "target": 10,
+      "timestamp": "2026-08-14T17:25:25.513588+00:00"
+    },
+    {
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "The spatial INR idea is more concrete and tractable, with clearer datasets and evaluation paths than the abstract transfer-structure question.",
+      "target": 10,
+      "timestamp": "2026-08-14T17:25:25.513588+00:00"
+    },
+    {
+      "opponent": 20,
+      "outcome": "loss",
+      "reason": "Compositional perturbation algebra is a more direct, testable route to prediction and generalization than the broader invariant-transfer framing.",
+      "target": 10,
+      "timestamp": "2026-08-14T17:25:25.513588+00:00"
     }
   ],
   "k_factor": 12,
   "ratings": {
     "10": {
       "draws": 1,
-      "games": 7,
-      "losses": 6,
-      "rating": 1466.63,
-      "wins": 0
+      "games": 12,
+      "losses": 8,
+      "rating": 1473.14,
+      "wins": 3
     },
     "11": {
       "draws": 0,
@@ -530,9 +565,9 @@
     },
     "14": {
       "draws": 0,
-      "games": 8,
-      "losses": 6,
-      "rating": 1477.45,
+      "games": 9,
+      "losses": 7,
+      "rating": 1471.26,
       "wins": 2
     },
     "15": {
@@ -551,10 +586,10 @@
     },
     "17": {
       "draws": 0,
-      "games": 7,
+      "games": 8,
       "losses": 6,
-      "rating": 1471.48,
-      "wins": 1
+      "rating": 1477.5,
+      "wins": 2
     },
     "19": {
       "draws": 0,
@@ -565,10 +600,10 @@
     },
     "20": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 4,
-      "rating": 1488.06,
-      "wins": 2
+      "rating": 1493.9,
+      "wins": 3
     },
     "21": {
       "draws": 1,
@@ -579,9 +614,9 @@
     },
     "3": {
       "draws": 0,
-      "games": 11,
-      "losses": 8,
-      "rating": 1468.12,
+      "games": 12,
+      "losses": 9,
+      "rating": 1462.09,
       "wins": 3
     },
     "4": {
@@ -593,9 +628,9 @@
     },
     "7": {
       "draws": 2,
-      "games": 15,
-      "losses": 9,
-      "rating": 1481.44,
+      "games": 16,
+      "losses": 10,
+      "rating": 1475.29,
       "wins": 4
     },
     "9": {
