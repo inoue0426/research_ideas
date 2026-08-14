@@ -1,0 +1,77 @@
+name: Weekly Research Elo Tournament
+
+on:
+  schedule:
+    - cron: "0 15 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  copilot-requests: write
+
+concurrency:
+  group: research-elo
+  cancel-in-progress: false
+
+jobs:
+  weekly-round-robin:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+
+      - name: Install Copilot CLI
+        run: npm install -g @github/copilot
+
+      - name: Prepare weekly round robin
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python scripts/weekly_research_elo.py prepare \
+            --prompt-file /tmp/weekly-research-elo-prompt.txt \
+            --context-file /tmp/weekly-research-elo-context.json
+
+      - name: Judge weekly tournament with GitHub Copilot
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          copilot -p "$(cat /tmp/weekly-research-elo-prompt.txt)" --no-ask-user > /tmp/weekly-research-elo-result.txt
+          cat /tmp/weekly-research-elo-result.txt
+
+      - name: Apply weekly Elo updates
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python scripts/weekly_research_elo.py apply \
+            --context-file /tmp/weekly-research-elo-context.json \
+            --result-file /tmp/weekly-research-elo-result.txt
+
+      - name: Render README ranking
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python scripts/render_research_elo.py
+
+      - name: Commit weekly rating updates
+        run: |
+          if git diff --quiet -- .research-elo/ratings.json README.md; then
+            echo "No rating or README change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .research-elo/ratings.json README.md
+          git commit -m "Run weekly Research Elo tournament"
+          git push
