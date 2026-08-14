@@ -531,21 +531,97 @@
       "reason": "Compositional perturbation algebra is a more direct, testable route to prediction and generalization than the broader invariant-transfer framing.",
       "target": 10,
       "timestamp": "2026-08-14T17:25:25.513588+00:00"
+    },
+    {
+      "opponent": 14,
+      "outcome": "loss",
+      "reason": "B is more concrete and testable, with a clearer empirical question about causal geometry and perturbational validation; A is broader and more diffuse.",
+      "target": 10,
+      "timestamp": "2026-08-14T17:30:18.845362+00:00"
+    },
+    {
+      "opponent": 7,
+      "outcome": "loss",
+      "reason": "A has a clearer, more tractable six-month scope around transferable biological structures, while B is conceptually broader and depends on a harder causal grounding question.",
+      "target": 10,
+      "timestamp": "2026-08-14T17:30:18.845362+00:00"
+    },
+    {
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "B is a more focused and potentially reusable mechanistic evaluation/benchmarking idea; A is important but comparatively abstract and harder to operationalize well.",
+      "target": 10,
+      "timestamp": "2026-08-14T17:30:18.845362+00:00"
+    },
+    {
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "B is broader and more directly about a core research bottleneck—conflict resolution in mechanistic reasoning—whereas A is more exploratory and less falsifiable.",
+      "target": 10,
+      "timestamp": "2026-08-14T17:30:18.845362+00:00"
+    },
+    {
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "B is the stronger foundational question with clearer leverage for transfer learning, while A is mainly a dataset-construction proposal and depends on harder curation choices.",
+      "target": 10,
+      "timestamp": "2026-08-14T17:30:18.845362+00:00"
     }
   ],
   "k_factor": 12,
+  "rating_snapshots": [
+    {
+      "ratings": {
+        "10": 1479.7,
+        "11": 1523.08,
+        "12": 1515.42,
+        "13": 1522.95,
+        "14": 1477.29,
+        "15": 1522.31,
+        "16": 1510.54,
+        "17": 1471.22,
+        "19": 1557.2,
+        "20": 1493.9,
+        "21": 1510.98,
+        "3": 1456.18,
+        "4": 1495.72,
+        "7": 1481.15,
+        "9": 1482.36
+      },
+      "timestamp": "2026-08-14T17:30:19.683351+00:00"
+    }
+  ],
   "ratings": {
     "10": {
       "draws": 1,
-      "games": 12,
-      "losses": 8,
-      "rating": 1473.14,
-      "wins": 3
+      "games": 17,
+      "losses": 10,
+      "opponents": [
+        3,
+        4,
+        7,
+        9,
+        11,
+        12,
+        14,
+        17,
+        20
+      ],
+      "rating": 1479.7,
+      "wins": 6
     },
     "11": {
       "draws": 0,
       "games": 6,
       "losses": 1,
+      "opponents": [
+        3,
+        4,
+        7,
+        9,
+        10,
+        19
+      ],
       "rating": 1523.08,
       "wins": 5
     },
@@ -553,6 +629,20 @@
       "draws": 1,
       "games": 12,
       "losses": 4,
+      "opponents": [
+        3,
+        4,
+        7,
+        9,
+        10,
+        13,
+        14,
+        16,
+        17,
+        19,
+        20,
+        21
+      ],
       "rating": 1515.42,
       "wins": 7
     },
@@ -560,20 +650,46 @@
       "draws": 0,
       "games": 6,
       "losses": 1,
+      "opponents": [
+        3,
+        4,
+        7,
+        9,
+        12,
+        19
+      ],
       "rating": 1522.95,
       "wins": 5
     },
     "14": {
       "draws": 0,
-      "games": 9,
+      "games": 10,
       "losses": 7,
-      "rating": 1471.26,
-      "wins": 2
+      "opponents": [
+        3,
+        4,
+        7,
+        9,
+        10,
+        12,
+        15,
+        16
+      ],
+      "rating": 1477.29,
+      "wins": 3
     },
     "15": {
       "draws": 0,
       "games": 6,
       "losses": 1,
+      "opponents": [
+        3,
+        4,
+        7,
+        9,
+        14,
+        19
+      ],
       "rating": 1522.31,
       "wins": 5
     },
@@ -581,20 +697,50 @@
       "draws": 1,
       "games": 9,
       "losses": 3,
+      "opponents": [
+        4,
+        7,
+        9,
+        12,
+        14,
+        17,
+        19,
+        20
+      ],
       "rating": 1510.54,
       "wins": 5
     },
     "17": {
       "draws": 0,
-      "games": 8,
-      "losses": 6,
-      "rating": 1477.5,
+      "games": 9,
+      "losses": 7,
+      "opponents": [
+        4,
+        7,
+        9,
+        10,
+        12,
+        16,
+        19
+      ],
+      "rating": 1471.22,
       "wins": 2
     },
     "19": {
       "draws": 0,
       "games": 10,
       "losses": 0,
+      "opponents": [
+        4,
+        7,
+        9,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17
+      ],
       "rating": 1557.2,
       "wins": 10
     },
@@ -602,6 +748,15 @@
       "draws": 0,
       "games": 7,
       "losses": 4,
+      "opponents": [
+        4,
+        7,
+        9,
+        10,
+        12,
+        16,
+        21
+      ],
       "rating": 1493.9,
       "wins": 3
     },
@@ -609,35 +764,101 @@
       "draws": 1,
       "games": 5,
       "losses": 1,
+      "opponents": [
+        4,
+        7,
+        9,
+        12,
+        20
+      ],
       "rating": 1510.98,
       "wins": 3
     },
     "3": {
       "draws": 0,
-      "games": 12,
-      "losses": 9,
-      "rating": 1462.09,
+      "games": 13,
+      "losses": 10,
+      "opponents": [
+        4,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "rating": 1456.18,
       "wins": 3
     },
     "4": {
       "draws": 0,
       "games": 20,
       "losses": 10,
+      "opponents": [
+        3,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21
+      ],
       "rating": 1495.72,
       "wins": 10
     },
     "7": {
       "draws": 2,
-      "games": 16,
+      "games": 17,
       "losses": 10,
-      "rating": 1475.29,
-      "wins": 4
+      "opponents": [
+        3,
+        4,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21
+      ],
+      "rating": 1481.15,
+      "wins": 5
     },
     "9": {
       "draws": 0,
-      "games": 14,
-      "losses": 8,
-      "rating": 1488.62,
+      "games": 15,
+      "losses": 9,
+      "opponents": [
+        3,
+        4,
+        7,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21
+      ],
+      "rating": 1482.36,
       "wins": 6
     }
   },
