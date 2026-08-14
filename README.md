@@ -21,18 +21,19 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 | ≈1 | [#13 — \[Idea\] What makes a representation preserve intervention geometry?](https://github.com/inoue0426/research_ideas/issues/13) | **1529** | 5 | 🟡 Provisional | 5W / 0D / 0L |
 | ≈1 | [#19 — \[Idea\] **When does perturbation transfer fail across biological domains?**](https://github.com/inoue0426/research_ideas/issues/19) | **1529** | 5 | 🟡 Provisional | 5W / 0D / 0L |
 | ≈1 | [#15 — \[Idea\] Mechanism arbitration under conflicting evidence](https://github.com/inoue0426/research_ideas/issues/15) | **1528** | 5 | 🟡 Provisional | 5W / 0D / 0L |
+| ≈1 | [#12 — \[Idea\] Context-aware chemical ↔ genetic shared perturbation space](https://github.com/inoue0426/research_ideas/issues/12) | **1521** | 11 | 🟢 Established | 7W / 1D / 3L |
 | ≈1 | [#16 — \[Idea\] Foundation models as enablers of otherwise impossible cross-domain translation](https://github.com/inoue0426/research_ideas/issues/16) | **1516** | 8 | 🟡 Provisional | 5W / 1D / 2L |
-| ≈1 | [#12 — \[Idea\] Context-aware chemical ↔ genetic shared perturbation space](https://github.com/inoue0426/research_ideas/issues/12) | **1515** | 10 | 🟢 Established | 6W / 1D / 3L |
-| ≈7 | [#9 — \[Idea\] Dataset generation for drug response/target interaction mechanism](https://github.com/inoue0426/research_ideas/issues/9) | **1495** | 13 | 🟢 Established | 6W / 0D / 7L |
-| ≈7 | [#20 — \[Idea\] Is there a compositional algebra of biological perturbations?](https://github.com/inoue0426/research_ideas/issues/20) | **1494** | 5 | 🟡 Provisional | 2W / 0D / 3L |
-| ≈7 | [#7 — \[Idea\] Uncertainty-aware Drug-conditioned spatial INR](https://github.com/inoue0426/research_ideas/issues/7) | **1487** | 13 | 🟢 Established | 4W / 1D / 8L |
-| ≈7 | [#4 — \[Idea\] CCC + Spatial Transcriptomics + DTI/DRP](https://github.com/inoue0426/research_ideas/issues/4) | **1484** | 14 | 🟢 Established | 6W / 0D / 8L |
-| ≈7 | [#17 — \[Idea\] Human-in-the-loop mechanism refinement](https://github.com/inoue0426/research_ideas/issues/17) | **1477** | 6 | 🟡 Provisional | 1W / 0D / 5L |
-| ≈12 | [#3 — \[Idea\] Resolving Conflicting Drug–Target Evidence via TextGrad-Based Mechanism Optimization](https://github.com/inoue0426/research_ideas/issues/3) | **1474** | 10 | 🟢 Established | 3W / 0D / 7L |
-| ≈12 | [#10 — \[Idea\] Shared Latent Geometry Across Biological Domains and Modalities](https://github.com/inoue0426/research_ideas/issues/10) | **1472** | 6 | 🟡 Provisional | 0W / 1D / 5L |
-| ≈12 | [#14 — \[Idea\] Shared causal geometry across biological modalities](https://github.com/inoue0426/research_ideas/issues/14) | **1471** | 7 | 🟡 Provisional | 1W / 0D / 6L |
+| ≈1 | [#21 — \[Idea\] Can response-relevant perturbation geometry be separated from mechanistically faithful perturbation geometry?](https://github.com/inoue0426/research_ideas/issues/21) | **1511** | 5 | 🟡 Provisional | 3W / 1D / 1L |
+| ≈8 | [#9 — \[Idea\] Dataset generation for drug response/target interaction mechanism](https://github.com/inoue0426/research_ideas/issues/9) | **1489** | 14 | 🟢 Established | 6W / 0D / 8L |
+| ≈8 | [#20 — \[Idea\] Is there a compositional algebra of biological perturbations?](https://github.com/inoue0426/research_ideas/issues/20) | **1488** | 6 | 🟡 Provisional | 2W / 0D / 4L |
+| ≈8 | [#7 — \[Idea\] Uncertainty-aware Drug-conditioned spatial INR](https://github.com/inoue0426/research_ideas/issues/7) | **1487** | 14 | 🟢 Established | 4W / 2D / 8L |
+| ≈8 | [#4 — \[Idea\] CCC + Spatial Transcriptomics + DTI/DRP](https://github.com/inoue0426/research_ideas/issues/4) | **1479** | 15 | 🟢 Established | 6W / 0D / 9L |
+| ≈8 | [#17 — \[Idea\] Human-in-the-loop mechanism refinement](https://github.com/inoue0426/research_ideas/issues/17) | **1477** | 6 | 🟡 Provisional | 1W / 0D / 5L |
+| ≈8 | [#3 — \[Idea\] Resolving Conflicting Drug–Target Evidence via TextGrad-Based Mechanism Optimization](https://github.com/inoue0426/research_ideas/issues/3) | **1474** | 10 | 🟢 Established | 3W / 0D / 7L |
+| ≈8 | [#10 — \[Idea\] Shared Latent Geometry Across Biological Domains and Modalities](https://github.com/inoue0426/research_ideas/issues/10) | **1472** | 6 | 🟡 Provisional | 0W / 1D / 5L |
+| ≈8 | [#14 — \[Idea\] Shared causal geometry across biological modalities](https://github.com/inoue0426/research_ideas/issues/14) | **1471** | 7 | 🟡 Provisional | 1W / 0D / 6L |
 
-_Updated automatically after owner-authored issues are opened, edited, or reopened. Last update: 2026-08-14 17:01 UTC._
+_Updated automatically after owner-authored issues are opened, edited, or reopened. Last update: 2026-08-14 17:03 UTC._
 <!-- RESEARCH_ELO_END -->
 
 ## Language

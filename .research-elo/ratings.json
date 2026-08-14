@@ -391,6 +391,41 @@
       "reason": "Issue 4 explicitly identifies data availability as the main limitation, undermining tractability for a fixed 6-month project. Issue 20 works with existing perturbation models and asks a well-scoped compositional question with clearer feasibility.",
       "target": 20,
       "timestamp": "2026-08-14T17:01:47.864085+00:00"
+    },
+    {
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "Clearer and more falsifiable: it asks whether predictive and mechanistic perturbation geometries diverge, which is scientifically important and testable if matched response/post-treatment data exist.",
+      "target": 21,
+      "timestamp": "2026-08-14T17:03:22.902266+00:00"
+    },
+    {
+      "opponent": 20,
+      "outcome": "win",
+      "reason": "More focused and tractable than a broad compositionality hypothesis; it defines a concrete comparison between two latent geometries and can yield a sharp negative or positive result.",
+      "target": 21,
+      "timestamp": "2026-08-14T17:03:22.902266+00:00"
+    },
+    {
+      "opponent": 7,
+      "outcome": "draw",
+      "reason": "Both are compelling and timely, but each depends heavily on dataset availability; 7 is more application-driven while 21 is more conceptually crisp, so the advantage is not decisive from the provided evidence.",
+      "target": 21,
+      "timestamp": "2026-08-14T17:03:22.902266+00:00"
+    },
+    {
+      "opponent": 12,
+      "outcome": "loss",
+      "reason": "21 is a cleaner research question with clearer falsifiability, while 12 is promising but more engineering-heavy and contingent on sufficient matched coverage to identify the proposed components.",
+      "target": 21,
+      "timestamp": "2026-08-14T17:03:22.902266+00:00"
+    },
+    {
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "4 has broader practical leverage by unifying CCC, DTI, and DRP around spatial context, whereas 21 is narrower; despite data risk, 4 could unlock a larger integrated framework if feasible.",
+      "target": 21,
+      "timestamp": "2026-08-14T17:03:22.902266+00:00"
     }
   ],
   "k_factor": 12,
@@ -411,10 +446,10 @@
     },
     "12": {
       "draws": 1,
-      "games": 10,
+      "games": 11,
       "losses": 3,
-      "rating": 1515.05,
-      "wins": 6
+      "rating": 1520.98,
+      "wins": 7
     },
     "13": {
       "draws": 0,
@@ -460,10 +495,17 @@
     },
     "20": {
       "draws": 0,
-      "games": 5,
-      "losses": 3,
-      "rating": 1493.85,
+      "games": 6,
+      "losses": 4,
+      "rating": 1488.06,
       "wins": 2
+    },
+    "21": {
+      "draws": 1,
+      "games": 5,
+      "losses": 1,
+      "rating": 1510.98,
+      "wins": 3
     },
     "3": {
       "draws": 0,
@@ -474,23 +516,23 @@
     },
     "4": {
       "draws": 0,
-      "games": 14,
-      "losses": 8,
-      "rating": 1484.35,
+      "games": 15,
+      "losses": 9,
+      "rating": 1478.71,
       "wins": 6
     },
     "7": {
-      "draws": 1,
-      "games": 13,
+      "draws": 2,
+      "games": 14,
       "losses": 8,
-      "rating": 1486.97,
+      "rating": 1487.4,
       "wins": 4
     },
     "9": {
       "draws": 0,
-      "games": 13,
-      "losses": 7,
-      "rating": 1494.53,
+      "games": 14,
+      "losses": 8,
+      "rating": 1488.62,
       "wins": 6
     }
   },
