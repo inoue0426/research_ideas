@@ -216,6 +216,41 @@
       "reason": "Issue 3 targets a specific and testable evidence-conflict problem with a plausible six-month prototype path, while 14 is more ambitious but less crisply defined and harder to validate.",
       "target": 14,
       "timestamp": "2026-08-14T16:45:55.202922+00:00"
+    },
+    {
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "15 asks a clearer, higher-leverage question about adjudicating conflicting mechanistic evidence, while 9 is more of a dataset-building method proposal with feasibility and definition risks.",
+      "target": 15,
+      "timestamp": "2026-08-14T16:52:30.649617+00:00"
+    },
+    {
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "15 is more clearly falsifiable and practically important; 7 depends heavily on dataset availability and whether the INR angle is actually better than simpler spatial models.",
+      "target": 15,
+      "timestamp": "2026-08-14T16:52:30.649617+00:00"
+    },
+    {
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "15 has a sharper core question and broader reuse potential; 4 is promising but mostly gated by uncertain data availability and a more diffuse integration goal.",
+      "target": 15,
+      "timestamp": "2026-08-14T16:52:30.649617+00:00"
+    },
+    {
+      "opponent": 14,
+      "outcome": "win",
+      "reason": "15 is stronger because it directly targets evidence arbitration and uncertainty, whereas 14 is more abstract and depends on an unclear, hard-to-test notion of 'causal geometry'.",
+      "target": 15,
+      "timestamp": "2026-08-14T16:52:30.649617+00:00"
+    },
+    {
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "15 is more tractable and falsifiable than 3, which is a method-centric idea that may just optimize toward fluent but still unreliable explanations.",
+      "target": 15,
+      "timestamp": "2026-08-14T16:52:30.649617+00:00"
     }
   ],
   "k_factor": 12,
@@ -250,37 +285,44 @@
     },
     "14": {
       "draws": 0,
-      "games": 5,
-      "losses": 4,
-      "rating": 1481.69,
+      "games": 6,
+      "losses": 5,
+      "rating": 1476.31,
       "wins": 1
+    },
+    "15": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "rating": 1528.1,
+      "wins": 5
     },
     "3": {
       "draws": 0,
-      "games": 9,
-      "losses": 6,
-      "rating": 1479.18,
+      "games": 10,
+      "losses": 7,
+      "rating": 1473.93,
       "wins": 3
     },
     "4": {
       "draws": 0,
-      "games": 9,
-      "losses": 5,
-      "rating": 1488.39,
+      "games": 10,
+      "losses": 6,
+      "rating": 1482.79,
       "wins": 4
     },
     "7": {
       "draws": 0,
-      "games": 8,
-      "losses": 5,
-      "rating": 1498.34,
+      "games": 9,
+      "losses": 6,
+      "rating": 1492.47,
       "wins": 3
     },
     "9": {
       "draws": 0,
-      "games": 8,
-      "losses": 4,
-      "rating": 1499.93,
+      "games": 9,
+      "losses": 5,
+      "rating": 1493.93,
       "wins": 4
     }
   },
