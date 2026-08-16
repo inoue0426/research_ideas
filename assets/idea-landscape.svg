@@ -3,128 +3,129 @@
 <text x="40" y="48" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#111827">Idea Landscape</text>
 <text x="40" y="76" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Position = theme cluster · edges = sparse semantic similarity · size = Elo · dashed border = Provisional</text>
 <circle cx="600.0" cy="175.8" r="125" fill="#4f46e5" opacity="0.055"/>
-<text x="600.0" y="63.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#4f46e5">Mechanism reasoning</text>
+<text x="600.0" y="63.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#4f46e5">Mechanistic AI</text>
 <circle cx="841.8" cy="351.4" r="125" fill="#0891b2" opacity="0.055"/>
-<text x="841.8" y="239.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#0891b2">Perturbation transfer</text>
+<text x="841.8" y="239.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#0891b2">Perturbation Transfer</text>
 <circle cx="749.4" cy="635.7" r="125" fill="#059669" opacity="0.055"/>
-<text x="749.4" y="523.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#059669">Spatial drug response</text>
+<text x="749.4" y="523.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#059669">Spatial Drug Response</text>
 <circle cx="450.6" cy="635.7" r="125" fill="#d97706" opacity="0.055"/>
-<text x="450.6" y="523.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#d97706">Latent geometry</text>
+<text x="450.6" y="523.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#d97706">Representation Geometry</text>
 <circle cx="358.2" cy="351.4" r="125" fill="#dc2626" opacity="0.055"/>
-<text x="358.2" y="239.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#dc2626">Causal representation</text>
-<line x1="600.0" y1="105.8" x2="600.0" y2="245.8" stroke="#64748b" stroke-width="3.85" opacity="0.72"/>
-<line x1="841.8" y1="281.4" x2="841.8" y2="421.4" stroke="#64748b" stroke-width="3.58" opacity="0.67"/>
-<line x1="670.0" y1="175.8" x2="600.0" y2="245.8" stroke="#64748b" stroke-width="3.46" opacity="0.65"/>
-<line x1="450.6" y1="573.7" x2="504.3" y2="666.7" stroke="#64748b" stroke-width="3.43" opacity="0.65"/>
-<line x1="841.8" y1="281.4" x2="504.3" y2="666.7" stroke="#64748b" stroke-width="3.34" opacity="0.63"/>
-<line x1="358.2" y1="289.4" x2="358.2" y2="413.4" stroke="#64748b" stroke-width="3.22" opacity="0.61"/>
-<line x1="600.0" y1="105.8" x2="530.0" y2="175.8" stroke="#64748b" stroke-width="3.10" opacity="0.58"/>
-<line x1="450.6" y1="573.7" x2="396.9" y2="666.7" stroke="#64748b" stroke-width="3.04" opacity="0.57"/>
-<line x1="911.8" y1="351.4" x2="841.8" y2="421.4" stroke="#64748b" stroke-width="2.98" opacity="0.56"/>
-<line x1="396.9" y1="666.7" x2="771.8" y2="351.4" stroke="#64748b" stroke-width="2.80" opacity="0.53"/>
+<text x="358.2" y="239.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#dc2626">Causal Shared Spaces</text>
+<line x1="600.0" y1="105.8" x2="600.0" y2="245.8" stroke="#64748b" stroke-width="3.88" opacity="0.73"/>
+<line x1="841.8" y1="273.4" x2="887.6" y2="414.6" stroke="#64748b" stroke-width="3.73" opacity="0.70"/>
+<line x1="450.6" y1="573.7" x2="450.6" y2="697.7" stroke="#64748b" stroke-width="3.64" opacity="0.68"/>
+<line x1="450.6" y1="573.7" x2="841.8" y2="273.4" stroke="#64748b" stroke-width="3.46" opacity="0.65"/>
+<line x1="600.0" y1="105.8" x2="670.0" y2="175.8" stroke="#64748b" stroke-width="3.37" opacity="0.63"/>
+<line x1="749.4" y1="573.7" x2="749.4" y2="697.7" stroke="#64748b" stroke-width="3.31" opacity="0.62"/>
+<line x1="600.0" y1="245.8" x2="530.0" y2="175.8" stroke="#64748b" stroke-width="3.22" opacity="0.61"/>
+<line x1="841.8" y1="273.4" x2="767.6" y2="327.3" stroke="#64748b" stroke-width="3.16" opacity="0.60"/>
+<line x1="915.9" y1="327.3" x2="795.9" y2="414.6" stroke="#64748b" stroke-width="3.07" opacity="0.58"/>
+<line x1="887.6" y1="414.6" x2="767.6" y2="327.3" stroke="#64748b" stroke-width="3.01" opacity="0.57"/>
+<line x1="450.6" y1="697.7" x2="358.2" y2="413.4" stroke="#64748b" stroke-width="2.98" opacity="0.56"/>
 <a href="https://github.com/inoue0426/research_ideas/issues/3" target="_blank">
-<circle cx="600.0" cy="105.8" r="26.0" fill="#4f46e5" fill-opacity="0.88" stroke="#111827" stroke-width="2"/>
+<circle cx="600.0" cy="105.8" r="24.2" fill="#4f46e5" fill-opacity="0.88" stroke="#111827" stroke-width="2"/>
 <text x="600.0" y="103.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">#3</text>
-<text x="600.0" y="120.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1475</text>
+<text x="600.0" y="120.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1454</text>
 </a>
-<text x="600.0" y="149.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">Can iterative</text>
-<text x="600.0" y="163.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">optimization improve</text>
+<text x="600.0" y="148.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">Can iterative</text>
+<text x="600.0" y="162.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">optimization improve</text>
 <a href="https://github.com/inoue0426/research_ideas/issues/4" target="_blank">
-<circle cx="749.4" cy="573.7" r="30.1" fill="#059669" fill-opacity="0.88" stroke="#111827" stroke-width="2"/>
+<circle cx="749.4" cy="573.7" r="30.5" fill="#059669" fill-opacity="0.88" stroke="#111827" stroke-width="2"/>
 <text x="749.4" y="571.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">#4</text>
-<text x="749.4" y="588.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1525</text>
+<text x="749.4" y="588.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1530</text>
 </a>
-<text x="749.4" y="621.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">When does the spatial</text>
-<text x="749.4" y="635.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">microenvironment</text>
+<text x="749.4" y="622.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">When does the spatial</text>
+<text x="749.4" y="636.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">microenvironment</text>
 <a href="https://github.com/inoue0426/research_ideas/issues/7" target="_blank">
-<circle cx="749.4" cy="697.7" r="26.4" fill="#059669" fill-opacity="0.88" stroke="#111827" stroke-width="2"/>
+<circle cx="749.4" cy="697.7" r="26.0" fill="#059669" fill-opacity="0.88" stroke="#111827" stroke-width="2"/>
 <text x="749.4" y="695.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">#7</text>
-<text x="749.4" y="712.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1481</text>
+<text x="749.4" y="712.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1476</text>
 </a>
-<text x="749.4" y="742.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">Uncertainty-aware</text>
-<text x="749.4" y="756.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">Drug-conditioned</text>
+<text x="749.4" y="741.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">Uncertainty-aware</text>
+<text x="749.4" y="755.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">Drug-conditioned</text>
 <a href="https://github.com/inoue0426/research_ideas/issues/9" target="_blank">
-<circle cx="670.0" cy="175.8" r="25.5" fill="#4f46e5" fill-opacity="0.88" stroke="#111827" stroke-width="2"/>
+<circle cx="670.0" cy="175.8" r="26.7" fill="#4f46e5" fill-opacity="0.88" stroke="#111827" stroke-width="2"/>
 <text x="670.0" y="173.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">#9</text>
-<text x="670.0" y="190.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1470</text>
+<text x="670.0" y="190.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1484</text>
 </a>
-<text x="670.0" y="219.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">Dataset generation for</text>
-<text x="670.0" y="233.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">drug response/target</text>
+<text x="670.0" y="220.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">How should mechanistic</text>
+<text x="670.0" y="234.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">reasoning in drug</text>
 <a href="https://github.com/inoue0426/research_ideas/issues/10" target="_blank">
-<circle cx="450.6" cy="573.7" r="25.8" fill="#d97706" fill-opacity="0.88" stroke="#111827" stroke-width="2"/>
+<circle cx="450.6" cy="573.7" r="25.9" fill="#d97706" fill-opacity="0.88" stroke="#111827" stroke-width="2"/>
 <text x="450.6" y="571.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">#10</text>
 <text x="450.6" y="588.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1474</text>
 </a>
-<text x="450.6" y="617.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">What biological</text>
-<text x="450.6" y="631.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">structures remain</text>
+<text x="450.6" y="617.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">What biological</text>
+<text x="450.6" y="631.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">structures remain</text>
 <a href="https://github.com/inoue0426/research_ideas/issues/11" target="_blank">
-<circle cx="841.8" cy="281.4" r="29.9" fill="#0891b2" fill-opacity="0.88" stroke="#111827" stroke-width="2" stroke-dasharray="6 4"/>
-<text x="841.8" y="279.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">#11</text>
-<text x="841.8" y="296.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1523</text>
+<circle cx="841.8" cy="273.4" r="29.4" fill="#0891b2" fill-opacity="0.88" stroke="#111827" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="841.8" y="271.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">#11</text>
+<text x="841.8" y="288.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1517</text>
 </a>
-<text x="841.8" y="329.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">Intervention geometry</text>
-<text x="841.8" y="343.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">may transfer better</text>
+<text x="841.8" y="320.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">Intervention geometry</text>
+<text x="841.8" y="334.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">may transfer better</text>
 <a href="https://github.com/inoue0426/research_ideas/issues/12" target="_blank">
-<circle cx="911.8" cy="351.4" r="29.3" fill="#0891b2" fill-opacity="0.88" stroke="#111827" stroke-width="2"/>
-<text x="911.8" y="349.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">#12</text>
-<text x="911.8" y="366.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1515</text>
+<circle cx="915.9" cy="327.3" r="29.3" fill="#0891b2" fill-opacity="0.88" stroke="#111827" stroke-width="2"/>
+<text x="915.9" y="325.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">#12</text>
+<text x="915.9" y="342.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1515</text>
 </a>
-<text x="911.8" y="398.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">Context-aware chemical</text>
-<text x="911.8" y="412.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">↔ genetic shared</text>
+<text x="915.9" y="374.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">Context-aware chemical</text>
+<text x="915.9" y="388.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">↔ genetic shared</text>
 <a href="https://github.com/inoue0426/research_ideas/issues/13" target="_blank">
-<circle cx="504.3" cy="666.7" r="29.9" fill="#d97706" fill-opacity="0.88" stroke="#111827" stroke-width="2" stroke-dasharray="6 4"/>
-<text x="504.3" y="664.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">#13</text>
-<text x="504.3" y="681.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1523</text>
+<circle cx="450.6" cy="697.7" r="31.4" fill="#d97706" fill-opacity="0.88" stroke="#111827" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="450.6" y="695.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">#13</text>
+<text x="450.6" y="712.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1540</text>
 </a>
-<text x="504.3" y="714.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">What makes a</text>
-<text x="504.3" y="728.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">representation</text>
+<text x="450.6" y="747.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">What makes a</text>
+<text x="450.6" y="761.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">representation</text>
 <a href="https://github.com/inoue0426/research_ideas/issues/14" target="_blank">
-<circle cx="358.2" cy="289.4" r="25.6" fill="#dc2626" fill-opacity="0.88" stroke="#111827" stroke-width="2"/>
+<circle cx="358.2" cy="289.4" r="27.1" fill="#dc2626" fill-opacity="0.88" stroke="#111827" stroke-width="2"/>
 <text x="358.2" y="287.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">#14</text>
-<text x="358.2" y="304.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1471</text>
+<text x="358.2" y="304.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1489</text>
 </a>
-<text x="358.2" y="333.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">Shared causal geometry</text>
-<text x="358.2" y="347.0" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">across biological</text>
+<text x="358.2" y="334.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">Shared causal geometry</text>
+<text x="358.2" y="348.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">across biological</text>
 <a href="https://github.com/inoue0426/research_ideas/issues/15" target="_blank">
-<circle cx="600.0" cy="245.8" r="29.9" fill="#4f46e5" fill-opacity="0.88" stroke="#111827" stroke-width="2" stroke-dasharray="6 4"/>
+<circle cx="600.0" cy="245.8" r="28.7" fill="#4f46e5" fill-opacity="0.88" stroke="#111827" stroke-width="2"/>
 <text x="600.0" y="243.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">#15</text>
-<text x="600.0" y="260.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1522</text>
+<text x="600.0" y="260.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1508</text>
 </a>
-<text x="600.0" y="293.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">Mechanism arbitration</text>
-<text x="600.0" y="307.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">under conflicting</text>
+<text x="600.0" y="292.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">Mechanism arbitration</text>
+<text x="600.0" y="306.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">under conflicting</text>
 <a href="https://github.com/inoue0426/research_ideas/issues/16" target="_blank">
-<circle cx="358.2" cy="413.4" r="28.4" fill="#dc2626" fill-opacity="0.88" stroke="#111827" stroke-width="2"/>
+<circle cx="358.2" cy="413.4" r="27.9" fill="#dc2626" fill-opacity="0.88" stroke="#111827" stroke-width="2"/>
 <text x="358.2" y="411.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">#16</text>
-<text x="358.2" y="428.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1505</text>
+<text x="358.2" y="428.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1499</text>
 </a>
-<text x="358.2" y="459.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">Foundation models as</text>
-<text x="358.2" y="473.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">enablers of otherwise</text>
+<text x="358.2" y="459.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">Foundation models as</text>
+<text x="358.2" y="473.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">enablers of otherwise</text>
 <a href="https://github.com/inoue0426/research_ideas/issues/17" target="_blank">
-<circle cx="530.0" cy="175.8" r="25.1" fill="#4f46e5" fill-opacity="0.88" stroke="#111827" stroke-width="2"/>
+<circle cx="530.0" cy="175.8" r="24.3" fill="#4f46e5" fill-opacity="0.88" stroke="#111827" stroke-width="2"/>
 <text x="530.0" y="173.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">#17</text>
-<text x="530.0" y="190.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1465</text>
+<text x="530.0" y="190.8" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1456</text>
 </a>
-<text x="530.0" y="218.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">Human-in-the-loop</text>
-<text x="530.0" y="232.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">mechanism refinement</text>
+<text x="530.0" y="218.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">Human-in-the-loop</text>
+<text x="530.0" y="232.1" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">mechanism refinement</text>
 <a href="https://github.com/inoue0426/research_ideas/issues/19" target="_blank">
-<circle cx="841.8" cy="421.4" r="32.8" fill="#0891b2" fill-opacity="0.88" stroke="#111827" stroke-width="2"/>
-<text x="841.8" y="419.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">#19</text>
-<text x="841.8" y="436.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1557</text>
+<circle cx="887.6" cy="414.6" r="33.0" fill="#0891b2" fill-opacity="0.88" stroke="#111827" stroke-width="2"/>
+<text x="887.6" y="412.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">#19</text>
+<text x="887.6" y="429.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1560</text>
 </a>
-<text x="841.8" y="472.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">When does perturbation</text>
-<text x="841.8" y="486.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">transfer fail across</text>
+<text x="887.6" y="465.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">When does perturbation</text>
+<text x="887.6" y="479.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">transfer fail across</text>
 <a href="https://github.com/inoue0426/research_ideas/issues/20" target="_blank">
-<circle cx="396.9" cy="666.7" r="27.0" fill="#d97706" fill-opacity="0.88" stroke="#111827" stroke-width="2" stroke-dasharray="6 4"/>
-<text x="396.9" y="664.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">#20</text>
-<text x="396.9" y="681.7" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1488</text>
+<circle cx="795.9" cy="414.6" r="27.0" fill="#0891b2" fill-opacity="0.88" stroke="#111827" stroke-width="2"/>
+<text x="795.9" y="412.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">#20</text>
+<text x="795.9" y="429.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1488</text>
 </a>
-<text x="396.9" y="711.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">Is there a</text>
-<text x="396.9" y="725.6" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">compositional algebra</text>
+<text x="795.9" y="459.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">Is there a</text>
+<text x="795.9" y="473.5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">compositional algebra</text>
 <a href="https://github.com/inoue0426/research_ideas/issues/21" target="_blank">
-<circle cx="771.8" cy="351.4" r="28.4" fill="#0891b2" fill-opacity="0.88" stroke="#111827" stroke-width="2" stroke-dasharray="6 4"/>
-<text x="771.8" y="349.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">#21</text>
-<text x="771.8" y="366.4" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1505</text>
+<circle cx="767.6" cy="327.3" r="28.8" fill="#0891b2" fill-opacity="0.88" stroke="#111827" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="767.6" y="325.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">#21</text>
+<text x="767.6" y="342.3" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ffffff">1510</text>
 </a>
-<text x="771.8" y="397.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">Can response-relevant</text>
-<text x="771.8" y="411.9" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">perturbation geometry</text>
+<text x="767.6" y="374.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">Can response-relevant</text>
+<text x="767.6" y="388.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.5" fill="#374151">perturbation geometry</text>
 </svg>

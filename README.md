@@ -39,27 +39,16 @@ _Updated automatically by Research Elo workflows. Last update: 2026-08-16 15:06 
 <!-- RESEARCH_ELO_END -->
 
 <!-- RESEARCH_MAPS_START -->
-## Research Idea Maps
+## Research Maps
 
-Two complementary views of the open research-idea portfolio. **The landscape shows thematic proximity; the program graph shows typed research relationships.** Neither graph is a measure of scientific importance.
+A compact overview is kept here; the full exploration views live on GitHub Pages.
 
-<details>
-<summary><strong>🗺️ Idea Landscape</strong> — semantic similarity and theme clusters</summary>
+- 🗺️ [Idea Landscape](https://inoue0426.github.io/research_ideas/idea_landscape.html) — semantic similarity and theme clusters
+- 🧭 [Research Program Graph](https://inoue0426.github.io/research_ideas/research_programs.html) — typed research relationships
 
-![Idea Landscape](assets/idea-landscape.svg)
+<a href="https://inoue0426.github.io/research_ideas/idea_landscape.html"><img src="assets/idea-landscape.svg" alt="Idea Landscape overview" width="720"></a>
 
-_Current themes: Mechanism reasoning, Perturbation transfer, Spatial drug response, Latent geometry, Causal representation._
-
-</details>
-
-<details>
-<summary><strong>🧭 Research Program Graph</strong> — subquestions, methods, testbeds, and alternatives</summary>
-
-![Research Program Graph](assets/research-program.svg)
-
-_Typed relations shown: 11. Relations are LLM-inferred and should be treated as organizational suggestions, not ground truth._
-
-</details>
+_Current themes: Mechanistic AI, Perturbation Transfer, Spatial Drug Response, Representation Geometry, Causal Shared Spaces. Typed program relations: 8. Maps are organizational aids, not measures of scientific importance._
 <!-- RESEARCH_MAPS_END -->
 
 ## Language
