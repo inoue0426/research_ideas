@@ -671,6 +671,231 @@
       "reason": "7 is a concrete modeling project with plausible empirical tests, while 9 is higher-level and its key benchmark/curation challenge makes it less immediately tractable.",
       "target": 9,
       "timestamp": "2026-08-14T18:00:24.797617+00:00"
+    },
+    {
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "More scientifically grounded and falsifiable; mechanism-arbitration optimization is narrower and more method-driven.",
+      "source": "weekly_cross_rank",
+      "target": 4,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 7,
+      "outcome": "loss",
+      "reason": "Drug-response geometry as a distinct object is clearer and more testable than iterative arbitration, with broader transfer value.",
+      "source": "weekly_cross_rank",
+      "target": 3,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "Identifiability under foundation-model embeddings has higher leverage and clearer theory potential than iterative optimization.",
+      "source": "weekly_cross_rank",
+      "target": 16,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 17,
+      "outcome": "loss",
+      "reason": "Perturbation composition is a more fundamental, testable question with broader reuse than refinement of arbitration methods.",
+      "source": "weekly_cross_rank",
+      "target": 3,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 20,
+      "outcome": "win",
+      "reason": "Operator transfer across domains is a stronger scientific question with clearer cross-domain relevance than compositional algebra in isolation.",
+      "source": "weekly_cross_rank",
+      "target": 3,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "Intervention geometry transfer is more direct, tractable, and timely than spatial microenvironment effects, whose confounding risk is high.",
+      "source": "weekly_cross_rank",
+      "target": 11,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "Failure-mode characterization is more practically useful and easier to falsify than a broad spatial override claim.",
+      "source": "weekly_cross_rank",
+      "target": 4,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "A general transfer-invariance framing is broader and more reusable than a specific INR model proposal.",
+      "source": "weekly_cross_rank",
+      "target": 10,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Representation properties underlying transfer are more foundational and likely to generalize beyond a single conditional spatial model.",
+      "source": "weekly_cross_rank",
+      "target": 13,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Evidence arbitration is a sharper, more important problem than benchmark design alone, which is more auxiliary unless a benchmark already exists.",
+      "source": "weekly_cross_rank",
+      "target": 15,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "Evaluating multiple valid mechanisms is a more foundational bottleneck for mechanistic AI than comparing two candidate perturbation components.",
+      "source": "weekly_cross_rank",
+      "target": 9,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "Human-in-the-loop refinement has clearer practical leverage and a more immediate route to measurable impact than evaluation reform.",
+      "source": "weekly_cross_rank",
+      "target": 9,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "Context-aware drug–genetic perturbation decomposition is more tractable and directly testable than a broad benchmark question.",
+      "source": "weekly_cross_rank",
+      "target": 17,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "Failure-mode analysis across biological domains is more actionable than a generic structural-transfer framing.",
+      "source": "weekly_cross_rank",
+      "target": 19,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "Shared causal geometry across modalities is a more substantive scientific target than representation identifiability proxies.",
+      "source": "weekly_cross_rank",
+      "target": 12,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "Mechanism arbitration has clearer practical importance and falsifiability than human-in-the-loop refinement, which risks staying HCI-adjacent.",
+      "source": "weekly_cross_rank",
+      "target": 21,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 16,
+      "outcome": "win",
+      "reason": "Representation properties that preserve intervention geometry are more general and likely to unlock multiple downstream tasks.",
+      "source": "weekly_cross_rank",
+      "target": 13,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "Representation transfer properties are broader and more reusable than another uncertainty about failure modes, though both are related.",
+      "source": "weekly_cross_rank",
+      "target": 13,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 14,
+      "outcome": "loss",
+      "reason": "Shared perturbation space between chemical and genetic interventions is more concrete and actionable than evaluating multiple valid reasoning chains.",
+      "source": "weekly_cross_rank",
+      "target": 15,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "Causal geometry validation is more scientifically ambitious and potentially higher leverage than iterative mechanism refinement.",
+      "source": "weekly_cross_rank",
+      "target": 14,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "Human-in-the-loop refinement has a clearer path to deployment and empirical testing than a broad causal-geometry framework.",
+      "source": "weekly_cross_rank",
+      "target": 17,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "Failure-mode analysis across domains is more decision-relevant and tractable than iterative mechanism refinement.",
+      "source": "weekly_cross_rank",
+      "target": 19,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 19,
+      "outcome": "loss",
+      "reason": "A shared perturbation space has more immediate biological payoff and stronger falsifiability than foundation-model identifiability proxies.",
+      "source": "weekly_cross_rank",
+      "target": 16,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "Compositional perturbation algebra is a deeper and more general scientific question than human-in-the-loop mechanism edits.",
+      "source": "weekly_cross_rank",
+      "target": 21,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
+    },
+    {
+      "opponent": 21,
+      "outcome": "win",
+      "reason": "Compositional perturbation structure is more broadly enabling and testable than a specific uncertainty-aware spatial model.",
+      "source": "weekly_cross_rank",
+      "target": 20,
+      "timestamp": "2026-08-16T15:06:50.870207+00:00",
+      "week": "2026-W33"
     }
   ],
   "k_factor": 12,
@@ -694,13 +919,33 @@
         "9": 1464.98
       },
       "timestamp": "2026-08-14T18:00:25.499770+00:00"
+    },
+    {
+      "ratings": {
+        "10": 1474.45,
+        "11": 1516.54,
+        "12": 1515.01,
+        "13": 1540.37,
+        "14": 1489.47,
+        "15": 1508.19,
+        "16": 1498.97,
+        "17": 1455.54,
+        "19": 1559.56,
+        "20": 1487.84,
+        "21": 1509.95,
+        "3": 1454.1,
+        "4": 1530.24,
+        "7": 1475.9,
+        "9": 1483.87
+      },
+      "timestamp": "2026-08-16T15:06:50.929677+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 1,
-      "games": 19,
-      "losses": 11,
+      "games": 22,
+      "losses": 13,
       "opponents": [
         3,
         4,
@@ -710,36 +955,40 @@
         12,
         14,
         17,
+        19,
         20
       ],
-      "rating": 1479.36,
-      "wins": 7
+      "rating": 1474.45,
+      "wins": 8
     },
     "11": {
       "draws": 0,
-      "games": 6,
-      "losses": 1,
+      "games": 9,
+      "losses": 3,
       "opponents": [
         3,
         4,
         7,
         9,
         10,
-        19
+        12,
+        19,
+        21
       ],
-      "rating": 1523.08,
-      "wins": 5
+      "rating": 1516.54,
+      "wins": 6
     },
     "12": {
       "draws": 1,
-      "games": 12,
-      "losses": 4,
+      "games": 14,
+      "losses": 5,
       "opponents": [
         3,
         4,
         7,
         9,
         10,
+        11,
         13,
         14,
         16,
@@ -748,12 +997,12 @@
         20,
         21
       ],
-      "rating": 1515.42,
-      "wins": 7
+      "rating": 1515.01,
+      "wins": 8
     },
     "13": {
       "draws": 0,
-      "games": 6,
+      "games": 9,
       "losses": 1,
       "opponents": [
         3,
@@ -761,14 +1010,15 @@
         7,
         9,
         12,
+        16,
         19
       ],
-      "rating": 1522.95,
-      "wins": 5
+      "rating": 1540.37,
+      "wins": 8
     },
     "14": {
       "draws": 0,
-      "games": 12,
+      "games": 14,
       "losses": 8,
       "opponents": [
         3,
@@ -778,47 +1028,51 @@
         10,
         12,
         15,
-        16
+        16,
+        17
       ],
-      "rating": 1477.03,
-      "wins": 4
+      "rating": 1489.47,
+      "wins": 6
     },
     "15": {
       "draws": 0,
-      "games": 6,
-      "losses": 1,
+      "games": 10,
+      "losses": 4,
       "opponents": [
         3,
         4,
         7,
         9,
         14,
+        17,
         19
       ],
-      "rating": 1522.31,
-      "wins": 5
+      "rating": 1508.19,
+      "wins": 6
     },
     "16": {
       "draws": 1,
-      "games": 10,
-      "losses": 4,
+      "games": 13,
+      "losses": 6,
       "opponents": [
+        3,
         4,
         7,
         9,
         12,
+        13,
         14,
         17,
         19,
         20
       ],
-      "rating": 1504.58,
-      "wins": 5
+      "rating": 1498.97,
+      "wins": 6
     },
     "17": {
       "draws": 0,
-      "games": 11,
-      "losses": 9,
+      "games": 16,
+      "losses": 12,
       "opponents": [
         3,
         4,
@@ -826,64 +1080,71 @@
         9,
         10,
         12,
+        14,
+        15,
         16,
-        19
+        19,
+        21
       ],
-      "rating": 1458.96,
-      "wins": 2
+      "rating": 1455.54,
+      "wins": 4
     },
     "19": {
       "draws": 0,
-      "games": 10,
-      "losses": 0,
-      "opponents": [
-        4,
-        7,
-        9,
-        11,
-        12,
-        13,
-        15,
-        16,
-        17
-      ],
-      "rating": 1557.2,
-      "wins": 10
-    },
-    "20": {
-      "draws": 0,
-      "games": 8,
-      "losses": 5,
-      "opponents": [
-        4,
-        7,
-        9,
-        10,
-        12,
-        16,
-        21
-      ],
-      "rating": 1487.93,
-      "wins": 3
-    },
-    "21": {
-      "draws": 1,
-      "games": 6,
+      "games": 15,
       "losses": 2,
       "opponents": [
         4,
         7,
         9,
+        10,
+        11,
         12,
+        13,
+        15,
+        16,
+        17
+      ],
+      "rating": 1559.56,
+      "wins": 13
+    },
+    "20": {
+      "draws": 0,
+      "games": 10,
+      "losses": 6,
+      "opponents": [
+        3,
+        4,
+        7,
+        9,
+        10,
+        12,
+        16,
+        21
+      ],
+      "rating": 1487.84,
+      "wins": 4
+    },
+    "21": {
+      "draws": 1,
+      "games": 9,
+      "losses": 3,
+      "opponents": [
+        4,
+        7,
+        9,
+        11,
+        12,
+        17,
         20
       ],
-      "rating": 1505.12,
-      "wins": 3
+      "rating": 1509.95,
+      "wins": 5
     },
     "3": {
       "draws": 0,
-      "games": 19,
-      "losses": 12,
+      "games": 24,
+      "losses": 16,
       "opponents": [
         4,
         7,
@@ -894,15 +1155,17 @@
         13,
         14,
         15,
-        17
+        16,
+        17,
+        20
       ],
-      "rating": 1469.16,
-      "wins": 7
+      "rating": 1454.1,
+      "wins": 8
     },
     "4": {
       "draws": 0,
-      "games": 25,
-      "losses": 10,
+      "games": 28,
+      "losses": 11,
       "opponents": [
         3,
         7,
@@ -919,13 +1182,13 @@
         20,
         21
       ],
-      "rating": 1524.73,
-      "wins": 15
+      "rating": 1530.24,
+      "wins": 17
     },
     "7": {
       "draws": 2,
-      "games": 20,
-      "losses": 11,
+      "games": 24,
+      "losses": 14,
       "opponents": [
         3,
         4,
@@ -942,12 +1205,12 @@
         20,
         21
       ],
-      "rating": 1487.19,
-      "wins": 7
+      "rating": 1475.9,
+      "wins": 8
     },
     "9": {
       "draws": 0,
-      "games": 22,
+      "games": 25,
       "losses": 14,
       "opponents": [
         3,
@@ -965,8 +1228,8 @@
         20,
         21
       ],
-      "rating": 1464.98,
-      "wins": 8
+      "rating": 1483.87,
+      "wins": 11
     }
   },
   "version": 1
