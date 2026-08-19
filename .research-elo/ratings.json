@@ -896,6 +896,41 @@
       "target": 20,
       "timestamp": "2026-08-16T15:06:50.870207+00:00",
       "week": "2026-W33"
+    },
+    {
+      "opponent": 16,
+      "outcome": "win",
+      "reason": "Issue 30 is more concrete and pragmatically grounded: data paths are verifiable (inspect ADCdb), and ADC efficacy prediction has direct clinical relevance. Issue 16's promise depends on defining identifiability proxies that remain uncertain.",
+      "target": 30,
+      "timestamp": "2026-08-19T13:04:11.847450+00:00"
+    },
+    {
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "Issue 30 has a clearer execution path (check data availability first) and higher immediate tractability. Issue 15 requires identifying real benchmarks with conflicting mechanisms, which is less defined.",
+      "target": 30,
+      "timestamp": "2026-08-19T13:04:11.847450+00:00"
+    },
+    {
+      "opponent": 21,
+      "outcome": "win",
+      "reason": "Issue 30 targets a high-value problem (tumor-specific ADC response) with clearer data requirements. Issue 21 requires dual-objective datasets (molecular + response) which are rarer, and its output (insight into learned representations) is more theoretical.",
+      "target": 30,
+      "timestamp": "2026-08-19T13:04:11.847450+00:00"
+    },
+    {
+      "opponent": 14,
+      "outcome": "win",
+      "reason": "Issue 30 has a well-defined problem and known data domain. Issue 14's core challenge—defining empirically testable 'causal geometry'—remains open, making falsifiability unclear.",
+      "target": 30,
+      "timestamp": "2026-08-19T13:04:11.847450+00:00"
+    },
+    {
+      "opponent": 20,
+      "outcome": "loss",
+      "reason": "Issue 20 has higher leverage and scope: discovering compositional structure in perturbations would enable prediction across any biological system and unseen combinations. Issue 30 is domain-specific (ADCs). Both are tractable, but 20's potential to unlock generalizable insight across biology outweighs 30's narrower applied focus.",
+      "target": 30,
+      "timestamp": "2026-08-19T13:04:11.847450+00:00"
     }
   ],
   "k_factor": 12,
@@ -939,6 +974,27 @@
         "9": 1483.87
       },
       "timestamp": "2026-08-16T15:06:50.929677+00:00"
+    },
+    {
+      "ratings": {
+        "10": 1474.45,
+        "11": 1516.54,
+        "12": 1515.01,
+        "13": 1540.37,
+        "14": 1483.96,
+        "15": 1502.15,
+        "16": 1492.99,
+        "17": 1455.54,
+        "19": 1559.56,
+        "20": 1494.45,
+        "21": 1503.99,
+        "3": 1454.1,
+        "30": 1516.88,
+        "4": 1530.24,
+        "7": 1475.9,
+        "9": 1483.87
+      },
+      "timestamp": "2026-08-19T13:04:12.596152+00:00"
     }
   ],
   "ratings": {
@@ -1018,8 +1074,8 @@
     },
     "14": {
       "draws": 0,
-      "games": 14,
-      "losses": 8,
+      "games": 15,
+      "losses": 9,
       "opponents": [
         3,
         4,
@@ -1029,15 +1085,16 @@
         12,
         15,
         16,
-        17
+        17,
+        30
       ],
-      "rating": 1489.47,
+      "rating": 1483.96,
       "wins": 6
     },
     "15": {
       "draws": 0,
-      "games": 10,
-      "losses": 4,
+      "games": 11,
+      "losses": 5,
       "opponents": [
         3,
         4,
@@ -1045,15 +1102,16 @@
         9,
         14,
         17,
-        19
+        19,
+        30
       ],
-      "rating": 1508.19,
+      "rating": 1502.15,
       "wins": 6
     },
     "16": {
       "draws": 1,
-      "games": 13,
-      "losses": 6,
+      "games": 14,
+      "losses": 7,
       "opponents": [
         3,
         4,
@@ -1064,9 +1122,10 @@
         14,
         17,
         19,
-        20
+        20,
+        30
       ],
-      "rating": 1498.97,
+      "rating": 1492.99,
       "wins": 6
     },
     "17": {
@@ -1110,7 +1169,7 @@
     },
     "20": {
       "draws": 0,
-      "games": 10,
+      "games": 11,
       "losses": 6,
       "opponents": [
         3,
@@ -1120,15 +1179,16 @@
         10,
         12,
         16,
-        21
+        21,
+        30
       ],
-      "rating": 1487.84,
-      "wins": 4
+      "rating": 1494.45,
+      "wins": 5
     },
     "21": {
       "draws": 1,
-      "games": 9,
-      "losses": 3,
+      "games": 10,
+      "losses": 4,
       "opponents": [
         4,
         7,
@@ -1136,9 +1196,10 @@
         11,
         12,
         17,
-        20
+        20,
+        30
       ],
-      "rating": 1509.95,
+      "rating": 1503.99,
       "wins": 5
     },
     "3": {
@@ -1161,6 +1222,20 @@
       ],
       "rating": 1454.1,
       "wins": 8
+    },
+    "30": {
+      "draws": 0,
+      "games": 5,
+      "losses": 1,
+      "opponents": [
+        14,
+        15,
+        16,
+        20,
+        21
+      ],
+      "rating": 1516.88,
+      "wins": 4
     },
     "4": {
       "draws": 0,
