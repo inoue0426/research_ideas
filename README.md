@@ -58,7 +58,7 @@ A compact overview is kept here; the full exploration views live on GitHub Pages
 
 <a href="https://inoue0426.github.io/research_ideas/idea_landscape.html"><img src="assets/idea-landscape.svg" alt="Idea Landscape overview" width="720"></a>
 
-_Current themes: Mechanistic AI, Perturbation Transfer, Spatial Drug Response, Representation Geometry, Causal Shared Spaces. Typed program relations: 8. Maps are organizational aids, not measures of scientific importance._
+_Current themes: Mechanism arbitration and evaluation, Spatial and context-dependent drug response, Cross-domain transfer and intervention geometry, Perturbation operator structure and objectives. Typed program relations: 9. Maps are organizational aids, not measures of scientific importance._
 <!-- RESEARCH_MAPS_END -->
 
 ## Language

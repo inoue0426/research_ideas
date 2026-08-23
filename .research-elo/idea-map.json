@@ -1,201 +1,253 @@
 {
   "themes": [
     {
-      "id": "mechanism-ai",
-      "label": "Mechanistic AI"
+      "id": "mech-arbitration-eval",
+      "label": "Mechanism arbitration and evaluation"
     },
     {
-      "id": "perturb-transfer",
-      "label": "Perturbation Transfer"
+      "id": "spatial-drug-context",
+      "label": "Spatial and context-dependent drug response"
     },
     {
-      "id": "spatial-response",
-      "label": "Spatial Drug Response"
+      "id": "transfer-geometry",
+      "label": "Cross-domain transfer and intervention geometry"
     },
     {
-      "id": "representation-geometry",
-      "label": "Representation Geometry"
-    },
-    {
-      "id": "causal-shared-space",
-      "label": "Causal Shared Spaces"
+      "id": "perturbation-structure",
+      "label": "Perturbation operator structure and objectives"
     }
   ],
   "nodes": [
     {
       "issue": 3,
-      "theme": "mechanism-ai"
+      "theme": "mech-arbitration-eval"
     },
     {
       "issue": 4,
-      "theme": "spatial-response"
+      "theme": "spatial-drug-context"
     },
     {
       "issue": 7,
-      "theme": "spatial-response"
+      "theme": "spatial-drug-context"
     },
     {
       "issue": 9,
-      "theme": "mechanism-ai"
+      "theme": "mech-arbitration-eval"
     },
     {
       "issue": 10,
-      "theme": "representation-geometry"
+      "theme": "transfer-geometry"
     },
     {
       "issue": 11,
-      "theme": "perturb-transfer"
+      "theme": "transfer-geometry"
     },
     {
       "issue": 12,
-      "theme": "perturb-transfer"
+      "theme": "transfer-geometry"
     },
     {
       "issue": 13,
-      "theme": "representation-geometry"
+      "theme": "transfer-geometry"
     },
     {
       "issue": 14,
-      "theme": "causal-shared-space"
+      "theme": "transfer-geometry"
     },
     {
       "issue": 15,
-      "theme": "mechanism-ai"
+      "theme": "mech-arbitration-eval"
     },
     {
       "issue": 16,
-      "theme": "causal-shared-space"
+      "theme": "transfer-geometry"
     },
     {
       "issue": 17,
-      "theme": "mechanism-ai"
+      "theme": "mech-arbitration-eval"
     },
     {
       "issue": 19,
-      "theme": "perturb-transfer"
+      "theme": "transfer-geometry"
     },
     {
       "issue": 20,
-      "theme": "perturb-transfer"
+      "theme": "perturbation-structure"
     },
     {
       "issue": 21,
-      "theme": "perturb-transfer"
+      "theme": "perturbation-structure"
+    },
+    {
+      "issue": 30,
+      "theme": "spatial-drug-context"
     }
   ],
   "similarities": [
     {
       "a": 3,
       "b": 15,
-      "score": 0.96
-    },
-    {
-      "a": 11,
-      "b": 19,
-      "score": 0.91
-    },
-    {
-      "a": 10,
-      "b": 13,
-      "score": 0.88
+      "score": 0.95
     },
     {
       "a": 10,
       "b": 11,
-      "score": 0.82
+      "score": 0.9
     },
     {
-      "a": 3,
-      "b": 9,
-      "score": 0.79
+      "a": 11,
+      "b": 13,
+      "score": 0.84
+    },
+    {
+      "a": 10,
+      "b": 13,
+      "score": 0.82
     },
     {
       "a": 4,
       "b": 7,
+      "score": 0.8
+    },
+    {
+      "a": 10,
+      "b": 16,
+      "score": 0.79
+    },
+    {
+      "a": 20,
+      "b": 21,
+      "score": 0.78
+    },
+    {
+      "a": 13,
+      "b": 14,
       "score": 0.77
     },
     {
-      "a": 15,
-      "b": 17,
+      "a": 14,
+      "b": 16,
       "score": 0.74
     },
     {
       "a": 11,
-      "b": 21,
+      "b": 19,
+      "score": 0.74
+    },
+    {
+      "a": 3,
+      "b": 17,
+      "score": 0.73
+    },
+    {
+      "a": 15,
+      "b": 17,
       "score": 0.72
     },
     {
+      "a": 9,
+      "b": 15,
+      "score": 0.71
+    },
+    {
+      "a": 3,
+      "b": 9,
+      "score": 0.7
+    },
+    {
       "a": 12,
-      "b": 20,
-      "score": 0.69
+      "b": 14,
+      "score": 0.66
+    },
+    {
+      "a": 4,
+      "b": 30,
+      "score": 0.65
     },
     {
       "a": 19,
       "b": 21,
-      "score": 0.67
+      "score": 0.64
     },
     {
-      "a": 13,
-      "b": 16,
-      "score": 0.66
+      "a": 7,
+      "b": 30,
+      "score": 0.6
+    },
+    {
+      "a": 12,
+      "b": 20,
+      "score": 0.58
+    },
+    {
+      "a": 9,
+      "b": 17,
+      "score": 0.56
     }
   ],
   "relations": [
     {
-      "source": 3,
-      "target": 15,
-      "type": "alternative",
-      "confidence": 0.98,
-      "reason": "Both ask how to arbitrate competing drug-mechanism explanations from conflicting evidence."
+      "source": 15,
+      "target": 3,
+      "type": "method",
+      "confidence": 0.92,
+      "reason": "Iterative optimization is an explicit candidate approach for resolving conflicting mechanisms."
     },
     {
-      "source": 9,
-      "target": 15,
-      "type": "subquestion",
-      "confidence": 0.84,
-      "reason": "Issue 9 asks how to evaluate mechanistic reasoning when multiple valid explanations exist, which is the benchmarking layer for mechanism arbitration."
+      "source": 15,
+      "target": 17,
+      "type": "method",
+      "confidence": 0.81,
+      "reason": "Human-in-the-loop editing/reweighting is a concrete arbitration strategy for competing mechanisms."
+    },
+    {
+      "source": 15,
+      "target": 9,
+      "type": "testbed",
+      "confidence": 0.78,
+      "reason": "The evaluation framework with multiple valid mechanisms can assess arbitration quality."
     },
     {
       "source": 10,
       "target": 11,
       "type": "subquestion",
-      "confidence": 0.82,
-      "reason": "Issue 11 instantiates domain transfer with perturbation operators as the specific structure whose invariance issue 10 asks about."
-    },
-    {
-      "source": 13,
-      "target": 11,
-      "type": "subquestion",
       "confidence": 0.9,
-      "reason": "Issue 11 is a concrete case of preserving intervention geometry across domains, directly matching the general question in 13."
+      "reason": "Issue 11 instantiates issue 10 by testing whether intervention transitions transfer better than static states."
     },
     {
-      "source": 13,
-      "target": 20,
+      "source": 10,
+      "target": 13,
       "type": "subquestion",
-      "confidence": 0.71,
-      "reason": "Compositional perturbation rules are one measurable property of intervention geometry."
+      "confidence": 0.89,
+      "reason": "Issue 13 narrows issue 10 to representation properties required to preserve transferable intervention structure."
     },
     {
-      "source": 14,
+      "source": 10,
       "target": 16,
       "type": "subquestion",
-      "confidence": 0.8,
-      "reason": "Issue 16 asks whether foundation-model embeddings help achieve the shared latent space envisioned by 14."
+      "confidence": 0.84,
+      "reason": "Issue 16 focuses issue 10 on whether FM embeddings improve identifiability under domain shift."
     },
     {
-      "source": 19,
-      "target": 11,
-      "type": "alternative",
-      "confidence": 0.73,
-      "reason": "Both concern perturbation transfer across domains; 19 focuses on failure conditions, 11 on the transferable signal itself."
+      "source": 11,
+      "target": 19,
+      "type": "testbed",
+      "confidence": 0.8,
+      "reason": "Failure-mode analysis across drugs and contexts provides a concrete test setting for intervention-transfer claims."
+    },
+    {
+      "source": 13,
+      "target": 21,
+      "type": "testbed",
+      "confidence": 0.76,
+      "reason": "Separating predictive vs mechanistic perturbation geometry is a concrete evaluation of representation properties."
     },
     {
       "source": 20,
-      "target": 21,
-      "type": "subquestion",
-      "confidence": 0.88,
-      "reason": "Issue 21 separates response-relevant from mechanistically faithful geometry, a specific test of compositional perturbation structure."
+      "target": 12,
+      "type": "testbed",
+      "confidence": 0.72,
+      "reason": "Chemical–genetic paired perturbations provide a concrete setting to test compositional perturbation operators."
     }
   ]
 }
