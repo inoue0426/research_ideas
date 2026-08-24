@@ -25,6 +25,7 @@ def main():
         "prompt": prompt,
         "stream": False,
         "format": "json",
+        "think": False,
         "options": {"temperature": 0},
     }
 
@@ -42,8 +43,15 @@ def main():
         raise RuntimeError(f"Ollama request failed: {exc}") from exc
 
     text = result.get("response")
+    # Compatibility fallback for thinking-capable models/older Ollama behavior.
     if not isinstance(text, str) or not text.strip():
-        raise RuntimeError(f"Ollama returned no response text: {result}")
+        text = result.get("thinking")
+
+    if not isinstance(text, str) or not text.strip():
+        raise RuntimeError(
+            "Ollama returned neither response nor thinking text. "
+            f"Keys: {sorted(result.keys())}"
+        )
 
     Path(args.output_file).write_text(text.strip() + "\n", encoding="utf-8")
     print(text.strip())
