@@ -1,1 +1,1 @@
-2026-08-24T15:59:00Z retry-qwen3-bootstrap-structured-output
+2026-08-24T12:13:30-04:00 reset-qwen3-v3-bootstrap
