@@ -1448,6 +1448,51 @@
       "reason": "Issue #34's evidence sufficiency approach has clearer practical impact and evaluation plan than Issue #30's data-dependent context-aware ADC model with unresolved data availability concerns.",
       "target": 34,
       "timestamp": "2026-08-24T20:05:47.537030+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "win",
+      "reason": "Issue #32 addresses a clear, novel, and tractable problem in molecular generation with LLMs, offering a differentiated contribution over existing methods by explicitly integrating Pareto frontier guidance. It has strong importance (multi-objective drug design is critical), high novelty potential (LLM-guided Pareto search is unexplored), and a clear next step (literature check + small PoC). Issue #16 lacks specificity on 'identifiability' and has unclear metrics for evaluation, making it less tractable and less impactful.",
+      "target": 32,
+      "timestamp": "2026-08-24T21:30:00.832421+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "win",
+      "reason": "Issue #32 has a well-defined question (LLM as Pareto-aware search policy) with clear evaluation metrics (hypervolume, frontier coverage), while Issue #21's question about perturbation geometry is too vague and depends on unavailable data (post-treatment measurements), reducing its tractability and novelty potential.",
+      "target": 32,
+      "timestamp": "2026-08-24T21:30:00.832421+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 33,
+      "outcome": "win",
+      "reason": "Issue #32's problem is directly actionable with a clear next step (literature check + PoC), whereas Issue #33's uncertainty about agent disagreement correlating with errors is speculative and lacks a concrete data source for validation, making it less tractable and less immediately impactful.",
+      "target": 32,
+      "timestamp": "2026-08-24T21:30:00.832421+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "win",
+      "reason": "Issue #32's Pareto-aware LLM approach has higher importance (directly impacts drug design efficiency) and clearer novelty (LLM-guided frontier expansion is unexplored) compared to Issue #30's context-aware ADC model, which hinges on uncertain data availability (ADCdb may lack cell-line-specific data) and has a less differentiated contribution.",
+      "target": 32,
+      "timestamp": "2026-08-24T21:30:00.832421+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
+      "outcome": "win",
+      "reason": "Issue #32's question is precise and testable (LLM-guided Pareto search), while Issue #20's 'compositional algebra' idea is overly abstract and lacks a clear path to evaluation (depends on epistasis, which is hard to measure), reducing its novelty potential and tractability.",
+      "target": 32,
+      "timestamp": "2026-08-24T21:30:00.832421+00:00"
     }
   ],
   "k_factor": 24,
@@ -1460,22 +1505,22 @@
         "13": 1461.05,
         "14": 1460.98,
         "15": 1498.0,
-        "16": 1556.16,
+        "16": 1543.76,
         "17": 1367.94,
         "19": 1598.34,
-        "20": 1588.37,
-        "21": 1564.56,
+        "20": 1576.52,
+        "21": 1552.29,
         "3": 1407.46,
-        "30": 1569.96,
+        "30": 1558.34,
         "31": 1631.55,
-        "32": 1544.44,
-        "33": 1567.02,
+        "32": 1604.51,
+        "33": 1555.09,
         "34": 1590.8,
         "4": 1437.75,
         "7": 1402.55,
         "9": 1399.71
       },
-      "timestamp": "2026-08-24T20:05:48.949283+00:00"
+      "timestamp": "2026-08-24T21:30:01.501079+00:00"
     }
   ],
   "ratings": {
@@ -1643,8 +1688,8 @@
     },
     "16": {
       "draws": 0,
-      "games": 18,
-      "losses": 6,
+      "games": 19,
+      "losses": 7,
       "opponents": [
         3,
         4,
@@ -1662,9 +1707,10 @@
         21,
         30,
         31,
+        32,
         34
       ],
-      "rating": 1556.16,
+      "rating": 1543.76,
       "wins": 12
     },
     "17": {
@@ -1719,8 +1765,8 @@
     },
     "20": {
       "draws": 0,
-      "games": 16,
-      "losses": 3,
+      "games": 17,
+      "losses": 4,
       "opponents": [
         3,
         4,
@@ -1737,15 +1783,16 @@
         19,
         21,
         30,
-        31
+        31,
+        32
       ],
-      "rating": 1588.37,
+      "rating": 1576.52,
       "wins": 13
     },
     "21": {
       "draws": 0,
-      "games": 22,
-      "losses": 8,
+      "games": 23,
+      "losses": 9,
       "opponents": [
         3,
         4,
@@ -1763,9 +1810,10 @@
         20,
         30,
         31,
+        32,
         34
       ],
-      "rating": 1564.56,
+      "rating": 1552.29,
       "wins": 14
     },
     "3": {
@@ -1795,8 +1843,8 @@
     },
     "30": {
       "draws": 0,
-      "games": 18,
-      "losses": 5,
+      "games": 19,
+      "losses": 6,
       "opponents": [
         3,
         4,
@@ -1814,9 +1862,10 @@
         20,
         21,
         31,
+        32,
         34
       ],
-      "rating": 1569.96,
+      "rating": 1558.34,
       "wins": 13
     },
     "31": {
@@ -1846,7 +1895,7 @@
     },
     "32": {
       "draws": 0,
-      "games": 6,
+      "games": 11,
       "losses": 1,
       "opponents": [
         4,
@@ -1854,24 +1903,30 @@
         13,
         14,
         15,
+        16,
+        20,
+        21,
+        30,
+        33,
         34
       ],
-      "rating": 1544.44,
-      "wins": 5
+      "rating": 1604.51,
+      "wins": 10
     },
     "33": {
       "draws": 0,
-      "games": 6,
-      "losses": 0,
+      "games": 7,
+      "losses": 1,
       "opponents": [
         4,
         12,
         13,
         14,
         15,
+        32,
         34
       ],
-      "rating": 1567.02,
+      "rating": 1555.09,
       "wins": 6
     },
     "34": {
