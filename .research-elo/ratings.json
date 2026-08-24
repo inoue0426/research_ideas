@@ -1192,6 +1192,41 @@
       "target": 19,
       "timestamp": "2026-08-23T15:07:32.969152+00:00",
       "week": "2026-W34"
+    },
+    {
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "31 has clearer problem statement, higher practical importance in biomedical reasoning, and more concrete next steps than 10's abstract structural question.",
+      "target": 31,
+      "timestamp": "2026-08-24T15:50:36.761100+00:00"
+    },
+    {
+      "opponent": 30,
+      "outcome": "loss",
+      "reason": "30 addresses a critical gap in ADC prediction with clear clinical relevance, while 31's evidence separation is more incremental.",
+      "target": 31,
+      "timestamp": "2026-08-24T15:50:36.761100+00:00"
+    },
+    {
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "15's mechanism arbitration tackles a real-world conflict in reasoning systems, whereas 31's evidence sufficiency is more narrowly focused.",
+      "target": 31,
+      "timestamp": "2026-08-24T15:50:36.761100+00:00"
+    },
+    {
+      "opponent": 21,
+      "outcome": "win",
+      "reason": "21's perturbation geometry separation has stronger falsifiability and potential to clarify mechanistic vs predictive models compared to 31's evidence question.",
+      "target": 31,
+      "timestamp": "2026-08-24T15:50:36.761100+00:00"
+    },
+    {
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "9's evaluation framework for multiple valid mechanisms is more immediately applicable to current AI reasoning systems than 31's evidence sufficiency.",
+      "target": 31,
+      "timestamp": "2026-08-24T15:50:36.761100+00:00"
     }
   ],
   "k_factor": 12,
@@ -1277,13 +1312,35 @@
         "9": 1483.58
       },
       "timestamp": "2026-08-23T15:07:33.040334+00:00"
+    },
+    {
+      "ratings": {
+        "10": 1492.83,
+        "11": 1520.95,
+        "12": 1532.51,
+        "13": 1561.58,
+        "14": 1473.8,
+        "15": 1490.8,
+        "16": 1476.1,
+        "17": 1441.16,
+        "19": 1534.08,
+        "20": 1529.62,
+        "21": 1509.86,
+        "3": 1437.97,
+        "30": 1504.53,
+        "31": 1517.49,
+        "4": 1528.38,
+        "7": 1470.27,
+        "9": 1478.07
+      },
+      "timestamp": "2026-08-24T15:50:37.408320+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 1,
-      "games": 26,
-      "losses": 13,
+      "games": 27,
+      "losses": 14,
       "opponents": [
         3,
         4,
@@ -1295,9 +1352,10 @@
         16,
         17,
         19,
-        20
+        20,
+        31
       ],
-      "rating": 1498.81,
+      "rating": 1492.83,
       "wins": 12
     },
     "11": {
@@ -1381,8 +1439,8 @@
     },
     "15": {
       "draws": 0,
-      "games": 14,
-      "losses": 7,
+      "games": 15,
+      "losses": 8,
       "opponents": [
         3,
         4,
@@ -1393,9 +1451,10 @@
         17,
         19,
         20,
-        30
+        30,
+        31
       ],
-      "rating": 1496.75,
+      "rating": 1490.8,
       "wins": 7
     },
     "16": {
@@ -1485,8 +1544,8 @@
     },
     "21": {
       "draws": 1,
-      "games": 12,
-      "losses": 4,
+      "games": 13,
+      "losses": 5,
       "opponents": [
         4,
         7,
@@ -1496,9 +1555,10 @@
         17,
         19,
         20,
-        30
+        30,
+        31
       ],
-      "rating": 1516.04,
+      "rating": 1509.86,
       "wins": 7
     },
     "3": {
@@ -1524,7 +1584,7 @@
     },
     "30": {
       "draws": 0,
-      "games": 8,
+      "games": 9,
       "losses": 4,
       "opponents": [
         4,
@@ -1533,9 +1593,24 @@
         15,
         16,
         20,
-        21
+        21,
+        31
       ],
-      "rating": 1498.4,
+      "rating": 1504.53,
+      "wins": 5
+    },
+    "31": {
+      "draws": 0,
+      "games": 5,
+      "losses": 1,
+      "opponents": [
+        9,
+        10,
+        15,
+        21,
+        30
+      ],
+      "rating": 1517.49,
       "wins": 4
     },
     "4": {
@@ -1587,8 +1662,8 @@
     },
     "9": {
       "draws": 0,
-      "games": 27,
-      "losses": 15,
+      "games": 28,
+      "losses": 16,
       "opponents": [
         3,
         4,
@@ -1603,9 +1678,10 @@
         17,
         19,
         20,
-        21
+        21,
+        31
       ],
-      "rating": 1483.58,
+      "rating": 1478.07,
       "wins": 12
     }
   },
