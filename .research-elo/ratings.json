@@ -1268,6 +1268,51 @@
       "reason": "Issue #21 wins over #16 due to clearer question quality and higher practical relevance; #16's foundation model identifiability question is highly theoretical with no clear path to validation, while #21's geometry separation has a concrete data need and scientific impact.",
       "target": 21,
       "timestamp": "2026-08-24T18:31:32.459584+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 14,
+      "outcome": "win",
+      "reason": "Issue #32 has clearer importance (solving multi-objective drug design trade-offs matters practically), better question quality (Pareto-aware LLM search is a defined problem), higher novelty potential (explicit frontier-conditioned generation is untested), and stronger tractability (small PoC with existing metrics like hypervolume). Issue #14 lacks a concrete definition of 'causal geometry' and has higher uncertainty.",
+      "target": 32,
+      "timestamp": "2026-08-24T18:56:08.802753+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "Issue #32 has higher importance (directly impacts drug design efficiency), clearer question (Pareto-aware search policy), and better tractability (comparable to PMMG with LLM integration). Issue #13 is more abstract and lacks a defined benchmark for testing representation properties.",
+      "target": 32,
+      "timestamp": "2026-08-24T18:56:08.802753+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "Issue #32 addresses a concrete, high-impact problem (multi-objective molecular generation) with a clear path to evaluation (hypervolume, oracle calls). Issue #15's 'mechanism arbitration' is vague and lacks a defined benchmark for conflicting evidence.",
+      "target": 32,
+      "timestamp": "2026-08-24T18:56:08.802753+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "Issue #32 has higher importance (directly applicable to drug design), clearer question (LLM as Pareto-aware search policy), and better tractability (uses existing molecular generation frameworks). Issue #4's spatial microenvironment question is less defined and depends on unverified dataset availability.",
+      "target": 32,
+      "timestamp": "2026-08-24T18:56:08.802753+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "Issue #32 has stronger novelty (frontier-conditioned generation is untested), higher importance (improves multi-objective drug design), and clearer evaluation metrics. Issue #12's 'shared perturbation space' is more speculative and depends on dataset coverage that may not exist.",
+      "target": 32,
+      "timestamp": "2026-08-24T18:56:08.802753+00:00"
     }
   ],
   "k_factor": 24,
@@ -1276,10 +1321,10 @@
       "ratings": {
         "10": 1422.54,
         "11": 1426.59,
-        "12": 1539.97,
-        "13": 1493.21,
-        "14": 1494.35,
-        "15": 1534.76,
+        "12": 1528.15,
+        "13": 1481.85,
+        "14": 1482.55,
+        "15": 1522.36,
         "16": 1568.67,
         "17": 1367.94,
         "19": 1598.34,
@@ -1288,11 +1333,12 @@
         "3": 1407.46,
         "30": 1582.08,
         "31": 1631.55,
-        "4": 1464.98,
+        "32": 1556.98,
+        "4": 1455.38,
         "7": 1402.55,
         "9": 1399.71
       },
-      "timestamp": "2026-08-24T18:31:33.337662+00:00"
+      "timestamp": "2026-08-24T18:56:09.672452+00:00"
     }
   ],
   "ratings": {
@@ -1348,8 +1394,8 @@
     },
     "12": {
       "draws": 0,
-      "games": 17,
-      "losses": 7,
+      "games": 18,
+      "losses": 8,
       "opponents": [
         3,
         4,
@@ -1366,12 +1412,39 @@
         20,
         21,
         30,
-        31
+        31,
+        32
       ],
-      "rating": 1539.97,
+      "rating": 1528.15,
       "wins": 10
     },
     "13": {
+      "draws": 0,
+      "games": 18,
+      "losses": 10,
+      "opponents": [
+        3,
+        4,
+        7,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21,
+        30,
+        31,
+        32
+      ],
+      "rating": 1481.85,
+      "wins": 8
+    },
+    "14": {
       "draws": 0,
       "games": 17,
       "losses": 9,
@@ -1383,7 +1456,7 @@
         10,
         11,
         12,
-        14,
+        13,
         15,
         16,
         17,
@@ -1391,14 +1464,15 @@
         20,
         21,
         30,
-        31
+        31,
+        32
       ],
-      "rating": 1493.21,
+      "rating": 1482.55,
       "wins": 8
     },
-    "14": {
+    "15": {
       "draws": 0,
-      "games": 16,
+      "games": 18,
       "losses": 8,
       "opponents": [
         3,
@@ -1409,31 +1483,6 @@
         11,
         12,
         13,
-        15,
-        16,
-        17,
-        19,
-        20,
-        21,
-        30,
-        31
-      ],
-      "rating": 1494.35,
-      "wins": 8
-    },
-    "15": {
-      "draws": 0,
-      "games": 17,
-      "losses": 7,
-      "opponents": [
-        3,
-        4,
-        7,
-        9,
-        10,
-        11,
-        12,
-        13,
         14,
         16,
         17,
@@ -1441,9 +1490,10 @@
         20,
         21,
         30,
-        31
+        31,
+        32
       ],
-      "rating": 1534.76,
+      "rating": 1522.36,
       "wins": 10
     },
     "16": {
@@ -1646,10 +1696,24 @@
       "rating": 1631.55,
       "wins": 15
     },
+    "32": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "opponents": [
+        4,
+        12,
+        13,
+        14,
+        15
+      ],
+      "rating": 1556.98,
+      "wins": 5
+    },
     "4": {
       "draws": 0,
-      "games": 16,
-      "losses": 10,
+      "games": 17,
+      "losses": 11,
       "opponents": [
         3,
         7,
@@ -1666,9 +1730,10 @@
         20,
         21,
         30,
-        31
+        31,
+        32
       ],
-      "rating": 1464.98,
+      "rating": 1455.38,
       "wins": 6
     },
     "7": {
