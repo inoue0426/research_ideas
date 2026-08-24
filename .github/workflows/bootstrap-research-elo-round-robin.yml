@@ -1,0 +1,126 @@
+name: Bootstrap Research Elo Round Robin
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".research-elo/round-robin-trigger.txt"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: research-elo
+  cancel-in-progress: false
+
+jobs:
+  bootstrap:
+    runs-on: [self-hosted, macOS, ARM64]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Reset Elo state
+        run: |
+          cat > .research-elo/ratings.json <<'JSON'
+          {
+            "version": 1,
+            "k_factor": 24,
+            "ratings": {},
+            "history": []
+          }
+          JSON
+
+      - name: Build complete round-robin schedule
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python3 scripts/research_elo_round_robin_v2.py --output /tmp/research-elo-round-robin.json
+          cat /tmp/research-elo-round-robin.json
+
+      - name: Judge every unordered pair once
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          OLLAMA_MODEL: qwen3:30b
+        run: |
+          set -euo pipefail
+
+          python3 - <<'PY' > /tmp/research-elo-batches.tsv
+          import json
+          schedule = json.load(open('/tmp/research-elo-round-robin.json'))
+          for batch in schedule['batches']:
+              print(str(batch['target']) + '\t' + ' '.join(map(str, batch['opponents'])))
+          PY
+
+          while IFS=$'\t' read -r target opponents; do
+            echo "=== Target #$target vs $opponents ==="
+            python3 scripts/research_elo_core_v2.py prepare \
+              --issue "$target" \
+              --opponents $opponents \
+              --prompt-file /tmp/research-elo-prompt.txt \
+              --context-file /tmp/research-elo-context.json
+
+            python3 scripts/ollama_judge_v3.py \
+              --prompt-file /tmp/research-elo-prompt.txt \
+              --output-file /tmp/research-elo-result.txt \
+              --retries 3
+
+            python3 scripts/research_elo_core_v2.py apply \
+              --issue "$target" \
+              --context-file /tmp/research-elo-context.json \
+              --result-file /tmp/research-elo-result.txt \
+              --no-comment
+          done < /tmp/research-elo-batches.tsv
+
+      - name: Validate round-robin coverage
+        run: |
+          python3 - <<'PY'
+          import json
+          from collections import Counter
+
+          schedule = json.load(open('/tmp/research-elo-round-robin.json'))
+          state = json.load(open('.research-elo/ratings.json'))
+          numbers = schedule['issues']
+          expected_games = len(numbers) - 1
+          expected_pairs = schedule['pair_count']
+
+          for number in numbers:
+              entry = state['ratings'].get(str(number), {})
+              games = int(entry.get('games', 0))
+              if games != expected_games:
+                  raise SystemExit(f'#{number}: expected {expected_games} games, got {games}')
+
+          counts = Counter()
+          for event in state.get('history', []):
+              pair = tuple(sorted((int(event['target']), int(event['opponent']))))
+              counts[pair] += 1
+
+          if len(counts) != expected_pairs:
+              raise SystemExit(f'Expected {expected_pairs} unique pairs, got {len(counts)}')
+          bad = {pair: n for pair, n in counts.items() if n != 1}
+          if bad:
+              raise SystemExit(f'Pairs not played exactly once: {bad}')
+          print(f'Validated {expected_pairs} unique pairs; every issue has {expected_games} games.')
+          PY
+
+      - name: Render README ranking
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python3 scripts/render_research_elo.py
+
+      - name: Commit round-robin ratings
+        run: |
+          if git diff --quiet -- .research-elo/ratings.json README.md; then
+            echo "No rating or README change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .research-elo/ratings.json README.md
+          git commit -m "Bootstrap Research Elo with complete round robin"
+          git push
