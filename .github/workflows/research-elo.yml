@@ -48,12 +48,12 @@ jobs:
           echo "Selected issue #$number"
           echo "number=$number" >> "$GITHUB_OUTPUT"
 
-      - name: Prepare pairwise judging prompt
+      - name: Prepare balanced pairwise judging prompt
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
-          python3 scripts/research_elo.py prepare \
+          python3 scripts/research_elo_core_v2.py prepare \
             --issue "${{ steps.issue.outputs.number }}" \
             --prompt-file /tmp/research-elo-prompt.txt \
             --context-file /tmp/research-elo-context.json
@@ -71,8 +71,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
+          OLLAMA_MODEL: qwen3:30b
         run: |
-          python3 scripts/research_elo.py apply \
+          python3 scripts/research_elo_core_v2.py apply \
             --issue "${{ steps.issue.outputs.number }}" \
             --context-file /tmp/research-elo-context.json \
             --result-file /tmp/research-elo-result.txt
