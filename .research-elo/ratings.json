@@ -1223,6 +1223,51 @@
       "reason": "Issue #21 is more deserving as it poses a clear, falsifiable question about separating response-relevant from mechanistically faithful perturbation geometry, with a concrete next step (requiring datasets with both molecular post-treatment measurements and response labels). Issue #16's question is less clear and relies on unmeasurable proxies for identifiability, making it less tractable and falsifiable.",
       "target": 16,
       "timestamp": "2026-08-24T16:47:27.507359+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "Issue #21 wins over #15 due to clearer question quality and higher tractability; #15's 'mechanism arbitration' lacks a defined benchmark for testing, while #21's perturbation geometry separation has a concrete data need (post-treatment profiles + response labels) that could be validated with existing datasets.",
+      "target": 21,
+      "timestamp": "2026-08-24T18:31:32.459584+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "Issue #21 wins over #12 due to stronger novelty potential and falsifiability; #12's context-aware perturbation space is a methodological extension with unclear differentiation, while #21's core question about distinct geometries is directly testable with available data.",
+      "target": 21,
+      "timestamp": "2026-08-24T18:31:32.459584+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "loss",
+      "reason": "Issue #30 wins over #21 due to higher importance and leverage; #30 addresses a critical gap in ADC development (context-aware prediction) with direct clinical impact, while #21's perturbation geometry question is more theoretical with less immediate application.",
+      "target": 21,
+      "timestamp": "2026-08-24T18:31:32.459584+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "Issue #21 wins over #13 due to better tractability and falsifiability; #13's representation properties question is too abstract without a defined benchmark, while #21's geometry separation can be tested with existing data requirements.",
+      "target": 21,
+      "timestamp": "2026-08-24T18:31:32.459584+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "win",
+      "reason": "Issue #21 wins over #16 due to clearer question quality and higher practical relevance; #16's foundation model identifiability question is highly theoretical with no clear path to validation, while #21's geometry separation has a concrete data need and scientific impact.",
+      "target": 21,
+      "timestamp": "2026-08-24T18:31:32.459584+00:00"
     }
   ],
   "k_factor": 24,
@@ -1231,23 +1276,23 @@
       "ratings": {
         "10": 1422.54,
         "11": 1426.59,
-        "12": 1551.9,
-        "13": 1503.47,
+        "12": 1539.97,
+        "13": 1493.21,
         "14": 1494.35,
-        "15": 1546.94,
-        "16": 1581.25,
+        "15": 1534.76,
+        "16": 1568.67,
         "17": 1367.94,
         "19": 1598.34,
         "20": 1588.37,
-        "21": 1541.83,
+        "21": 1576.93,
         "3": 1407.46,
-        "30": 1570.23,
+        "30": 1582.08,
         "31": 1631.55,
         "4": 1464.98,
         "7": 1402.55,
         "9": 1399.71
       },
-      "timestamp": "2026-08-24T16:47:27.797168+00:00"
+      "timestamp": "2026-08-24T18:31:33.337662+00:00"
     }
   ],
   "ratings": {
@@ -1303,8 +1348,8 @@
     },
     "12": {
       "draws": 0,
-      "games": 16,
-      "losses": 6,
+      "games": 17,
+      "losses": 7,
       "opponents": [
         3,
         4,
@@ -1323,13 +1368,13 @@
         30,
         31
       ],
-      "rating": 1551.9,
+      "rating": 1539.97,
       "wins": 10
     },
     "13": {
       "draws": 0,
-      "games": 16,
-      "losses": 8,
+      "games": 17,
+      "losses": 9,
       "opponents": [
         3,
         4,
@@ -1348,7 +1393,7 @@
         30,
         31
       ],
-      "rating": 1503.47,
+      "rating": 1493.21,
       "wins": 8
     },
     "14": {
@@ -1378,8 +1423,8 @@
     },
     "15": {
       "draws": 0,
-      "games": 16,
-      "losses": 6,
+      "games": 17,
+      "losses": 7,
       "opponents": [
         3,
         4,
@@ -1398,13 +1443,13 @@
         30,
         31
       ],
-      "rating": 1546.94,
+      "rating": 1534.76,
       "wins": 10
     },
     "16": {
       "draws": 0,
-      "games": 16,
-      "losses": 4,
+      "games": 17,
+      "losses": 5,
       "opponents": [
         3,
         4,
@@ -1423,7 +1468,7 @@
         30,
         31
       ],
-      "rating": 1581.25,
+      "rating": 1568.67,
       "wins": 12
     },
     "17": {
@@ -1503,8 +1548,8 @@
     },
     "21": {
       "draws": 0,
-      "games": 16,
-      "losses": 6,
+      "games": 21,
+      "losses": 7,
       "opponents": [
         3,
         4,
@@ -1523,8 +1568,8 @@
         30,
         31
       ],
-      "rating": 1541.83,
-      "wins": 10
+      "rating": 1576.93,
+      "wins": 14
     },
     "3": {
       "draws": 0,
@@ -1553,7 +1598,7 @@
     },
     "30": {
       "draws": 0,
-      "games": 16,
+      "games": 17,
       "losses": 4,
       "opponents": [
         3,
@@ -1573,8 +1618,8 @@
         21,
         31
       ],
-      "rating": 1570.23,
-      "wins": 12
+      "rating": 1582.08,
+      "wins": 13
     },
     "31": {
       "draws": 0,
