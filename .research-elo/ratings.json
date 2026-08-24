@@ -1403,6 +1403,51 @@
       "reason": "#34 wins over #4 because it has a well-specified, testable problem with a clear evaluation framework, while #4's question about spatial microenvironment effects depends on uncertain data availability and lacks a defined methodology.",
       "target": 34,
       "timestamp": "2026-08-24T19:58:00.466092+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 33,
+      "outcome": "loss",
+      "reason": "Issue #33 addresses a clear, actionable problem (multi-agent uncertainty quantification) with strong practical relevance to biomedical reasoning systems, while Issue #34's evidence sufficiency framing is less novel and lacks concrete data validation plans.",
+      "target": 34,
+      "timestamp": "2026-08-24T20:05:47.537030+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 32,
+      "outcome": "win",
+      "reason": "Issue #34's evidence sufficiency framework provides a more tractable, well-defined research question with clear evaluation metrics compared to Issue #32's unverified novelty claim about LLM-guided Pareto optimization.",
+      "target": 34,
+      "timestamp": "2026-08-24T20:05:47.537030+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "win",
+      "reason": "Issue #34's concrete evaluation plan for answerability estimation is more immediately actionable than Issue #16's abstract identifiability question lacking measurable proxies.",
+      "target": 34,
+      "timestamp": "2026-08-24T20:05:47.537030+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "win",
+      "reason": "Issue #34's selective prediction framework has stronger falsifiability and tractability than Issue #21's unverifiable geometry separation question due to missing required datasets.",
+      "target": 34,
+      "timestamp": "2026-08-24T20:05:47.537030+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "win",
+      "reason": "Issue #34's evidence sufficiency approach has clearer practical impact and evaluation plan than Issue #30's data-dependent context-aware ADC model with unresolved data availability concerns.",
+      "target": 34,
+      "timestamp": "2026-08-24T20:05:47.537030+00:00"
     }
   ],
   "k_factor": 24,
@@ -1415,22 +1460,22 @@
         "13": 1461.05,
         "14": 1460.98,
         "15": 1498.0,
-        "16": 1568.67,
+        "16": 1556.16,
         "17": 1367.94,
         "19": 1598.34,
         "20": 1588.37,
-        "21": 1576.93,
+        "21": 1564.56,
         "3": 1407.46,
-        "30": 1582.08,
+        "30": 1569.96,
         "31": 1631.55,
-        "32": 1556.98,
-        "33": 1555.09,
-        "34": 1553.19,
+        "32": 1544.44,
+        "33": 1567.02,
+        "34": 1590.8,
         "4": 1437.75,
         "7": 1402.55,
         "9": 1399.71
       },
-      "timestamp": "2026-08-24T19:58:01.095308+00:00"
+      "timestamp": "2026-08-24T20:05:48.949283+00:00"
     }
   ],
   "ratings": {
@@ -1598,8 +1643,8 @@
     },
     "16": {
       "draws": 0,
-      "games": 17,
-      "losses": 5,
+      "games": 18,
+      "losses": 6,
       "opponents": [
         3,
         4,
@@ -1616,9 +1661,10 @@
         20,
         21,
         30,
-        31
+        31,
+        34
       ],
-      "rating": 1568.67,
+      "rating": 1556.16,
       "wins": 12
     },
     "17": {
@@ -1698,8 +1744,8 @@
     },
     "21": {
       "draws": 0,
-      "games": 21,
-      "losses": 7,
+      "games": 22,
+      "losses": 8,
       "opponents": [
         3,
         4,
@@ -1716,9 +1762,10 @@
         19,
         20,
         30,
-        31
+        31,
+        34
       ],
-      "rating": 1576.93,
+      "rating": 1564.56,
       "wins": 14
     },
     "3": {
@@ -1748,8 +1795,8 @@
     },
     "30": {
       "draws": 0,
-      "games": 17,
-      "losses": 4,
+      "games": 18,
+      "losses": 5,
       "opponents": [
         3,
         4,
@@ -1766,9 +1813,10 @@
         19,
         20,
         21,
-        31
+        31,
+        34
       ],
-      "rating": 1582.08,
+      "rating": 1569.96,
       "wins": 13
     },
     "31": {
@@ -1798,45 +1846,52 @@
     },
     "32": {
       "draws": 0,
-      "games": 5,
-      "losses": 0,
+      "games": 6,
+      "losses": 1,
       "opponents": [
         4,
         12,
         13,
         14,
-        15
+        15,
+        34
       ],
-      "rating": 1556.98,
+      "rating": 1544.44,
       "wins": 5
     },
     "33": {
       "draws": 0,
-      "games": 5,
+      "games": 6,
       "losses": 0,
       "opponents": [
         4,
         12,
         13,
         14,
-        15
+        15,
+        34
       ],
-      "rating": 1555.09,
-      "wins": 5
+      "rating": 1567.02,
+      "wins": 6
     },
     "34": {
       "draws": 0,
-      "games": 5,
-      "losses": 0,
+      "games": 10,
+      "losses": 1,
       "opponents": [
         4,
         12,
         13,
         14,
-        15
+        15,
+        16,
+        21,
+        30,
+        32,
+        33
       ],
-      "rating": 1553.19,
-      "wins": 5
+      "rating": 1590.8,
+      "wins": 9
     },
     "4": {
       "draws": 0,
