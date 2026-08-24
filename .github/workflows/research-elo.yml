@@ -62,9 +62,10 @@ jobs:
         env:
           OLLAMA_MODEL: qwen3:30b
         run: |
-          python3 scripts/ollama_judge.py \
+          python3 scripts/ollama_judge_v3.py \
             --prompt-file /tmp/research-elo-prompt.txt \
-            --output-file /tmp/research-elo-result.txt
+            --output-file /tmp/research-elo-result.txt \
+            --retries 3
 
       - name: Apply Elo updates and comment on issue
         env:

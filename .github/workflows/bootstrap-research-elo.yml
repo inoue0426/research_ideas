@@ -50,7 +50,7 @@ jobs:
               --prompt-file /tmp/research-elo-prompt.txt \
               --context-file /tmp/research-elo-context.json
 
-            python3 scripts/ollama_judge_v2.py \
+            python3 scripts/ollama_judge_v3.py \
               --prompt-file /tmp/research-elo-prompt.txt \
               --output-file /tmp/research-elo-result.txt \
               --retries 3
