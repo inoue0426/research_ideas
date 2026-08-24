@@ -1,683 +1,1343 @@
 {
   "history": [
     {
-      "opponent": 16,
-      "outcome": "loss",
-      "reason": "Issue #16 wins over #3 due to higher importance (solving foundational identifiability issues in cross-domain translation), clearer question (not method-focused), and stronger leverage (principled explanation for FM utility beyond accuracy).",
-      "target": 3,
-      "timestamp": "2026-08-24T16:13:43.789868+00:00"
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "#11 wins over #15 because it addresses a clearer, more testable question about transferable biological structures with a direct path to validation using existing perturbation data, while #15's mechanism arbitration faces significant uncertainty in creating a realistic benchmark for conflicting evidence.",
+      "target": 11,
+      "timestamp": "2026-08-24T16:43:48.478677+00:00"
     },
     {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "#11 wins over #4 because it proposes a more immediately actionable question about intervention geometry transferability with a concrete next check using perturbation data, whereas #4's spatial microenvironment question lacks clear evidence of sufficient matched datasets to separate confounding factors.",
+      "target": 11,
+      "timestamp": "2026-08-24T16:43:48.478677+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "#11 wins over #12 because it focuses on a fundamental transferability question with broader implications for cross-domain biology, while #12's context-aware perturbation space is more narrowly focused on decomposition of perturbation components with less clear novelty or immediate applicability.",
+      "target": 11,
+      "timestamp": "2026-08-24T16:43:48.478677+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "#11 wins over #3 because #11's question about intervention geometry transfer is more directly testable with existing data and has clearer scientific importance, while #3's iterative optimization approach for mechanism arbitration is speculative and lacks a defined benchmark for evaluation.",
+      "target": 11,
+      "timestamp": "2026-08-24T16:43:48.478677+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "#11 wins over #10 because #11's specific question about intervention geometry transfer is more focused and testable with a clear next step, whereas #10's broader question about transferable structures is vague and lacks a defined method for systematic testing.",
+      "target": 11,
+      "timestamp": "2026-08-24T16:43:48.478677+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "Issue #13 wins over #11 by addressing a fundamental question about representation properties that could establish general principles, rather than just proposing a specific method like #11's intervention geometry transfer.",
+      "target": 11,
+      "timestamp": "2026-08-24T16:43:55.809749+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "Issue #9 wins over #11 by tackling a critical evaluation challenge in mechanistic reasoning that has broader implications for AI benchmarking, whereas #11 focuses on a narrower transfer question.",
+      "target": 11,
+      "timestamp": "2026-08-24T16:43:55.809749+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
       "opponent": 17,
       "outcome": "loss",
-      "reason": "Issue #17 wins over #3 due to clearer human-in-the-loop question (not just method proposal), higher practical importance (addressing trust in mechanistic AI), and stronger novelty (combining expert correction with model refinement).",
-      "target": 3,
-      "timestamp": "2026-08-24T16:13:43.789868+00:00"
+      "reason": "Issue #17 wins over #11 by proposing a human-in-the-loop approach that directly addresses trustworthiness in mechanistic AI, which is more practically impactful than #11's theoretical transfer question.",
+      "target": 11,
+      "timestamp": "2026-08-24T16:43:55.809749+00:00"
     },
     {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 7,
+      "outcome": "loss",
+      "reason": "Issue #7 wins over #11 by offering a concrete, actionable solution for spatial drug response prediction with uncertainty quantification, which has immediate practical utility compared to #11's abstract transfer question.",
+      "target": 11,
+      "timestamp": "2026-08-24T16:43:55.809749+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "loss",
+      "reason": "Issue #19 wins over #11 by focusing on failure modes of perturbation transfer, which provides actionable criteria for when transfer is reliable, making it more practically valuable than #11's general transfer question.",
+      "target": 11,
+      "timestamp": "2026-08-24T16:43:55.809749+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "loss",
+      "reason": "#31 wins over #11 because it addresses a clear, actionable question about evidence selection and sufficiency in biomedical reasoning, with a direct path to improving reliability of LLMs in practical settings, while #11's question is more abstract and lacks a clear empirical path.",
+      "target": 11,
+      "timestamp": "2026-08-24T16:44:03.332964+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 14,
+      "outcome": "loss",
+      "reason": "#14 wins over #11 because it proposes a concrete way to validate multimodal representations using perturbational evidence, addressing a key gap in causal biology, whereas #11's focus on geometry transfer lacks a defined empirical test.",
+      "target": 11,
+      "timestamp": "2026-08-24T16:44:03.332964+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "loss",
+      "reason": "#21 wins over #11 because it directly tackles the distinction between predictive and mechanistic representations with a clear experimental design requiring specific data, while #11's question is more speculative without a defined validation method.",
+      "target": 11,
+      "timestamp": "2026-08-24T16:44:03.332964+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
+      "outcome": "loss",
+      "reason": "#20 wins over #11 because it proposes a testable compositional algebra for perturbations with clear practical implications for drug combination prediction, whereas #11's geometry transfer idea lacks a defined empirical validation path.",
+      "target": 11,
+      "timestamp": "2026-08-24T16:44:03.332964+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "loss",
+      "reason": "#30 wins over #11 because it addresses a practical, data-driven problem in ADC drug development with a clear path to improving predictive models, while #11's theoretical geometry question has no immediate practical application.",
+      "target": 11,
+      "timestamp": "2026-08-24T16:44:03.332964+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "loss",
+      "reason": "Issue #16 addresses a fundamental question about foundation models enabling cross-domain translation, with clear importance in explaining when FMs actually help beyond just accuracy. It has higher novelty potential (question vs. method) and better leverage for broader work, while issue #11's focus on perturbation geometry is more narrow and less directly tied to a core principle.",
+      "target": 11,
+      "timestamp": "2026-08-24T16:44:05.904210+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "loss",
+      "reason": "Issue #15 wins over #10 by addressing a clear, actionable problem (mechanism arbitration under conflicting evidence) with a well-defined evaluation challenge, while #10's question about transferable structures remains vague and lacks a concrete testing plan.",
+      "target": 10,
+      "timestamp": "2026-08-24T16:44:12.948986+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "Issue #10 wins over #17 by posing a fundamental question about biological representation transferability with higher novelty potential and broader scientific impact, while #17's focus on human-in-the-loop refinement lacks clear differentiation from HCI work.",
+      "target": 10,
+      "timestamp": "2026-08-24T16:44:12.948986+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 14,
+      "outcome": "win",
+      "reason": "Issue #10 wins over #14 by framing a clearer, more testable question about causal geometry transferability, whereas #14's 'causal geometry' concept is undefined and lacks a practical empirical test.",
+      "target": 10,
+      "timestamp": "2026-08-24T16:44:12.948986+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "Issue #9 wins over #10 by directly addressing a critical gap in evaluation methodology for mechanistic reasoning (multiple valid explanations), which is more immediately impactful than #10's abstract transferability question.",
+      "target": 10,
+      "timestamp": "2026-08-24T16:44:12.948986+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "Issue #10 wins over #3 by presenting a more fundamental and broadly applicable question about transferable structures, while #3's iterative optimization proposal is a narrow methodological extension with unclear novelty.",
+      "target": 10,
+      "timestamp": "2026-08-24T16:44:12.948986+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
       "opponent": 4,
       "outcome": "loss",
-      "reason": "Issue #4 wins over #3 due to clearer question (spatial microenvironment vs. cell-intrinsic effects), higher importance (identifying emergent drug sensitivity properties), and stronger tractability (existing spatial datasets may suffice).",
-      "target": 3,
-      "timestamp": "2026-08-24T16:13:43.789868+00:00"
+      "reason": "Issue #4 is more important as it addresses a fundamental question about drug sensitivity that directly impacts clinical decision-making, while issue #10 focuses on abstract structural transfer which lacks clear practical application.",
+      "target": 10,
+      "timestamp": "2026-08-24T16:44:20.273825+00:00"
     },
     {
-      "opponent": 13,
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
       "outcome": "loss",
-      "reason": "Issue #13 wins over #3 due to clearer question (representation properties for intervention geometry), higher novelty (establishing general principles rather than proposing models), and stronger leverage (explaining why some representations transfer better).",
-      "target": 3,
-      "timestamp": "2026-08-24T16:13:43.789868+00:00"
+      "reason": "Issue #20 has higher novelty potential with its algebraic structure proposal, which could enable generalization to unseen perturbations, whereas issue #10's structural transfer question is less concrete and harder to test.",
+      "target": 10,
+      "timestamp": "2026-08-24T16:44:20.273825+00:00"
     },
     {
-      "opponent": 31,
-      "outcome": "loss",
-      "reason": "Issue #31 wins over #3 due to clearer question (separating evidence selection from sufficiency), higher importance (reliable biomedical reasoning requires abstention), and stronger falsifiability (testable via distractor-aware SFT and entity-disjoint splits).",
-      "target": 3,
-      "timestamp": "2026-08-24T16:13:43.789868+00:00"
-    },
-    {
-      "opponent": 13,
-      "outcome": "loss",
-      "reason": "Issue #13 is more deserving than #4 due to clearer question quality, higher novelty potential in representation theory, and stronger leverage for broader biological AI applications.",
-      "target": 4,
-      "timestamp": "2026-08-24T16:13:51.105663+00:00"
-    },
-    {
-      "opponent": 17,
-      "outcome": "win",
-      "reason": "Issue #4 is more deserving than #17 due to higher importance in drug response prediction, clearer question, and more tractable experimental validation compared to the HCI-focused uncertainty in #17.",
-      "target": 4,
-      "timestamp": "2026-08-24T16:13:51.105663+00:00"
-    },
-    {
-      "opponent": 31,
-      "outcome": "loss",
-      "reason": "Issue #31 is more deserving than #4 due to higher importance in reliable biomedical reasoning, stronger falsifiability through evidence sufficiency testing, and clearer tractability with pilot results.",
-      "target": 4,
-      "timestamp": "2026-08-24T16:13:51.105663+00:00"
-    },
-    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
       "opponent": 16,
       "outcome": "loss",
-      "reason": "Issue #16 is more deserving than #4 due to higher novelty in foundation model theory, stronger leverage for explaining domain transfer, and more concrete next steps for identifiability metrics.",
-      "target": 4,
-      "timestamp": "2026-08-24T16:13:51.105663+00:00"
+      "reason": "Issue #16 provides a principled explanation for foundation models' utility in domain transfer, addressing a critical gap in understanding why FMs work, unlike issue #10's more abstract structural question.",
+      "target": 10,
+      "timestamp": "2026-08-24T16:44:20.273825+00:00"
     },
     {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
       "opponent": 12,
       "outcome": "loss",
-      "reason": "Issue #12 is more deserving than #4 due to higher importance in target validation, clearer question with decomposition framework, and stronger tractability with existing Chem2Gen-Bench data.",
-      "target": 4,
-      "timestamp": "2026-08-24T16:13:51.105663+00:00"
+      "reason": "Issue #12 has higher practical importance for target validation and drug development, with a clear path to separating shared and context-specific components, while issue #10's structural transfer question lacks direct application.",
+      "target": 10,
+      "timestamp": "2026-08-24T16:44:20.273825+00:00"
     },
     {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "Issue #13 is more tractable and has higher leverage as it establishes general principles for representation design, whereas issue #10's question is too vague and lacks a clear testing framework.",
+      "target": 10,
+      "timestamp": "2026-08-24T16:44:20.273825+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "#10 wins over #7 by having clearer scientific importance in biological transfer learning and more tractable testing with defined structural properties, while #7's uncertainty about dataset availability and INR advantages remains unresolved.",
+      "target": 10,
+      "timestamp": "2026-08-24T16:44:27.801822+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "loss",
+      "reason": "#21 wins over #10 by directly addressing a fundamental distinction between predictive and mechanistic representations with clear evaluation criteria, whereas #10's question about transferable structures lacks concrete testing methods.",
+      "target": 10,
+      "timestamp": "2026-08-24T16:44:27.801822+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "loss",
+      "reason": "#19 wins over #10 by focusing on failure modes of transfer which provides actionable criteria for when to use perturbation models, while #10's question about invariant structures remains too abstract without defined metrics.",
+      "target": 10,
+      "timestamp": "2026-08-24T16:44:27.801822+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "loss",
+      "reason": "#31 wins over #10 by addressing a critical reliability gap in biomedical reasoning (abstention) with clear separation of evidence selection and sufficiency, whereas #10's question lacks falsifiability and concrete testing pathways.",
+      "target": 10,
+      "timestamp": "2026-08-24T16:44:27.801822+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "loss",
+      "reason": "#30 wins over #10 by offering a concrete shift from generic ADC prediction to context-aware response modeling with clear biological relevance, while #10's question about transferable structures remains too vague for practical implementation.",
+      "target": 10,
+      "timestamp": "2026-08-24T16:44:27.801822+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "loss",
+      "reason": "Issue #21 wins over #15 due to clearer question quality and higher tractability; it directly tests a fundamental distinction in representation learning with a concrete evaluation path, while #15's benchmark uncertainty remains unresolved.",
+      "target": 15,
+      "timestamp": "2026-08-24T16:44:35.096944+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "loss",
+      "reason": "Issue #30 wins over #15 due to higher practical importance in ADC drug development and clearer data feasibility; #15's benchmark uncertainty is unresolved while #30's data check is actionable.",
+      "target": 15,
+      "timestamp": "2026-08-24T16:44:35.096944+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "Issue #15 wins over #3 due to stronger novelty potential and falsifiability; #3's iterative approach lacks a clear evaluation target while #15's mechanism arbitration has a defined benchmark path.",
+      "target": 15,
+      "timestamp": "2026-08-24T16:44:35.096944+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
+      "outcome": "loss",
+      "reason": "Issue #20 wins over #15 due to higher leverage and novelty potential; it proposes a compositional algebra that could generalize to unseen combinations, unlike #15's narrower arbitration focus.",
+      "target": 15,
+      "timestamp": "2026-08-24T16:44:35.096944+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "Issue #15 wins over #17 due to stronger scientific importance and falsifiability; #17's human-in-the-loop approach lacks clear evaluation metrics beyond HCI.",
+      "target": 15,
+      "timestamp": "2026-08-24T16:44:35.096944+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
       "opponent": 14,
-      "outcome": "loss",
-      "reason": "Issue #14 addresses a fundamental gap in causal representation learning, offering a clear question about validating shared latent spaces with perturbational evidence, which has higher importance and novelty potential than Issue #7's focus on uncertainty-aware INRs.",
-      "target": 7,
-      "timestamp": "2026-08-24T16:13:58.441767+00:00"
+      "outcome": "win",
+      "reason": "Issue #15 addresses a clear, actionable problem in mechanistic AI (resolving conflicting evidence) with high practical importance for biological reasoning, while Issue #14's 'causal geometry' concept lacks a concrete empirical test definition.",
+      "target": 15,
+      "timestamp": "2026-08-24T16:44:42.529929+00:00"
     },
     {
-      "opponent": 19,
-      "outcome": "loss",
-      "reason": "Issue #19 provides a more actionable and practical question about characterizing perturbation transfer failure modes, which has higher importance and tractability than Issue #7's uncertainty-aware INR approach.",
-      "target": 7,
-      "timestamp": "2026-08-24T16:13:58.441767+00:00"
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Issue #15's question on evidence-based mechanism arbitration is more tractable and falsifiable than Issue #7's INR uncertainty approach, which faces unclear dataset advantages over existing methods.",
+      "target": 15,
+      "timestamp": "2026-08-24T16:44:42.529929+00:00"
     },
     {
-      "opponent": 20,
-      "outcome": "loss",
-      "reason": "Issue #20 proposes a novel algebraic structure for perturbations with high leverage for predicting unseen combinations, outperforming Issue #7's more incremental uncertainty-focused approach.",
-      "target": 7,
-      "timestamp": "2026-08-24T16:13:58.441767+00:00"
-    },
-    {
-      "opponent": 10,
-      "outcome": "loss",
-      "reason": "Issue #10 identifies invariant structures across domain shifts, offering broader applicability and higher importance than Issue #7's specific INR method.",
-      "target": 7,
-      "timestamp": "2026-08-24T16:13:58.441767+00:00"
-    },
-    {
-      "opponent": 21,
-      "outcome": "loss",
-      "reason": "Issue #21 distinguishes predictive from mechanistic representations, providing a clearer question with higher importance and falsifiability than Issue #7's uncertainty-aware INR proposal.",
-      "target": 7,
-      "timestamp": "2026-08-24T16:13:58.441767+00:00"
-    },
-    {
-      "opponent": 30,
-      "outcome": "loss",
-      "reason": "#30 wins over #9 because it addresses a concrete, data-driven problem with clear practical impact on ADC drug development, while #9's evaluation criteria uncertainty remains unresolved and lacks a defined dataset.",
-      "target": 9,
-      "timestamp": "2026-08-24T16:14:06.201202+00:00"
-    },
-    {
-      "opponent": 15,
-      "outcome": "loss",
-      "reason": "#15 wins over #9 because it proposes a more actionable mechanism arbitration framework with a clear benchmarking path, whereas #9's evaluation criteria uncertainty is unresolved and lacks a defined dataset.",
-      "target": 9,
-      "timestamp": "2026-08-24T16:14:06.201202+00:00"
-    },
-    {
-      "opponent": 11,
-      "outcome": "loss",
-      "reason": "#11 wins over #9 because it offers a testable hypothesis about intervention geometry transferability with a clear next step (data check), while #9's evaluation criteria uncertainty remains unresolved.",
-      "target": 9,
-      "timestamp": "2026-08-24T16:14:06.201202+00:00"
-    },
-    {
-      "opponent": 17,
-      "outcome": "loss",
-      "reason": "#17 wins over #9 because it proposes a human-in-the-loop refinement system with measurable improvement potential, while #9's evaluation criteria uncertainty is unresolved and lacks a defined dataset.",
-      "target": 9,
-      "timestamp": "2026-08-24T16:14:06.201202+00:00"
-    },
-    {
-      "opponent": 21,
-      "outcome": "loss",
-      "reason": "#21 wins over #9 because it directly addresses a critical distinction between predictive and mechanistic representations with a clear data requirement for validation, while #9's evaluation criteria uncertainty remains unresolved.",
-      "target": 9,
-      "timestamp": "2026-08-24T16:14:06.201202+00:00"
-    },
-    {
-      "opponent": 20,
-      "outcome": "loss",
-      "reason": "Issue #20 has higher novelty potential and leverage: it proposes a compositional algebra for perturbations, which could unlock generalization to unseen combinations without exhaustive measurement, addressing a core limitation in current perturbation modeling. Issue #10's question about transferable structures is less actionable and more abstract.",
-      "target": 10,
-      "timestamp": "2026-08-24T16:14:15.673882+00:00"
-    },
-    {
-      "opponent": 11,
-      "outcome": "loss",
-      "reason": "Issue #11 directly addresses a key observation from PerturbRx (intervention geometry transfer) with a clear, testable question about domain-invariant perturbation operators, making it more tractable and impactful than Issue #10's broader structural transfer question.",
-      "target": 10,
-      "timestamp": "2026-08-24T16:14:15.673882+00:00"
-    },
-    {
-      "opponent": 12,
-      "outcome": "loss",
-      "reason": "Issue #12 offers a concrete decomposition of perturbation responses into interpretable components (shared target, chemical-specific, etc.), which could directly improve target validation and mechanism modeling, whereas Issue #10's question lacks specificity for actionable outcomes.",
-      "target": 10,
-      "timestamp": "2026-08-24T16:14:15.673882+00:00"
-    },
-    {
-      "opponent": 19,
-      "outcome": "loss",
-      "reason": "Issue #19 focuses on characterizing failure modes of perturbation transfer, which is more immediately useful for practical decision-making (e.g., when to trust transfer) than Issue #10's abstract structural transfer question, with clearer criteria for evaluation.",
-      "target": 10,
-      "timestamp": "2026-08-24T16:14:15.673882+00:00"
-    },
-    {
-      "opponent": 15,
-      "outcome": "loss",
-      "reason": "Issue #15 tackles a critical gap in mechanistic AI (evidence-based arbitration of conflicting mechanisms), which has higher importance and falsifiability than Issue #10's theoretical structural transfer question, with a clear path to benchmarking.",
-      "target": 10,
-      "timestamp": "2026-08-24T16:14:15.673882+00:00"
-    },
-    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
       "opponent": 12,
       "outcome": "win",
-      "reason": "Issue #11 addresses a clear, testable question about intervention geometry transferability with strong practical relevance to cross-domain drug response prediction, while Issue #12's focus on decomposing perturbation components lacks sufficient evidence of feasibility and has higher uncertainty about data coverage.",
-      "target": 11,
-      "timestamp": "2026-08-24T16:14:25.221971+00:00"
+      "reason": "Issue #15's mechanism arbitration problem has clearer scientific importance and a defined next check (real-world benchmark) compared to Issue #12's context-aware perturbation space, which depends on uncertain data coverage.",
+      "target": 15,
+      "timestamp": "2026-08-24T16:44:42.529929+00:00"
     },
     {
-      "opponent": 13,
-      "outcome": "loss",
-      "reason": "Issue #13 proposes a foundational question about representation properties that could establish general principles for biological representations, with higher novelty potential and clearer path to falsifiability compared to Issue #11's more specific but less broadly applicable intervention geometry question.",
-      "target": 11,
-      "timestamp": "2026-08-24T16:14:25.221971+00:00"
-    },
-    {
-      "opponent": 31,
-      "outcome": "loss",
-      "reason": "Issue #31 tackles a critical practical problem in biomedical LLM reliability with clear evidence of current limitations and a well-defined distinction between evidence selection and sufficiency detection, making it more important and tractable than Issue #11's domain-specific perturbation question.",
-      "target": 11,
-      "timestamp": "2026-08-24T16:14:25.221971+00:00"
-    },
-    {
-      "opponent": 19,
-      "outcome": "loss",
-      "reason": "Issue #19 focuses on characterizing failure modes of perturbation transfer, which is more practically useful and has a clearer path to actionable insights than Issue #11's question about intervention geometry transferability, with lower uncertainty about data requirements.",
-      "target": 11,
-      "timestamp": "2026-08-24T16:14:25.221971+00:00"
-    },
-    {
-      "opponent": 20,
-      "outcome": "loss",
-      "reason": "Issue #20 explores a potentially transformative compositional algebra of perturbations with high novelty and leverage, while Issue #11's question is more incremental and lacks the same potential for broad impact on drug combination prediction.",
-      "target": 11,
-      "timestamp": "2026-08-24T16:14:25.221971+00:00"
-    },
-    {
-      "opponent": 17,
-      "outcome": "loss",
-      "reason": "Issue #17 wins over #12 by addressing a clear, actionable problem (human-in-the-loop mechanism refinement) with immediate practical relevance in improving AI usability for biologists, while #12's context-aware perturbation space lacks sufficient data feasibility evidence.",
-      "target": 12,
-      "timestamp": "2026-08-24T16:14:33.800913+00:00"
-    },
-    {
-      "opponent": 14,
-      "outcome": "loss",
-      "reason": "Issue #14 wins over #12 by proposing a testable question about causal geometry validation with a clear path to empirical testing, whereas #12's core question is less distinct and depends on uncertain data coverage.",
-      "target": 12,
-      "timestamp": "2026-08-24T16:14:33.800913+00:00"
-    },
-    {
-      "opponent": 30,
-      "outcome": "loss",
-      "reason": "Issue #30 wins over #12 by having a strong practical motivation (context-aware ADC prediction) with a clear data availability check plan, while #12's feasibility hinges on unverified data coverage.",
-      "target": 12,
-      "timestamp": "2026-08-24T16:14:33.800913+00:00"
-    },
-    {
-      "opponent": 21,
-      "outcome": "loss",
-      "reason": "Issue #21 wins over #12 by posing a precise, falsifiable question about perturbation geometry separation with a clear data requirement (post-treatment measurements), unlike #12's vague component decomposition.",
-      "target": 12,
-      "timestamp": "2026-08-24T16:14:33.800913+00:00"
-    },
-    {
-      "opponent": 15,
-      "outcome": "loss",
-      "reason": "Issue #15 wins over #12 by addressing a concrete problem (mechanism arbitration under conflicting evidence) with a defined evaluation path, while #12's question lacks novelty and feasibility.",
-      "target": 12,
-      "timestamp": "2026-08-24T16:14:33.800913+00:00"
-    },
-    {
-      "opponent": 31,
-      "outcome": "win",
-      "reason": "#13 wins over #31 because it addresses a fundamental question about representation properties with broader implications for biological modeling, while #31 focuses on a specific LLM capability that may not generalize as widely.",
-      "target": 13,
-      "timestamp": "2026-08-24T16:14:42.542230+00:00"
-    },
-    {
-      "opponent": 20,
-      "outcome": "loss",
-      "reason": "#20 wins over #13 because it proposes a novel compositional algebra for perturbations with clear potential for generalization to unseen combinations, whereas #13's question about representation properties is more abstract and less directly actionable.",
-      "target": 13,
-      "timestamp": "2026-08-24T16:14:42.542230+00:00"
-    },
-    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
       "opponent": 19,
       "outcome": "win",
-      "reason": "#13 wins over #19 because it seeks to establish general principles for representation design, while #19 focuses on characterizing failure modes which is more limited in scope and less likely to yield broadly applicable insights.",
-      "target": 13,
-      "timestamp": "2026-08-24T16:14:42.542230+00:00"
+      "reason": "Issue #15's focus on resolving conflicting mechanisms is more immediately impactful than Issue #19's transfer failure characterization, which requires separating multiple correlated factors with limited data.",
+      "target": 15,
+      "timestamp": "2026-08-24T16:44:42.529929+00:00"
     },
     {
-      "opponent": 15,
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "Issue #15's problem of evidence-based mechanism arbitration is more fundamental and directly applicable to biological decision-making than Issue #4's spatial microenvironment question, which lacks a clear path to empirical validation.",
+      "target": 15,
+      "timestamp": "2026-08-24T16:44:42.529929+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
       "outcome": "loss",
-      "reason": "#15 wins over #13 because it tackles a critical gap in mechanistic reasoning (arbitrating conflicting evidence) with direct relevance to biological decision-making, whereas #13's question is more about representation properties without clear decision-making applications.",
-      "target": 13,
-      "timestamp": "2026-08-24T16:14:42.542230+00:00"
+      "reason": "Issue #31 wins over #15 due to clearer question quality (evidence selection vs. sufficiency as distinct capabilities) and stronger practical importance (addressing LLM reliability in biomedical reasoning with concrete pilot results).",
+      "target": 15,
+      "timestamp": "2026-08-24T16:44:48.700133+00:00"
     },
     {
-      "opponent": 21,
-      "outcome": "loss",
-      "reason": "#21 wins over #13 because it directly addresses a key distinction between predictive and mechanistic representations, which has immediate implications for evaluating model success, while #13's question is more abstract and less tied to concrete evaluation metrics.",
-      "target": 13,
-      "timestamp": "2026-08-24T16:14:42.542230+00:00"
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "Issue #15 wins over #9 due to more actionable core question (ranking mechanisms with context/provenance) versus #9's focus on evaluation criteria which lacks a clear methodological path.",
+      "target": 15,
+      "timestamp": "2026-08-24T16:44:48.700133+00:00"
     },
     {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
       "opponent": 16,
       "outcome": "loss",
-      "reason": "Issue #16 has higher importance and leverage by addressing a fundamental gap in foundation models' utility for causal translation, with clearer falsifiability through measurable proxies for identifiability.",
-      "target": 14,
-      "timestamp": "2026-08-24T16:14:52.153560+00:00"
+      "reason": "Issue #16 wins over #15 due to higher leverage (principled explanation for FM utility beyond accuracy) and stronger falsifiability (measurable proxies for identifiability).",
+      "target": 15,
+      "timestamp": "2026-08-24T16:44:48.700133+00:00"
     },
     {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "Issue #15 wins over #13 due to more immediate tractability (existing evidence sources for mechanism arbitration) versus #13's need for new benchmarks to define intervention geometry properties.",
+      "target": 15,
+      "timestamp": "2026-08-24T16:44:48.700133+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Issue #14 wins over #7 by addressing a fundamental gap in causal representation learning with clear scientific importance, while #7's uncertainty about dataset availability and INR advantages makes it less tractable.",
+      "target": 14,
+      "timestamp": "2026-08-24T16:44:56.273720+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "win",
+      "reason": "Issue #14 wins over #16 by providing a more concrete question about causal geometry validation, whereas #16's identifiability metrics remain vague and untested.",
+      "target": 14,
+      "timestamp": "2026-08-24T16:44:56.273720+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "win",
+      "reason": "Issue #14 wins over #21 by focusing on a testable validation of causal geometry, while #21's question is more about distinguishing two geometries without clear empirical validation path.",
+      "target": 14,
+      "timestamp": "2026-08-24T16:44:56.273720+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "Issue #14 wins over #13 by directly addressing a critical validation problem (causal geometry) with a clear empirical test, whereas #13's focus on representation properties lacks a defined testable metric.",
+      "target": 14,
+      "timestamp": "2026-08-24T16:44:56.273720+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "Issue #14 wins over #9 by having a more concrete, testable question about causal geometry validation, while #9's evaluation of mechanistic reasoning lacks a clear path to empirical validation.",
+      "target": 14,
+      "timestamp": "2026-08-24T16:44:56.273720+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "Issue #14 addresses a fundamental gap in multimodal representation learning by seeking causal validation, which is more scientifically foundational than Issue #17's focus on human-in-the-loop refinement, which risks being HCI-centric without clear mechanistic contribution.",
+      "target": 14,
+      "timestamp": "2026-08-24T16:45:04.039247+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "loss",
+      "reason": "Issue #12 proposes a more concrete decomposition of perturbation responses with clear biological utility (target validation), while Issue #14's 'causal geometry' lacks a practical definition for empirical testing as noted in its uncertainty.",
+      "target": 14,
+      "timestamp": "2026-08-24T16:45:04.039247+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
       "opponent": 30,
       "outcome": "loss",
-      "reason": "Issue #30 has higher importance and tractability by directly addressing a critical limitation in ADC prediction with a clear path to clinical impact, though data availability is a noted uncertainty.",
+      "reason": "Issue #30 addresses a critical data gap in ADC modeling with a clear, actionable question about context-aware prediction, whereas Issue #14's causal geometry remains undefined and untestable per its own uncertainty.",
       "target": 14,
-      "timestamp": "2026-08-24T16:14:52.153560+00:00"
+      "timestamp": "2026-08-24T16:45:04.039247+00:00"
     },
     {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
       "opponent": 31,
       "outcome": "loss",
-      "reason": "Issue #31 has higher importance and novelty potential by separating evidence selection from sufficiency detection, a key step toward reliable biomedical reasoning with clear falsifiability through distractor testing.",
+      "reason": "Issue #31 identifies a distinct, testable capability (evidence sufficiency detection) with pilot results, while Issue #14's causal geometry lacks empirical grounding and faces unresolved definition challenges.",
       "target": 14,
-      "timestamp": "2026-08-24T16:14:52.153560+00:00"
+      "timestamp": "2026-08-24T16:45:04.039247+00:00"
     },
     {
-      "opponent": 13,
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
       "outcome": "loss",
-      "reason": "Issue #13 has higher novelty potential and tractability by establishing general principles for representation evaluation rather than proposing a specific model, with a clear next step for benchmarking.",
+      "reason": "Issue #4 tackles a well-defined spatial biology question with clear separation of confounding factors, unlike Issue #14's vague causal geometry that lacks a path to empirical validation.",
       "target": 14,
-      "timestamp": "2026-08-24T16:14:52.153560+00:00"
+      "timestamp": "2026-08-24T16:45:04.039247+00:00"
     },
     {
-      "opponent": 17,
-      "outcome": "loss",
-      "reason": "Issue #17 has higher importance and leverage by addressing the practical need for human-in-the-loop refinement in mechanistic AI, with a clear path to improving biological validity through expert edits.",
-      "target": 14,
-      "timestamp": "2026-08-24T16:14:52.153560+00:00"
-    },
-    {
-      "opponent": 21,
-      "outcome": "loss",
-      "reason": "Issue #21 addresses a fundamental distinction between predictive and mechanistic representations, which is critical for advancing causal understanding in biology. It has clear falsifiability (can test if latent directions for response prediction match perturbation reconstruction) and high leverage (impacts model interpretability and design). Issue #15's mechanism arbitration is important but less foundational and more dependent on benchmark availability.",
-      "target": 15,
-      "timestamp": "2026-08-24T16:15:05.489138+00:00"
-    },
-    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
       "opponent": 20,
       "outcome": "loss",
-      "reason": "Issue #20 proposes a compositional algebra for perturbations, which could unlock generalization to unseen combinations without exhaustive experiments. It has strong novelty potential (if compositionality holds), high tractability (testable with existing datasets), and significant leverage (enables new drug combination prediction). Issue #15's mechanism arbitration is more incremental and less broadly applicable.",
-      "target": 15,
-      "timestamp": "2026-08-24T16:15:05.489138+00:00"
+      "reason": "Issue #20 is more promising than #14 because it poses a clear, testable question about compositional algebra of perturbations with direct practical implications for predicting drug combinations, while #14's 'causal geometry' concept lacks a concrete empirical definition and remains too vague for a six-month project.",
+      "target": 14,
+      "timestamp": "2026-08-24T16:45:09.230442+00:00"
     },
     {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "loss",
+      "reason": "Issue #19 is more deserving than #14 because it addresses a critical practical limitation (transfer failure modes) with clear criteria for evaluation, whereas #14's 'causal geometry' remains undefined and untestable without impossible ground truth.",
+      "target": 14,
+      "timestamp": "2026-08-24T16:45:09.230442+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "Issue #14 is more promising than #3 because it focuses on a well-defined problem (shared causal geometry) with potential to bridge representation learning and causal biology, while #3's 'iterative optimization' lacks a clear benchmark for distinguishing better arbitration from persuasive explanation.",
+      "target": 14,
+      "timestamp": "2026-08-24T16:45:09.230442+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "loss",
+      "reason": "Issue #30 has higher importance (directly impacts ADC drug development), clearer question (context-aware prediction), and more concrete next steps (data availability check). Issue #17 is vague about 'mechanism refinement' and lacks specificity on how edits improve validity.",
+      "target": 17,
+      "timestamp": "2026-08-24T16:45:18.678975+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
       "opponent": 16,
       "outcome": "loss",
-      "reason": "Issue #16 provides a principled explanation for when foundation models aid domain transfer, addressing a key gap in biological AI. It has high importance (resolves a practical confusion in model usage), strong falsifiability (via measurable proxies), and broad leverage (applies to multiple domain transfer tasks). Issue #15's mechanism arbitration is narrower in scope and more dependent on data availability.",
-      "target": 15,
-      "timestamp": "2026-08-24T16:15:05.489138+00:00"
+      "reason": "Issue #16 poses a fundamental question about foundation models' role in identifiability, with higher novelty potential (principled explanation beyond accuracy) and clearer evaluation metrics (measurable proxies for identifiability). Issue #17 is too focused on HCI aspects without strong scientific contribution.",
+      "target": 17,
+      "timestamp": "2026-08-24T16:45:18.678975+00:00"
     },
     {
-      "opponent": 30,
-      "outcome": "loss",
-      "reason": "Issue #30 tackles a critical practical problem in ADC development (context-aware prediction), with clear importance (shifts from generic to context-specific efficacy) and high leverage (could guide clinical trial design). It has a concrete next step (data check) and addresses a known limitation in ADCNet. Issue #15's mechanism arbitration is more abstract and less directly impactful for drug development.",
-      "target": 15,
-      "timestamp": "2026-08-24T16:15:05.489138+00:00"
-    },
-    {
-      "opponent": 31,
-      "outcome": "loss",
-      "reason": "Issue #31 focuses on reliable evidence reasoning, which is crucial for biomedical AI safety and accuracy. It has high importance (prevents false conclusions), clear falsifiability (testable with distractor experiments), and strong novelty (separating selection from sufficiency). Issue #15's mechanism arbitration is less directly applicable to current AI deployment challenges.",
-      "target": 15,
-      "timestamp": "2026-08-24T16:15:05.489138+00:00"
-    },
-    {
-      "opponent": 30,
-      "outcome": "loss",
-      "reason": "Issue #30 has higher importance (direct impact on ADC drug development) and clearer tractability (data availability check is concrete), while issue #16's identifiability metrics are vague and lack a clear path to validation.",
-      "target": 16,
-      "timestamp": "2026-08-24T16:15:15.643087+00:00"
-    },
-    {
-      "opponent": 31,
-      "outcome": "loss",
-      "reason": "Issue #31 has stronger falsifiability (explicitly testing distinct capabilities) and higher leverage (improving reliability of biomedical LLMs), while issue #16's question is too abstract and lacks concrete validation methods.",
-      "target": 16,
-      "timestamp": "2026-08-24T16:15:15.643087+00:00"
-    },
-    {
-      "opponent": 21,
-      "outcome": "loss",
-      "reason": "Issue #21 has clearer question quality (distinct geometries) and higher importance (distinguishing predictive vs. mechanistic models), while issue #16's identifiability question is too vague and lacks a clear validation path.",
-      "target": 16,
-      "timestamp": "2026-08-24T16:15:15.643087+00:00"
-    },
-    {
-      "opponent": 20,
-      "outcome": "loss",
-      "reason": "Issue #20 has higher novelty potential (compositional algebra for perturbations) and better tractability (testable with existing datasets), while issue #16's question is too abstract and lacks a clear validation method.",
-      "target": 16,
-      "timestamp": "2026-08-24T16:15:15.643087+00:00"
-    },
-    {
-      "opponent": 13,
-      "outcome": "loss",
-      "reason": "Issue #13 has higher importance (establishing principles for representation design) and better leverage (applicable to multiple models), while issue #16's question is too vague and lacks a clear validation path.",
-      "target": 16,
-      "timestamp": "2026-08-24T16:15:15.643087+00:00"
-    },
-    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
       "opponent": 19,
       "outcome": "loss",
-      "reason": "Issue #19 addresses a critical gap in perturbation transfer understanding with clear failure mode characterization, offering actionable criteria for when transfer is reliable. Issue #17 focuses on expert editing which is less novel and more HCI-oriented.",
+      "reason": "Issue #19 addresses a critical practical limitation (transfer failure modes) with clear criteria for failure analysis, higher importance (deciding when perturbation atlases are useful), and more tractable next steps (separating correlated factors). Issue #17 lacks specificity on 'mechanism refinement' and has no clear evaluation path.",
       "target": 17,
-      "timestamp": "2026-08-24T16:15:24.292962+00:00"
+      "timestamp": "2026-08-24T16:45:18.678975+00:00"
     },
     {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
       "opponent": 13,
       "outcome": "loss",
-      "reason": "Issue #13 establishes foundational principles for representation design rather than proposing a specific method, with higher novelty potential and broader applicability to biological representations.",
+      "reason": "Issue #13 asks a precise question about representation properties (intervention sensitivity, sparsity) with higher novelty (establishing general principles for biological representations) and clearer evaluation (benchmark across multiple tasks). Issue #17 is too vague about 'mechanism refinement' and lacks a concrete evaluation framework.",
       "target": 17,
-      "timestamp": "2026-08-24T16:15:24.292962+00:00"
+      "timestamp": "2026-08-24T16:45:18.678975+00:00"
     },
     {
-      "opponent": 31,
-      "outcome": "loss",
-      "reason": "Issue #31 tackles a fundamental reliability gap in biomedical reasoning (evidence sufficiency detection) with clear separation of two distinct capabilities, addressing a critical practical need for trustworthy AI in medicine.",
-      "target": 17,
-      "timestamp": "2026-08-24T16:15:24.292962+00:00"
-    },
-    {
-      "opponent": 30,
-      "outcome": "loss",
-      "reason": "Issue #30 addresses a concrete, high-impact application gap in ADC prediction with clear biological context integration, while Issue #17 is more speculative and less directly applicable.",
-      "target": 17,
-      "timestamp": "2026-08-24T16:15:24.292962+00:00"
-    },
-    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
       "opponent": 21,
       "outcome": "loss",
-      "reason": "Issue #21 distinguishes between predictive and mechanistic representations with a clear testable question, offering deeper insight into what perturbation models actually learn compared to Issue #17's expert-editing focus.",
+      "reason": "Issue #21 poses a clear, testable question (separating response-relevant vs. mechanistic geometry) with high importance (distinguishing predictive vs. mechanistic models) and direct falsifiability (requires datasets with molecular and response data). Issue #17 lacks specificity and has no clear path to validation.",
       "target": 17,
-      "timestamp": "2026-08-24T16:15:24.292962+00:00"
+      "timestamp": "2026-08-24T16:45:18.678975+00:00"
     },
     {
-      "opponent": 13,
-      "outcome": "win",
-      "reason": "Issue #19 wins over #13 by addressing a clear, actionable failure mode of perturbation transfer with direct practical implications for when to trust perturbation atlases, while #13's question is more abstract and lacks a concrete evaluation path.",
-      "target": 19,
-      "timestamp": "2026-08-24T16:15:35.154913+00:00"
-    },
-    {
-      "opponent": 31,
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
       "outcome": "loss",
-      "reason": "Issue #31 wins over #19 by focusing on a critical reliability gap in biomedical LLMs (abstention from unsupported conclusions) with immediate practical impact on real-world medical reasoning, whereas #19's failure mode characterization lacks a clear path to validation.",
-      "target": 19,
-      "timestamp": "2026-08-24T16:15:35.154913+00:00"
+      "reason": "Issue #4 has clearer scientific importance (spatial microenvironment overriding drug sensitivity) with a direct practical impact on drug development, while issue #17 focuses on HCI refinement which lacks strong novelty and has higher uncertainty about measurable biological impact.",
+      "target": 17,
+      "timestamp": "2026-08-24T16:45:26.755859+00:00"
     },
     {
-      "opponent": 30,
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
       "outcome": "loss",
-      "reason": "Issue #30 wins over #19 by proposing a concrete, biologically grounded shift from generic ADC activity prediction to context-specific response modeling, with a clear data availability check and direct alignment with ADCNet's stated limitations.",
-      "target": 19,
-      "timestamp": "2026-08-24T16:15:35.154913+00:00"
+      "reason": "Issue #3 proposes a testable iterative mechanism arbitration method with clear evaluation criteria (benchmark with competing mechanisms), while issue #17's human-in-the-loop refinement lacks a defined evaluation target and has higher uncertainty about scientific contribution beyond HCI.",
+      "target": 17,
+      "timestamp": "2026-08-24T16:45:26.755859+00:00"
     },
     {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "loss",
+      "reason": "Issue #12 addresses a concrete problem (context-aware perturbation space) with a well-defined latent space decomposition that could directly improve target validation, whereas issue #17's human-in-the-loop mechanism refinement has unclear novelty and higher uncertainty about measurable biological impact.",
+      "target": 17,
+      "timestamp": "2026-08-24T16:45:26.755859+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
       "opponent": 20,
       "outcome": "loss",
-      "reason": "Issue #20 wins over #19 by posing a testable question about compositional algebra of perturbations with high potential for enabling generalization to unseen combinations, while #19's failure mode analysis is more descriptive than predictive.",
+      "reason": "Issue #20 proposes a testable compositional algebra of perturbations with clear potential for generalization to unseen combinations, while issue #17's human-in-the-loop approach lacks a defined evaluation framework and has higher uncertainty about scientific contribution beyond HCI.",
+      "target": 17,
+      "timestamp": "2026-08-24T16:45:26.755859+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "loss",
+      "reason": "Issue #31 has strong practical importance (reliable biomedical reasoning requiring evidence sufficiency detection) with clear evaluation criteria (abstention training), while issue #17's human-in-the-loop refinement lacks a defined evaluation target and has higher uncertainty about measurable biological impact.",
+      "target": 17,
+      "timestamp": "2026-08-24T16:45:26.755859+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 7,
+      "outcome": "loss",
+      "reason": "Issue #7 wins over #17 due to higher importance (spatial drug response prediction is critical for precision medicine), clearer question (explicitly defining a dual-output model), and stronger leverage (reusable INR framework for spatial data). #17's focus on expert editing lacks clear novelty beyond HCI and has higher uncertainty about measurable impact.",
+      "target": 17,
+      "timestamp": "2026-08-24T16:45:30.766091+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "Issue #9 wins over #17 due to higher importance (addressing a fundamental flaw in mechanistic AI evaluation), clearer question (shifting from single-answer to evidence-grounded criteria), and stronger novelty (no existing benchmarks handle multiple valid mechanisms). #17's expert-editing proposal risks being redundant with existing HCI work.",
+      "target": 17,
+      "timestamp": "2026-08-24T16:45:30.766091+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "loss",
+      "reason": "Issue #30 is more important and tractable than #19, as it addresses a clear gap in ADC response prediction with a well-defined question, and the data availability uncertainty is directly addressable through dataset inspection.",
       "target": 19,
-      "timestamp": "2026-08-24T16:15:35.154913+00:00"
+      "timestamp": "2026-08-24T16:45:38.310057+00:00"
     },
     {
-      "opponent": 21,
-      "outcome": "loss",
-      "reason": "Issue #21 wins over #19 by directly addressing a fundamental ambiguity in perturbation models (predictive vs. mechanistic geometry) with a clear evaluation path requiring only existing data, whereas #19's question is less actionable.",
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
+      "outcome": "win",
+      "reason": "Issue #19 has clearer importance and falsifiability than #20, as it directly addresses a practical failure mode of transfer learning with measurable factors, while #20's compositional algebra question lacks concrete validation pathways.",
       "target": 19,
-      "timestamp": "2026-08-24T16:15:35.154913+00:00"
+      "timestamp": "2026-08-24T16:45:38.310057+00:00"
     },
     {
-      "opponent": 30,
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 9,
       "outcome": "win",
-      "reason": "Issue #20 addresses a fundamental question about compositional algebra of biological perturbations, which has high importance for generalizing to unseen combinations, strong novelty potential in modeling latent operators, and tractable testing via existing perturbation datasets. Issue #30 faces significant data availability uncertainty (ADCdb may lack context-specific measurements) and focuses on a narrower application (ADCs) rather than a broader principle.",
-      "target": 20,
-      "timestamp": "2026-08-24T16:15:46.108033+00:00"
+      "reason": "Issue #19 is more important and tractable than #9, as it provides actionable criteria for perturbation transfer failure (with clear factors to test) versus #9's abstract evaluation challenge with uncertain data curation.",
+      "target": 19,
+      "timestamp": "2026-08-24T16:45:38.310057+00:00"
     },
     {
-      "opponent": 31,
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
       "outcome": "win",
-      "reason": "Issue #20 poses a clear, falsifiable question about latent perturbation operators' compositional rules, with high leverage for generalizing to drug combinations and multi-gene perturbations. Issue #31's focus on evidence selection vs. sufficiency is narrower, less novel (already explored in NLP), and lacks clear biological novelty or broader impact beyond LLMs.",
-      "target": 20,
-      "timestamp": "2026-08-24T16:15:46.108033+00:00"
+      "reason": "Issue #19 has stronger importance and falsifiability than #3, as it identifies concrete failure modes for transfer learning (with measurable factors) versus #3's untested iterative optimization approach.",
+      "target": 19,
+      "timestamp": "2026-08-24T16:45:38.310057+00:00"
     },
     {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "Issue #19 is more important and tractable than #13, as it directly addresses a practical problem in perturbation transfer with clear evaluation criteria, while #13's representation properties question lacks concrete validation pathways.",
+      "target": 19,
+      "timestamp": "2026-08-24T16:45:38.310057+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Issue #19 addresses a critical gap in understanding perturbation transfer failures, which is more scientifically important and actionable than the uncertainty-aware INR approach in #7. #19's question is clear, has high novelty potential (characterizing failure modes), and is tractable with existing datasets. #7's uncertainty focus is less novel and depends on unverified dataset availability.",
+      "target": 19,
+      "timestamp": "2026-08-24T16:45:47.876082+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "Issue #19's focus on characterizing perturbation transfer failure modes is more important and scientifically rigorous than #4's spatial microenvironment question. #19's problem is clearer, has higher novelty potential (systematic failure analysis), and is more tractable with current data. #4's question risks conflating spatial effects with cell-state confounders without clear separation.",
+      "target": 19,
+      "timestamp": "2026-08-24T16:45:47.876082+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "Issue #19's question about perturbation transfer failure modes is more fundamental and impactful than #12's shared perturbation space idea. #19 has clearer novelty (failure mode characterization vs. decomposition), higher importance (practical criteria for transfer use), and better tractability. #12's approach depends on matching datasets that may not exist.",
+      "target": 19,
+      "timestamp": "2026-08-24T16:45:47.876082+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
       "opponent": 21,
       "outcome": "win",
-      "reason": "Issue #20's question about perturbation geometry compositionality is more fundamental and broadly applicable than Issue #21's focus on separating response-relevant vs. mechanistic geometry, which depends on scarce datasets (molecular post-treatment + response labels) and has lower tractability.",
-      "target": 20,
-      "timestamp": "2026-08-24T16:15:46.108033+00:00"
+      "reason": "Issue #19's focus on when perturbation transfer fails is more scientifically important and actionable than #21's geometry separation question. #19's problem is clearer, has higher novelty (failure mode analysis), and is more tractable with existing data. #21 requires rare datasets with both molecular and response labels, making it less feasible.",
+      "target": 19,
+      "timestamp": "2026-08-24T16:45:47.876082+00:00"
     },
     {
-      "opponent": 13,
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
       "outcome": "win",
-      "reason": "Issue #20's compositional algebra question has higher importance, novelty, and leverage than Issue #13's representation properties analysis, which is more incremental and lacks a clear path to testing beyond benchmarking (unclear if such benchmarks exist).",
-      "target": 20,
-      "timestamp": "2026-08-24T16:15:46.108033+00:00"
+      "reason": "Issue #19's question about perturbation transfer failure modes is more immediately impactful than #16's foundation model identifiability question. #19 has higher importance (practical criteria for transfer use), clearer novelty (failure mode characterization), and better tractability. #16's identifiability metrics are speculative and lack concrete validation paths.",
+      "target": 19,
+      "timestamp": "2026-08-24T16:45:47.876082+00:00"
     },
     {
-      "opponent": 19,
-      "outcome": "win",
-      "reason": "Issue #20's question about compositional rules is more foundational and directly actionable than Issue #19's focus on transfer failure modes, which requires separating correlated factors (drug mechanism, cell-state mismatch) and has lower immediate impact for generalizable prediction.",
-      "target": 20,
-      "timestamp": "2026-08-24T16:15:46.108033+00:00"
-    },
-    {
-      "opponent": 30,
-      "outcome": "loss",
-      "reason": "Issue #30 is more important and tractable than #21, as it addresses a clear clinical need (context-aware ADC prediction) with a well-defined problem (joint modeling of ADC components and cell context), while #21's question is more abstract and depends on scarce data availability.",
-      "target": 21,
-      "timestamp": "2026-08-24T16:15:56.658918+00:00"
-    },
-    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
       "opponent": 31,
       "outcome": "loss",
-      "reason": "Issue #31 has higher importance and novelty potential than #21, as it tackles a critical reliability gap in biomedical LLMs (evidence sufficiency detection) with a clear distinction between two capabilities, whereas #21's question is less actionable and depends on unverified data.",
-      "target": 21,
-      "timestamp": "2026-08-24T16:15:56.658918+00:00"
+      "reason": "Issue #31 wins over #19 due to clearer question quality, higher practical importance in biomedical reasoning reliability, and stronger evidence of preliminary results supporting the core claim.",
+      "target": 19,
+      "timestamp": "2026-08-24T16:45:50.090241+00:00"
     },
     {
-      "opponent": 13,
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
       "outcome": "loss",
-      "reason": "Issue #13 has stronger novelty potential and tractability than #21, as it seeks general principles for representation design rather than a single application, with a clear benchmarking path, while #21's question is too narrow and data-dependent.",
-      "target": 21,
-      "timestamp": "2026-08-24T16:15:56.658918+00:00"
+      "reason": "Issue #30 has higher importance and tractability: it addresses a clear, practical problem (context-aware ADC prediction) with a well-defined evaluation path (data availability check), while issue #9's evaluation criteria uncertainty remains unresolved. #30's 'why it might matter' directly links to improving drug efficacy prediction, a high-impact clinical need.",
+      "target": 9,
+      "timestamp": "2026-08-24T16:45:59.180014+00:00"
     },
     {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "loss",
+      "reason": "Issue #16 has stronger novelty potential and leverage: it proposes a foundational theory (foundation models enabling cross-domain translation) with clear falsifiability (measurable proxies for identifiability), whereas issue #9's question is more incremental and lacks a concrete testing path.",
+      "target": 9,
+      "timestamp": "2026-08-24T16:45:59.180014+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "loss",
+      "reason": "Issue #21 has higher importance and falsifiability: it directly addresses a critical gap in mechanistic AI (distinguishing predictive vs. mechanistic representations) with a clear testable question (comparing two geometries), while issue #9's evaluation criteria uncertainty remains unresolved.",
+      "target": 9,
+      "timestamp": "2026-08-24T16:45:59.180014+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "loss",
+      "reason": "Issue #12 has better novelty potential and tractability: it proposes a novel decomposition of perturbation responses into interpretable components (shared target, chemical, genetic, context), with a clear data dependency check, whereas issue #9's problem is more about benchmarking than a new framework.",
+      "target": 9,
+      "timestamp": "2026-08-24T16:45:59.180014+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 7,
+      "outcome": "loss",
+      "reason": "Issue #7 has higher importance and practical relevance: it tackles spatial drug response heterogeneity (a critical unmet need in oncology) with a clear, testable model (INR with uncertainty), while issue #9's evaluation criteria uncertainty remains unresolved and lacks immediate clinical application.",
+      "target": 9,
+      "timestamp": "2026-08-24T16:45:59.180014+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "loss",
+      "reason": "Issue #4 wins over #9 by addressing a clear, actionable question about spatial microenvironment effects on drug response, with a well-defined uncertainty check that is tractable within six months. It has higher importance (practical impact on drug development) and better falsifiability than #9's more abstract evaluation framework.",
+      "target": 9,
+      "timestamp": "2026-08-24T16:46:07.641401+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
       "opponent": 20,
       "outcome": "loss",
-      "reason": "Issue #20 has higher novelty potential and leverage than #21, as it proposes a compositional algebra for perturbations that could generalize to unseen combinations, whereas #21's question is limited to a specific comparison without broader implications.",
-      "target": 21,
-      "timestamp": "2026-08-24T16:15:56.658918+00:00"
+      "reason": "Issue #20 wins over #9 by proposing a concrete, testable algebraic structure for perturbations, with clear leverage for generalizing to unseen combinations. It has stronger novelty potential and tractability than #9's evaluation framework, which lacks a defined method for testing multiple mechanisms.",
+      "target": 9,
+      "timestamp": "2026-08-24T16:46:07.641401+00:00"
     },
     {
-      "opponent": 19,
-      "outcome": "loss",
-      "reason": "Issue #19 has higher importance and practical relevance than #21, as it characterizes failure modes of perturbation transfer (critical for real-world deployment) rather than just asking whether two geometries are the same, with a clear path to actionable criteria.",
-      "target": 21,
-      "timestamp": "2026-08-24T16:15:56.658918+00:00"
-    },
-    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
       "opponent": 31,
       "outcome": "loss",
-      "reason": "#31 wins over #30 because it addresses a clear, testable question about evidence selection and sufficiency in biomedical reasoning, with a well-defined uncertainty check and immediate next steps, while #30's feasibility hinges on unverified data availability.",
-      "target": 30,
-      "timestamp": "2026-08-24T16:16:07.252985+00:00"
+      "reason": "Issue #31 wins over #9 by focusing on a critical, practical problem (evidence sufficiency detection) with pilot results showing reproducible improvements. It has higher importance (directly impacts biomedical LLM reliability) and better falsifiability than #9's abstract evaluation question.",
+      "target": 9,
+      "timestamp": "2026-08-24T16:46:07.641401+00:00"
     },
     {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "Issue #13 wins over #9 by asking a fundamental question about representation properties that could guide future model design. It has stronger leverage (general principles for biological representations) and better tractability than #9's evaluation framework, which lacks a defined benchmark.",
+      "target": 9,
+      "timestamp": "2026-08-24T16:46:07.641401+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
+      "outcome": "loss",
+      "reason": "Issue #3 wins over #9 by proposing an iterative optimization approach with a clear implementation path (TextGrad) and a well-defined uncertainty check. It has higher importance (practical mechanism arbitration) and better falsifiability than #9's abstract evaluation question.",
+      "target": 9,
+      "timestamp": "2026-08-24T16:46:07.641401+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "loss",
+      "reason": "Issue #12 addresses a fundamental gap in understanding perturbation responses across different contexts, with clear potential to improve target validation and mechanism-of-action modeling. It has higher importance and novelty than Issue #7, which focuses on a specific technical implementation (INR) with unclear advantages over existing methods.",
+      "target": 7,
+      "timestamp": "2026-08-24T16:46:15.260384+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "loss",
+      "reason": "Issue #4 tackles a critical biological question about spatial microenvironment effects on drug sensitivity, which has direct implications for understanding emergent properties in drug response. Issue #7's focus on uncertainty-aware INR is more methodological and less broadly impactful.",
+      "target": 7,
+      "timestamp": "2026-08-24T16:46:15.260384+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "Issue #13 establishes a foundational question about representation properties for perturbation geometry, with higher leverage and novelty than Issue #7's specific INR approach. It could guide future work across multiple domains rather than being limited to a single application.",
+      "target": 7,
+      "timestamp": "2026-08-24T16:46:15.260384+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "loss",
+      "reason": "Issue #21 distinguishes between predictive and mechanistic representations, addressing a core conceptual gap in how perturbation models are evaluated. This has higher importance and falsifiability than Issue #7's technical focus on spatial INR.",
+      "target": 7,
+      "timestamp": "2026-08-24T16:46:15.260384+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
+      "outcome": "loss",
+      "reason": "Issue #3 explores iterative optimization for mechanism arbitration, which has higher novelty and practical importance than Issue #7's methodological proposal. It addresses a real-world challenge in integrating conflicting evidence sources.",
+      "target": 7,
+      "timestamp": "2026-08-24T16:46:15.260384+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "loss",
+      "reason": "Issue #30 is more important and tractable than #7, as it addresses a critical gap in ADC efficacy prediction with clear data availability checks, while #7's uncertainty about dataset richness and INR vs. GNNs makes it less feasible.",
+      "target": 7,
+      "timestamp": "2026-08-24T16:46:21.541606+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
+      "outcome": "loss",
+      "reason": "Issue #20 proposes a novel compositional algebra for perturbations with high leverage for predicting combinations, while #7's spatial INR idea has unclear novelty over existing methods and lacks strong evidence of tractability.",
+      "target": 7,
+      "timestamp": "2026-08-24T16:46:21.541606+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "loss",
+      "reason": "Issue #31 tackles a critical reliability gap in biomedical reasoning with clear falsifiability and immediate next steps, whereas #7's spatial INR idea has significant uncertainty about dataset availability and methodological advantage.",
+      "target": 7,
+      "timestamp": "2026-08-24T16:46:21.541606+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "loss",
+      "reason": "Issue #16 offers a principled explanation for foundation models' role in domain transfer with measurable proxies, making it more tractable and impactful than #7's spatial INR approach which lacks clear evidence of novelty or feasibility.",
+      "target": 7,
+      "timestamp": "2026-08-24T16:46:21.541606+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
       "opponent": 13,
       "outcome": "win",
-      "reason": "#30 wins over #13 because it proposes a concrete, biologically relevant problem (context-aware ADC prediction) with clear practical importance and a specific data validation step, whereas #13's question is more abstract and lacks a defined benchmark.",
-      "target": 30,
-      "timestamp": "2026-08-24T16:16:07.252985+00:00"
+      "reason": "Issue #20 wins over #13 due to clearer question (compositional algebra of perturbations) with higher tractability and falsifiability, while #13's representation properties question lacks concrete testing path.",
+      "target": 20,
+      "timestamp": "2026-08-24T16:46:29.823534+00:00"
     },
     {
-      "opponent": 20,
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
       "outcome": "win",
-      "reason": "#30 wins over #20 because it focuses on a specific, actionable problem (context-aware ADC prediction) with immediate practical relevance to drug development, while #20's question about compositional algebra is more speculative and lacks a clear path to validation.",
-      "target": 30,
-      "timestamp": "2026-08-24T16:16:07.252985+00:00"
+      "reason": "Issue #20 wins over #4 as it addresses a fundamental mechanistic question (compositional perturbation algebra) with broader applicability, whereas #4's spatial microenvironment question depends on uncertain data availability.",
+      "target": 20,
+      "timestamp": "2026-08-24T16:46:29.823534+00:00"
     },
     {
-      "opponent": 21,
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
       "outcome": "win",
-      "reason": "#30 wins over #21 because it addresses a well-defined, practical problem (context-aware ADC prediction) with clear importance to cancer treatment, whereas #21's question about separating response-relevant from mechanistic geometry is more abstract and lacks a concrete data plan.",
-      "target": 30,
-      "timestamp": "2026-08-24T16:16:07.252985+00:00"
+      "reason": "Issue #20 wins over #12 because it poses a clear, testable question about perturbation compositionality, while #12's context-aware space decomposition lacks a defined testing framework.",
+      "target": 20,
+      "timestamp": "2026-08-24T16:46:29.823534+00:00"
     },
     {
-      "opponent": 19,
-      "outcome": "win",
-      "reason": "#30 wins over #19 because it proposes a specific, actionable research direction (context-aware ADC prediction) with clear practical importance, while #19's focus on characterizing transfer failure modes is more descriptive and less directly impactful for immediate drug development applications.",
-      "target": 30,
-      "timestamp": "2026-08-24T16:16:07.252985+00:00"
-    },
-    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
       "opponent": 30,
       "outcome": "win",
-      "reason": "#31 wins over #30 because it addresses a clear, reproducible problem (evidence selection vs. sufficiency) with a well-defined next step (reproducibility checks), while #30's feasibility hinges on unverified data availability.",
-      "target": 31,
-      "timestamp": "2026-08-24T16:16:16.857740+00:00"
+      "reason": "Issue #20 wins over #30 as it addresses a core mechanistic question (compositional perturbations) with higher novelty potential and tractability, while #30's ADC context question depends on uncertain data availability.",
+      "target": 20,
+      "timestamp": "2026-08-24T16:46:29.823534+00:00"
     },
     {
-      "opponent": 20,
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
       "outcome": "win",
-      "reason": "#31 wins over #20 because it has a concrete, testable question (distinct capabilities in reasoning) with immediate next steps, whereas #20's compositional algebra idea lacks clear validation paths and depends on unverified assumptions about perturbation structure.",
-      "target": 31,
-      "timestamp": "2026-08-24T16:16:16.857740+00:00"
+      "reason": "Issue #20 wins over #3 due to a more concrete, testable question (compositional perturbation algebra) versus #3's vague iterative optimization proposal with unclear evaluation metrics.",
+      "target": 20,
+      "timestamp": "2026-08-24T16:46:29.823534+00:00"
     },
     {
-      "opponent": 13,
-      "outcome": "win",
-      "reason": "#31 wins over #13 because it focuses on a practical, high-impact problem (reliable biomedical reasoning) with a clear path to validation, while #13's representation properties question is more abstract and lacks a defined benchmark for evaluation.",
-      "target": 31,
-      "timestamp": "2026-08-24T16:16:16.857740+00:00"
-    },
-    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
       "opponent": 21,
       "outcome": "win",
-      "reason": "#31 wins over #21 because it directly tackles a critical reliability gap (abstention from unsupported conclusions) with pilot evidence, whereas #21's distinction between response-relevant and mechanistic geometry is speculative without required datasets.",
-      "target": 31,
-      "timestamp": "2026-08-24T16:16:16.857740+00:00"
+      "reason": "Issue #20 has clearer scientific importance in enabling generalization to unseen perturbations, stronger novelty potential (compositional algebra as a novel framework), and more concrete tractability (testable with existing perturbation datasets) compared to #21's more abstract geometry question.",
+      "target": 20,
+      "timestamp": "2026-08-24T16:46:35.538036+00:00"
     },
     {
-      "opponent": 19,
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "loss",
+      "reason": "Issue #31 addresses a critical practical problem (reliable biomedical reasoning) with clear importance, high novelty in separating evidence selection from sufficiency, and strong leverage for real-world LLM applications, outperforming #20's more theoretical perturbation algebra focus.",
+      "target": 20,
+      "timestamp": "2026-08-24T16:46:35.538036+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "loss",
+      "reason": "Issue #16 provides a principled explanation for foundation model utility in cross-domain translation, with higher importance (solving a key bottleneck in biomedical FMs), stronger leverage (enabling better model design), and more concrete tractability (measurable proxies for identifiability) than #20's perturbation compositionality question.",
+      "target": 20,
+      "timestamp": "2026-08-24T16:46:35.538036+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
       "outcome": "win",
-      "reason": "#31 wins over #19 because it has a well-defined, actionable research question with a clear next step (reproducibility checks), while #19's failure mode characterization depends on unverified data diversity and lacks a concrete validation plan.",
+      "reason": "Issue #31 addresses a clear, important problem (separating evidence selection from sufficiency detection) with strong scientific motivation, reproducibility checks, and practical relevance to biomedical LLM reliability. Issue #3 has less clear evaluation criteria and a weaker justification for iterative optimization.",
       "target": 31,
-      "timestamp": "2026-08-24T16:16:16.857740+00:00"
+      "timestamp": "2026-08-24T16:46:44.034805+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "win",
+      "reason": "Issue #31 has a well-defined question (evidence selection vs sufficiency) with concrete next steps for validation, while Issue #21's question about perturbation geometry separation lacks a clear benchmark and data availability confirmation.",
+      "target": 31,
+      "timestamp": "2026-08-24T16:46:44.034805+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "win",
+      "reason": "Issue #31 has a more immediate practical impact (reliable biomedical reasoning) with a clear path to validation, whereas Issue #30's context-aware ADC model depends on uncertain data availability that may not exist.",
+      "target": 31,
+      "timestamp": "2026-08-24T16:46:44.034805+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "Issue #31's question is more clearly defined and testable with existing methods, while Issue #13's representation properties question lacks a concrete benchmark for evaluation.",
+      "target": 31,
+      "timestamp": "2026-08-24T16:46:44.034805+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "Issue #31 addresses a fundamental reliability issue in biomedical reasoning with clear evaluation criteria, while Issue #4's spatial microenvironment question lacks sufficient data availability confirmation and a clear benchmark.",
+      "target": 31,
+      "timestamp": "2026-08-24T16:46:44.034805+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "win",
+      "reason": "#31 wins over #16 due to clearer problem definition, higher tractability, and more immediate practical relevance in biomedical reasoning reliability.",
+      "target": 31,
+      "timestamp": "2026-08-24T16:46:47.054615+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "loss",
+      "reason": "#12 wins over #31 due to stronger novelty potential in decomposing perturbation responses and clearer path to validation with existing benchmarks.",
+      "target": 31,
+      "timestamp": "2026-08-24T16:46:47.054615+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "#13 wins over #12 because it addresses a more fundamental question about representation properties that could establish general principles, while #12 focuses on a specific decomposition that may not be broadly applicable.",
+      "target": 13,
+      "timestamp": "2026-08-24T16:46:54.497387+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "loss",
+      "reason": "#16 wins over #13 because it directly addresses the practical utility of foundation models in making cross-domain translation feasible, which has clearer scientific and practical implications than #13's more abstract representation properties.",
+      "target": 13,
+      "timestamp": "2026-08-24T16:46:54.497387+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "#13 wins over #4 because it tackles a more generalizable question about perturbation geometry preservation, whereas #4's focus on spatial microenvironment is highly context-dependent and may not yield broadly applicable insights.",
+      "target": 13,
+      "timestamp": "2026-08-24T16:46:54.497387+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "loss",
+      "reason": "#21 wins over #13 because it directly distinguishes between predictive and mechanistic representations, which is critical for validating model outputs, while #13's question is more about properties of representations without clear validation pathways.",
+      "target": 13,
+      "timestamp": "2026-08-24T16:46:54.497387+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "#13 wins over #3 because it addresses a more fundamental and generalizable question about representation properties, while #3's focus on iterative optimization for mechanism arbitration is narrower and less directly tied to core representation challenges.",
+      "target": 13,
+      "timestamp": "2026-08-24T16:46:54.497387+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "loss",
+      "reason": "Issue #30 is more deserving as it addresses a clear, practical problem with immediate applicability in drug development, has a well-defined evaluation metric (IC50/EC50), and the biggest uncertainty (data availability) is directly addressable through dataset inspection. Issue #13 is more abstract and lacks a concrete benchmark for evaluation.",
+      "target": 13,
+      "timestamp": "2026-08-24T16:46:57.400471+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "loss",
+      "reason": "Issue #12 has clearer question quality and higher leverage, as it directly addresses a fundamental gap in perturbation modeling with potential to improve target validation across multiple contexts, while issue #4's spatial microenvironment question is more speculative due to data uncertainty.",
+      "target": 4,
+      "timestamp": "2026-08-24T16:47:05.281030+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "loss",
+      "reason": "Issue #21 has stronger falsifiability and tractability by proposing a direct testable distinction between predictive and mechanistic representations, whereas issue #4's spatial question depends on unverified data availability.",
+      "target": 4,
+      "timestamp": "2026-08-24T16:47:05.281030+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "loss",
+      "reason": "Issue #30 has higher importance and practical relevance for ADC development, with a clear path to improving drug efficacy prediction by incorporating context, unlike issue #4's more abstract spatial question.",
+      "target": 4,
+      "timestamp": "2026-08-24T16:47:05.281030+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "Issue #4 has better novelty potential and tractability than issue #3, as it addresses a concrete biological phenomenon (spatial microenvironment effects) with a testable question, while issue #3's iterative optimization approach lacks clear evaluation metrics.",
+      "target": 4,
+      "timestamp": "2026-08-24T16:47:05.281030+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "loss",
+      "reason": "Issue #16 has stronger theoretical leverage and timing, as foundation models are rapidly evolving and this question could provide foundational insights for domain transfer, whereas issue #4's spatial question remains data-dependent and less timely.",
+      "target": 4,
+      "timestamp": "2026-08-24T16:47:05.281030+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "win",
+      "reason": "#12 wins over #30 because it has a clearer, more tractable problem statement with a well-defined next check (data coverage) that is directly tied to the core question, whereas #30's feasibility hinges on uncertain data availability that is not yet verified.",
+      "target": 12,
+      "timestamp": "2026-08-24T16:47:12.661308+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "loss",
+      "reason": "#16 wins over #12 because it addresses a fundamental theoretical gap in foundation models' utility for domain translation, with a clear path to measurable validation through proxies, while #12's question is more narrowly focused on a specific application without broader theoretical implications.",
+      "target": 12,
+      "timestamp": "2026-08-24T16:47:12.661308+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "#12 wins over #3 because it poses a clear, testable question about perturbation spaces with a defined next step (data coverage), whereas #3's evaluation target for mechanism arbitration is vague and lacks a concrete benchmark definition.",
+      "target": 12,
+      "timestamp": "2026-08-24T16:47:12.661308+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "win",
+      "reason": "#12 wins over #21 because it has a more immediate practical relevance to drug discovery (target validation, mechanism-of-action modeling) with a straightforward next check (data coverage), while #21's question about perturbation geometry is more abstract and lacks a clear path to actionable insights.",
+      "target": 12,
+      "timestamp": "2026-08-24T16:47:12.661308+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "loss",
+      "reason": "Issue #16 has higher importance (addressing foundational identifiability in biological FMs), clearer question (distinct from method proposals), and stronger leverage (principled explanation for FM utility beyond accuracy). It also has a more concrete next check (measurable proxies for identifiability) compared to Issue #3's benchmark uncertainty.",
+      "target": 3,
+      "timestamp": "2026-08-24T16:47:19.715025+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "loss",
+      "reason": "Issue #21 has clearer question (separating response-relevant vs. mechanistic perturbation geometry) and higher novelty potential (distinguishing predictive vs. mechanistic representations). It also has more tractable evaluation (needs specific datasets but is well-defined) compared to Issue #3's iterative refinement uncertainty.",
+      "target": 3,
+      "timestamp": "2026-08-24T16:47:19.715025+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "loss",
+      "reason": "Issue #30 has higher importance (directly impacts ADC drug development with clear clinical relevance), clearer question (context-aware prediction vs. generic activity), and stronger practical leverage (addresses ADCNet's identified limitations). Its data uncertainty is more concrete and actionable than Issue #3's benchmark challenges.",
+      "target": 3,
+      "timestamp": "2026-08-24T16:47:19.715025+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "win",
+      "reason": "Issue #30 wins over #21 due to higher importance (directly addressing a critical gap in ADC efficacy prediction with clear clinical relevance) and better tractability (data availability check is concrete and actionable, unlike #21's reliance on scarce dual-measurement datasets).",
+      "target": 30,
+      "timestamp": "2026-08-24T16:47:24.304783+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "loss",
+      "reason": "Issue #16 wins over #30 due to higher novelty potential (proposing a foundational theory for foundation models in biological translation) and stronger leverage (could unlock broader domain-transfer applications beyond ADCs).",
+      "target": 30,
+      "timestamp": "2026-08-24T16:47:24.304783+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "loss",
+      "reason": "Issue #21 is more deserving as it poses a clear, falsifiable question about separating response-relevant from mechanistically faithful perturbation geometry, with a concrete next step (requiring datasets with both molecular post-treatment measurements and response labels). Issue #16's question is less clear and relies on unmeasurable proxies for identifiability, making it less tractable and falsifiable.",
+      "target": 16,
+      "timestamp": "2026-08-24T16:47:27.507359+00:00"
     }
   ],
   "k_factor": 24,
   "rating_snapshots": [
     {
       "ratings": {
-        "10": 1454.89,
-        "11": 1487.6,
-        "12": 1455.5,
-        "13": 1524.9,
-        "14": 1467.39,
-        "15": 1487.61,
-        "16": 1491.09,
-        "17": 1479.24,
-        "19": 1492.97,
-        "20": 1613.6,
-        "21": 1497.92,
-        "3": 1443.99,
-        "30": 1597.95,
-        "31": 1640.64,
-        "4": 1476.41,
-        "7": 1443.99,
-        "9": 1444.31
+        "10": 1422.54,
+        "11": 1426.59,
+        "12": 1551.9,
+        "13": 1503.47,
+        "14": 1494.35,
+        "15": 1546.94,
+        "16": 1581.25,
+        "17": 1367.94,
+        "19": 1598.34,
+        "20": 1588.37,
+        "21": 1541.83,
+        "3": 1407.46,
+        "30": 1570.23,
+        "31": 1631.55,
+        "4": 1464.98,
+        "7": 1402.55,
+        "9": 1399.71
       },
-      "timestamp": "2026-08-24T16:16:17.757087+00:00"
+      "timestamp": "2026-08-24T16:47:27.797168+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 0,
-      "games": 6,
-      "losses": 5,
+      "games": 16,
+      "losses": 12,
       "opponents": [
+        3,
+        4,
         7,
+        9,
         11,
         12,
+        13,
+        14,
         15,
+        16,
+        17,
         19,
-        20
+        20,
+        21,
+        30,
+        31
       ],
-      "rating": 1454.89,
-      "wins": 1
+      "rating": 1422.54,
+      "wins": 4
     },
     "11": {
       "draws": 0,
-      "games": 7,
-      "losses": 4,
+      "games": 16,
+      "losses": 11,
       "opponents": [
+        3,
+        4,
+        7,
         9,
         10,
         12,
         13,
+        14,
+        15,
+        16,
+        17,
         19,
         20,
+        21,
+        30,
         31
       ],
-      "rating": 1487.6,
-      "wins": 3
+      "rating": 1426.59,
+      "wins": 5
     },
     "12": {
       "draws": 0,
-      "games": 8,
+      "games": 16,
       "losses": 6,
       "opponents": [
+        3,
         4,
+        7,
+        9,
         10,
         11,
+        13,
         14,
         15,
+        16,
         17,
+        19,
+        20,
         21,
-        30
+        30,
+        31
       ],
-      "rating": 1455.5,
-      "wins": 2
+      "rating": 1551.9,
+      "wins": 10
     },
     "13": {
       "draws": 0,
       "games": 16,
-      "losses": 7,
+      "losses": 8,
       "opponents": [
         3,
         4,
+        7,
+        9,
+        10,
         11,
+        12,
         14,
         15,
         16,
@@ -688,126 +1348,173 @@
         30,
         31
       ],
-      "rating": 1524.9,
-      "wins": 9
+      "rating": 1503.47,
+      "wins": 8
     },
     "14": {
       "draws": 0,
-      "games": 7,
-      "losses": 5,
-      "opponents": [
-        7,
-        12,
-        13,
-        16,
-        17,
-        30,
-        31
-      ],
-      "rating": 1467.39,
-      "wins": 2
-    },
-    "15": {
-      "draws": 0,
-      "games": 9,
-      "losses": 5,
-      "opponents": [
-        9,
-        10,
-        12,
-        13,
-        16,
-        20,
-        21,
-        30,
-        31
-      ],
-      "rating": 1487.61,
-      "wins": 4
-    },
-    "16": {
-      "draws": 0,
-      "games": 9,
-      "losses": 5,
+      "games": 16,
+      "losses": 8,
       "opponents": [
         3,
         4,
+        7,
+        9,
+        10,
+        11,
+        12,
         13,
-        14,
         15,
+        16,
+        17,
+        19,
         20,
         21,
         30,
         31
       ],
-      "rating": 1491.09,
-      "wins": 4
+      "rating": 1494.35,
+      "wins": 8
     },
-    "17": {
+    "15": {
       "draws": 0,
-      "games": 10,
+      "games": 16,
       "losses": 6,
       "opponents": [
         3,
         4,
+        7,
         9,
+        10,
+        11,
         12,
         13,
         14,
+        16,
+        17,
         19,
+        20,
         21,
         30,
         31
       ],
-      "rating": 1479.24,
-      "wins": 4
+      "rating": 1546.94,
+      "wins": 10
+    },
+    "16": {
+      "draws": 0,
+      "games": 16,
+      "losses": 4,
+      "opponents": [
+        3,
+        4,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        19,
+        20,
+        21,
+        30,
+        31
+      ],
+      "rating": 1581.25,
+      "wins": 12
+    },
+    "17": {
+      "draws": 0,
+      "games": 16,
+      "losses": 15,
+      "opponents": [
+        3,
+        4,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        20,
+        21,
+        30,
+        31
+      ],
+      "rating": 1367.94,
+      "wins": 1
     },
     "19": {
       "draws": 0,
-      "games": 14,
-      "losses": 8,
+      "games": 16,
+      "losses": 3,
       "opponents": [
+        3,
+        4,
         7,
+        9,
         10,
         11,
+        12,
         13,
+        14,
+        15,
+        16,
         17,
         20,
         21,
         30,
         31
       ],
-      "rating": 1492.97,
-      "wins": 6
+      "rating": 1598.34,
+      "wins": 13
     },
     "20": {
       "draws": 0,
-      "games": 15,
-      "losses": 2,
+      "games": 16,
+      "losses": 3,
       "opponents": [
+        3,
+        4,
         7,
+        9,
         10,
         11,
+        12,
         13,
+        14,
         15,
         16,
+        17,
         19,
         21,
         30,
         31
       ],
-      "rating": 1613.6,
+      "rating": 1588.37,
       "wins": 13
     },
     "21": {
       "draws": 0,
       "games": 16,
-      "losses": 8,
+      "losses": 6,
       "opponents": [
+        3,
+        4,
         7,
         9,
+        10,
+        11,
         12,
         13,
+        14,
         15,
         16,
         17,
@@ -816,29 +1523,45 @@
         30,
         31
       ],
-      "rating": 1497.92,
-      "wins": 8
+      "rating": 1541.83,
+      "wins": 10
     },
     "3": {
       "draws": 0,
-      "games": 5,
-      "losses": 5,
+      "games": 16,
+      "losses": 13,
       "opponents": [
         4,
+        7,
+        9,
+        10,
+        11,
+        12,
         13,
+        14,
+        15,
         16,
         17,
+        19,
+        20,
+        21,
+        30,
         31
       ],
-      "rating": 1443.99,
-      "wins": 0
+      "rating": 1407.46,
+      "wins": 3
     },
     "30": {
       "draws": 0,
-      "games": 15,
-      "losses": 3,
+      "games": 16,
+      "losses": 4,
       "opponents": [
+        3,
+        4,
+        7,
         9,
+        10,
+        11,
         12,
         13,
         14,
@@ -850,17 +1573,21 @@
         21,
         31
       ],
-      "rating": 1597.95,
+      "rating": 1570.23,
       "wins": 12
     },
     "31": {
       "draws": 0,
-      "games": 17,
-      "losses": 2,
+      "games": 16,
+      "losses": 1,
       "opponents": [
         3,
         4,
+        7,
+        9,
+        10,
         11,
+        12,
         13,
         14,
         15,
@@ -871,51 +1598,83 @@
         21,
         30
       ],
-      "rating": 1640.64,
+      "rating": 1631.55,
       "wins": 15
     },
     "4": {
       "draws": 0,
-      "games": 6,
-      "losses": 4,
+      "games": 16,
+      "losses": 10,
       "opponents": [
         3,
+        7,
+        9,
+        10,
+        11,
         12,
         13,
+        14,
+        15,
         16,
         17,
+        19,
+        20,
+        21,
+        30,
         31
       ],
-      "rating": 1476.41,
-      "wins": 2
+      "rating": 1464.98,
+      "wins": 6
     },
     "7": {
       "draws": 0,
-      "games": 5,
-      "losses": 5,
+      "games": 16,
+      "losses": 13,
       "opponents": [
+        3,
+        4,
+        9,
         10,
+        11,
+        12,
+        13,
         14,
+        15,
+        16,
+        17,
         19,
         20,
-        21
+        21,
+        30,
+        31
       ],
-      "rating": 1443.99,
-      "wins": 0
+      "rating": 1402.55,
+      "wins": 3
     },
     "9": {
       "draws": 0,
-      "games": 5,
-      "losses": 5,
+      "games": 16,
+      "losses": 13,
       "opponents": [
+        3,
+        4,
+        7,
+        10,
         11,
+        12,
+        13,
+        14,
         15,
+        16,
         17,
+        19,
+        20,
         21,
-        30
+        30,
+        31
       ],
-      "rating": 1444.31,
-      "wins": 0
+      "rating": 1399.71,
+      "wins": 3
     }
   },
   "version": 1
