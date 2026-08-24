@@ -1358,6 +1358,51 @@
       "reason": "Issue #33 addresses a critical gap (unreliable predictions in biomedical reasoning) with a feasible, incremental approach, whereas Issue #4's 'spatial microenvironment' question depends on unverified data availability and lacks a clear validation method.",
       "target": 33,
       "timestamp": "2026-08-24T19:32:23.859116+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "#34 wins over #15 because it has a clear, testable question about evidence sufficiency and answerability, with a concrete dataset construction plan and measurable experiments, while #15 lacks a defined benchmark and relies on uncertain real-world conflict examples.",
+      "target": 34,
+      "timestamp": "2026-08-24T19:58:00.466092+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "#34 wins over #12 because it proposes a well-defined, tractable evaluation framework for answerability with controlled evidence degradation, whereas #12's latent space decomposition depends on uncertain data coverage and lacks a clear validation method.",
+      "target": 34,
+      "timestamp": "2026-08-24T19:58:00.466092+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 14,
+      "outcome": "win",
+      "reason": "#34 wins over #14 because it offers a falsifiable, experimentally testable question with a clear axis of evidence degradation, while #14's 'causal geometry' concept remains vague and lacks a practical empirical test definition.",
+      "target": 34,
+      "timestamp": "2026-08-24T19:58:00.466092+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "#34 wins over #13 because it provides a concrete, actionable research plan with measurable outcomes (e.g., risk-coverage curves), whereas #13's question about representation properties is too abstract and lacks a defined benchmark for evaluation.",
+      "target": 34,
+      "timestamp": "2026-08-24T19:58:00.466092+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "#34 wins over #4 because it has a well-specified, testable problem with a clear evaluation framework, while #4's question about spatial microenvironment effects depends on uncertain data availability and lacks a defined methodology.",
+      "target": 34,
+      "timestamp": "2026-08-24T19:58:00.466092+00:00"
     }
   ],
   "k_factor": 24,
@@ -1366,10 +1411,10 @@
       "ratings": {
         "10": 1422.54,
         "11": 1426.59,
-        "12": 1516.37,
-        "13": 1470.87,
-        "14": 1471.15,
-        "15": 1510.36,
+        "12": 1504.23,
+        "13": 1461.05,
+        "14": 1460.98,
+        "15": 1498.0,
         "16": 1568.67,
         "17": 1367.94,
         "19": 1598.34,
@@ -1380,11 +1425,12 @@
         "31": 1631.55,
         "32": 1556.98,
         "33": 1555.09,
-        "4": 1446.45,
+        "34": 1553.19,
+        "4": 1437.75,
         "7": 1402.55,
         "9": 1399.71
       },
-      "timestamp": "2026-08-24T19:32:24.492756+00:00"
+      "timestamp": "2026-08-24T19:58:01.095308+00:00"
     }
   ],
   "ratings": {
@@ -1440,8 +1486,8 @@
     },
     "12": {
       "draws": 0,
-      "games": 19,
-      "losses": 9,
+      "games": 20,
+      "losses": 10,
       "opponents": [
         3,
         4,
@@ -1460,12 +1506,41 @@
         30,
         31,
         32,
-        33
+        33,
+        34
       ],
-      "rating": 1516.37,
+      "rating": 1504.23,
       "wins": 10
     },
     "13": {
+      "draws": 0,
+      "games": 20,
+      "losses": 12,
+      "opponents": [
+        3,
+        4,
+        7,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "rating": 1461.05,
+      "wins": 8
+    },
+    "14": {
       "draws": 0,
       "games": 19,
       "losses": 11,
@@ -1477,7 +1552,7 @@
         10,
         11,
         12,
-        14,
+        13,
         15,
         16,
         17,
@@ -1487,14 +1562,15 @@
         30,
         31,
         32,
-        33
+        33,
+        34
       ],
-      "rating": 1470.87,
+      "rating": 1460.98,
       "wins": 8
     },
-    "14": {
+    "15": {
       "draws": 0,
-      "games": 18,
+      "games": 20,
       "losses": 10,
       "opponents": [
         3,
@@ -1505,33 +1581,6 @@
         11,
         12,
         13,
-        15,
-        16,
-        17,
-        19,
-        20,
-        21,
-        30,
-        31,
-        32,
-        33
-      ],
-      "rating": 1471.15,
-      "wins": 8
-    },
-    "15": {
-      "draws": 0,
-      "games": 19,
-      "losses": 9,
-      "opponents": [
-        3,
-        4,
-        7,
-        9,
-        10,
-        11,
-        12,
-        13,
         14,
         16,
         17,
@@ -1541,9 +1590,10 @@
         30,
         31,
         32,
-        33
+        33,
+        34
       ],
-      "rating": 1510.36,
+      "rating": 1498.0,
       "wins": 10
     },
     "16": {
@@ -1774,10 +1824,24 @@
       "rating": 1555.09,
       "wins": 5
     },
+    "34": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "opponents": [
+        4,
+        12,
+        13,
+        14,
+        15
+      ],
+      "rating": 1553.19,
+      "wins": 5
+    },
     "4": {
       "draws": 0,
-      "games": 18,
-      "losses": 12,
+      "games": 19,
+      "losses": 13,
       "opponents": [
         3,
         7,
@@ -1796,9 +1860,10 @@
         30,
         31,
         32,
-        33
+        33,
+        34
       ],
-      "rating": 1446.45,
+      "rating": 1437.75,
       "wins": 6
     },
     "7": {
