@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write
-  copilot-requests: write
 
 concurrency:
   group: research-elo
@@ -15,46 +14,36 @@ concurrency:
 
 jobs:
   weekly-cross-rank:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, macOS, ARM64]
     steps:
       - name: Checkout
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.12"
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v7
-
-      - name: Install Copilot CLI
-        run: npm install -g @github/copilot
-
       - name: Prepare weekly cross-rank matches
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
-          python scripts/weekly_research_elo.py prepare \
+          python3 scripts/weekly_research_elo.py prepare \
             --prompt-file /tmp/weekly-research-elo-prompt.txt \
             --context-file /tmp/weekly-research-elo-context.json
 
-      - name: Judge weekly matches with GitHub Copilot
+      - name: Judge weekly matches with local Ollama
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          OLLAMA_MODEL: qwen3:30b
         run: |
-          copilot -p "$(cat /tmp/weekly-research-elo-prompt.txt)" --no-ask-user > /tmp/weekly-research-elo-result.txt
-          cat /tmp/weekly-research-elo-result.txt
+          python3 scripts/ollama_judge.py \
+            --prompt-file /tmp/weekly-research-elo-prompt.txt \
+            --output-file /tmp/weekly-research-elo-result.txt
 
       - name: Apply weekly Elo updates
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
-          python scripts/weekly_research_elo.py apply \
+          python3 scripts/weekly_research_elo.py apply \
             --context-file /tmp/weekly-research-elo-context.json \
             --result-file /tmp/weekly-research-elo-result.txt
 
@@ -62,7 +51,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python scripts/render_research_elo.py
+        run: python3 scripts/render_research_elo.py
 
       - name: Commit weekly rating updates
         run: |

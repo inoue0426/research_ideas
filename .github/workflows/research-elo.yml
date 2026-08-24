@@ -1,11 +1,13 @@
 name: Research Elo
 
 on:
+  schedule:
+    - cron: "17 */3 * * *"
   workflow_dispatch:
     inputs:
       issue_number:
-        description: "Issue number to rate"
-        required: true
+        description: "Issue number to rate (leave blank for automatic selection)"
+        required: false
         type: string
   issues:
     types: [opened, edited, reopened]
@@ -13,7 +15,6 @@ on:
 permissions:
   contents: write
   issues: write
-  copilot-requests: write
 
 concurrency:
   group: research-elo
@@ -21,60 +22,56 @@ concurrency:
 
 jobs:
   rate:
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.issue.user.login == github.repository_owner }}
-    runs-on: ubuntu-latest
+    if: ${{ github.event_name != 'issues' || github.event.issue.user.login == github.repository_owner }}
+    runs-on: [self-hosted, macOS, ARM64]
     steps:
       - name: Checkout
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.12"
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v7
-
-      - name: Install Copilot CLI
-        run: npm install -g @github/copilot
-
       - name: Resolve issue number
         id: issue
         env:
           MANUAL_ISSUE: ${{ inputs.issue_number }}
           EVENT_ISSUE: ${{ github.event.issue.number }}
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "number=$MANUAL_ISSUE" >> "$GITHUB_OUTPUT"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "$MANUAL_ISSUE" ]; then
+            number="$MANUAL_ISSUE"
+          elif [ "${{ github.event_name }}" = "issues" ]; then
+            number="$EVENT_ISSUE"
           else
-            echo "number=$EVENT_ISSUE" >> "$GITHUB_OUTPUT"
+            number="$(python3 scripts/select_research_elo_issue.py)"
           fi
+          echo "Selected issue #$number"
+          echo "number=$number" >> "$GITHUB_OUTPUT"
 
       - name: Prepare pairwise judging prompt
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
-          python scripts/research_elo.py prepare \
+          python3 scripts/research_elo.py prepare \
             --issue "${{ steps.issue.outputs.number }}" \
             --prompt-file /tmp/research-elo-prompt.txt \
             --context-file /tmp/research-elo-context.json
 
-      - name: Judge with GitHub Copilot
+      - name: Judge with local Ollama
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          OLLAMA_MODEL: qwen3:30b
         run: |
-          copilot -p "$(cat /tmp/research-elo-prompt.txt)" --no-ask-user > /tmp/research-elo-result.txt
-          cat /tmp/research-elo-result.txt
+          python3 scripts/ollama_judge.py \
+            --prompt-file /tmp/research-elo-prompt.txt \
+            --output-file /tmp/research-elo-result.txt
 
       - name: Apply Elo updates and comment on issue
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
-          python scripts/research_elo.py apply \
+          python3 scripts/research_elo.py apply \
             --issue "${{ steps.issue.outputs.number }}" \
             --context-file /tmp/research-elo-context.json \
             --result-file /tmp/research-elo-result.txt
@@ -83,7 +80,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python scripts/render_research_elo.py
+        run: python3 scripts/render_research_elo.py
 
       - name: Commit rating state and README ranking
         run: |
