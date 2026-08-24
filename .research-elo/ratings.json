@@ -1313,6 +1313,51 @@
       "reason": "Issue #32 has stronger novelty (frontier-conditioned generation is untested), higher importance (improves multi-objective drug design), and clearer evaluation metrics. Issue #12's 'shared perturbation space' is more speculative and depends on dataset coverage that may not exist.",
       "target": 32,
       "timestamp": "2026-08-24T18:56:08.802753+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 14,
+      "outcome": "win",
+      "reason": "Issue #33 addresses a clear, actionable problem (uncertainty quantification in biomedical reasoning) with strong practical relevance, tractable next steps (retrospective experiment), and explicit metrics for evaluation. Issue #14 lacks a concrete definition of 'causal geometry' and has unclear empirical validation path.",
+      "target": 33,
+      "timestamp": "2026-08-24T19:32:23.859116+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "Issue #33 has a well-defined question (abstention based on uncertainty signals) with immediate feasibility (using existing DrugAgent outputs), while Issue #13's question is too broad and lacks a clear benchmark for evaluation.",
+      "target": 33,
+      "timestamp": "2026-08-24T19:32:23.859116+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "Issue #33 provides a specific mechanism (agent disagreement as uncertainty signal) with clear evaluation metrics, whereas Issue #15's 'conflicting evidence' problem is vague and lacks a defined benchmark for real-world validation.",
+      "target": 33,
+      "timestamp": "2026-08-24T19:32:23.859116+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "Issue #33 has a concrete, testable hypothesis with a defined next step (retrospective experiment), while Issue #12's 'shared perturbation space' idea lacks evidence of sufficient data coverage for reliable decomposition.",
+      "target": 33,
+      "timestamp": "2026-08-24T19:32:23.859116+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "Issue #33 addresses a critical gap (unreliable predictions in biomedical reasoning) with a feasible, incremental approach, whereas Issue #4's 'spatial microenvironment' question depends on unverified data availability and lacks a clear validation method.",
+      "target": 33,
+      "timestamp": "2026-08-24T19:32:23.859116+00:00"
     }
   ],
   "k_factor": 24,
@@ -1321,10 +1366,10 @@
       "ratings": {
         "10": 1422.54,
         "11": 1426.59,
-        "12": 1528.15,
-        "13": 1481.85,
-        "14": 1482.55,
-        "15": 1522.36,
+        "12": 1516.37,
+        "13": 1470.87,
+        "14": 1471.15,
+        "15": 1510.36,
         "16": 1568.67,
         "17": 1367.94,
         "19": 1598.34,
@@ -1334,11 +1379,12 @@
         "30": 1582.08,
         "31": 1631.55,
         "32": 1556.98,
-        "4": 1455.38,
+        "33": 1555.09,
+        "4": 1446.45,
         "7": 1402.55,
         "9": 1399.71
       },
-      "timestamp": "2026-08-24T18:56:09.672452+00:00"
+      "timestamp": "2026-08-24T19:32:24.492756+00:00"
     }
   ],
   "ratings": {
@@ -1394,8 +1440,8 @@
     },
     "12": {
       "draws": 0,
-      "games": 18,
-      "losses": 8,
+      "games": 19,
+      "losses": 9,
       "opponents": [
         3,
         4,
@@ -1413,12 +1459,40 @@
         21,
         30,
         31,
-        32
+        32,
+        33
       ],
-      "rating": 1528.15,
+      "rating": 1516.37,
       "wins": 10
     },
     "13": {
+      "draws": 0,
+      "games": 19,
+      "losses": 11,
+      "opponents": [
+        3,
+        4,
+        7,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21,
+        30,
+        31,
+        32,
+        33
+      ],
+      "rating": 1470.87,
+      "wins": 8
+    },
+    "14": {
       "draws": 0,
       "games": 18,
       "losses": 10,
@@ -1430,7 +1504,7 @@
         10,
         11,
         12,
-        14,
+        13,
         15,
         16,
         17,
@@ -1439,14 +1513,15 @@
         21,
         30,
         31,
-        32
+        32,
+        33
       ],
-      "rating": 1481.85,
+      "rating": 1471.15,
       "wins": 8
     },
-    "14": {
+    "15": {
       "draws": 0,
-      "games": 17,
+      "games": 19,
       "losses": 9,
       "opponents": [
         3,
@@ -1457,32 +1532,6 @@
         11,
         12,
         13,
-        15,
-        16,
-        17,
-        19,
-        20,
-        21,
-        30,
-        31,
-        32
-      ],
-      "rating": 1482.55,
-      "wins": 8
-    },
-    "15": {
-      "draws": 0,
-      "games": 18,
-      "losses": 8,
-      "opponents": [
-        3,
-        4,
-        7,
-        9,
-        10,
-        11,
-        12,
-        13,
         14,
         16,
         17,
@@ -1491,9 +1540,10 @@
         21,
         30,
         31,
-        32
+        32,
+        33
       ],
-      "rating": 1522.36,
+      "rating": 1510.36,
       "wins": 10
     },
     "16": {
@@ -1710,10 +1760,24 @@
       "rating": 1556.98,
       "wins": 5
     },
+    "33": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "opponents": [
+        4,
+        12,
+        13,
+        14,
+        15
+      ],
+      "rating": 1555.09,
+      "wins": 5
+    },
     "4": {
       "draws": 0,
-      "games": 17,
-      "losses": 11,
+      "games": 18,
+      "losses": 12,
       "opponents": [
         3,
         7,
@@ -1731,9 +1795,10 @@
         21,
         30,
         31,
-        32
+        32,
+        33
       ],
-      "rating": 1455.38,
+      "rating": 1446.45,
       "wins": 6
     },
     "7": {
