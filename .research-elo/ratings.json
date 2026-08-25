@@ -1853,6 +1853,51 @@
       "reason": "Issue #11's intervention geometry question is more directly actionable and testable than Issue #4's spatial microenvironment question, which depends on dataset availability for separation of confounding factors.",
       "target": 11,
       "timestamp": "2026-08-25T21:29:56.789160+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "loss",
+      "reason": "#15 wins over #35 because it poses a clear, testable question about resolving conflicting evidence in mechanistic reasoning, which is a fundamental gap in current AI systems, while #35's MCTS approach is speculative and lacks clear evidence of a unique failure mode beyond what's already addressed by simpler methods.",
+      "target": 35,
+      "timestamp": "2026-08-25T22:34:06.573386+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "loss",
+      "reason": "#12 wins over #35 because it addresses a concrete, practical problem in target validation with a well-defined research question about decomposing perturbation responses, whereas #35's focus on MCTS for KG reasoning is overly complex and lacks strong justification for its novelty over existing graph-based methods.",
+      "target": 35,
+      "timestamp": "2026-08-25T22:34:06.573386+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "win",
+      "reason": "#35 wins over #16 because it has a clear, actionable research plan with defined evaluation metrics and a specific failure mode to address, while #16's question about foundation models and identifiability is too abstract and lacks a concrete path to empirical validation within a six-month timeframe.",
+      "target": 35,
+      "timestamp": "2026-08-25T22:34:06.573386+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "#13 wins over #35 because it asks a fundamental question about representation properties that directly impacts the design of biological models, with a clear path to empirical validation through benchmarking, whereas #35's MCTS approach is a methodological proposal without strong evidence of a unique problem it solves.",
+      "target": 35,
+      "timestamp": "2026-08-25T22:34:06.573386+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 14,
+      "outcome": "loss",
+      "reason": "#14 wins over #35 because it proposes a testable framework for validating shared causal geometry using perturbational evidence, which is a more concrete and actionable research direction than #35's speculative MCTS-based reasoning system.",
+      "target": 35,
+      "timestamp": "2026-08-25T22:34:06.573386+00:00"
     }
   ],
   "k_factor": 24,
@@ -1886,11 +1931,11 @@
       "ratings": {
         "10": 1407.28,
         "11": 1444.89,
-        "12": 1504.23,
-        "13": 1461.05,
-        "14": 1460.98,
-        "15": 1498.0,
-        "16": 1532.96,
+        "12": 1515.67,
+        "13": 1474.06,
+        "14": 1473.55,
+        "15": 1510.07,
+        "16": 1519.03,
         "17": 1324.86,
         "19": 1564.04,
         "20": 1554.27,
@@ -1901,11 +1946,12 @@
         "32": 1641.19,
         "33": 1653.9,
         "34": 1667.01,
+        "35": 1464.84,
         "4": 1425.58,
         "7": 1379.66,
         "9": 1418.51
       },
-      "timestamp": "2026-08-25T21:29:57.601338+00:00"
+      "timestamp": "2026-08-25T22:34:07.373946+00:00"
     }
   ],
   "ratings": {
@@ -1967,7 +2013,7 @@
     },
     "12": {
       "draws": 0,
-      "games": 20,
+      "games": 21,
       "losses": 10,
       "opponents": [
         3,
@@ -1988,14 +2034,15 @@
         31,
         32,
         33,
-        34
+        34,
+        35
       ],
-      "rating": 1504.23,
-      "wins": 10
+      "rating": 1515.67,
+      "wins": 11
     },
     "13": {
       "draws": 0,
-      "games": 20,
+      "games": 21,
       "losses": 12,
       "opponents": [
         3,
@@ -2016,14 +2063,15 @@
         31,
         32,
         33,
-        34
+        34,
+        35
       ],
-      "rating": 1461.05,
-      "wins": 8
+      "rating": 1474.06,
+      "wins": 9
     },
     "14": {
       "draws": 0,
-      "games": 19,
+      "games": 20,
       "losses": 11,
       "opponents": [
         3,
@@ -2044,14 +2092,15 @@
         31,
         32,
         33,
-        34
+        34,
+        35
       ],
-      "rating": 1460.98,
-      "wins": 8
+      "rating": 1473.55,
+      "wins": 9
     },
     "15": {
       "draws": 0,
-      "games": 20,
+      "games": 21,
       "losses": 10,
       "opponents": [
         3,
@@ -2072,15 +2121,16 @@
         31,
         32,
         33,
-        34
+        34,
+        35
       ],
-      "rating": 1498.0,
-      "wins": 10
+      "rating": 1510.07,
+      "wins": 11
     },
     "16": {
       "draws": 0,
-      "games": 20,
-      "losses": 8,
+      "games": 21,
+      "losses": 9,
       "opponents": [
         3,
         4,
@@ -2100,9 +2150,10 @@
         31,
         32,
         33,
-        34
+        34,
+        35
       ],
-      "rating": 1532.96,
+      "rating": 1519.03,
       "wins": 12
     },
     "17": {
@@ -2383,6 +2434,20 @@
       ],
       "rating": 1667.01,
       "wins": 19
+    },
+    "35": {
+      "draws": 0,
+      "games": 5,
+      "losses": 4,
+      "opponents": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "rating": 1464.84,
+      "wins": 1
     },
     "4": {
       "draws": 0,
