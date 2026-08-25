@@ -1628,6 +1628,51 @@
       "reason": "Issue #32's problem is well-scoped with a defined evaluation framework (hypervolume, validity, diversity), while Issue #3's mechanism arbitration lacks a concrete benchmark to distinguish better arbitration from persuasive explanation, making it less tractable.",
       "target": 32,
       "timestamp": "2026-08-25T06:32:02.826277+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "#33 wins over #31 because it has a clearer, more actionable question focused on uncertainty quantification and abstention, with a well-defined next step (retrospective experiment) that directly tests the core hypothesis, whereas #31's distinction between evidence selection and sufficiency lacks concrete evidence of reproducibility and a clear evaluation framework.",
+      "target": 33,
+      "timestamp": "2026-08-25T09:31:08.670379+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "#33 wins over #11 because it addresses a more immediate and well-defined problem (uncertainty in multi-agent reasoning) with a clear path to validation, while #11's question about intervention geometry is more abstract and lacks a concrete next step to test the core hypothesis.",
+      "target": 33,
+      "timestamp": "2026-08-25T09:31:08.670379+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "#33 wins over #10 because it proposes a specific, testable mechanism (using agent disagreement for uncertainty) with a defined next step (retrospective experiment), whereas #10's question is too broad and lacks a clear method to measure structural transferability.",
+      "target": 33,
+      "timestamp": "2026-08-25T09:31:08.670379+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "#33 wins over #7 because it tackles a more fundamental problem (reliability of predictions) with a clear, actionable research plan, while #7's focus on spatial INRs is more niche and depends on the availability of specific datasets that are not confirmed.",
+      "target": 33,
+      "timestamp": "2026-08-25T09:31:08.670379+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "#33 wins over #3 because #3's iterative optimization idea is vague and lacks a clear benchmark for evaluation, whereas #33 has a well-defined question, a concrete next step, and a direct path to testing the core hypothesis.",
+      "target": 33,
+      "timestamp": "2026-08-25T09:31:08.670379+00:00"
     }
   ],
   "k_factor": 24,
@@ -1659,8 +1704,8 @@
     },
     {
       "ratings": {
-        "10": 1411.63,
-        "11": 1415.21,
+        "10": 1406.32,
+        "11": 1409.68,
         "12": 1504.23,
         "13": 1461.05,
         "14": 1460.98,
@@ -1670,24 +1715,24 @@
         "19": 1564.04,
         "20": 1554.27,
         "21": 1540.39,
-        "3": 1402.44,
+        "3": 1397.58,
         "30": 1546.64,
-        "31": 1606.42,
+        "31": 1594.65,
         "32": 1643.54,
-        "33": 1612.95,
+        "33": 1645.4,
         "34": 1637.3,
         "4": 1437.75,
-        "7": 1402.55,
+        "7": 1397.57,
         "9": 1399.71
       },
-      "timestamp": "2026-08-25T06:32:03.582029+00:00"
+      "timestamp": "2026-08-25T09:31:09.335997+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 0,
-      "games": 18,
-      "losses": 14,
+      "games": 19,
+      "losses": 15,
       "opponents": [
         3,
         4,
@@ -1706,15 +1751,16 @@
         30,
         31,
         32,
+        33,
         34
       ],
-      "rating": 1411.63,
+      "rating": 1406.32,
       "wins": 4
     },
     "11": {
       "draws": 0,
-      "games": 18,
-      "losses": 13,
+      "games": 19,
+      "losses": 14,
       "opponents": [
         3,
         4,
@@ -1733,9 +1779,10 @@
         30,
         31,
         32,
+        33,
         34
       ],
-      "rating": 1415.21,
+      "rating": 1409.68,
       "wins": 5
     },
     "12": {
@@ -1989,8 +2036,8 @@
     },
     "3": {
       "draws": 0,
-      "games": 17,
-      "losses": 14,
+      "games": 18,
+      "losses": 15,
       "opponents": [
         4,
         7,
@@ -2008,9 +2055,10 @@
         21,
         30,
         31,
-        32
+        32,
+        33
       ],
-      "rating": 1402.44,
+      "rating": 1397.58,
       "wins": 3
     },
     "30": {
@@ -2043,8 +2091,8 @@
     },
     "31": {
       "draws": 0,
-      "games": 18,
-      "losses": 3,
+      "games": 19,
+      "losses": 4,
       "opponents": [
         3,
         4,
@@ -2063,9 +2111,10 @@
         21,
         30,
         32,
+        33,
         34
       ],
-      "rating": 1606.42,
+      "rating": 1594.65,
       "wins": 15
     },
     "32": {
@@ -2095,10 +2144,14 @@
     },
     "33": {
       "draws": 0,
-      "games": 12,
+      "games": 17,
       "losses": 1,
       "opponents": [
+        3,
         4,
+        7,
+        10,
+        11,
         12,
         13,
         14,
@@ -2108,11 +2161,12 @@
         20,
         21,
         30,
+        31,
         32,
         34
       ],
-      "rating": 1612.95,
-      "wins": 11
+      "rating": 1645.4,
+      "wins": 16
     },
     "34": {
       "draws": 0,
@@ -2168,8 +2222,8 @@
     },
     "7": {
       "draws": 0,
-      "games": 16,
-      "losses": 13,
+      "games": 17,
+      "losses": 14,
       "opponents": [
         3,
         4,
@@ -2186,9 +2240,10 @@
         20,
         21,
         30,
-        31
+        31,
+        33
       ],
-      "rating": 1402.55,
+      "rating": 1397.57,
       "wins": 3
     },
     "9": {
