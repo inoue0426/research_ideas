@@ -1808,6 +1808,51 @@
       "reason": "Issue #9's question about evaluating multiple valid mechanisms is more scientifically important and broadly applicable than #10's domain shift transfer question, which lacks concrete evaluation metrics.",
       "target": 9,
       "timestamp": "2026-08-25T18:39:10.788997+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 10,
+      "outcome": "loss",
+      "reason": "Issue #10 is more focused on identifying invariant structures across domains, which is a clearer, more generalizable question than Issue #11's narrower focus on intervention geometry. It addresses a fundamental gap in transfer learning with broader applicability.",
+      "target": 11,
+      "timestamp": "2026-08-25T21:29:56.789160+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Issue #11 proposes a specific, testable hypothesis about intervention geometry transferability, while Issue #7's uncertainty-aware INR lacks clear evidence of superiority over existing methods and depends on dataset availability.",
+      "target": 11,
+      "timestamp": "2026-08-25T21:29:56.789160+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "Issue #11's question about intervention geometry transferability is more directly testable and has clearer scientific implications than Issue #3's iterative optimization approach, which lacks a defined benchmark for evaluation.",
+      "target": 11,
+      "timestamp": "2026-08-25T21:29:56.789160+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "Issue #11's question about intervention geometry transferability is more concrete and testable than Issue #9's evaluation framework, which depends on curating multiple valid mechanisms—a significant uncertainty.",
+      "target": 11,
+      "timestamp": "2026-08-25T21:29:56.789160+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "Issue #11's intervention geometry question is more directly actionable and testable than Issue #4's spatial microenvironment question, which depends on dataset availability for separation of confounding factors.",
+      "target": 11,
+      "timestamp": "2026-08-25T21:29:56.789160+00:00"
     }
   ],
   "k_factor": 24,
@@ -1839,8 +1884,8 @@
     },
     {
       "ratings": {
-        "10": 1394.77,
-        "11": 1409.68,
+        "10": 1407.28,
+        "11": 1444.89,
         "12": 1504.23,
         "13": 1461.05,
         "14": 1460.98,
@@ -1850,23 +1895,23 @@
         "19": 1564.04,
         "20": 1554.27,
         "21": 1540.39,
-        "3": 1391.3,
+        "3": 1379.91,
         "30": 1546.64,
         "31": 1594.65,
         "32": 1641.19,
         "33": 1653.9,
         "34": 1667.01,
-        "4": 1437.75,
-        "7": 1391.46,
-        "9": 1430.87
+        "4": 1425.58,
+        "7": 1379.66,
+        "9": 1418.51
       },
-      "timestamp": "2026-08-25T18:39:11.604806+00:00"
+      "timestamp": "2026-08-25T21:29:57.601338+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 0,
-      "games": 20,
+      "games": 21,
       "losses": 16,
       "opponents": [
         3,
@@ -1889,13 +1934,13 @@
         33,
         34
       ],
-      "rating": 1394.77,
-      "wins": 4
+      "rating": 1407.28,
+      "wins": 5
     },
     "11": {
       "draws": 0,
-      "games": 19,
-      "losses": 14,
+      "games": 24,
+      "losses": 15,
       "opponents": [
         3,
         4,
@@ -1917,8 +1962,8 @@
         33,
         34
       ],
-      "rating": 1409.68,
-      "wins": 5
+      "rating": 1444.89,
+      "wins": 9
     },
     "12": {
       "draws": 0,
@@ -2174,8 +2219,8 @@
     },
     "3": {
       "draws": 0,
-      "games": 21,
-      "losses": 17,
+      "games": 22,
+      "losses": 18,
       "opponents": [
         4,
         7,
@@ -2197,7 +2242,7 @@
         33,
         34
       ],
-      "rating": 1391.3,
+      "rating": 1379.91,
       "wins": 4
     },
     "30": {
@@ -2341,8 +2386,8 @@
     },
     "4": {
       "draws": 0,
-      "games": 19,
-      "losses": 13,
+      "games": 20,
+      "losses": 14,
       "opponents": [
         3,
         7,
@@ -2364,13 +2409,13 @@
         33,
         34
       ],
-      "rating": 1437.75,
+      "rating": 1425.58,
       "wins": 6
     },
     "7": {
       "draws": 0,
-      "games": 20,
-      "losses": 16,
+      "games": 21,
+      "losses": 17,
       "opponents": [
         3,
         4,
@@ -2391,13 +2436,13 @@
         33,
         34
       ],
-      "rating": 1391.46,
+      "rating": 1379.66,
       "wins": 4
     },
     "9": {
       "draws": 0,
-      "games": 23,
-      "losses": 16,
+      "games": 24,
+      "losses": 17,
       "opponents": [
         3,
         4,
@@ -2419,7 +2464,7 @@
         33,
         34
       ],
-      "rating": 1430.87,
+      "rating": 1418.51,
       "wins": 7
     }
   },

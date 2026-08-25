@@ -32,15 +32,15 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 | ≈10 | [#15 — \[Idea\] Mechanism arbitration under conflicting evidence](https://github.com/inoue0426/research_ideas/issues/15) | **1498** | — | 20 | 19 | 🟢 Established | 10W / 0D / 10L |
 | ≈12 | [#13 — \[Idea\] What makes a representation preserve intervention geometry?](https://github.com/inoue0426/research_ideas/issues/13) | **1461** | — | 20 | 19 | 🟢 Established | 8W / 0D / 12L |
 | ≈12 | [#14 — \[Idea\] Shared causal geometry across biological modalities](https://github.com/inoue0426/research_ideas/issues/14) | **1461** | — | 19 | 19 | 🟢 Established | 8W / 0D / 11L |
-| ≈14 | [#4 — \[Idea\] When does the spatial microenvironment override cell-intrinsic drug sensitivity?](https://github.com/inoue0426/research_ideas/issues/4) | **1438** | — | 19 | 19 | 🟢 Established | 6W / 0D / 13L |
-| ≈14 | [#9 — \[Idea\] How should mechanistic reasoning in drug response be evaluated when multiple explanations may be valid?](https://github.com/inoue0426/research_ideas/issues/9) | **1431** | — | 23 | 19 | 🟢 Established | 7W / 0D / 16L |
-| ≈16 | [#11 — \[Idea\] Intervention geometry may transfer better than state geometry](https://github.com/inoue0426/research_ideas/issues/11) | **1410** | — | 19 | 19 | 🟢 Established | 5W / 0D / 14L |
-| ≈16 | [#10 — \[Idea\] What biological structures remain transferable across domain shifts?](https://github.com/inoue0426/research_ideas/issues/10) | **1395** | — | 20 | 19 | 🟢 Established | 4W / 0D / 16L |
-| ≈16 | [#7 — \[Idea\] Uncertainty-aware Drug-conditioned spatial INR](https://github.com/inoue0426/research_ideas/issues/7) | **1391** | — | 20 | 18 | 🟢 Established | 4W / 0D / 16L |
-| ≈16 | [#3 — \[Idea\] Can iterative optimization improve mechanism arbitration under conflicting evidence?](https://github.com/inoue0426/research_ideas/issues/3) | **1391** | — | 21 | 19 | 🟢 Established | 4W / 0D / 17L |
+| ≈12 | [#11 — \[Idea\] Intervention geometry may transfer better than state geometry](https://github.com/inoue0426/research_ideas/issues/11) | **1445** | — | 24 | 19 | 🟢 Established | 9W / 0D / 15L |
+| ≈15 | [#4 — \[Idea\] When does the spatial microenvironment override cell-intrinsic drug sensitivity?](https://github.com/inoue0426/research_ideas/issues/4) | **1426** | — | 20 | 19 | 🟢 Established | 6W / 0D / 14L |
+| ≈15 | [#9 — \[Idea\] How should mechanistic reasoning in drug response be evaluated when multiple explanations may be valid?](https://github.com/inoue0426/research_ideas/issues/9) | **1419** | — | 24 | 19 | 🟢 Established | 7W / 0D / 17L |
+| ≈15 | [#10 — \[Idea\] What biological structures remain transferable across domain shifts?](https://github.com/inoue0426/research_ideas/issues/10) | **1407** | — | 21 | 19 | 🟢 Established | 5W / 0D / 16L |
+| ≈18 | [#3 — \[Idea\] Can iterative optimization improve mechanism arbitration under conflicting evidence?](https://github.com/inoue0426/research_ideas/issues/3) | **1380** | — | 22 | 19 | 🟢 Established | 4W / 0D / 18L |
+| ≈18 | [#7 — \[Idea\] Uncertainty-aware Drug-conditioned spatial INR](https://github.com/inoue0426/research_ideas/issues/7) | **1380** | — | 21 | 18 | 🟢 Established | 4W / 0D / 17L |
 | 20 | [#17 — \[Idea\] Human-in-the-loop mechanism refinement](https://github.com/inoue0426/research_ideas/issues/17) | **1325** | — | 22 | 19 | 🟢 Established | 1W / 0D / 21L |
 
-_Updated automatically by Research Elo workflows. Last update: 2026-08-25 18:39 UTC._
+_Updated automatically by Research Elo workflows. Last update: 2026-08-25 21:29 UTC._
 <!-- RESEARCH_ELO_END -->
 
 <!-- RESEARCH_MAPS_START -->
