@@ -1673,6 +1673,51 @@
       "reason": "#33 wins over #3 because #3's iterative optimization idea is vague and lacks a clear benchmark for evaluation, whereas #33 has a well-defined question, a concrete next step, and a direct path to testing the core hypothesis.",
       "target": 33,
       "timestamp": "2026-08-25T09:31:08.670379+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "Issue #34 addresses a clear, testable problem (evidence sufficiency for abstention) with strong scientific motivation, tractable experiments, and direct relevance to LLM reliability in biomedical reasoning. Issue #9 lacks concrete evaluation criteria and relies on unverified assumptions about curating multiple mechanisms.",
+      "target": 34,
+      "timestamp": "2026-08-25T12:31:53.697220+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "Issue #34 provides a well-defined experimental framework for measuring answerability, while Issue #3 lacks a clear benchmark or evaluation method for 'multiple valid mechanisms' and has high uncertainty about feasibility.",
+      "target": 34,
+      "timestamp": "2026-08-25T12:31:53.697220+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Issue #34 has a concrete, actionable research plan with measurable outcomes (e.g., risk-coverage curves), whereas Issue #7's uncertainty about dataset availability and INR's advantage over existing methods makes it less tractable for a six-month project.",
+      "target": 34,
+      "timestamp": "2026-08-25T12:31:53.697220+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "Issue #34 offers a direct, testable contribution to LLM reliability (abstention based on evidence sufficiency), while Issue #17's focus on HCI and expert feedback lacks a clear scientific contribution beyond visualization and has high uncertainty about measurable improvement.",
+      "target": 34,
+      "timestamp": "2026-08-25T12:31:53.697220+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 32,
+      "outcome": "win",
+      "reason": "Issue #34 has a clear, falsifiable hypothesis (LLMs can estimate answerability) with a defined experimental path, while Issue #32's novelty is uncertain due to potential overlap with existing LLM-based multi-objective optimization work.",
+      "target": 34,
+      "timestamp": "2026-08-25T12:31:53.697220+00:00"
     }
   ],
   "k_factor": 24,
@@ -1711,21 +1756,21 @@
         "14": 1460.98,
         "15": 1498.0,
         "16": 1532.96,
-        "17": 1367.94,
+        "17": 1364.02,
         "19": 1564.04,
         "20": 1554.27,
         "21": 1540.39,
-        "3": 1397.58,
+        "3": 1392.86,
         "30": 1546.64,
         "31": 1594.65,
-        "32": 1643.54,
+        "32": 1631.95,
         "33": 1645.4,
-        "34": 1637.3,
+        "34": 1667.01,
         "4": 1437.75,
-        "7": 1397.57,
-        "9": 1399.71
+        "7": 1392.96,
+        "9": 1394.84
       },
-      "timestamp": "2026-08-25T09:31:09.335997+00:00"
+      "timestamp": "2026-08-25T12:31:54.521431+00:00"
     }
   ],
   "ratings": {
@@ -1927,8 +1972,8 @@
     },
     "17": {
       "draws": 0,
-      "games": 16,
-      "losses": 15,
+      "games": 17,
+      "losses": 16,
       "opponents": [
         3,
         4,
@@ -1945,9 +1990,10 @@
         20,
         21,
         30,
-        31
+        31,
+        34
       ],
-      "rating": 1367.94,
+      "rating": 1364.02,
       "wins": 1
     },
     "19": {
@@ -2036,8 +2082,8 @@
     },
     "3": {
       "draws": 0,
-      "games": 18,
-      "losses": 15,
+      "games": 19,
+      "losses": 16,
       "opponents": [
         4,
         7,
@@ -2056,9 +2102,10 @@
         30,
         31,
         32,
-        33
+        33,
+        34
       ],
-      "rating": 1397.58,
+      "rating": 1392.86,
       "wins": 3
     },
     "30": {
@@ -2119,8 +2166,8 @@
     },
     "32": {
       "draws": 0,
-      "games": 16,
-      "losses": 1,
+      "games": 17,
+      "losses": 2,
       "opponents": [
         3,
         4,
@@ -2139,7 +2186,7 @@
         33,
         34
       ],
-      "rating": 1643.54,
+      "rating": 1631.95,
       "wins": 15
     },
     "33": {
@@ -2170,10 +2217,13 @@
     },
     "34": {
       "draws": 0,
-      "games": 15,
+      "games": 20,
       "losses": 1,
       "opponents": [
+        3,
         4,
+        7,
+        9,
         10,
         11,
         12,
@@ -2181,6 +2231,7 @@
         14,
         15,
         16,
+        17,
         19,
         20,
         21,
@@ -2189,8 +2240,8 @@
         32,
         33
       ],
-      "rating": 1637.3,
-      "wins": 14
+      "rating": 1667.01,
+      "wins": 19
     },
     "4": {
       "draws": 0,
@@ -2222,8 +2273,8 @@
     },
     "7": {
       "draws": 0,
-      "games": 17,
-      "losses": 14,
+      "games": 18,
+      "losses": 15,
       "opponents": [
         3,
         4,
@@ -2241,15 +2292,16 @@
         21,
         30,
         31,
-        33
+        33,
+        34
       ],
-      "rating": 1397.57,
+      "rating": 1392.96,
       "wins": 3
     },
     "9": {
       "draws": 0,
-      "games": 16,
-      "losses": 13,
+      "games": 17,
+      "losses": 14,
       "opponents": [
         3,
         4,
@@ -2266,9 +2318,10 @@
         20,
         21,
         30,
-        31
+        31,
+        34
       ],
-      "rating": 1399.71,
+      "rating": 1394.84,
       "wins": 3
     }
   },

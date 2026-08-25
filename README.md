@@ -19,9 +19,9 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 
 | Rank | Issue | Rating | Δ7d | Games | Opp. | Status | Record |
 |---:|---|---:|---:|---:|---:|---|---:|
-| ≈1 | [#33 — \[Idea\] Multi-Agent Uncertainty and Abstention for Biomedical Drug Reasoning](https://github.com/inoue0426/research_ideas/issues/33) | **1645** | — | 17 | 17 | 🟢 Established | 16W / 0D / 1L |
-| ≈1 | [#32 — \[Idea\] Frontier-Conditioned Molecular Generation with Large Language Models](https://github.com/inoue0426/research_ideas/issues/32) | **1644** | — | 16 | 16 | 🟢 Established | 15W / 0D / 1L |
-| ≈1 | [#34 — \[Idea\] CTD: Evidence Sufficiency and Selective Abstention](https://github.com/inoue0426/research_ideas/issues/34) | **1637** | — | 15 | 15 | 🟢 Established | 14W / 0D / 1L |
+| 1 | [#34 — \[Idea\] CTD: Evidence Sufficiency and Selective Abstention](https://github.com/inoue0426/research_ideas/issues/34) | **1667** | — | 20 | 19 | 🟢 Established | 19W / 0D / 1L |
+| ≈2 | [#33 — \[Idea\] Multi-Agent Uncertainty and Abstention for Biomedical Drug Reasoning](https://github.com/inoue0426/research_ideas/issues/33) | **1645** | — | 17 | 17 | 🟢 Established | 16W / 0D / 1L |
+| ≈2 | [#32 — \[Idea\] Frontier-Conditioned Molecular Generation with Large Language Models](https://github.com/inoue0426/research_ideas/issues/32) | **1632** | — | 17 | 16 | 🟢 Established | 15W / 0D / 2L |
 | 4 | [#31 — \[Idea\] Reliable Biomedical Evidence Reasoning: Separating Evidence Selection from Evidence Sufficiency](https://github.com/inoue0426/research_ideas/issues/31) | **1595** | — | 19 | 19 | 🟢 Established | 15W / 0D / 4L |
 | ≈5 | [#19 — \[Idea\] When does perturbation transfer fail across biological domains?](https://github.com/inoue0426/research_ideas/issues/19) | **1564** | — | 19 | 19 | 🟢 Established | 13W / 0D / 6L |
 | ≈5 | [#20 — \[Idea\] Is there a compositional algebra of biological perturbations?](https://github.com/inoue0426/research_ideas/issues/20) | **1554** | — | 19 | 19 | 🟢 Established | 13W / 0D / 6L |
@@ -35,12 +35,12 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 | 14 | [#4 — \[Idea\] When does the spatial microenvironment override cell-intrinsic drug sensitivity?](https://github.com/inoue0426/research_ideas/issues/4) | **1438** | — | 19 | 19 | 🟢 Established | 6W / 0D / 13L |
 | ≈15 | [#11 — \[Idea\] Intervention geometry may transfer better than state geometry](https://github.com/inoue0426/research_ideas/issues/11) | **1410** | — | 19 | 19 | 🟢 Established | 5W / 0D / 14L |
 | ≈15 | [#10 — \[Idea\] What biological structures remain transferable across domain shifts?](https://github.com/inoue0426/research_ideas/issues/10) | **1406** | — | 19 | 19 | 🟢 Established | 4W / 0D / 15L |
-| ≈15 | [#9 — \[Idea\] How should mechanistic reasoning in drug response be evaluated when multiple explanations may be valid?](https://github.com/inoue0426/research_ideas/issues/9) | **1400** | — | 16 | 16 | 🟢 Established | 3W / 0D / 13L |
-| ≈15 | [#3 — \[Idea\] Can iterative optimization improve mechanism arbitration under conflicting evidence?](https://github.com/inoue0426/research_ideas/issues/3) | **1398** | — | 18 | 18 | 🟢 Established | 3W / 0D / 15L |
-| ≈15 | [#7 — \[Idea\] Uncertainty-aware Drug-conditioned spatial INR](https://github.com/inoue0426/research_ideas/issues/7) | **1398** | — | 17 | 17 | 🟢 Established | 3W / 0D / 14L |
-| 20 | [#17 — \[Idea\] Human-in-the-loop mechanism refinement](https://github.com/inoue0426/research_ideas/issues/17) | **1368** | — | 16 | 16 | 🟢 Established | 1W / 0D / 15L |
+| ≈15 | [#9 — \[Idea\] How should mechanistic reasoning in drug response be evaluated when multiple explanations may be valid?](https://github.com/inoue0426/research_ideas/issues/9) | **1395** | — | 17 | 17 | 🟢 Established | 3W / 0D / 14L |
+| ≈15 | [#7 — \[Idea\] Uncertainty-aware Drug-conditioned spatial INR](https://github.com/inoue0426/research_ideas/issues/7) | **1393** | — | 18 | 18 | 🟢 Established | 3W / 0D / 15L |
+| ≈15 | [#3 — \[Idea\] Can iterative optimization improve mechanism arbitration under conflicting evidence?](https://github.com/inoue0426/research_ideas/issues/3) | **1393** | — | 19 | 19 | 🟢 Established | 3W / 0D / 16L |
+| 20 | [#17 — \[Idea\] Human-in-the-loop mechanism refinement](https://github.com/inoue0426/research_ideas/issues/17) | **1364** | — | 17 | 17 | 🟢 Established | 1W / 0D / 16L |
 
-_Updated automatically by Research Elo workflows. Last update: 2026-08-25 09:31 UTC._
+_Updated automatically by Research Elo workflows. Last update: 2026-08-25 12:31 UTC._
 <!-- RESEARCH_ELO_END -->
 
 <!-- RESEARCH_MAPS_START -->
