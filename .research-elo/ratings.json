@@ -1943,6 +1943,51 @@
       "reason": "#21 wins over #35 due to resolving a critical ambiguity in perturbation models with direct relevance to mechanistic AI.",
       "target": 35,
       "timestamp": "2026-08-25T22:38:47.176395+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "Issue #36 addresses a fundamental gap in LLM reasoning (adaptive evidence acquisition) with clear experimental validation, while Issue #15 lacks a concrete benchmark and focuses on a narrower mechanism arbitration problem.",
+      "target": 36,
+      "timestamp": "2026-08-25T23:10:52.474986+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "Issue #36 proposes a unified framework for evidence acquisition with testable experiments, whereas Issue #12's latent space decomposition lacks clear validation metrics and depends on uncertain data coverage.",
+      "target": 36,
+      "timestamp": "2026-08-25T23:10:52.474986+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "win",
+      "reason": "Issue #36 has a well-defined question and falsifiable experiments, while Issue #16's identifiability claims are too abstract without measurable proxies for validation.",
+      "target": 36,
+      "timestamp": "2026-08-25T23:10:52.474986+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "Issue #36's adaptive evidence acquisition is more tractable and directly testable than Issue #13's abstract representation properties, which require undefined benchmarks.",
+      "target": 36,
+      "timestamp": "2026-08-25T23:10:52.474986+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 14,
+      "outcome": "win",
+      "reason": "Issue #36 provides a concrete problem with clear experiments, while Issue #14's 'causal geometry' lacks a practical definition for empirical testing.",
+      "target": 36,
+      "timestamp": "2026-08-25T23:10:52.474986+00:00"
     }
   ],
   "k_factor": 24,
@@ -1976,11 +2021,11 @@
       "ratings": {
         "10": 1419.94,
         "11": 1457.58,
-        "12": 1515.67,
-        "13": 1474.06,
-        "14": 1473.55,
-        "15": 1510.07,
-        "16": 1519.03,
+        "12": 1503.56,
+        "13": 1464.19,
+        "14": 1464.02,
+        "15": 1497.72,
+        "16": 1507.22,
         "17": 1324.86,
         "19": 1564.04,
         "20": 1554.27,
@@ -1992,11 +2037,12 @@
         "33": 1653.9,
         "34": 1667.01,
         "35": 1406.05,
+        "36": 1555.67,
         "4": 1438.5,
         "7": 1379.66,
         "9": 1431.22
       },
-      "timestamp": "2026-08-25T22:38:48.077103+00:00"
+      "timestamp": "2026-08-25T23:10:53.356136+00:00"
     }
   ],
   "ratings": {
@@ -2060,8 +2106,8 @@
     },
     "12": {
       "draws": 0,
-      "games": 21,
-      "losses": 10,
+      "games": 22,
+      "losses": 11,
       "opponents": [
         3,
         4,
@@ -2082,12 +2128,43 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
-      "rating": 1515.67,
+      "rating": 1503.56,
       "wins": 11
     },
     "13": {
+      "draws": 0,
+      "games": 22,
+      "losses": 13,
+      "opponents": [
+        3,
+        4,
+        7,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "rating": 1464.19,
+      "wins": 9
+    },
+    "14": {
       "draws": 0,
       "games": 21,
       "losses": 12,
@@ -2099,35 +2176,6 @@
         10,
         11,
         12,
-        14,
-        15,
-        16,
-        17,
-        19,
-        20,
-        21,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35
-      ],
-      "rating": 1474.06,
-      "wins": 9
-    },
-    "14": {
-      "draws": 0,
-      "games": 20,
-      "losses": 11,
-      "opponents": [
-        3,
-        4,
-        7,
-        9,
-        10,
-        11,
-        12,
         13,
         15,
         16,
@@ -2140,14 +2188,45 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
-      "rating": 1473.55,
+      "rating": 1464.02,
       "wins": 9
     },
     "15": {
       "draws": 0,
-      "games": 21,
+      "games": 22,
+      "losses": 11,
+      "opponents": [
+        3,
+        4,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        19,
+        20,
+        21,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "rating": 1497.72,
+      "wins": 11
+    },
+    "16": {
+      "draws": 0,
+      "games": 22,
       "losses": 10,
       "opponents": [
         3,
@@ -2159,35 +2238,6 @@
         12,
         13,
         14,
-        16,
-        17,
-        19,
-        20,
-        21,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35
-      ],
-      "rating": 1510.07,
-      "wins": 11
-    },
-    "16": {
-      "draws": 0,
-      "games": 21,
-      "losses": 9,
-      "opponents": [
-        3,
-        4,
-        7,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
         15,
         17,
         19,
@@ -2198,9 +2248,10 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
-      "rating": 1519.03,
+      "rating": 1507.22,
       "wins": 12
     },
     "17": {
@@ -2501,6 +2552,20 @@
       ],
       "rating": 1406.05,
       "wins": 1
+    },
+    "36": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "opponents": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "rating": 1555.67,
+      "wins": 5
     },
     "4": {
       "draws": 0,
