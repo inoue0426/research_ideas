@@ -1493,6 +1493,51 @@
       "reason": "Issue #32's question is precise and testable (LLM-guided Pareto search), while Issue #20's 'compositional algebra' idea is overly abstract and lacks a clear path to evaluation (depends on epistasis, which is hard to measure), reducing its novelty potential and tractability.",
       "target": 32,
       "timestamp": "2026-08-24T21:30:00.832421+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "win",
+      "reason": "Issue #33 addresses a clear, actionable problem (uncertainty quantification in multi-agent biomedical reasoning) with strong practical relevance to reducing unsupported claims, while Issue #21's question about perturbation geometry separation lacks concrete data to test the core hypothesis and has unclear practical impact.",
+      "target": 33,
+      "timestamp": "2026-08-25T00:32:28.382665+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "win",
+      "reason": "Issue #33 has a well-defined experimental path (retrospective analysis of existing DrugAgent outputs) with immediate feasibility, whereas Issue #30's context-aware ADC model depends on unverified data availability (ADCdb may not retain cell-line context), making it less tractable for a six-month project.",
+      "target": 33,
+      "timestamp": "2026-08-25T00:32:28.382665+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "win",
+      "reason": "Issue #33 provides a clear, falsifiable test (correlation between agent disagreement and prediction error) with direct practical benefits for biomedical reasoning systems, while Issue #16's question about foundation models and identifiability lacks measurable proxies and has unclear scientific value.",
+      "target": 33,
+      "timestamp": "2026-08-25T00:32:28.382665+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
+      "outcome": "win",
+      "reason": "Issue #33's uncertainty quantification problem is directly tied to improving reliability of existing systems (DrugAgent), whereas Issue #20's compositional algebra question is highly speculative with no clear path to validation within six months.",
+      "target": 33,
+      "timestamp": "2026-08-25T00:32:28.382665+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "Issue #33 has a concrete, testable core claim (abstention based on agent disagreement) with immediate relevance to reducing errors in biomedical reasoning, while Issue #19's failure mode characterization lacks a clear experimental design and depends on unverified data separation.",
+      "target": 33,
+      "timestamp": "2026-08-25T00:32:28.382665+00:00"
     }
   ],
   "k_factor": 24,
@@ -1521,6 +1566,31 @@
         "9": 1399.71
       },
       "timestamp": "2026-08-24T21:30:01.501079+00:00"
+    },
+    {
+      "ratings": {
+        "10": 1422.54,
+        "11": 1426.59,
+        "12": 1504.23,
+        "13": 1461.05,
+        "14": 1460.98,
+        "15": 1498.0,
+        "16": 1532.96,
+        "17": 1367.94,
+        "19": 1586.43,
+        "20": 1564.97,
+        "21": 1540.39,
+        "3": 1407.46,
+        "30": 1546.64,
+        "31": 1631.55,
+        "32": 1604.51,
+        "33": 1612.95,
+        "34": 1590.8,
+        "4": 1437.75,
+        "7": 1402.55,
+        "9": 1399.71
+      },
+      "timestamp": "2026-08-25T00:32:29.103051+00:00"
     }
   ],
   "ratings": {
@@ -1688,8 +1758,8 @@
     },
     "16": {
       "draws": 0,
-      "games": 19,
-      "losses": 7,
+      "games": 20,
+      "losses": 8,
       "opponents": [
         3,
         4,
@@ -1708,9 +1778,10 @@
         30,
         31,
         32,
+        33,
         34
       ],
-      "rating": 1543.76,
+      "rating": 1532.96,
       "wins": 12
     },
     "17": {
@@ -1740,8 +1811,8 @@
     },
     "19": {
       "draws": 0,
-      "games": 16,
-      "losses": 3,
+      "games": 17,
+      "losses": 4,
       "opponents": [
         3,
         4,
@@ -1758,15 +1829,16 @@
         20,
         21,
         30,
-        31
+        31,
+        33
       ],
-      "rating": 1598.34,
+      "rating": 1586.43,
       "wins": 13
     },
     "20": {
       "draws": 0,
-      "games": 17,
-      "losses": 4,
+      "games": 18,
+      "losses": 5,
       "opponents": [
         3,
         4,
@@ -1784,15 +1856,16 @@
         21,
         30,
         31,
-        32
+        32,
+        33
       ],
-      "rating": 1576.52,
+      "rating": 1564.97,
       "wins": 13
     },
     "21": {
       "draws": 0,
-      "games": 23,
-      "losses": 9,
+      "games": 24,
+      "losses": 10,
       "opponents": [
         3,
         4,
@@ -1811,9 +1884,10 @@
         30,
         31,
         32,
+        33,
         34
       ],
-      "rating": 1552.29,
+      "rating": 1540.39,
       "wins": 14
     },
     "3": {
@@ -1843,8 +1917,8 @@
     },
     "30": {
       "draws": 0,
-      "games": 19,
-      "losses": 6,
+      "games": 20,
+      "losses": 7,
       "opponents": [
         3,
         4,
@@ -1863,9 +1937,10 @@
         21,
         31,
         32,
+        33,
         34
       ],
-      "rating": 1558.34,
+      "rating": 1546.64,
       "wins": 13
     },
     "31": {
@@ -1915,7 +1990,7 @@
     },
     "33": {
       "draws": 0,
-      "games": 7,
+      "games": 12,
       "losses": 1,
       "opponents": [
         4,
@@ -1923,11 +1998,16 @@
         13,
         14,
         15,
+        16,
+        19,
+        20,
+        21,
+        30,
         32,
         34
       ],
-      "rating": 1555.09,
-      "wins": 6
+      "rating": 1612.95,
+      "wins": 11
     },
     "34": {
       "draws": 0,
