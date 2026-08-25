@@ -1718,6 +1718,51 @@
       "reason": "Issue #34 has a clear, falsifiable hypothesis (LLMs can estimate answerability) with a defined experimental path, while Issue #32's novelty is uncertain due to potential overlap with existing LLM-based multi-objective optimization work.",
       "target": 34,
       "timestamp": "2026-08-25T12:31:53.697220+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 32,
+      "outcome": "loss",
+      "reason": "Issue #32 has higher novelty potential and leverage by addressing a clear gap in LLM-based multi-objective molecular optimization, with a well-defined evaluation plan for Pareto frontier expansion, unlike Issue #17's focus on HCI improvements without strong differentiation.",
+      "target": 17,
+      "timestamp": "2026-08-25T15:32:50.328377+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 33,
+      "outcome": "loss",
+      "reason": "Issue #33 offers stronger falsifiability and practical importance by directly tackling uncertainty quantification in biomedical reasoning through agent disagreement, with a clear next step to validate correlation between disagreement and error, unlike Issue #17's vague 'mechanism refinement'.",
+      "target": 17,
+      "timestamp": "2026-08-25T15:32:50.328377+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
+      "outcome": "loss",
+      "reason": "Issue #3 has higher tractability and question quality by proposing a concrete iterative refinement method (TextGrad) for mechanism arbitration, while Issue #17's human-in-the-loop mechanism lacks a clear evaluation target.",
+      "target": 17,
+      "timestamp": "2026-08-25T15:32:50.328377+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 7,
+      "outcome": "loss",
+      "reason": "Issue #7 has stronger importance and novelty by addressing spatial drug response uncertainty with a clear INR-based approach, whereas Issue #17's human-in-the-loop mechanism lacks a defined dataset or evaluation plan.",
+      "target": 17,
+      "timestamp": "2026-08-25T15:32:50.328377+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "Issue #9 has higher importance and question quality by redefining evaluation criteria for mechanistic reasoning to account for multiple valid explanations, unlike Issue #17's untested 'mechanism refinement' approach.",
+      "target": 17,
+      "timestamp": "2026-08-25T15:32:50.328377+00:00"
     }
   ],
   "k_factor": 24,
@@ -1756,21 +1801,21 @@
         "14": 1460.98,
         "15": 1498.0,
         "16": 1532.96,
-        "17": 1364.02,
+        "17": 1324.86,
         "19": 1564.04,
         "20": 1554.27,
         "21": 1540.39,
-        "3": 1392.86,
+        "3": 1403.59,
         "30": 1546.64,
         "31": 1594.65,
-        "32": 1631.95,
-        "33": 1645.4,
+        "32": 1636.18,
+        "33": 1649.29,
         "34": 1667.01,
         "4": 1437.75,
-        "7": 1392.96,
-        "9": 1394.84
+        "7": 1403.32,
+        "9": 1404.79
       },
-      "timestamp": "2026-08-25T12:31:54.521431+00:00"
+      "timestamp": "2026-08-25T15:32:51.018902+00:00"
     }
   ],
   "ratings": {
@@ -1972,8 +2017,8 @@
     },
     "17": {
       "draws": 0,
-      "games": 17,
-      "losses": 16,
+      "games": 22,
+      "losses": 21,
       "opponents": [
         3,
         4,
@@ -1991,9 +2036,11 @@
         21,
         30,
         31,
+        32,
+        33,
         34
       ],
-      "rating": 1364.02,
+      "rating": 1324.86,
       "wins": 1
     },
     "19": {
@@ -2082,7 +2129,7 @@
     },
     "3": {
       "draws": 0,
-      "games": 19,
+      "games": 20,
       "losses": 16,
       "opponents": [
         4,
@@ -2105,8 +2152,8 @@
         33,
         34
       ],
-      "rating": 1392.86,
-      "wins": 3
+      "rating": 1403.59,
+      "wins": 4
     },
     "30": {
       "draws": 0,
@@ -2166,7 +2213,7 @@
     },
     "32": {
       "draws": 0,
-      "games": 17,
+      "games": 18,
       "losses": 2,
       "opponents": [
         3,
@@ -2178,6 +2225,7 @@
         14,
         15,
         16,
+        17,
         19,
         20,
         21,
@@ -2186,12 +2234,12 @@
         33,
         34
       ],
-      "rating": 1631.95,
-      "wins": 15
+      "rating": 1636.18,
+      "wins": 16
     },
     "33": {
       "draws": 0,
-      "games": 17,
+      "games": 18,
       "losses": 1,
       "opponents": [
         3,
@@ -2204,6 +2252,7 @@
         14,
         15,
         16,
+        17,
         19,
         20,
         21,
@@ -2212,8 +2261,8 @@
         32,
         34
       ],
-      "rating": 1645.4,
-      "wins": 16
+      "rating": 1649.29,
+      "wins": 17
     },
     "34": {
       "draws": 0,
@@ -2273,7 +2322,7 @@
     },
     "7": {
       "draws": 0,
-      "games": 18,
+      "games": 19,
       "losses": 15,
       "opponents": [
         3,
@@ -2295,12 +2344,12 @@
         33,
         34
       ],
-      "rating": 1392.96,
-      "wins": 3
+      "rating": 1403.32,
+      "wins": 4
     },
     "9": {
       "draws": 0,
-      "games": 17,
+      "games": 18,
       "losses": 14,
       "opponents": [
         3,
@@ -2321,8 +2370,8 @@
         31,
         34
       ],
-      "rating": 1394.84,
-      "wins": 3
+      "rating": 1404.79,
+      "wins": 4
     }
   },
   "version": 1
