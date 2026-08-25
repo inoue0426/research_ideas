@@ -1898,6 +1898,51 @@
       "reason": "#14 wins over #35 because it proposes a testable framework for validating shared causal geometry using perturbational evidence, which is a more concrete and actionable research direction than #35's speculative MCTS-based reasoning system.",
       "target": 35,
       "timestamp": "2026-08-25T22:34:06.573386+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 11,
+      "outcome": "loss",
+      "reason": "#11 wins over #35 due to clearer question, higher novelty potential, and stronger leverage in shifting biological transfer learning paradigms.",
+      "target": 35,
+      "timestamp": "2026-08-25T22:38:47.176395+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "loss",
+      "reason": "#4 wins over #35 due to more immediate practical relevance in drug response prediction and clearer experimental path.",
+      "target": 35,
+      "timestamp": "2026-08-25T22:38:47.176395+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 9,
+      "outcome": "loss",
+      "reason": "#9 wins over #35 due to addressing a fundamental flaw in biomedical reasoning benchmarks with higher importance and falsifiability.",
+      "target": 35,
+      "timestamp": "2026-08-25T22:38:47.176395+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 10,
+      "outcome": "loss",
+      "reason": "#10 wins over #35 due to broader applicability across biological domains and stronger theoretical grounding in transfer learning.",
+      "target": 35,
+      "timestamp": "2026-08-25T22:38:47.176395+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "loss",
+      "reason": "#21 wins over #35 due to resolving a critical ambiguity in perturbation models with direct relevance to mechanistic AI.",
+      "target": 35,
+      "timestamp": "2026-08-25T22:38:47.176395+00:00"
     }
   ],
   "k_factor": 24,
@@ -1929,8 +1974,8 @@
     },
     {
       "ratings": {
-        "10": 1407.28,
-        "11": 1444.89,
+        "10": 1419.94,
+        "11": 1457.58,
         "12": 1515.67,
         "13": 1474.06,
         "14": 1473.55,
@@ -1939,25 +1984,25 @@
         "17": 1324.86,
         "19": 1564.04,
         "20": 1554.27,
-        "21": 1540.39,
+        "21": 1548.2,
         "3": 1379.91,
         "30": 1546.64,
         "31": 1594.65,
         "32": 1641.19,
         "33": 1653.9,
         "34": 1667.01,
-        "35": 1464.84,
-        "4": 1425.58,
+        "35": 1406.05,
+        "4": 1438.5,
         "7": 1379.66,
-        "9": 1418.51
+        "9": 1431.22
       },
-      "timestamp": "2026-08-25T22:34:07.373946+00:00"
+      "timestamp": "2026-08-25T22:38:48.077103+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 0,
-      "games": 21,
+      "games": 22,
       "losses": 16,
       "opponents": [
         3,
@@ -1978,14 +2023,15 @@
         31,
         32,
         33,
-        34
+        34,
+        35
       ],
-      "rating": 1407.28,
-      "wins": 5
+      "rating": 1419.94,
+      "wins": 6
     },
     "11": {
       "draws": 0,
-      "games": 24,
+      "games": 25,
       "losses": 15,
       "opponents": [
         3,
@@ -2006,10 +2052,11 @@
         31,
         32,
         33,
-        34
+        34,
+        35
       ],
-      "rating": 1444.89,
-      "wins": 9
+      "rating": 1457.58,
+      "wins": 10
     },
     "12": {
       "draws": 0,
@@ -2242,7 +2289,7 @@
     },
     "21": {
       "draws": 0,
-      "games": 24,
+      "games": 25,
       "losses": 10,
       "opponents": [
         3,
@@ -2263,10 +2310,11 @@
         31,
         32,
         33,
-        34
+        34,
+        35
       ],
-      "rating": 1540.39,
-      "wins": 14
+      "rating": 1548.2,
+      "wins": 15
     },
     "3": {
       "draws": 0,
@@ -2437,21 +2485,26 @@
     },
     "35": {
       "draws": 0,
-      "games": 5,
-      "losses": 4,
+      "games": 10,
+      "losses": 9,
       "opponents": [
+        4,
+        9,
+        10,
+        11,
         12,
         13,
         14,
         15,
-        16
+        16,
+        21
       ],
-      "rating": 1464.84,
+      "rating": 1406.05,
       "wins": 1
     },
     "4": {
       "draws": 0,
-      "games": 20,
+      "games": 21,
       "losses": 14,
       "opponents": [
         3,
@@ -2472,10 +2525,11 @@
         31,
         32,
         33,
-        34
+        34,
+        35
       ],
-      "rating": 1425.58,
-      "wins": 6
+      "rating": 1438.5,
+      "wins": 7
     },
     "7": {
       "draws": 0,
@@ -2506,7 +2560,7 @@
     },
     "9": {
       "draws": 0,
-      "games": 24,
+      "games": 25,
       "losses": 17,
       "opponents": [
         3,
@@ -2527,10 +2581,11 @@
         31,
         32,
         33,
-        34
+        34,
+        35
       ],
-      "rating": 1418.51,
-      "wins": 7
+      "rating": 1431.22,
+      "wins": 8
     }
   },
   "version": 1
