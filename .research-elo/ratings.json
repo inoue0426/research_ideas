@@ -2123,6 +2123,51 @@
       "reason": "Issue #38's question about biomarker-conditioned embeddings is more directly actionable and scientifically clear than #21's abstract 'perturbation geometry' distinction. #38 has a clear path to evaluation using existing pharmacogenomic data, while #21's 'biggest uncertainty' (need for matched post-treatment data) is a major feasibility barrier with no proposed solution.",
       "target": 38,
       "timestamp": "2026-08-26T15:25:35.150472+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 37,
+      "outcome": "win",
+      "reason": "#40 wins over #37 because it has a clearer, more grounded biological context (pharmacogenomics) with a well-defined diagnostic test, while #37 faces significant data sparsity challenges in drug combinations that are not yet validated.",
+      "target": 40,
+      "timestamp": "2026-08-26T15:53:44.517751+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "#40 wins over #15 because it addresses a well-defined, actionable problem in drug representation learning with a clear path to validation, whereas #15 lacks concrete data sources and a measurable benchmark for conflicting mechanisms.",
+      "target": 40,
+      "timestamp": "2026-08-26T15:53:44.517751+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "win",
+      "reason": "#40 wins over #16 because it has a more immediate, concrete application in drug response prediction with a defined dataset and evaluation protocol, while #16's focus on foundation models and identifiability is abstract and lacks a clear path to empirical validation.",
+      "target": 40,
+      "timestamp": "2026-08-26T15:53:44.517751+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "#40 wins over #12 because it directly addresses a high-impact problem (contextual drug representation) with a clear, testable hypothesis and a defined dataset, while #12's focus on decomposing perturbation components is less actionable and lacks a concrete validation plan.",
+      "target": 40,
+      "timestamp": "2026-08-26T15:53:44.517751+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "win",
+      "reason": "#40 wins over #30 because it has a stronger foundation in existing literature (MolEmb) and a more scalable, generalizable approach to context-aware drug representation, while #30's ADC-specific focus is narrower and faces data availability challenges that are not yet resolved.",
+      "target": 40,
+      "timestamp": "2026-08-26T15:53:44.517751+00:00"
     }
   ],
   "k_factor": 24,
@@ -2183,31 +2228,32 @@
       "ratings": {
         "10": 1419.94,
         "11": 1457.58,
-        "12": 1479.78,
+        "12": 1469.64,
         "13": 1464.19,
         "14": 1464.02,
-        "15": 1484.98,
-        "16": 1483.2,
+        "15": 1473.93,
+        "16": 1472.59,
         "17": 1324.86,
         "19": 1552.55,
         "20": 1542.32,
         "21": 1524.82,
         "3": 1379.91,
-        "30": 1523.69,
+        "30": 1512.4,
         "31": 1582.87,
         "32": 1641.19,
         "33": 1653.9,
         "34": 1667.01,
         "35": 1406.05,
         "36": 1612.72,
-        "37": 1513.84,
+        "37": 1501.36,
         "38": 1547.6,
         "39": 1523.6,
         "4": 1438.5,
+        "40": 1555.57,
         "7": 1379.66,
         "9": 1431.22
       },
-      "timestamp": "2026-08-26T15:25:35.805218+00:00"
+      "timestamp": "2026-08-26T15:53:45.579192+00:00"
     }
   ],
   "ratings": {
@@ -2271,8 +2317,8 @@
     },
     "12": {
       "draws": 0,
-      "games": 24,
-      "losses": 13,
+      "games": 25,
+      "losses": 14,
       "opponents": [
         3,
         4,
@@ -2296,9 +2342,10 @@
         35,
         36,
         37,
-        38
+        38,
+        40
       ],
-      "rating": 1479.78,
+      "rating": 1469.64,
       "wins": 11
     },
     "13": {
@@ -2363,8 +2410,8 @@
     },
     "15": {
       "draws": 0,
-      "games": 23,
-      "losses": 12,
+      "games": 24,
+      "losses": 13,
       "opponents": [
         3,
         4,
@@ -2387,15 +2434,16 @@
         34,
         35,
         36,
-        37
+        37,
+        40
       ],
-      "rating": 1484.98,
+      "rating": 1473.93,
       "wins": 11
     },
     "16": {
       "draws": 0,
-      "games": 24,
-      "losses": 12,
+      "games": 25,
+      "losses": 13,
       "opponents": [
         3,
         4,
@@ -2419,9 +2467,10 @@
         35,
         36,
         37,
-        38
+        38,
+        40
       ],
-      "rating": 1483.2,
+      "rating": 1472.59,
       "wins": 12
     },
     "17": {
@@ -2571,8 +2620,8 @@
     },
     "30": {
       "draws": 0,
-      "games": 22,
-      "losses": 9,
+      "games": 23,
+      "losses": 10,
       "opponents": [
         3,
         4,
@@ -2594,9 +2643,10 @@
         33,
         34,
         36,
-        38
+        38,
+        40
       ],
-      "rating": 1523.69,
+      "rating": 1512.4,
       "wins": 13
     },
     "31": {
@@ -2751,16 +2801,17 @@
     },
     "37": {
       "draws": 0,
-      "games": 5,
-      "losses": 2,
+      "games": 6,
+      "losses": 3,
       "opponents": [
         12,
         15,
         16,
         38,
-        39
+        39,
+        40
       ],
-      "rating": 1513.84,
+      "rating": 1501.36,
       "wins": 3
     },
     "38": {
@@ -2817,6 +2868,20 @@
       ],
       "rating": 1438.5,
       "wins": 7
+    },
+    "40": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "opponents": [
+        12,
+        15,
+        16,
+        30,
+        37
+      ],
+      "rating": 1555.57,
+      "wins": 5
     },
     "7": {
       "draws": 0,
