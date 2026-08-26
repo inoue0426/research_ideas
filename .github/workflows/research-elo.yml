@@ -9,8 +9,6 @@ on:
         description: "Issue number to rate (leave blank for automatic selection)"
         required: false
         type: string
-  issues:
-    types: [opened, edited, reopened]
 
 permissions:
   contents: write
@@ -22,7 +20,6 @@ concurrency:
 
 jobs:
   rate:
-    if: ${{ github.event_name != 'issues' || github.event.issue.user.login == github.repository_owner }}
     runs-on: [self-hosted, macOS, ARM64]
     steps:
       - name: Checkout
@@ -34,14 +31,11 @@ jobs:
         id: issue
         env:
           MANUAL_ISSUE: ${{ inputs.issue_number }}
-          EVENT_ISSUE: ${{ github.event.issue.number }}
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "$MANUAL_ISSUE" ]; then
             number="$MANUAL_ISSUE"
-          elif [ "${{ github.event_name }}" = "issues" ]; then
-            number="$EVENT_ISSUE"
           else
             number="$(python3 scripts/select_research_elo_issue.py)"
           fi
