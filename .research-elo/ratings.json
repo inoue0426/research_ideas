@@ -1988,6 +1988,51 @@
       "reason": "Issue #36 provides a concrete problem with clear experiments, while Issue #14's 'causal geometry' lacks a practical definition for empirical testing.",
       "target": 36,
       "timestamp": "2026-08-25T23:10:52.474986+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
+      "outcome": "win",
+      "reason": "Issue #36 addresses a fundamental gap in LLM reasoning (adaptive evidence acquisition) with clear experimental validation, while Issue #20's compositional algebra question lacks concrete evidence of feasibility and has higher uncertainty about whether compositionality exists.",
+      "target": 36,
+      "timestamp": "2026-08-26T14:16:53.898709+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "win",
+      "reason": "Issue #36's adaptive evidence acquisition framework has a well-defined experimental plan and clear falsifiability, whereas Issue #21's question about perturbation geometry separation is highly dependent on data availability with no clear path to validation.",
+      "target": 36,
+      "timestamp": "2026-08-26T14:16:53.898709+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "Issue #36 provides a concrete research path with multiple testable hypotheses, while Issue #19's focus on transfer failure modes is too vague and lacks a clear experimental design to distinguish failure factors.",
+      "target": 36,
+      "timestamp": "2026-08-26T14:16:53.898709+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "win",
+      "reason": "Issue #36 has a more immediate and testable research question with clear metrics, while Issue #30's context-aware ADC model depends on uncertain data availability that hasn't been verified.",
+      "target": 36,
+      "timestamp": "2026-08-26T14:16:53.898709+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "Issue #36's adaptive evidence acquisition problem is more fundamental and has a clearer path to validation than Issue #31's evidence selection vs sufficiency question, which appears to be a refinement of existing approaches rather than a novel problem.",
+      "target": 36,
+      "timestamp": "2026-08-26T14:16:53.898709+00:00"
     }
   ],
   "k_factor": 24,
@@ -2043,6 +2088,33 @@
         "9": 1431.22
       },
       "timestamp": "2026-08-25T23:10:53.356136+00:00"
+    },
+    {
+      "ratings": {
+        "10": 1419.94,
+        "11": 1457.58,
+        "12": 1503.56,
+        "13": 1464.19,
+        "14": 1464.02,
+        "15": 1497.72,
+        "16": 1507.22,
+        "17": 1324.86,
+        "19": 1552.55,
+        "20": 1542.32,
+        "21": 1536.87,
+        "3": 1379.91,
+        "30": 1536.14,
+        "31": 1582.87,
+        "32": 1641.19,
+        "33": 1653.9,
+        "34": 1667.01,
+        "35": 1406.05,
+        "36": 1612.72,
+        "4": 1438.5,
+        "7": 1379.66,
+        "9": 1431.22
+      },
+      "timestamp": "2026-08-26T14:16:54.896858+00:00"
     }
   ],
   "ratings": {
@@ -2284,8 +2356,8 @@
     },
     "19": {
       "draws": 0,
-      "games": 19,
-      "losses": 6,
+      "games": 20,
+      "losses": 7,
       "opponents": [
         3,
         4,
@@ -2305,15 +2377,16 @@
         31,
         32,
         33,
-        34
+        34,
+        36
       ],
-      "rating": 1564.04,
+      "rating": 1552.55,
       "wins": 13
     },
     "20": {
       "draws": 0,
-      "games": 19,
-      "losses": 6,
+      "games": 20,
+      "losses": 7,
       "opponents": [
         3,
         4,
@@ -2333,15 +2406,16 @@
         31,
         32,
         33,
-        34
+        34,
+        36
       ],
-      "rating": 1554.27,
+      "rating": 1542.32,
       "wins": 13
     },
     "21": {
       "draws": 0,
-      "games": 25,
-      "losses": 10,
+      "games": 26,
+      "losses": 11,
       "opponents": [
         3,
         4,
@@ -2362,9 +2436,10 @@
         32,
         33,
         34,
-        35
+        35,
+        36
       ],
-      "rating": 1548.2,
+      "rating": 1536.87,
       "wins": 15
     },
     "3": {
@@ -2397,8 +2472,8 @@
     },
     "30": {
       "draws": 0,
-      "games": 20,
-      "losses": 7,
+      "games": 21,
+      "losses": 8,
       "opponents": [
         3,
         4,
@@ -2418,15 +2493,16 @@
         31,
         32,
         33,
-        34
+        34,
+        36
       ],
-      "rating": 1546.64,
+      "rating": 1536.14,
       "wins": 13
     },
     "31": {
       "draws": 0,
-      "games": 19,
-      "losses": 4,
+      "games": 20,
+      "losses": 5,
       "opponents": [
         3,
         4,
@@ -2446,9 +2522,10 @@
         30,
         32,
         33,
-        34
+        34,
+        36
       ],
-      "rating": 1594.65,
+      "rating": 1582.87,
       "wins": 15
     },
     "32": {
@@ -2555,17 +2632,22 @@
     },
     "36": {
       "draws": 0,
-      "games": 5,
+      "games": 10,
       "losses": 0,
       "opponents": [
         12,
         13,
         14,
         15,
-        16
+        16,
+        19,
+        20,
+        21,
+        30,
+        31
       ],
-      "rating": 1555.67,
-      "wins": 5
+      "rating": 1612.72,
+      "wins": 10
     },
     "4": {
       "draws": 0,
