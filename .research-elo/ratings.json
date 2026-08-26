@@ -2168,6 +2168,51 @@
       "reason": "#40 wins over #30 because it has a stronger foundation in existing literature (MolEmb) and a more scalable, generalizable approach to context-aware drug representation, while #30's ADC-specific focus is narrower and faces data availability challenges that are not yet resolved.",
       "target": 40,
       "timestamp": "2026-08-26T15:53:44.517751+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "Issue #40 has clearer scientific importance in addressing a fundamental gap in drug representation learning, with a well-defined question about context-dependent embeddings that directly tackles pharmacogenomic complexity. It also provides a concrete next step for validation, making it more tractable than Issue #19's focus on transfer failure modes which lacks a specific mechanism to test.",
+      "target": 40,
+      "timestamp": "2026-08-26T19:02:18.115718+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 38,
+      "outcome": "win",
+      "reason": "Issue #40 offers a more comprehensive and actionable research question about natural-language-conditioned drug embeddings, with a stronger potential for practical applications in precision medicine. Issue #38's focus on biomarker-conditioned embeddings is narrower and less novel, as it essentially replicates the approach in #40 but with a more limited scope (categorical biomarkers vs. natural language).",
+      "target": 40,
+      "timestamp": "2026-08-26T19:02:18.115718+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
+      "outcome": "win",
+      "reason": "Issue #40's question about context-dependent drug embeddings is more scientifically significant and directly addresses a core limitation in current molecular representation learning. Issue #20's question about compositional algebra of perturbations is interesting but less immediately impactful, with higher uncertainty about whether compositionality exists in complex biological systems.",
+      "target": 40,
+      "timestamp": "2026-08-26T19:02:18.115718+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "Issue #40 has stronger importance and novelty potential, as it proposes a fundamental shift in how drugs are represented (context-dependent rather than fixed), with clear practical applications in precision medicine. Issue #31's focus on evidence selection vs. sufficiency is important but more incremental and less directly tied to a major unsolved problem in drug discovery.",
+      "target": 40,
+      "timestamp": "2026-08-26T19:02:18.115718+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "win",
+      "reason": "Issue #40 addresses a more fundamental and widely applicable problem in drug representation learning, with a clear path to validation through existing pharmacogenomic datasets. Issue #21's question about separating response-relevant from mechanistically faithful geometry is important but more niche, with higher uncertainty about whether the distinction is meaningful or testable with available data.",
+      "target": 40,
+      "timestamp": "2026-08-26T19:02:18.115718+00:00"
     }
   ],
   "k_factor": 24,
@@ -2234,26 +2279,26 @@
         "15": 1473.93,
         "16": 1472.59,
         "17": 1324.86,
-        "19": 1552.55,
-        "20": 1542.32,
-        "21": 1524.82,
+        "19": 1540.65,
+        "20": 1531.57,
+        "21": 1515.42,
         "3": 1379.91,
         "30": 1512.4,
-        "31": 1582.87,
+        "31": 1571.1,
         "32": 1641.19,
         "33": 1653.9,
         "34": 1667.01,
         "35": 1406.05,
         "36": 1612.72,
         "37": 1501.36,
-        "38": 1547.6,
+        "38": 1536.29,
         "39": 1523.6,
         "4": 1438.5,
-        "40": 1555.57,
+        "40": 1610.7,
         "7": 1379.66,
         "9": 1431.22
       },
-      "timestamp": "2026-08-26T15:53:45.579192+00:00"
+      "timestamp": "2026-08-26T19:02:18.918306+00:00"
     }
   ],
   "ratings": {
@@ -2503,8 +2548,8 @@
     },
     "19": {
       "draws": 0,
-      "games": 20,
-      "losses": 7,
+      "games": 21,
+      "losses": 8,
       "opponents": [
         3,
         4,
@@ -2525,15 +2570,16 @@
         32,
         33,
         34,
-        36
+        36,
+        40
       ],
-      "rating": 1552.55,
+      "rating": 1540.65,
       "wins": 13
     },
     "20": {
       "draws": 0,
-      "games": 20,
-      "losses": 7,
+      "games": 21,
+      "losses": 8,
       "opponents": [
         3,
         4,
@@ -2554,15 +2600,16 @@
         32,
         33,
         34,
-        36
+        36,
+        40
       ],
-      "rating": 1542.32,
+      "rating": 1531.57,
       "wins": 13
     },
     "21": {
       "draws": 0,
-      "games": 27,
-      "losses": 12,
+      "games": 28,
+      "losses": 13,
       "opponents": [
         3,
         4,
@@ -2585,9 +2632,10 @@
         34,
         35,
         36,
-        38
+        38,
+        40
       ],
-      "rating": 1524.82,
+      "rating": 1515.42,
       "wins": 15
     },
     "3": {
@@ -2651,8 +2699,8 @@
     },
     "31": {
       "draws": 0,
-      "games": 20,
-      "losses": 5,
+      "games": 21,
+      "losses": 6,
       "opponents": [
         3,
         4,
@@ -2673,9 +2721,10 @@
         32,
         33,
         34,
-        36
+        36,
+        40
       ],
-      "rating": 1582.87,
+      "rating": 1571.1,
       "wins": 15
     },
     "32": {
@@ -2816,17 +2865,18 @@
     },
     "38": {
       "draws": 0,
-      "games": 6,
-      "losses": 1,
+      "games": 7,
+      "losses": 2,
       "opponents": [
         12,
         16,
         21,
         30,
         37,
-        39
+        39,
+        40
       ],
-      "rating": 1547.6,
+      "rating": 1536.29,
       "wins": 5
     },
     "39": {
@@ -2871,17 +2921,22 @@
     },
     "40": {
       "draws": 0,
-      "games": 5,
+      "games": 10,
       "losses": 0,
       "opponents": [
         12,
         15,
         16,
+        19,
+        20,
+        21,
         30,
-        37
+        31,
+        37,
+        38
       ],
-      "rating": 1555.57,
-      "wins": 5
+      "rating": 1610.7,
+      "wins": 10
     },
     "7": {
       "draws": 0,
