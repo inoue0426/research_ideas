@@ -2078,6 +2078,51 @@
       "reason": "Issue #37's problem is more directly actionable within six months with available datasets, while #16's foundation model identifiability question requires developing new theoretical metrics and lacks concrete evaluation paths.",
       "target": 37,
       "timestamp": "2026-08-26T15:20:08.474293+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 39,
+      "outcome": "loss",
+      "reason": "Issue #39 clearly defines the core question as learning context-aware embeddings that encode 'what does this drug mean in this biological state?', which is more scientifically precise than Issue #38's focus on retrieval. #39 explicitly addresses the uncertainty about natural-language conditioning vs. categorical features with a concrete experimental plan, while #38's 'biggest uncertainty' is less actionable.",
+      "target": 38,
+      "timestamp": "2026-08-26T15:25:35.150472+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "win",
+      "reason": "Issue #38 has a more concrete and immediately testable problem (biomarker-conditioned embeddings for retrieval) compared to #16's abstract 'foundation models as enablers' question, which lacks a clear path to evaluation. #38's feasibility is supported by existing pharmacogenomic resources, while #16's 'identifiability' metrics are vague and unmeasurable.",
+      "target": 38,
+      "timestamp": "2026-08-26T15:25:35.150472+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "Issue #38's biomarker-conditioned embeddings directly address a well-known limitation in drug representation (fixed vectors vs. context-dependent activity), while #12's 'shared perturbation space' is overly vague and lacks a clear evaluation plan. #38's 'biggest uncertainty' includes a specific experimental comparison, whereas #12's uncertainty is just a data availability question without a proposed solution.",
+      "target": 38,
+      "timestamp": "2026-08-26T15:25:35.150472+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "win",
+      "reason": "Issue #38's problem is more fundamental (context-dependent drug representation) than #30's ADC-specific extension. #38's solution is directly applicable to broader drug discovery, while #30's 'context-aware ADC' is a narrow application with significant data uncertainty (ADCdb data may not contain cell-line-specific measurements).",
+      "target": 38,
+      "timestamp": "2026-08-26T15:25:35.150472+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "win",
+      "reason": "Issue #38's question about biomarker-conditioned embeddings is more directly actionable and scientifically clear than #21's abstract 'perturbation geometry' distinction. #38 has a clear path to evaluation using existing pharmacogenomic data, while #21's 'biggest uncertainty' (need for matched post-treatment data) is a major feasibility barrier with no proposed solution.",
+      "target": 38,
+      "timestamp": "2026-08-26T15:25:35.150472+00:00"
     }
   ],
   "k_factor": 24,
@@ -2138,17 +2183,17 @@
       "ratings": {
         "10": 1419.94,
         "11": 1457.58,
-        "12": 1491.06,
+        "12": 1479.78,
         "13": 1464.19,
         "14": 1464.02,
         "15": 1484.98,
-        "16": 1495.03,
+        "16": 1483.2,
         "17": 1324.86,
         "19": 1552.55,
         "20": 1542.32,
-        "21": 1536.87,
+        "21": 1524.82,
         "3": 1379.91,
-        "30": 1536.14,
+        "30": 1523.69,
         "31": 1582.87,
         "32": 1641.19,
         "33": 1653.9,
@@ -2156,13 +2201,13 @@
         "35": 1406.05,
         "36": 1612.72,
         "37": 1513.84,
-        "38": 1512.0,
-        "39": 1511.59,
+        "38": 1547.6,
+        "39": 1523.6,
         "4": 1438.5,
         "7": 1379.66,
         "9": 1431.22
       },
-      "timestamp": "2026-08-26T15:20:09.143686+00:00"
+      "timestamp": "2026-08-26T15:25:35.805218+00:00"
     }
   ],
   "ratings": {
@@ -2226,8 +2271,8 @@
     },
     "12": {
       "draws": 0,
-      "games": 23,
-      "losses": 12,
+      "games": 24,
+      "losses": 13,
       "opponents": [
         3,
         4,
@@ -2250,9 +2295,10 @@
         34,
         35,
         36,
-        37
+        37,
+        38
       ],
-      "rating": 1491.06,
+      "rating": 1479.78,
       "wins": 11
     },
     "13": {
@@ -2348,8 +2394,8 @@
     },
     "16": {
       "draws": 0,
-      "games": 23,
-      "losses": 11,
+      "games": 24,
+      "losses": 12,
       "opponents": [
         3,
         4,
@@ -2372,9 +2418,10 @@
         34,
         35,
         36,
-        37
+        37,
+        38
       ],
-      "rating": 1495.03,
+      "rating": 1483.2,
       "wins": 12
     },
     "17": {
@@ -2465,8 +2512,8 @@
     },
     "21": {
       "draws": 0,
-      "games": 26,
-      "losses": 11,
+      "games": 27,
+      "losses": 12,
       "opponents": [
         3,
         4,
@@ -2488,9 +2535,10 @@
         33,
         34,
         35,
-        36
+        36,
+        38
       ],
-      "rating": 1536.87,
+      "rating": 1524.82,
       "wins": 15
     },
     "3": {
@@ -2523,8 +2571,8 @@
     },
     "30": {
       "draws": 0,
-      "games": 21,
-      "losses": 8,
+      "games": 22,
+      "losses": 9,
       "opponents": [
         3,
         4,
@@ -2545,9 +2593,10 @@
         32,
         33,
         34,
-        36
+        36,
+        38
       ],
-      "rating": 1536.14,
+      "rating": 1523.69,
       "wins": 13
     },
     "31": {
@@ -2716,23 +2765,29 @@
     },
     "38": {
       "draws": 0,
-      "games": 1,
-      "losses": 0,
+      "games": 6,
+      "losses": 1,
       "opponents": [
-        37
+        12,
+        16,
+        21,
+        30,
+        37,
+        39
       ],
-      "rating": 1512.0,
-      "wins": 1
+      "rating": 1547.6,
+      "wins": 5
     },
     "39": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 0,
       "opponents": [
-        37
+        37,
+        38
       ],
-      "rating": 1511.59,
-      "wins": 1
+      "rating": 1523.6,
+      "wins": 2
     },
     "4": {
       "draws": 0,
