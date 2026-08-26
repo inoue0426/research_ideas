@@ -2033,6 +2033,51 @@
       "reason": "Issue #36's adaptive evidence acquisition problem is more fundamental and has a clearer path to validation than Issue #31's evidence selection vs sufficiency question, which appears to be a refinement of existing approaches rather than a novel problem.",
       "target": 36,
       "timestamp": "2026-08-26T14:16:53.898709+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 38,
+      "outcome": "loss",
+      "reason": "Issue #38 is more focused on a specific, feasible application (pharmacogenomic retrieval) with clear evaluation metrics, while #37's drug combination context conditioning faces significant data sparsity challenges as explicitly noted in its uncertainty section.",
+      "target": 37,
+      "timestamp": "2026-08-26T15:20:08.474293+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 39,
+      "outcome": "loss",
+      "reason": "Issue #39 provides a clearer, more generalizable framework for context-aware embeddings with explicit diagnostics for compositional generalization, whereas #37's focus on drug combinations is narrower and less directly tied to the core representation learning question.",
+      "target": 37,
+      "timestamp": "2026-08-26T15:20:08.474293+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "Issue #37 addresses a more scientifically significant problem (drug combination response) with broader practical implications for drug discovery than #15's mechanism arbitration, which is more limited to explanation refinement.",
+      "target": 37,
+      "timestamp": "2026-08-26T15:20:08.474293+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "Issue #37's drug combination embedding problem has stronger practical relevance to drug discovery than #12's perturbation space decomposition, which is more theoretical and lacks clear downstream applications.",
+      "target": 37,
+      "timestamp": "2026-08-26T15:20:08.474293+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "win",
+      "reason": "Issue #37's problem is more directly actionable within six months with available datasets, while #16's foundation model identifiability question requires developing new theoretical metrics and lacks concrete evaluation paths.",
+      "target": 37,
+      "timestamp": "2026-08-26T15:20:08.474293+00:00"
     }
   ],
   "k_factor": 24,
@@ -2093,11 +2138,11 @@
       "ratings": {
         "10": 1419.94,
         "11": 1457.58,
-        "12": 1503.56,
+        "12": 1491.06,
         "13": 1464.19,
         "14": 1464.02,
-        "15": 1497.72,
-        "16": 1507.22,
+        "15": 1484.98,
+        "16": 1495.03,
         "17": 1324.86,
         "19": 1552.55,
         "20": 1542.32,
@@ -2110,11 +2155,14 @@
         "34": 1667.01,
         "35": 1406.05,
         "36": 1612.72,
+        "37": 1513.84,
+        "38": 1512.0,
+        "39": 1511.59,
         "4": 1438.5,
         "7": 1379.66,
         "9": 1431.22
       },
-      "timestamp": "2026-08-26T14:16:54.896858+00:00"
+      "timestamp": "2026-08-26T15:20:09.143686+00:00"
     }
   ],
   "ratings": {
@@ -2178,8 +2226,8 @@
     },
     "12": {
       "draws": 0,
-      "games": 22,
-      "losses": 11,
+      "games": 23,
+      "losses": 12,
       "opponents": [
         3,
         4,
@@ -2201,9 +2249,10 @@
         33,
         34,
         35,
-        36
+        36,
+        37
       ],
-      "rating": 1503.56,
+      "rating": 1491.06,
       "wins": 11
     },
     "13": {
@@ -2268,8 +2317,8 @@
     },
     "15": {
       "draws": 0,
-      "games": 22,
-      "losses": 11,
+      "games": 23,
+      "losses": 12,
       "opponents": [
         3,
         4,
@@ -2291,15 +2340,16 @@
         33,
         34,
         35,
-        36
+        36,
+        37
       ],
-      "rating": 1497.72,
+      "rating": 1484.98,
       "wins": 11
     },
     "16": {
       "draws": 0,
-      "games": 22,
-      "losses": 10,
+      "games": 23,
+      "losses": 11,
       "opponents": [
         3,
         4,
@@ -2321,9 +2371,10 @@
         33,
         34,
         35,
-        36
+        36,
+        37
       ],
-      "rating": 1507.22,
+      "rating": 1495.03,
       "wins": 12
     },
     "17": {
@@ -2648,6 +2699,40 @@
       ],
       "rating": 1612.72,
       "wins": 10
+    },
+    "37": {
+      "draws": 0,
+      "games": 5,
+      "losses": 2,
+      "opponents": [
+        12,
+        15,
+        16,
+        38,
+        39
+      ],
+      "rating": 1513.84,
+      "wins": 3
+    },
+    "38": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "opponents": [
+        37
+      ],
+      "rating": 1512.0,
+      "wins": 1
+    },
+    "39": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "opponents": [
+        37
+      ],
+      "rating": 1511.59,
+      "wins": 1
     },
     "4": {
       "draws": 0,
