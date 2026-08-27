@@ -2213,6 +2213,51 @@
       "reason": "Issue #40 addresses a more fundamental and widely applicable problem in drug representation learning, with a clear path to validation through existing pharmacogenomic datasets. Issue #21's question about separating response-relevant from mechanistically faithful geometry is important but more niche, with higher uncertainty about whether the distinction is meaningful or testable with available data.",
       "target": 40,
       "timestamp": "2026-08-26T19:02:18.115718+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "loss",
+      "reason": "#30 wins over #37 because it addresses a more immediate data availability concern with a clear next step (checking ADCdb for cell-line-specific data), whereas #37 faces significant data sparsity uncertainty without a concrete plan to verify feasibility.",
+      "target": 37,
+      "timestamp": "2026-08-27T19:15:19.018551+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "loss",
+      "reason": "#21 wins over #37 because it poses a fundamental question about representation geometry with a clear, testable uncertainty (requiring datasets with both molecular post-treatment measurements and response labels), while #37's data sparsity issue remains unresolved.",
+      "target": 37,
+      "timestamp": "2026-08-27T19:15:19.018551+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
+      "outcome": "loss",
+      "reason": "#20 wins over #37 because it proposes a testable compositional algebra with potential for generalization to unseen combinations, whereas #37's data sparsity problem makes its core idea highly uncertain.",
+      "target": 37,
+      "timestamp": "2026-08-27T19:15:19.018551+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "#13 wins over #37 because it seeks general principles for representation design rather than a specific method, with a clear next step (defining measurable properties), while #37's data sparsity remains a major unresolved barrier.",
+      "target": 37,
+      "timestamp": "2026-08-27T19:15:19.018551+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 14,
+      "outcome": "loss",
+      "reason": "#14 wins over #37 because it addresses a critical gap in multimodal representation learning with a concrete validation approach (empirical testing of causal geometry), whereas #37's data sparsity issue is not mitigated by its proposal.",
+      "target": 37,
+      "timestamp": "2026-08-27T19:15:19.018551+00:00"
     }
   ],
   "k_factor": 24,
@@ -2299,6 +2344,37 @@
         "9": 1431.22
       },
       "timestamp": "2026-08-26T19:02:18.918306+00:00"
+    },
+    {
+      "ratings": {
+        "10": 1419.94,
+        "11": 1457.58,
+        "12": 1469.64,
+        "13": 1476.34,
+        "14": 1475.75,
+        "15": 1473.93,
+        "16": 1472.59,
+        "17": 1324.86,
+        "19": 1540.65,
+        "20": 1541.76,
+        "21": 1526.53,
+        "3": 1379.91,
+        "30": 1524.02,
+        "31": 1571.1,
+        "32": 1641.19,
+        "33": 1653.9,
+        "34": 1667.01,
+        "35": 1406.05,
+        "36": 1612.72,
+        "37": 1444.56,
+        "38": 1536.29,
+        "39": 1523.6,
+        "4": 1438.5,
+        "40": 1610.7,
+        "7": 1379.66,
+        "9": 1431.22
+      },
+      "timestamp": "2026-08-27T19:15:20.153853+00:00"
     }
   ],
   "ratings": {
@@ -2395,7 +2471,7 @@
     },
     "13": {
       "draws": 0,
-      "games": 22,
+      "games": 23,
       "losses": 13,
       "opponents": [
         3,
@@ -2418,14 +2494,15 @@
         33,
         34,
         35,
-        36
+        36,
+        37
       ],
-      "rating": 1464.19,
-      "wins": 9
+      "rating": 1476.34,
+      "wins": 10
     },
     "14": {
       "draws": 0,
-      "games": 21,
+      "games": 22,
       "losses": 12,
       "opponents": [
         3,
@@ -2448,10 +2525,11 @@
         33,
         34,
         35,
-        36
+        36,
+        37
       ],
-      "rating": 1464.02,
-      "wins": 9
+      "rating": 1475.75,
+      "wins": 10
     },
     "15": {
       "draws": 0,
@@ -2578,7 +2656,7 @@
     },
     "20": {
       "draws": 0,
-      "games": 21,
+      "games": 22,
       "losses": 8,
       "opponents": [
         3,
@@ -2601,14 +2679,15 @@
         33,
         34,
         36,
+        37,
         40
       ],
-      "rating": 1531.57,
-      "wins": 13
+      "rating": 1541.76,
+      "wins": 14
     },
     "21": {
       "draws": 0,
-      "games": 28,
+      "games": 29,
       "losses": 13,
       "opponents": [
         3,
@@ -2632,11 +2711,12 @@
         34,
         35,
         36,
+        37,
         38,
         40
       ],
-      "rating": 1515.42,
-      "wins": 15
+      "rating": 1526.53,
+      "wins": 16
     },
     "3": {
       "draws": 0,
@@ -2668,7 +2748,7 @@
     },
     "30": {
       "draws": 0,
-      "games": 23,
+      "games": 24,
       "losses": 10,
       "opponents": [
         3,
@@ -2691,11 +2771,12 @@
         33,
         34,
         36,
+        37,
         38,
         40
       ],
-      "rating": 1512.4,
-      "wins": 13
+      "rating": 1524.02,
+      "wins": 14
     },
     "31": {
       "draws": 0,
@@ -2850,17 +2931,22 @@
     },
     "37": {
       "draws": 0,
-      "games": 6,
-      "losses": 3,
+      "games": 11,
+      "losses": 8,
       "opponents": [
         12,
+        13,
+        14,
         15,
         16,
+        20,
+        21,
+        30,
         38,
         39,
         40
       ],
-      "rating": 1501.36,
+      "rating": 1444.56,
       "wins": 3
     },
     "38": {
