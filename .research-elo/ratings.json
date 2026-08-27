@@ -2258,6 +2258,51 @@
       "reason": "#14 wins over #37 because it addresses a critical gap in multimodal representation learning with a concrete validation approach (empirical testing of causal geometry), whereas #37's data sparsity issue is not mitigated by its proposal.",
       "target": 37,
       "timestamp": "2026-08-27T19:15:19.018551+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "#38 wins over #19 because it has clearer scientific importance (biomarker-specific drug embeddings directly address a known gap in pharmacogenomics) and higher tractability (explicit experimental design for comparison of conditioning methods is provided, while #19's failure mode characterization lacks concrete methodology for separation of correlated factors.",
+      "target": 38,
+      "timestamp": "2026-08-27T21:30:55.163043+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
+      "outcome": "win",
+      "reason": "#38 wins over #20 because it addresses a more immediately applicable problem (biomarker-conditioned drug retrieval) with a feasible experimental plan, while #20's compositional algebra question is highly speculative with no clear path to empirical validation beyond \"testing whether apparent compositionality survives\" without defined metrics.",
+      "target": 38,
+      "timestamp": "2026-08-27T21:30:55.163043+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "#38 wins over #31 because it has stronger practical importance (directly applicable to pharmacogenomic drug retrieval systems) and clearer falsifiability (explicit comparison of conditioning methods with testable ranking outcomes), while #31's evidence selection vs sufficiency distinction is less novel and lacks concrete evidence of superiority beyond pilot results.",
+      "target": 38,
+      "timestamp": "2026-08-27T21:30:55.163043+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "#38 wins over #13 because it has higher practical importance (solving a specific pharmacogenomic retrieval problem) and better tractability (clear experimental design with defined comparisons), while #13's representation properties question is more abstract and lacks a concrete benchmark for evaluation.",
+      "target": 38,
+      "timestamp": "2026-08-27T21:30:55.163043+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 14,
+      "outcome": "win",
+      "reason": "#38 wins over #14 because it addresses a more concrete problem (biomarker-conditioned embeddings for drug retrieval) with a feasible experimental plan, while #14's causal geometry question is highly abstract and lacks a practical definition for empirical testing as noted in its biggest uncertainty.",
+      "target": 38,
+      "timestamp": "2026-08-27T21:30:55.163043+00:00"
     }
   ],
   "k_factor": 24,
@@ -2350,31 +2395,31 @@
         "10": 1419.94,
         "11": 1457.58,
         "12": 1469.64,
-        "13": 1476.34,
-        "14": 1475.75,
+        "13": 1467.58,
+        "14": 1467.29,
         "15": 1473.93,
         "16": 1472.59,
         "17": 1324.86,
-        "19": 1540.65,
-        "20": 1541.76,
+        "19": 1528.5,
+        "20": 1529.99,
         "21": 1526.53,
         "3": 1379.91,
         "30": 1524.02,
-        "31": 1571.1,
+        "31": 1558.72,
         "32": 1641.19,
         "33": 1653.9,
         "34": 1667.01,
         "35": 1406.05,
         "36": 1612.72,
         "37": 1444.56,
-        "38": 1536.29,
+        "38": 1589.81,
         "39": 1523.6,
         "4": 1438.5,
         "40": 1610.7,
         "7": 1379.66,
         "9": 1431.22
       },
-      "timestamp": "2026-08-27T19:15:20.153853+00:00"
+      "timestamp": "2026-08-27T21:30:56.018082+00:00"
     }
   ],
   "ratings": {
@@ -2471,8 +2516,8 @@
     },
     "13": {
       "draws": 0,
-      "games": 23,
-      "losses": 13,
+      "games": 24,
+      "losses": 14,
       "opponents": [
         3,
         4,
@@ -2495,15 +2540,16 @@
         34,
         35,
         36,
-        37
+        37,
+        38
       ],
-      "rating": 1476.34,
+      "rating": 1467.58,
       "wins": 10
     },
     "14": {
       "draws": 0,
-      "games": 22,
-      "losses": 12,
+      "games": 23,
+      "losses": 13,
       "opponents": [
         3,
         4,
@@ -2526,9 +2572,10 @@
         34,
         35,
         36,
-        37
+        37,
+        38
       ],
-      "rating": 1475.75,
+      "rating": 1467.29,
       "wins": 10
     },
     "15": {
@@ -2626,8 +2673,8 @@
     },
     "19": {
       "draws": 0,
-      "games": 21,
-      "losses": 8,
+      "games": 22,
+      "losses": 9,
       "opponents": [
         3,
         4,
@@ -2649,15 +2696,16 @@
         33,
         34,
         36,
+        38,
         40
       ],
-      "rating": 1540.65,
+      "rating": 1528.5,
       "wins": 13
     },
     "20": {
       "draws": 0,
-      "games": 22,
-      "losses": 8,
+      "games": 23,
+      "losses": 9,
       "opponents": [
         3,
         4,
@@ -2680,9 +2728,10 @@
         34,
         36,
         37,
+        38,
         40
       ],
-      "rating": 1541.76,
+      "rating": 1529.99,
       "wins": 14
     },
     "21": {
@@ -2780,8 +2829,8 @@
     },
     "31": {
       "draws": 0,
-      "games": 21,
-      "losses": 6,
+      "games": 22,
+      "losses": 7,
       "opponents": [
         3,
         4,
@@ -2803,9 +2852,10 @@
         33,
         34,
         36,
+        38,
         40
       ],
-      "rating": 1571.1,
+      "rating": 1558.72,
       "wins": 15
     },
     "32": {
@@ -2951,19 +3001,24 @@
     },
     "38": {
       "draws": 0,
-      "games": 7,
+      "games": 12,
       "losses": 2,
       "opponents": [
         12,
+        13,
+        14,
         16,
+        19,
+        20,
         21,
         30,
+        31,
         37,
         39,
         40
       ],
-      "rating": 1536.29,
-      "wins": 5
+      "rating": 1589.81,
+      "wins": 10
     },
     "39": {
       "draws": 0,
