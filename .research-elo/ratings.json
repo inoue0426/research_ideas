@@ -2303,6 +2303,51 @@
       "reason": "#38 wins over #14 because it addresses a more concrete problem (biomarker-conditioned embeddings for drug retrieval) with a feasible experimental plan, while #14's causal geometry question is highly abstract and lacks a practical definition for empirical testing as noted in its biggest uncertainty.",
       "target": 38,
       "timestamp": "2026-08-27T21:30:55.163043+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "#35 wins over #3 by addressing a clear, testable problem with strong scientific relevance in LLM reasoning under realistic noisy biomedical contexts, while #3's core question lacks specificity and a defined evaluation benchmark.",
+      "target": 35,
+      "timestamp": "2026-08-28T12:50:56.881879+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "#35 wins over #7 by having a well-defined, falsifiable research question with concrete experimental design, whereas #7's feasibility depends on unverified data availability and lacks a clear differentiation from existing spatial modeling approaches.",
+      "target": 35,
+      "timestamp": "2026-08-28T12:50:56.881879+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 37,
+      "outcome": "win",
+      "reason": "#35 wins over #37 by providing a clear, testable hypothesis with defined baselines and experiments, while #37's novelty is highly uncertain due to data sparsity and lacks a concrete evaluation plan beyond data inspection.",
+      "target": 35,
+      "timestamp": "2026-08-28T12:50:56.881879+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "#35 wins over #17 by having a well-specified, falsifiable research problem with measurable outcomes, whereas #17's contribution is vague and depends on unverified HCI/visualization claims without a clear scientific evaluation metric.",
+      "target": 35,
+      "timestamp": "2026-08-28T12:50:56.881879+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "win",
+      "reason": "#35 wins over #30 by offering a more tractable, immediately testable problem with defined experiments, while #30's feasibility is critically dependent on unverified data availability and lacks a clear path to evaluation.",
+      "target": 35,
+      "timestamp": "2026-08-28T12:50:56.881879+00:00"
     }
   ],
   "k_factor": 24,
@@ -2420,6 +2465,37 @@
         "9": 1431.22
       },
       "timestamp": "2026-08-27T21:30:56.018082+00:00"
+    },
+    {
+      "ratings": {
+        "10": 1419.94,
+        "11": 1457.58,
+        "12": 1469.64,
+        "13": 1467.58,
+        "14": 1467.29,
+        "15": 1473.93,
+        "16": 1472.59,
+        "17": 1316.71,
+        "19": 1528.5,
+        "20": 1529.99,
+        "21": 1526.53,
+        "3": 1368.81,
+        "30": 1509.45,
+        "31": 1558.72,
+        "32": 1641.19,
+        "33": 1653.9,
+        "34": 1667.01,
+        "35": 1463.16,
+        "36": 1612.72,
+        "37": 1431.98,
+        "38": 1589.81,
+        "39": 1523.6,
+        "4": 1438.5,
+        "40": 1610.7,
+        "7": 1368.95,
+        "9": 1431.22
+      },
+      "timestamp": "2026-08-28T12:50:58.439244+00:00"
     }
   ],
   "ratings": {
@@ -2645,8 +2721,8 @@
     },
     "17": {
       "draws": 0,
-      "games": 22,
-      "losses": 21,
+      "games": 23,
+      "losses": 22,
       "opponents": [
         3,
         4,
@@ -2666,9 +2742,10 @@
         31,
         32,
         33,
-        34
+        34,
+        35
       ],
-      "rating": 1324.86,
+      "rating": 1316.71,
       "wins": 1
     },
     "19": {
@@ -2769,8 +2846,8 @@
     },
     "3": {
       "draws": 0,
-      "games": 22,
-      "losses": 18,
+      "games": 23,
+      "losses": 19,
       "opponents": [
         4,
         7,
@@ -2790,15 +2867,16 @@
         31,
         32,
         33,
-        34
+        34,
+        35
       ],
-      "rating": 1379.91,
+      "rating": 1368.81,
       "wins": 4
     },
     "30": {
       "draws": 0,
-      "games": 24,
-      "losses": 10,
+      "games": 25,
+      "losses": 11,
       "opponents": [
         3,
         4,
@@ -2819,12 +2897,13 @@
         32,
         33,
         34,
+        35,
         36,
         37,
         38,
         40
       ],
-      "rating": 1524.02,
+      "rating": 1509.45,
       "wins": 14
     },
     "31": {
@@ -2943,10 +3022,12 @@
     },
     "35": {
       "draws": 0,
-      "games": 10,
+      "games": 15,
       "losses": 9,
       "opponents": [
+        3,
         4,
+        7,
         9,
         10,
         11,
@@ -2955,10 +3036,13 @@
         14,
         15,
         16,
-        21
+        17,
+        21,
+        30,
+        37
       ],
-      "rating": 1406.05,
-      "wins": 1
+      "rating": 1463.16,
+      "wins": 6
     },
     "36": {
       "draws": 0,
@@ -2981,8 +3065,8 @@
     },
     "37": {
       "draws": 0,
-      "games": 11,
-      "losses": 8,
+      "games": 12,
+      "losses": 9,
       "opponents": [
         12,
         13,
@@ -2992,11 +3076,12 @@
         20,
         21,
         30,
+        35,
         38,
         39,
         40
       ],
-      "rating": 1444.56,
+      "rating": 1431.98,
       "wins": 3
     },
     "38": {
@@ -3081,8 +3166,8 @@
     },
     "7": {
       "draws": 0,
-      "games": 21,
-      "losses": 17,
+      "games": 22,
+      "losses": 18,
       "opponents": [
         3,
         4,
@@ -3101,9 +3186,10 @@
         30,
         31,
         33,
-        34
+        34,
+        35
       ],
-      "rating": 1379.66,
+      "rating": 1368.95,
       "wins": 4
     },
     "9": {
