@@ -2348,6 +2348,51 @@
       "reason": "#35 wins over #30 by offering a more tractable, immediately testable problem with defined experiments, while #30's feasibility is critically dependent on unverified data availability and lacks a clear path to evaluation.",
       "target": 35,
       "timestamp": "2026-08-28T12:50:56.881879+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 44,
+      "outcome": "loss",
+      "reason": "Issue #44 addresses a clear, testable question about mechanism-aware modeling with plausible biological alignment, while Issue #41 faces significant data availability uncertainty that could derail the project. Issue #44's core question is more directly actionable with existing data.",
+      "target": 41,
+      "timestamp": "2026-08-28T15:35:38.222306+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 42,
+      "outcome": "win",
+      "reason": "Issue #41 offers higher importance by addressing tumor heterogeneity (a critical clinical gap) versus Issue #42's cold-start focus, which is more incremental. Issue #41's question is clearer and more biologically grounded.",
+      "target": 41,
+      "timestamp": "2026-08-28T15:35:38.222306+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 43,
+      "outcome": "loss",
+      "reason": "Issue #43 provides immediate practical utility for decision-making in drug discovery, while Issue #41's single-cell modeling faces data scarcity risks. Issue #43's uncertainty estimation is more tractable with current data.",
+      "target": 41,
+      "timestamp": "2026-08-28T15:35:38.222306+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "loss",
+      "reason": "Issue #30 directly addresses ADCNet's stated limitation (lack of context awareness) with a clear, actionable question, while Issue #41's single-cell approach has unresolved data challenges. Issue #30's solution is more aligned with current model limitations.",
+      "target": 41,
+      "timestamp": "2026-08-28T15:35:38.222306+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "Issue #41 tackles a fundamental biological gap (tumor heterogeneity) with higher importance than Issue #15's mechanism arbitration, which is more abstract and lacks clear evaluation metrics.",
+      "target": 41,
+      "timestamp": "2026-08-28T15:35:38.222306+00:00"
     }
   ],
   "k_factor": 24,
@@ -2473,14 +2518,14 @@
         "12": 1469.64,
         "13": 1467.58,
         "14": 1467.29,
-        "15": 1473.93,
+        "15": 1462.04,
         "16": 1472.59,
         "17": 1316.71,
         "19": 1528.5,
         "20": 1529.99,
         "21": 1526.53,
         "3": 1368.81,
-        "30": 1509.45,
+        "30": 1520.72,
         "31": 1558.72,
         "32": 1641.19,
         "33": 1653.9,
@@ -2492,10 +2537,14 @@
         "39": 1523.6,
         "4": 1438.5,
         "40": 1610.7,
+        "41": 1489.02,
+        "42": 1487.59,
+        "43": 1512.01,
+        "44": 1512.0,
         "7": 1368.95,
         "9": 1431.22
       },
-      "timestamp": "2026-08-28T12:50:58.439244+00:00"
+      "timestamp": "2026-08-28T15:35:38.932955+00:00"
     }
   ],
   "ratings": {
@@ -2656,8 +2705,8 @@
     },
     "15": {
       "draws": 0,
-      "games": 24,
-      "losses": 13,
+      "games": 25,
+      "losses": 14,
       "opponents": [
         3,
         4,
@@ -2681,9 +2730,10 @@
         35,
         36,
         37,
-        40
+        40,
+        41
       ],
-      "rating": 1473.93,
+      "rating": 1462.04,
       "wins": 11
     },
     "16": {
@@ -2875,7 +2925,7 @@
     },
     "30": {
       "draws": 0,
-      "games": 25,
+      "games": 26,
       "losses": 11,
       "opponents": [
         3,
@@ -2901,10 +2951,11 @@
         36,
         37,
         38,
-        40
+        40,
+        41
       ],
-      "rating": 1509.45,
-      "wins": 14
+      "rating": 1520.72,
+      "wins": 15
     },
     "31": {
       "draws": 0,
@@ -3163,6 +3214,50 @@
       ],
       "rating": 1610.7,
       "wins": 10
+    },
+    "41": {
+      "draws": 0,
+      "games": 5,
+      "losses": 3,
+      "opponents": [
+        15,
+        30,
+        42,
+        43,
+        44
+      ],
+      "rating": 1489.02,
+      "wins": 2
+    },
+    "42": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "opponents": [
+        41
+      ],
+      "rating": 1487.59,
+      "wins": 0
+    },
+    "43": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "opponents": [
+        41
+      ],
+      "rating": 1512.01,
+      "wins": 1
+    },
+    "44": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "opponents": [
+        41
+      ],
+      "rating": 1512.0,
+      "wins": 1
     },
     "7": {
       "draws": 0,
