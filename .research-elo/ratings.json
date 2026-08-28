@@ -2393,6 +2393,51 @@
       "reason": "Issue #41 tackles a fundamental biological gap (tumor heterogeneity) with higher importance than Issue #15's mechanism arbitration, which is more abstract and lacks clear evaluation metrics.",
       "target": 41,
       "timestamp": "2026-08-28T15:35:38.222306+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "win",
+      "reason": "Issue #42 addresses a clear, practical problem (cold-start ADC prediction) with well-defined evaluation settings, high importance for drug discovery, and a concrete next step to check data feasibility. Issue #16 is more abstract and lacks a clear path to empirical validation.",
+      "target": 42,
+      "timestamp": "2026-08-28T15:36:14.346490+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "Issue #42 has a more concrete problem statement, clear evaluation metrics, and direct relevance to ADC development. Issue #12's focus on perturbation spaces is less immediately actionable and lacks a defined data source for validation.",
+      "target": 42,
+      "timestamp": "2026-08-28T15:36:14.346490+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "Issue #42 provides a specific, testable question about model generalization under cold-start conditions with a clear next step. Issue #13 is more theoretical and lacks a defined benchmark for empirical testing.",
+      "target": 42,
+      "timestamp": "2026-08-28T15:36:14.346490+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 14,
+      "outcome": "win",
+      "reason": "Issue #42 has a direct practical application in ADC development with a clear evaluation framework. Issue #14's focus on 'causal geometry' is vague and lacks a concrete method to test the claim.",
+      "target": 42,
+      "timestamp": "2026-08-28T15:36:14.346490+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 44,
+      "outcome": "win",
+      "reason": "Issue #42 addresses a critical gap in ADC model evaluation (cold-start generalization) with a well-structured plan to validate feasibility. Issue #44's mechanism-aware approach is promising but faces significant data imbalance risks that could limit its practical utility.",
+      "target": 42,
+      "timestamp": "2026-08-28T15:36:14.346490+00:00"
     }
   ],
   "k_factor": 24,
@@ -2515,11 +2560,11 @@
       "ratings": {
         "10": 1419.94,
         "11": 1457.58,
-        "12": 1469.64,
-        "13": 1467.58,
-        "14": 1467.29,
+        "12": 1458.65,
+        "13": 1457.04,
+        "14": 1457.12,
         "15": 1462.04,
-        "16": 1472.59,
+        "16": 1461.11,
         "17": 1316.71,
         "19": 1528.5,
         "20": 1529.99,
@@ -2538,13 +2583,13 @@
         "4": 1438.5,
         "40": 1610.7,
         "41": 1489.02,
-        "42": 1487.59,
+        "42": 1542.12,
         "43": 1512.01,
-        "44": 1512.0,
+        "44": 1500.65,
         "7": 1368.95,
         "9": 1431.22
       },
-      "timestamp": "2026-08-28T15:35:38.932955+00:00"
+      "timestamp": "2026-08-28T15:36:15.134284+00:00"
     }
   ],
   "ratings": {
@@ -2608,8 +2653,8 @@
     },
     "12": {
       "draws": 0,
-      "games": 25,
-      "losses": 14,
+      "games": 26,
+      "losses": 15,
       "opponents": [
         3,
         4,
@@ -2634,15 +2679,16 @@
         36,
         37,
         38,
-        40
+        40,
+        42
       ],
-      "rating": 1469.64,
+      "rating": 1458.65,
       "wins": 11
     },
     "13": {
       "draws": 0,
-      "games": 24,
-      "losses": 14,
+      "games": 25,
+      "losses": 15,
       "opponents": [
         3,
         4,
@@ -2666,15 +2712,16 @@
         35,
         36,
         37,
-        38
+        38,
+        42
       ],
-      "rating": 1467.58,
+      "rating": 1457.04,
       "wins": 10
     },
     "14": {
       "draws": 0,
-      "games": 23,
-      "losses": 13,
+      "games": 24,
+      "losses": 14,
       "opponents": [
         3,
         4,
@@ -2698,9 +2745,10 @@
         35,
         36,
         37,
-        38
+        38,
+        42
       ],
-      "rating": 1467.29,
+      "rating": 1457.12,
       "wins": 10
     },
     "15": {
@@ -2738,8 +2786,8 @@
     },
     "16": {
       "draws": 0,
-      "games": 25,
-      "losses": 13,
+      "games": 26,
+      "losses": 14,
       "opponents": [
         3,
         4,
@@ -2764,9 +2812,10 @@
         36,
         37,
         38,
-        40
+        40,
+        42
       ],
-      "rating": 1472.59,
+      "rating": 1461.11,
       "wins": 12
     },
     "17": {
@@ -3231,13 +3280,18 @@
     },
     "42": {
       "draws": 0,
-      "games": 1,
+      "games": 6,
       "losses": 1,
       "opponents": [
-        41
+        12,
+        13,
+        14,
+        16,
+        41,
+        44
       ],
-      "rating": 1487.59,
-      "wins": 0
+      "rating": 1542.12,
+      "wins": 5
     },
     "43": {
       "draws": 0,
@@ -3251,12 +3305,13 @@
     },
     "44": {
       "draws": 0,
-      "games": 1,
-      "losses": 0,
+      "games": 2,
+      "losses": 1,
       "opponents": [
-        41
+        41,
+        42
       ],
-      "rating": 1512.0,
+      "rating": 1500.65,
       "wins": 1
     },
     "7": {
