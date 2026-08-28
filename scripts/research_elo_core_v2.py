@@ -14,7 +14,9 @@ import math
 import os
 import random
 import re
+import socket
 import sys
+import time
 import urllib.error
 import urllib.request
 from collections import Counter
@@ -25,6 +27,8 @@ STATE_PATH = Path('.research-elo/ratings.json')
 DEFAULT_RATING = 1500.0
 MAX_OPPONENTS = 5
 MAX_BODY_CHARS = 3500
+GITHUB_API_TIMEOUT_SECONDS = 20
+GITHUB_API_GET_ATTEMPTS = 4
 
 
 def github_request(path, method='GET', payload=None):
@@ -40,13 +44,39 @@ def github_request(path, method='GET', payload=None):
     req.add_header('X-GitHub-Api-Version', '2022-11-28')
     if data is not None:
         req.add_header('Content-Type', 'application/json')
-    try:
-        with urllib.request.urlopen(req) as resp:
-            body = resp.read().decode('utf-8')
-            return json.loads(body) if body else None
-    except urllib.error.HTTPError as exc:
-        detail = exc.read().decode('utf-8', errors='replace')
-        raise RuntimeError(f'GitHub API {method} {path} failed: {exc.code} {detail}') from exc
+
+    # GET requests are safe to retry. Do not automatically retry writes because
+    # a timed-out response may still mean GitHub processed the request.
+    attempts = GITHUB_API_GET_ATTEMPTS if method == 'GET' else 1
+    for attempt in range(1, attempts + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=GITHUB_API_TIMEOUT_SECONDS) as resp:
+                body = resp.read().decode('utf-8')
+                return json.loads(body) if body else None
+        except urllib.error.HTTPError as exc:
+            detail = exc.read().decode('utf-8', errors='replace')
+            retryable = method == 'GET' and (exc.code == 429 or 500 <= exc.code < 600)
+            if not retryable or attempt == attempts:
+                raise RuntimeError(f'GitHub API {method} {path} failed: {exc.code} {detail}') from exc
+            delay = min(2 ** (attempt - 1), 8)
+            print(
+                f'GitHub API {method} {path} returned HTTP {exc.code}; '
+                f'retrying in {delay}s ({attempt}/{attempts})',
+                file=sys.stderr,
+            )
+            time.sleep(delay)
+        except (urllib.error.URLError, TimeoutError, socket.timeout) as exc:
+            if method != 'GET' or attempt == attempts:
+                raise RuntimeError(
+                    f'GitHub API {method} {path} failed after {attempt} attempt(s): {exc}'
+                ) from exc
+            delay = min(2 ** (attempt - 1), 8)
+            print(
+                f'GitHub API {method} {path} network error: {exc}; '
+                f'retrying in {delay}s ({attempt}/{attempts})',
+                file=sys.stderr,
+            )
+            time.sleep(delay)
 
 
 def load_state():
