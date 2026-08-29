@@ -2528,6 +2528,51 @@
       "reason": "#44 wins over #31 because #44 tackles a high-impact, well-defined problem in drug development (ADC response prediction) with clear biological grounding, while #31's focus on LLM evidence reasoning is more niche and lacks the same level of practical relevance to a major scientific challenge.",
       "target": 44,
       "timestamp": "2026-08-28T21:32:51.571398+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "win",
+      "reason": "#41 wins over #21 because it addresses a clear, important clinical problem (ADC resistance heterogeneity) with a well-defined question, while #21's question is more abstract and lacks concrete data validation steps.",
+      "target": 41,
+      "timestamp": "2026-08-29T00:54:07.122764+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "#41 wins over #19 because it has higher importance (direct clinical impact on ADC efficacy) and clearer tractability (data availability check is concrete), while #19's failure mode characterization is less immediately actionable.",
+      "target": 41,
+      "timestamp": "2026-08-29T00:54:07.122764+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
+      "outcome": "win",
+      "reason": "#41 wins over #20 because it addresses a more urgent clinical need (ADC resistance) with a well-defined question, while #20's compositional algebra question is more speculative and lacks clear validation path.",
+      "target": 41,
+      "timestamp": "2026-08-29T00:54:07.122764+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 35,
+      "outcome": "win",
+      "reason": "#41 wins over #35 because #41 has higher importance (direct impact on cancer treatment) and better tractability (data availability check is concrete), while #35's LLM reasoning problem is more niche and lacks clear clinical relevance.",
+      "target": 41,
+      "timestamp": "2026-08-29T00:54:07.122764+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "win",
+      "reason": "#41 wins over #16 because #41 addresses a clear, important clinical problem with a well-defined question and concrete data validation steps, while #16's foundation model question is more abstract and lacks a clear path to validation.",
+      "target": 41,
+      "timestamp": "2026-08-29T00:54:07.122764+00:00"
     }
   ],
   "k_factor": 24,
@@ -2680,6 +2725,41 @@
         "9": 1431.22
       },
       "timestamp": "2026-08-28T21:32:52.326663+00:00"
+    },
+    {
+      "ratings": {
+        "10": 1419.94,
+        "11": 1457.58,
+        "12": 1458.65,
+        "13": 1457.04,
+        "14": 1457.12,
+        "15": 1462.04,
+        "16": 1451.63,
+        "17": 1316.71,
+        "19": 1492.55,
+        "20": 1495.08,
+        "21": 1489.54,
+        "3": 1368.81,
+        "30": 1497.8,
+        "31": 1546.73,
+        "32": 1641.19,
+        "33": 1653.9,
+        "34": 1667.01,
+        "35": 1453.29,
+        "36": 1612.72,
+        "37": 1431.98,
+        "38": 1589.81,
+        "39": 1523.6,
+        "4": 1438.5,
+        "40": 1610.7,
+        "41": 1544.7,
+        "42": 1542.12,
+        "43": 1547.96,
+        "44": 1571.13,
+        "7": 1368.95,
+        "9": 1431.22
+      },
+      "timestamp": "2026-08-29T00:54:07.855834+00:00"
     }
   ],
   "ratings": {
@@ -2876,8 +2956,8 @@
     },
     "16": {
       "draws": 0,
-      "games": 26,
-      "losses": 14,
+      "games": 27,
+      "losses": 15,
       "opponents": [
         3,
         4,
@@ -2903,9 +2983,10 @@
         37,
         38,
         40,
+        41,
         42
       ],
-      "rating": 1461.11,
+      "rating": 1451.63,
       "wins": 12
     },
     "17": {
@@ -2939,8 +3020,8 @@
     },
     "19": {
       "draws": 0,
-      "games": 24,
-      "losses": 11,
+      "games": 25,
+      "losses": 12,
       "opponents": [
         3,
         4,
@@ -2964,16 +3045,17 @@
         36,
         38,
         40,
+        41,
         43,
         44
       ],
-      "rating": 1504.66,
+      "rating": 1492.55,
       "wins": 13
     },
     "20": {
       "draws": 0,
-      "games": 25,
-      "losses": 11,
+      "games": 26,
+      "losses": 12,
       "opponents": [
         3,
         4,
@@ -2998,16 +3080,17 @@
         37,
         38,
         40,
+        41,
         43,
         44
       ],
-      "rating": 1506.85,
+      "rating": 1495.08,
       "wins": 14
     },
     "21": {
       "draws": 0,
-      "games": 31,
-      "losses": 15,
+      "games": 32,
+      "losses": 16,
       "opponents": [
         3,
         4,
@@ -3033,10 +3116,11 @@
         37,
         38,
         40,
+        41,
         43,
         44
       ],
-      "rating": 1501.99,
+      "rating": 1489.54,
       "wins": 16
     },
     "3": {
@@ -3221,8 +3305,8 @@
     },
     "35": {
       "draws": 0,
-      "games": 15,
-      "losses": 9,
+      "games": 16,
+      "losses": 10,
       "opponents": [
         3,
         4,
@@ -3238,9 +3322,10 @@
         17,
         21,
         30,
-        37
+        37,
+        41
       ],
-      "rating": 1463.16,
+      "rating": 1453.29,
       "wins": 6
     },
     "36": {
@@ -3365,17 +3450,22 @@
     },
     "41": {
       "draws": 0,
-      "games": 5,
+      "games": 10,
       "losses": 3,
       "opponents": [
         15,
+        16,
+        19,
+        20,
+        21,
         30,
+        35,
         42,
         43,
         44
       ],
-      "rating": 1489.02,
-      "wins": 2
+      "rating": 1544.7,
+      "wins": 7
     },
     "42": {
       "draws": 0,
