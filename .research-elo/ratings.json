@@ -2573,6 +2573,51 @@
       "reason": "#41 wins over #16 because #41 addresses a clear, important clinical problem with a well-defined question and concrete data validation steps, while #16's foundation model question is more abstract and lacks a clear path to validation.",
       "target": 41,
       "timestamp": "2026-08-29T00:54:07.122764+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "loss",
+      "reason": "#31 wins over #42 because it addresses a fundamental limitation in biomedical LLMs (evidence selection vs. sufficiency) with clear, testable hypotheses, while #42's cold-start benchmark depends on unverified data diversity.",
+      "target": 42,
+      "timestamp": "2026-08-29T16:06:34.779748+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 43,
+      "outcome": "loss",
+      "reason": "#43 wins over #42 because uncertainty-aware prediction directly addresses a critical operational need in drug discovery (reliability for decision-making), whereas #42's cold-start focus lacks immediate practical utility without data validation.",
+      "target": 42,
+      "timestamp": "2026-08-29T16:06:34.779748+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "win",
+      "reason": "#42 wins over #30 because it proposes a systematic benchmark for cold-start generalization (a clear, testable question), while #30's context-aware model depends on unverified data availability.",
+      "target": 42,
+      "timestamp": "2026-08-29T16:06:34.779748+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
+      "outcome": "win",
+      "reason": "#42 wins over #20 because it has a concrete, near-term application in ADC response prediction with defined evaluation metrics, whereas #20's compositional algebra question is highly abstract and lacks clear validation pathways.",
+      "target": 42,
+      "timestamp": "2026-08-29T16:06:34.779748+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 38,
+      "outcome": "win",
+      "reason": "#42 wins over #38 because it addresses a well-defined gap in ADC response prediction (cold-start generalization) with a clear evaluation framework, while #38's biomarker-conditioned embeddings lack direct evidence of practical impact in the ADC context.",
+      "target": 42,
+      "timestamp": "2026-08-29T16:06:34.779748+00:00"
     }
   ],
   "k_factor": 24,
@@ -2737,29 +2782,29 @@
         "16": 1451.63,
         "17": 1316.71,
         "19": 1492.55,
-        "20": 1495.08,
+        "20": 1484.29,
         "21": 1489.54,
         "3": 1368.81,
-        "30": 1497.8,
-        "31": 1546.73,
+        "30": 1486.53,
+        "31": 1558.57,
         "32": 1641.19,
         "33": 1653.9,
         "34": 1667.01,
         "35": 1453.29,
         "36": 1612.72,
         "37": 1431.98,
-        "38": 1589.81,
+        "38": 1576.13,
         "39": 1523.6,
         "4": 1438.5,
         "40": 1610.7,
         "41": 1544.7,
-        "42": 1542.12,
-        "43": 1547.96,
+        "42": 1554.63,
+        "43": 1559.35,
         "44": 1571.13,
         "7": 1368.95,
         "9": 1431.22
       },
-      "timestamp": "2026-08-29T00:54:07.855834+00:00"
+      "timestamp": "2026-08-29T16:06:35.721456+00:00"
     }
   ],
   "ratings": {
@@ -3054,8 +3099,8 @@
     },
     "20": {
       "draws": 0,
-      "games": 26,
-      "losses": 12,
+      "games": 27,
+      "losses": 13,
       "opponents": [
         3,
         4,
@@ -3081,10 +3126,11 @@
         38,
         40,
         41,
+        42,
         43,
         44
       ],
-      "rating": 1495.08,
+      "rating": 1484.29,
       "wins": 14
     },
     "21": {
@@ -3154,8 +3200,8 @@
     },
     "30": {
       "draws": 0,
-      "games": 28,
-      "losses": 13,
+      "games": 29,
+      "losses": 14,
       "opponents": [
         3,
         4,
@@ -3182,15 +3228,16 @@
         38,
         40,
         41,
+        42,
         43,
         44
       ],
-      "rating": 1497.8,
+      "rating": 1486.53,
       "wins": 15
     },
     "31": {
       "draws": 0,
-      "games": 23,
+      "games": 24,
       "losses": 8,
       "opponents": [
         3,
@@ -3215,10 +3262,11 @@
         36,
         38,
         40,
+        42,
         44
       ],
-      "rating": 1546.73,
-      "wins": 15
+      "rating": 1558.57,
+      "wins": 16
     },
     "32": {
       "draws": 0,
@@ -3370,8 +3418,8 @@
     },
     "38": {
       "draws": 0,
-      "games": 12,
-      "losses": 2,
+      "games": 13,
+      "losses": 3,
       "opponents": [
         12,
         13,
@@ -3384,9 +3432,10 @@
         31,
         37,
         39,
-        40
+        40,
+        42
       ],
-      "rating": 1589.81,
+      "rating": 1576.13,
       "wins": 10
     },
     "39": {
@@ -3469,22 +3518,27 @@
     },
     "42": {
       "draws": 0,
-      "games": 6,
-      "losses": 1,
+      "games": 11,
+      "losses": 3,
       "opponents": [
         12,
         13,
         14,
         16,
+        20,
+        30,
+        31,
+        38,
         41,
+        43,
         44
       ],
-      "rating": 1542.12,
-      "wins": 5
+      "rating": 1554.63,
+      "wins": 8
     },
     "43": {
       "draws": 0,
-      "games": 6,
+      "games": 7,
       "losses": 1,
       "opponents": [
         19,
@@ -3492,10 +3546,11 @@
         21,
         30,
         41,
+        42,
         44
       ],
-      "rating": 1547.96,
-      "wins": 5
+      "rating": 1559.35,
+      "wins": 6
     },
     "44": {
       "draws": 0,
