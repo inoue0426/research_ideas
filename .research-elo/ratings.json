@@ -2618,6 +2618,51 @@
       "reason": "#42 wins over #38 because it addresses a well-defined gap in ADC response prediction (cold-start generalization) with a clear evaluation framework, while #38's biomarker-conditioned embeddings lack direct evidence of practical impact in the ADC context.",
       "target": 42,
       "timestamp": "2026-08-29T16:06:34.779748+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "#43 wins over #31 because it addresses a clear, actionable problem in ADC discovery with a well-defined evaluation framework, while #31's distinction between evidence selection and sufficiency lacks concrete evidence of novelty and feasibility.",
+      "target": 43,
+      "timestamp": "2026-08-29T18:28:56.973224+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 38,
+      "outcome": "win",
+      "reason": "#43 wins over #38 because it has a more immediate practical impact in drug discovery with a clear evaluation plan, while #38's biomarker-conditioned embeddings lack a strong justification for why natural language conditioning is necessary over simpler categorical approaches.",
+      "target": 43,
+      "timestamp": "2026-08-29T18:28:56.973224+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 40,
+      "outcome": "win",
+      "reason": "#43 wins over #40 because it focuses on a specific, testable question about uncertainty calibration with a defined evaluation protocol, whereas #40's broader claim about \"what a drug means in a biological state\" is less concrete and harder to validate.",
+      "target": 43,
+      "timestamp": "2026-08-29T18:28:56.973224+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 36,
+      "outcome": "win",
+      "reason": "#43 wins over #36 because it has a more tractable problem with a clear path to evaluation (uncertainty metrics), while #36's adaptive evidence acquisition is highly speculative and lacks a concrete experimental plan for testing its core hypothesis.",
+      "target": 43,
+      "timestamp": "2026-08-29T18:28:56.973224+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 32,
+      "outcome": "win",
+      "reason": "#43 wins over #32 because it addresses a well-defined, immediate need in ADC response prediction with a feasible six-month project scope, while #32's Pareto-aware LLM generation is likely redundant with existing methods and lacks a clear differentiation.",
+      "target": 43,
+      "timestamp": "2026-08-29T18:28:56.973224+00:00"
     }
   ],
   "k_factor": 24,
@@ -2786,25 +2831,25 @@
         "21": 1489.54,
         "3": 1368.81,
         "30": 1486.53,
-        "31": 1558.57,
-        "32": 1641.19,
+        "31": 1546.6,
+        "32": 1628.08,
         "33": 1653.9,
         "34": 1667.01,
         "35": 1453.29,
-        "36": 1612.72,
+        "36": 1600.16,
         "37": 1431.98,
-        "38": 1576.13,
+        "38": 1563.96,
         "39": 1523.6,
         "4": 1438.5,
-        "40": 1610.7,
+        "40": 1597.76,
         "41": 1544.7,
         "42": 1554.63,
-        "43": 1559.35,
+        "43": 1622.1,
         "44": 1571.13,
         "7": 1368.95,
         "9": 1431.22
       },
-      "timestamp": "2026-08-29T16:06:35.721456+00:00"
+      "timestamp": "2026-08-29T18:28:57.757132+00:00"
     }
   ],
   "ratings": {
@@ -3237,8 +3282,8 @@
     },
     "31": {
       "draws": 0,
-      "games": 24,
-      "losses": 8,
+      "games": 25,
+      "losses": 9,
       "opponents": [
         3,
         4,
@@ -3263,15 +3308,16 @@
         38,
         40,
         42,
+        43,
         44
       ],
-      "rating": 1558.57,
+      "rating": 1546.6,
       "wins": 16
     },
     "32": {
       "draws": 0,
-      "games": 19,
-      "losses": 2,
+      "games": 20,
+      "losses": 3,
       "opponents": [
         3,
         4,
@@ -3290,9 +3336,10 @@
         30,
         31,
         33,
-        34
+        34,
+        43
       ],
-      "rating": 1641.19,
+      "rating": 1628.08,
       "wins": 17
     },
     "33": {
@@ -3378,8 +3425,8 @@
     },
     "36": {
       "draws": 0,
-      "games": 10,
-      "losses": 0,
+      "games": 11,
+      "losses": 1,
       "opponents": [
         12,
         13,
@@ -3390,9 +3437,10 @@
         20,
         21,
         30,
-        31
+        31,
+        43
       ],
-      "rating": 1612.72,
+      "rating": 1600.16,
       "wins": 10
     },
     "37": {
@@ -3418,8 +3466,8 @@
     },
     "38": {
       "draws": 0,
-      "games": 13,
-      "losses": 3,
+      "games": 14,
+      "losses": 4,
       "opponents": [
         12,
         13,
@@ -3433,9 +3481,10 @@
         37,
         39,
         40,
-        42
+        42,
+        43
       ],
-      "rating": 1576.13,
+      "rating": 1563.96,
       "wins": 10
     },
     "39": {
@@ -3480,8 +3529,8 @@
     },
     "40": {
       "draws": 0,
-      "games": 10,
-      "losses": 0,
+      "games": 11,
+      "losses": 1,
       "opponents": [
         12,
         15,
@@ -3492,9 +3541,10 @@
         30,
         31,
         37,
-        38
+        38,
+        43
       ],
-      "rating": 1610.7,
+      "rating": 1597.76,
       "wins": 10
     },
     "41": {
@@ -3538,19 +3588,24 @@
     },
     "43": {
       "draws": 0,
-      "games": 7,
+      "games": 12,
       "losses": 1,
       "opponents": [
         19,
         20,
         21,
         30,
+        31,
+        32,
+        36,
+        38,
+        40,
         41,
         42,
         44
       ],
-      "rating": 1559.35,
-      "wins": 6
+      "rating": 1622.1,
+      "wins": 11
     },
     "44": {
       "draws": 0,
