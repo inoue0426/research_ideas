@@ -2663,6 +2663,51 @@
       "reason": "#43 wins over #32 because it addresses a well-defined, immediate need in ADC response prediction with a feasible six-month project scope, while #32's Pareto-aware LLM generation is likely redundant with existing methods and lacks a clear differentiation.",
       "target": 43,
       "timestamp": "2026-08-29T18:28:56.973224+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 38,
+      "outcome": "win",
+      "reason": "#44 wins over #38 because it addresses a clear biological mechanism (ADC payload types) with a well-defined question, while #38's biomarker-conditioned embeddings lack a strong biological grounding and rely on natural language conditioning which may not add value beyond categorical features.",
+      "target": 44,
+      "timestamp": "2026-08-29T21:23:21.620892+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 40,
+      "outcome": "loss",
+      "reason": "#40 wins over #44 because it proposes a more fundamental shift in molecular representation learning (contextualized drug embeddings) with a clearer diagnostic test for novelty, whereas #44's mechanism-aware model is a refinement of existing approaches with significant data limitations.",
+      "target": 44,
+      "timestamp": "2026-08-29T21:23:21.620892+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 36,
+      "outcome": "loss",
+      "reason": "#36 wins over #44 because it tackles a core limitation of LLM reasoning (evidence sufficiency) with a novel adaptive acquisition framework, while #44's ADC prediction model is constrained by dataset limitations and lacks a clear test for novelty.",
+      "target": 44,
+      "timestamp": "2026-08-29T21:23:21.620892+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 32,
+      "outcome": "loss",
+      "reason": "#32 wins over #44 because it proposes a novel frontier-conditioned molecular generation approach that directly addresses multi-objective drug design trade-offs, whereas #44's ADC model is a narrow refinement with unclear novelty and data challenges.",
+      "target": 44,
+      "timestamp": "2026-08-29T21:23:21.620892+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 33,
+      "outcome": "loss",
+      "reason": "#33 wins over #44 because it introduces a critical uncertainty-aware mechanism for biomedical reasoning (abstention based on agent disagreement), while #44's ADC model lacks a clear path to novelty and faces significant data constraints.",
+      "target": 44,
+      "timestamp": "2026-08-29T21:23:21.620892+00:00"
     }
   ],
   "k_factor": 24,
@@ -2832,24 +2877,24 @@
         "3": 1368.81,
         "30": 1486.53,
         "31": 1546.6,
-        "32": 1628.08,
-        "33": 1653.9,
+        "32": 1637.77,
+        "33": 1662.44,
         "34": 1667.01,
         "35": 1453.29,
-        "36": 1600.16,
+        "36": 1611.17,
         "37": 1431.98,
-        "38": 1563.96,
+        "38": 1552.21,
         "39": 1523.6,
         "4": 1438.5,
-        "40": 1597.76,
+        "40": 1609.25,
         "41": 1544.7,
         "42": 1554.63,
         "43": 1622.1,
-        "44": 1571.13,
+        "44": 1542.15,
         "7": 1368.95,
         "9": 1431.22
       },
-      "timestamp": "2026-08-29T18:28:57.757132+00:00"
+      "timestamp": "2026-08-29T21:23:22.277150+00:00"
     }
   ],
   "ratings": {
@@ -3316,7 +3361,7 @@
     },
     "32": {
       "draws": 0,
-      "games": 20,
+      "games": 21,
       "losses": 3,
       "opponents": [
         3,
@@ -3337,14 +3382,15 @@
         31,
         33,
         34,
-        43
+        43,
+        44
       ],
-      "rating": 1628.08,
-      "wins": 17
+      "rating": 1637.77,
+      "wins": 18
     },
     "33": {
       "draws": 0,
-      "games": 19,
+      "games": 20,
       "losses": 1,
       "opponents": [
         3,
@@ -3365,10 +3411,11 @@
         30,
         31,
         32,
-        34
+        34,
+        44
       ],
-      "rating": 1653.9,
-      "wins": 18
+      "rating": 1662.44,
+      "wins": 19
     },
     "34": {
       "draws": 0,
@@ -3425,7 +3472,7 @@
     },
     "36": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 1,
       "opponents": [
         12,
@@ -3438,10 +3485,11 @@
         21,
         30,
         31,
-        43
+        43,
+        44
       ],
-      "rating": 1600.16,
-      "wins": 10
+      "rating": 1611.17,
+      "wins": 11
     },
     "37": {
       "draws": 0,
@@ -3466,8 +3514,8 @@
     },
     "38": {
       "draws": 0,
-      "games": 14,
-      "losses": 4,
+      "games": 15,
+      "losses": 5,
       "opponents": [
         12,
         13,
@@ -3482,9 +3530,10 @@
         39,
         40,
         42,
-        43
+        43,
+        44
       ],
-      "rating": 1563.96,
+      "rating": 1552.21,
       "wins": 10
     },
     "39": {
@@ -3529,7 +3578,7 @@
     },
     "40": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 1,
       "opponents": [
         12,
@@ -3542,10 +3591,11 @@
         31,
         37,
         38,
-        43
+        43,
+        44
       ],
-      "rating": 1597.76,
-      "wins": 10
+      "rating": 1609.25,
+      "wins": 11
     },
     "41": {
       "draws": 0,
@@ -3609,20 +3659,25 @@
     },
     "44": {
       "draws": 0,
-      "games": 8,
-      "losses": 1,
+      "games": 13,
+      "losses": 5,
       "opponents": [
         19,
         20,
         21,
         30,
         31,
+        32,
+        33,
+        36,
+        38,
+        40,
         41,
         42,
         43
       ],
-      "rating": 1571.13,
-      "wins": 7
+      "rating": 1542.15,
+      "wins": 8
     },
     "7": {
       "draws": 0,
