@@ -19,20 +19,20 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 
 | Rank | Issue | Rating | Δ7d | Games | Opp. | Status | Record |
 |---:|---|---:|---:|---:|---:|---|---:|
-| ≈1 | [#32 — \[Idea\] Frontier-Conditioned Molecular Generation with Large Language Models](https://github.com/inoue0426/research_ideas/issues/32) | **1651** | — | 25 | 22 | 🟢 Established | 21W / 0D / 4L |
-| ≈1 | [#33 — \[Idea\] Multi-Agent Uncertainty and Abstention for Biomedical Drug Reasoning](https://github.com/inoue0426/research_ideas/issues/33) | **1634** | — | 25 | 22 | 🟢 Established | 21W / 0D / 4L |
-| ≈3 | [#34 — \[Idea\] CTD: Evidence Sufficiency and Selective Abstention](https://github.com/inoue0426/research_ideas/issues/34) | **1623** | — | 25 | 22 | 🟢 Established | 20W / 0D / 5L |
-| ≈3 | [#43 — \[Idea\] Uncertainty-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/43) | **1621** | — | 22 | 17 | 🟢 Established | 17W / 0D / 5L |
-| ≈3 | [#42 — \[Idea\] Cold-Start / OOD ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/42) | **1618** | — | 22 | 18 | 🟢 Established | 17W / 0D / 5L |
-| ≈3 | [#36 — When Is Evidence Enough? Adaptive Evidence Acquisition for LLM Biomedical Reasoning](https://github.com/inoue0426/research_ideas/issues/36) | **1604** | — | 18 | 16 | 🟢 Established | 14W / 0D / 4L |
-| ≈7 | [#41 — \[Idea\] Single-Cell and Spatial Modeling of ADC Response and Resistance](https://github.com/inoue0426/research_ideas/issues/41) | **1598** | — | 20 | 19 | 🟢 Established | 15W / 0D / 5L |
-| ≈7 | [#40 — \[Idea\] Natural-Language-Conditioned Drug Embeddings for Pharmacogenomic Context](https://github.com/inoue0426/research_ideas/issues/40) | **1579** | — | 16 | 14 | 🟢 Established | 12W / 0D / 4L |
-| 9 | [#31 — \[Idea\] Reliable Biomedical Evidence Reasoning: Separating Evidence Selection from Evidence Sufficiency](https://github.com/inoue0426/research_ideas/issues/31) | **1547** | — | 29 | 27 | 🟢 Established | 18W / 0D / 11L |
+| ≈1 | [#33 — \[Idea\] Multi-Agent Uncertainty and Abstention for Biomedical Drug Reasoning](https://github.com/inoue0426/research_ideas/issues/33) | **1643** | — | 26 | 23 | 🟢 Established | 22W / 0D / 4L |
+| ≈1 | [#32 — \[Idea\] Frontier-Conditioned Molecular Generation with Large Language Models](https://github.com/inoue0426/research_ideas/issues/32) | **1635** | — | 26 | 23 | 🟢 Established | 21W / 0D / 5L |
+| ≈1 | [#34 — \[Idea\] CTD: Evidence Sufficiency and Selective Abstention](https://github.com/inoue0426/research_ideas/issues/34) | **1633** | — | 26 | 23 | 🟢 Established | 21W / 0D / 5L |
+| ≈4 | [#43 — \[Idea\] Uncertainty-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/43) | **1621** | — | 22 | 17 | 🟢 Established | 17W / 0D / 5L |
+| ≈4 | [#42 — \[Idea\] Cold-Start / OOD ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/42) | **1618** | — | 22 | 18 | 🟢 Established | 17W / 0D / 5L |
+| ≈4 | [#36 — When Is Evidence Enough? Adaptive Evidence Acquisition for LLM Biomedical Reasoning](https://github.com/inoue0426/research_ideas/issues/36) | **1615** | — | 19 | 17 | 🟢 Established | 15W / 0D / 4L |
+| 7 | [#41 — \[Idea\] Single-Cell and Spatial Modeling of ADC Response and Resistance](https://github.com/inoue0426/research_ideas/issues/41) | **1598** | — | 20 | 19 | 🟢 Established | 15W / 0D / 5L |
+| ≈8 | [#40 — \[Idea\] Natural-Language-Conditioned Drug Embeddings for Pharmacogenomic Context](https://github.com/inoue0426/research_ideas/issues/40) | **1549** | — | 21 | 19 | 🟢 Established | 13W / 0D / 8L |
+| ≈8 | [#31 — \[Idea\] Reliable Biomedical Evidence Reasoning: Separating Evidence Selection from Evidence Sufficiency](https://github.com/inoue0426/research_ideas/issues/31) | **1547** | — | 29 | 27 | 🟢 Established | 18W / 0D / 11L |
 | ≈10 | [#38 — \[Idea\] Biomarker-Conditioned Molecular Embeddings for Pharmacogenomic Retrieval](https://github.com/inoue0426/research_ideas/issues/38) | **1525** | — | 19 | 17 | 🟢 Established | 11W / 0D / 8L |
 | ≈10 | [#20 — \[Idea\] Is there a compositional algebra of biological perturbations?](https://github.com/inoue0426/research_ideas/issues/20) | **1522** | — | 30 | 27 | 🟢 Established | 17W / 0D / 13L |
 | ≈10 | [#19 — \[Idea\] When does perturbation transfer fail across biological domains?](https://github.com/inoue0426/research_ideas/issues/19) | **1506** | — | 30 | 27 | 🟢 Established | 16W / 0D / 14L |
+| ≈13 | [#13 — \[Idea\] What makes a representation preserve intervention geometry?](https://github.com/inoue0426/research_ideas/issues/13) | **1505** | — | 32 | 26 | 🟢 Established | 15W / 0D / 17L |
 | ≈13 | [#44 — \[Idea\] Mechanism-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/44) | **1496** | — | 20 | 18 | 🟢 Established | 10W / 0D / 10L |
-| ≈13 | [#13 — \[Idea\] What makes a representation preserve intervention geometry?](https://github.com/inoue0426/research_ideas/issues/13) | **1490** | — | 31 | 25 | 🟢 Established | 14W / 0D / 17L |
 | ≈13 | [#30 — \[Idea\] context-aware ADC](https://github.com/inoue0426/research_ideas/issues/30) | **1490** | — | 31 | 28 | 🟢 Established | 16W / 0D / 15L |
 | ≈16 | [#14 — \[Idea\] Shared causal geometry across biological modalities](https://github.com/inoue0426/research_ideas/issues/14) | **1471** | — | 27 | 25 | 🟢 Established | 12W / 0D / 15L |
 | ≈16 | [#35 — Adaptive Evidence Search for LLM Reasoning under Distracting Biomedical Graph Context](https://github.com/inoue0426/research_ideas/issues/35) | **1468** | — | 21 | 18 | 🟢 Established | 9W / 0D / 12L |
@@ -49,7 +49,7 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 | ≈28 | [#17 — \[Idea\] Human-in-the-loop mechanism refinement](https://github.com/inoue0426/research_ideas/issues/17) | **1348** | — | 31 | 21 | 🟢 Established | 5W / 0D / 26L |
 | ≈28 | [#3 — \[Idea\] Can iterative optimization improve mechanism arbitration under conflicting evidence?](https://github.com/inoue0426/research_ideas/issues/3) | **1329** | — | 27 | 20 | 🟢 Established | 4W / 0D / 23L |
 
-_Updated automatically by Research Elo workflows. Last update: 2026-08-30 15:13 UTC._
+_Updated automatically by Research Elo workflows. Last update: 2026-08-30 15:24 UTC._
 <!-- RESEARCH_ELO_END -->
 
 <!-- RESEARCH_MAPS_START -->
