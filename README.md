@@ -21,19 +21,19 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 |---:|---|---:|---:|---:|---:|---|---:|
 | ≈1 | [#34 — \[Idea\] CTD: Evidence Sufficiency and Selective Abstention](https://github.com/inoue0426/research_ideas/issues/34) | **1667** | — | 20 | 19 | 🟢 Established | 19W / 0D / 1L |
 | ≈1 | [#33 — \[Idea\] Multi-Agent Uncertainty and Abstention for Biomedical Drug Reasoning](https://github.com/inoue0426/research_ideas/issues/33) | **1662** | — | 20 | 20 | 🟢 Established | 19W / 0D / 1L |
-| ≈3 | [#32 — \[Idea\] Frontier-Conditioned Molecular Generation with Large Language Models](https://github.com/inoue0426/research_ideas/issues/32) | **1638** | — | 21 | 20 | 🟢 Established | 18W / 0D / 3L |
+| ≈3 | [#32 — \[Idea\] Frontier-Conditioned Molecular Generation with Large Language Models](https://github.com/inoue0426/research_ideas/issues/32) | **1624** | — | 22 | 21 | 🟢 Established | 18W / 0D / 4L |
 | ≈3 | [#43 — \[Idea\] Uncertainty-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/43) | **1622** | — | 12 | 12 | 🟢 Established | 11W / 0D / 1L |
-| ≈5 | [#41 — \[Idea\] Single-Cell and Spatial Modeling of ADC Response and Resistance](https://github.com/inoue0426/research_ideas/issues/41) | **1603** | — | 15 | 15 | 🟢 Established | 12W / 0D / 3L |
-| ≈5 | [#36 — When Is Evidence Enough? Adaptive Evidence Acquisition for LLM Biomedical Reasoning](https://github.com/inoue0426/research_ideas/issues/36) | **1598** | — | 13 | 13 | 🟢 Established | 11W / 0D / 2L |
-| ≈5 | [#40 — \[Idea\] Natural-Language-Conditioned Drug Embeddings for Pharmacogenomic Context](https://github.com/inoue0426/research_ideas/issues/40) | **1596** | — | 13 | 13 | 🟢 Established | 11W / 0D / 2L |
-| ≈8 | [#42 — \[Idea\] Cold-Start / OOD ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/42) | **1555** | — | 11 | 11 | 🟢 Established | 8W / 0D / 3L |
-| ≈8 | [#44 — \[Idea\] Mechanism-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/44) | **1542** | — | 13 | 13 | 🟢 Established | 8W / 0D / 5L |
-| ≈8 | [#38 — \[Idea\] Biomarker-Conditioned Molecular Embeddings for Pharmacogenomic Retrieval](https://github.com/inoue0426/research_ideas/issues/38) | **1540** | — | 16 | 16 | 🟢 Established | 10W / 0D / 6L |
-| 11 | [#31 — \[Idea\] Reliable Biomedical Evidence Reasoning: Separating Evidence Selection from Evidence Sufficiency](https://github.com/inoue0426/research_ideas/issues/31) | **1535** | — | 26 | 26 | 🟢 Established | 16W / 0D / 10L |
-| ≈12 | [#19 — \[Idea\] When does perturbation transfer fail across biological domains?](https://github.com/inoue0426/research_ideas/issues/19) | **1493** | — | 25 | 25 | 🟢 Established | 13W / 0D / 12L |
-| ≈12 | [#21 — \[Idea\] Can response-relevant perturbation geometry be separated from mechanistically faithful perturbation geometry?](https://github.com/inoue0426/research_ideas/issues/21) | **1490** | — | 32 | 27 | 🟢 Established | 16W / 0D / 16L |
+| ≈3 | [#42 — \[Idea\] Cold-Start / OOD ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/42) | **1612** | — | 16 | 16 | 🟢 Established | 13W / 0D / 3L |
+| ≈6 | [#41 — \[Idea\] Single-Cell and Spatial Modeling of ADC Response and Resistance](https://github.com/inoue0426/research_ideas/issues/41) | **1603** | — | 15 | 15 | 🟢 Established | 12W / 0D / 3L |
+| ≈6 | [#36 — When Is Evidence Enough? Adaptive Evidence Acquisition for LLM Biomedical Reasoning](https://github.com/inoue0426/research_ideas/issues/36) | **1585** | — | 14 | 14 | 🟢 Established | 11W / 0D / 3L |
+| 8 | [#40 — \[Idea\] Natural-Language-Conditioned Drug Embeddings for Pharmacogenomic Context](https://github.com/inoue0426/research_ideas/issues/40) | **1582** | — | 14 | 14 | 🟢 Established | 11W / 0D / 3L |
+| ≈9 | [#44 — \[Idea\] Mechanism-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/44) | **1542** | — | 13 | 13 | 🟢 Established | 8W / 0D / 5L |
+| ≈9 | [#38 — \[Idea\] Biomarker-Conditioned Molecular Embeddings for Pharmacogenomic Retrieval](https://github.com/inoue0426/research_ideas/issues/38) | **1540** | — | 16 | 16 | 🟢 Established | 10W / 0D / 6L |
+| ≈9 | [#31 — \[Idea\] Reliable Biomedical Evidence Reasoning: Separating Evidence Selection from Evidence Sufficiency](https://github.com/inoue0426/research_ideas/issues/31) | **1535** | — | 26 | 26 | 🟢 Established | 16W / 0D / 10L |
 | ≈12 | [#30 — \[Idea\] context-aware ADC](https://github.com/inoue0426/research_ideas/issues/30) | **1487** | — | 29 | 28 | 🟢 Established | 15W / 0D / 14L |
 | ≈12 | [#20 — \[Idea\] Is there a compositional algebra of biological perturbations?](https://github.com/inoue0426/research_ideas/issues/20) | **1484** | — | 27 | 27 | 🟢 Established | 14W / 0D / 13L |
+| ≈12 | [#19 — \[Idea\] When does perturbation transfer fail across biological domains?](https://github.com/inoue0426/research_ideas/issues/19) | **1484** | — | 26 | 26 | 🟢 Established | 13W / 0D / 13L |
+| ≈12 | [#21 — \[Idea\] Can response-relevant perturbation geometry be separated from mechanistically faithful perturbation geometry?](https://github.com/inoue0426/research_ideas/issues/21) | **1481** | — | 33 | 28 | 🟢 Established | 16W / 0D / 17L |
 | ≈16 | [#15 — \[Idea\] Mechanism arbitration under conflicting evidence](https://github.com/inoue0426/research_ideas/issues/15) | **1462** | — | 25 | 24 | 🟢 Established | 11W / 0D / 14L |
 | ≈16 | [#11 — \[Idea\] Intervention geometry may transfer better than state geometry](https://github.com/inoue0426/research_ideas/issues/11) | **1458** | — | 25 | 20 | 🟢 Established | 10W / 0D / 15L |
 | ≈16 | [#14 — \[Idea\] Shared causal geometry across biological modalities](https://github.com/inoue0426/research_ideas/issues/14) | **1457** | — | 24 | 24 | 🟢 Established | 10W / 0D / 14L |
@@ -49,7 +49,7 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 | ≈27 | [#3 — \[Idea\] Can iterative optimization improve mechanism arbitration under conflicting evidence?](https://github.com/inoue0426/research_ideas/issues/3) | **1369** | — | 23 | 20 | 🟢 Established | 4W / 0D / 19L |
 | 29 | [#17 — \[Idea\] Human-in-the-loop mechanism refinement](https://github.com/inoue0426/research_ideas/issues/17) | **1317** | — | 23 | 20 | 🟢 Established | 1W / 0D / 22L |
 
-_Updated automatically by Research Elo workflows. Last update: 2026-08-30 01:05 UTC._
+_Updated automatically by Research Elo workflows. Last update: 2026-08-30 03:31 UTC._
 <!-- RESEARCH_ELO_END -->
 
 <!-- RESEARCH_MAPS_START -->

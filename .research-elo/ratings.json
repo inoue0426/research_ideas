@@ -2753,6 +2753,51 @@
       "reason": "#41 wins over #12 because it has stronger clinical relevance (ADC resistance directly impacts cancer treatment efficacy) compared to #12's more theoretical perturbation space decomposition with unclear immediate applications.",
       "target": 41,
       "timestamp": "2026-08-30T01:05:28.272951+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 40,
+      "outcome": "win",
+      "reason": "#42 wins over #40 due to higher importance in practical ADC discovery and clearer cold-start evaluation framework.",
+      "target": 42,
+      "timestamp": "2026-08-30T03:31:53.245970+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 36,
+      "outcome": "win",
+      "reason": "#42 wins over #36 due to more concrete evaluation plan and immediate feasibility check.",
+      "target": 42,
+      "timestamp": "2026-08-30T03:31:53.245970+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "#42 wins over #19 due to more actionable and specific cold-start benchmarking approach.",
+      "target": 42,
+      "timestamp": "2026-08-30T03:31:53.245970+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "win",
+      "reason": "#42 wins over #21 due to clearer problem statement and more direct relevance to ADC response prediction.",
+      "target": 42,
+      "timestamp": "2026-08-30T03:31:53.245970+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 32,
+      "outcome": "win",
+      "reason": "#42 wins over #32 due to higher practical impact in ADC development versus molecular generation.",
+      "target": 42,
+      "timestamp": "2026-08-30T03:31:53.245970+00:00"
     }
   ],
   "k_factor": 24,
@@ -2951,30 +2996,30 @@
         "15": 1462.04,
         "16": 1451.63,
         "17": 1316.71,
-        "19": 1492.55,
+        "19": 1483.54,
         "20": 1484.29,
-        "21": 1489.54,
+        "21": 1480.92,
         "3": 1368.81,
         "30": 1486.53,
         "31": 1534.53,
-        "32": 1637.77,
+        "32": 1624.43,
         "33": 1662.44,
         "34": 1667.01,
         "35": 1453.29,
-        "36": 1598.17,
+        "36": 1585.13,
         "37": 1431.98,
         "38": 1540.37,
         "39": 1523.6,
         "4": 1438.5,
-        "40": 1595.85,
+        "40": 1582.43,
         "41": 1602.53,
-        "42": 1554.63,
+        "42": 1612.06,
         "43": 1622.1,
         "44": 1542.15,
         "7": 1368.95,
         "9": 1431.22
       },
-      "timestamp": "2026-08-30T01:05:29.118246+00:00"
+      "timestamp": "2026-08-30T03:31:53.989670+00:00"
     }
   ],
   "ratings": {
@@ -3236,8 +3281,8 @@
     },
     "19": {
       "draws": 0,
-      "games": 25,
-      "losses": 12,
+      "games": 26,
+      "losses": 13,
       "opponents": [
         3,
         4,
@@ -3262,10 +3307,11 @@
         38,
         40,
         41,
+        42,
         43,
         44
       ],
-      "rating": 1492.55,
+      "rating": 1483.54,
       "wins": 13
     },
     "20": {
@@ -3306,8 +3352,8 @@
     },
     "21": {
       "draws": 0,
-      "games": 32,
-      "losses": 16,
+      "games": 33,
+      "losses": 17,
       "opponents": [
         3,
         4,
@@ -3334,10 +3380,11 @@
         38,
         40,
         41,
+        42,
         43,
         44
       ],
-      "rating": 1489.54,
+      "rating": 1480.92,
       "wins": 16
     },
     "3": {
@@ -3443,8 +3490,8 @@
     },
     "32": {
       "draws": 0,
-      "games": 21,
-      "losses": 3,
+      "games": 22,
+      "losses": 4,
       "opponents": [
         3,
         4,
@@ -3464,10 +3511,11 @@
         31,
         33,
         34,
+        42,
         43,
         44
       ],
-      "rating": 1637.77,
+      "rating": 1624.43,
       "wins": 18
     },
     "33": {
@@ -3554,8 +3602,8 @@
     },
     "36": {
       "draws": 0,
-      "games": 13,
-      "losses": 2,
+      "games": 14,
+      "losses": 3,
       "opponents": [
         12,
         13,
@@ -3568,10 +3616,11 @@
         30,
         31,
         41,
+        42,
         43,
         44
       ],
-      "rating": 1598.17,
+      "rating": 1585.13,
       "wins": 11
     },
     "37": {
@@ -3662,8 +3711,8 @@
     },
     "40": {
       "draws": 0,
-      "games": 13,
-      "losses": 2,
+      "games": 14,
+      "losses": 3,
       "opponents": [
         12,
         15,
@@ -3676,10 +3725,11 @@
         37,
         38,
         41,
+        42,
         43,
         44
       ],
-      "rating": 1595.85,
+      "rating": 1582.43,
       "wins": 11
     },
     "41": {
@@ -3708,23 +3758,28 @@
     },
     "42": {
       "draws": 0,
-      "games": 11,
+      "games": 16,
       "losses": 3,
       "opponents": [
         12,
         13,
         14,
         16,
+        19,
         20,
+        21,
         30,
         31,
+        32,
+        36,
         38,
+        40,
         41,
         43,
         44
       ],
-      "rating": 1554.63,
-      "wins": 8
+      "rating": 1612.06,
+      "wins": 13
     },
     "43": {
       "draws": 0,
