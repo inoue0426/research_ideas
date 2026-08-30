@@ -2744,6 +2744,51 @@
       "reason": "Issue #13 identifies a fundamental gap in biological representation learning (preserving intervention geometry) with clear evaluation criteria, while Issue #40's drug embeddings lack falsifiability and have unproven novelty.",
       "target": 40,
       "timestamp": "2026-08-30T15:24:31.288986+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 32,
+      "outcome": "win",
+      "reason": "#36 wins over #32 because it addresses a fundamental problem in LLM reasoning (adaptive evidence acquisition) with clear experimental validation, while #32's novelty is uncertain and relies on unverified literature gaps.",
+      "target": 36,
+      "timestamp": "2026-08-30T18:28:59.948115+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 33,
+      "outcome": "win",
+      "reason": "#36 wins over #33 because it proposes a more generalizable framework for evidence acquisition that can be tested with controlled experiments, while #33's uncertainty about agent disagreement predicting errors remains unverified.",
+      "target": 36,
+      "timestamp": "2026-08-30T18:28:59.948115+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 38,
+      "outcome": "win",
+      "reason": "#36 wins over #38 because it tackles a broader problem (adaptive evidence search) with direct biomedical relevance, while #38's biomarker-conditioned embeddings are a narrower extension of existing work with unclear novelty.",
+      "target": 36,
+      "timestamp": "2026-08-30T18:28:59.948115+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 35,
+      "outcome": "loss",
+      "reason": "#35 wins over #36 because it refines the core problem (distractor-induced evidence neglect) with more precise experimental design and avoids overclaiming MCTS as the solution, making it more tractable and falsifiable.",
+      "target": 36,
+      "timestamp": "2026-08-30T18:28:59.948115+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 37,
+      "outcome": "loss",
+      "reason": "#37 wins over #36 because it proposes a novel relational representation for drug combinations that could unlock new drug discovery paradigms, while #36's evidence acquisition problem is already being addressed in #35 with better experimental focus.",
+      "target": 36,
+      "timestamp": "2026-08-30T18:28:59.948115+00:00"
     }
   ],
   "k_factor": 24,
@@ -2948,13 +2993,13 @@
         "3": 1329.05,
         "30": 1489.63,
         "31": 1547.02,
-        "32": 1635.08,
-        "33": 1643.05,
+        "32": 1622.39,
+        "33": 1630.52,
         "34": 1632.88,
-        "35": 1468.13,
-        "36": 1615.12,
-        "37": 1458.76,
-        "38": 1525.18,
+        "35": 1485.85,
+        "36": 1613.28,
+        "37": 1476.26,
+        "38": 1517.02,
         "39": 1523.6,
         "4": 1418.02,
         "40": 1549.12,
@@ -2965,7 +3010,7 @@
         "7": 1403.26,
         "9": 1411.84
       },
-      "timestamp": "2026-08-30T15:24:32.052929+00:00"
+      "timestamp": "2026-08-30T18:29:00.681544+00:00"
     }
   ],
   "ratings": {
@@ -3448,8 +3493,8 @@
     },
     "32": {
       "draws": 0,
-      "games": 26,
-      "losses": 5,
+      "games": 27,
+      "losses": 6,
       "opponents": [
         3,
         4,
@@ -3469,19 +3514,20 @@
         31,
         33,
         34,
+        36,
         37,
         40,
         42,
         43,
         44
       ],
-      "rating": 1635.08,
+      "rating": 1622.39,
       "wins": 21
     },
     "33": {
       "draws": 0,
-      "games": 26,
-      "losses": 4,
+      "games": 27,
+      "losses": 5,
       "opponents": [
         3,
         4,
@@ -3502,12 +3548,13 @@
         31,
         32,
         34,
+        36,
         40,
         41,
         43,
         44
       ],
-      "rating": 1643.05,
+      "rating": 1630.52,
       "wins": 22
     },
     "34": {
@@ -3544,7 +3591,7 @@
     },
     "35": {
       "draws": 0,
-      "games": 21,
+      "games": 22,
       "losses": 12,
       "opponents": [
         3,
@@ -3561,18 +3608,19 @@
         17,
         21,
         30,
+        36,
         37,
         38,
         41,
         44
       ],
-      "rating": 1468.13,
-      "wins": 9
+      "rating": 1485.85,
+      "wins": 10
     },
     "36": {
       "draws": 0,
-      "games": 19,
-      "losses": 4,
+      "games": 24,
+      "losses": 6,
       "opponents": [
         9,
         12,
@@ -3585,19 +3633,24 @@
         21,
         30,
         31,
+        32,
+        33,
         34,
+        35,
+        37,
+        38,
         40,
         41,
         42,
         43,
         44
       ],
-      "rating": 1615.12,
-      "wins": 15
+      "rating": 1613.28,
+      "wins": 18
     },
     "37": {
       "draws": 0,
-      "games": 25,
+      "games": 26,
       "losses": 15,
       "opponents": [
         4,
@@ -3616,19 +3669,20 @@
         31,
         32,
         35,
+        36,
         38,
         39,
         40,
         43,
         44
       ],
-      "rating": 1458.76,
-      "wins": 10
+      "rating": 1476.26,
+      "wins": 11
     },
     "38": {
       "draws": 0,
-      "games": 19,
-      "losses": 8,
+      "games": 20,
+      "losses": 9,
       "opponents": [
         12,
         13,
@@ -3640,6 +3694,7 @@
         30,
         31,
         35,
+        36,
         37,
         39,
         40,
@@ -3648,7 +3703,7 @@
         43,
         44
       ],
-      "rating": 1525.18,
+      "rating": 1517.02,
       "wins": 11
     },
     "39": {
