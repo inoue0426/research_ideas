@@ -2798,6 +2798,51 @@
       "reason": "#42 wins over #32 due to higher practical impact in ADC development versus molecular generation.",
       "target": 42,
       "timestamp": "2026-08-30T03:31:53.245970+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "Issue #37 addresses a clear, novel question about context-dependent molecular embeddings for drug combinations, with strong importance (solving it could improve drug synergy prediction), high novelty potential (partner-conditioned embeddings are underexplored), and tractable next steps (data checks on existing datasets). Issue #9's question about evaluating mechanistic reasoning is less concrete and lacks a clear path to testing.",
+      "target": 37,
+      "timestamp": "2026-08-30T06:38:54.386978+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "Issue #37's core question is well-defined and directly addresses a gap in drug combination modeling (context-dependent embeddings), with clear practical implications. Issue #4's question about spatial microenvironment is important but lacks specificity on how to isolate neighborhood effects from confounding factors, making it less tractable.",
+      "target": 37,
+      "timestamp": "2026-08-30T06:38:54.386978+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "Issue #37's question is more concrete and actionable than Issue #10's abstract inquiry about transferable biological structures. Issue #37 has a clear path to testing via existing datasets, while Issue #10's 'structural transfer' concept is vague without defined metrics.",
+      "target": 37,
+      "timestamp": "2026-08-30T06:38:54.386978+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "Issue #37's question about partner-conditioned embeddings is more directly applicable to drug combination prediction than Issue #11's focus on intervention geometry. Issue #37 has a clearer path to validation (using synergy measurements), while Issue #11's 'intervention geometry' concept is less grounded in existing data.",
+      "target": 37,
+      "timestamp": "2026-08-30T06:38:54.386978+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "Issue #37's question is more foundational and broadly applicable to drug combination research than Issue #19's focus on failure modes of perturbation transfer. Issue #37's core idea has higher novelty potential and clearer practical impact for improving drug synergy prediction.",
+      "target": 37,
+      "timestamp": "2026-08-30T06:38:54.386978+00:00"
     }
   ],
   "k_factor": 24,
@@ -2988,15 +3033,15 @@
     },
     {
       "ratings": {
-        "10": 1419.94,
-        "11": 1457.58,
+        "10": 1409.17,
+        "11": 1445.89,
         "12": 1451.13,
         "13": 1457.04,
         "14": 1457.12,
         "15": 1462.04,
         "16": 1451.63,
         "17": 1316.71,
-        "19": 1483.54,
+        "19": 1471.36,
         "20": 1484.29,
         "21": 1480.92,
         "3": 1368.81,
@@ -3007,26 +3052,26 @@
         "34": 1667.01,
         "35": 1453.29,
         "36": 1585.13,
-        "37": 1431.98,
+        "37": 1490.4,
         "38": 1540.37,
         "39": 1523.6,
-        "4": 1438.5,
+        "4": 1426.69,
         "40": 1582.43,
         "41": 1602.53,
         "42": 1612.06,
         "43": 1622.1,
         "44": 1542.15,
         "7": 1368.95,
-        "9": 1431.22
+        "9": 1419.25
       },
-      "timestamp": "2026-08-30T03:31:53.989670+00:00"
+      "timestamp": "2026-08-30T06:38:55.143766+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 0,
-      "games": 22,
-      "losses": 16,
+      "games": 23,
+      "losses": 17,
       "opponents": [
         3,
         4,
@@ -3047,15 +3092,16 @@
         32,
         33,
         34,
-        35
+        35,
+        37
       ],
-      "rating": 1419.94,
+      "rating": 1409.17,
       "wins": 6
     },
     "11": {
       "draws": 0,
-      "games": 25,
-      "losses": 15,
+      "games": 26,
+      "losses": 16,
       "opponents": [
         3,
         4,
@@ -3076,9 +3122,10 @@
         32,
         33,
         34,
-        35
+        35,
+        37
       ],
-      "rating": 1457.58,
+      "rating": 1445.89,
       "wins": 10
     },
     "12": {
@@ -3281,8 +3328,8 @@
     },
     "19": {
       "draws": 0,
-      "games": 26,
-      "losses": 13,
+      "games": 27,
+      "losses": 14,
       "opponents": [
         3,
         4,
@@ -3304,6 +3351,7 @@
         33,
         34,
         36,
+        37,
         38,
         40,
         41,
@@ -3311,7 +3359,7 @@
         43,
         44
       ],
-      "rating": 1483.54,
+      "rating": 1471.36,
       "wins": 13
     },
     "20": {
@@ -3625,14 +3673,19 @@
     },
     "37": {
       "draws": 0,
-      "games": 12,
+      "games": 17,
       "losses": 9,
       "opponents": [
+        4,
+        9,
+        10,
+        11,
         12,
         13,
         14,
         15,
         16,
+        19,
         20,
         21,
         30,
@@ -3641,8 +3694,8 @@
         39,
         40
       ],
-      "rating": 1431.98,
-      "wins": 3
+      "rating": 1490.4,
+      "wins": 8
     },
     "38": {
       "draws": 0,
@@ -3682,8 +3735,8 @@
     },
     "4": {
       "draws": 0,
-      "games": 21,
-      "losses": 14,
+      "games": 22,
+      "losses": 15,
       "opponents": [
         3,
         7,
@@ -3704,9 +3757,10 @@
         32,
         33,
         34,
-        35
+        35,
+        37
       ],
-      "rating": 1438.5,
+      "rating": 1426.69,
       "wins": 7
     },
     "40": {
@@ -3854,8 +3908,8 @@
     },
     "9": {
       "draws": 0,
-      "games": 25,
-      "losses": 17,
+      "games": 26,
+      "losses": 18,
       "opponents": [
         3,
         4,
@@ -3876,9 +3930,10 @@
         32,
         33,
         34,
-        35
+        35,
+        37
       ],
-      "rating": 1431.22,
+      "rating": 1419.25,
       "wins": 8
     }
   },
