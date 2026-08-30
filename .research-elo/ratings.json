@@ -2708,6 +2708,51 @@
       "reason": "#33 wins over #44 because it introduces a critical uncertainty-aware mechanism for biomedical reasoning (abstention based on agent disagreement), while #44's ADC model lacks a clear path to novelty and faces significant data constraints.",
       "target": 44,
       "timestamp": "2026-08-29T21:23:21.620892+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "#41 wins over #31 because it addresses a critical gap in ADC modeling with clear clinical relevance, while #31's evidence sufficiency problem is less urgent and more abstract.",
+      "target": 41,
+      "timestamp": "2026-08-30T01:05:28.272951+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 38,
+      "outcome": "win",
+      "reason": "#41 wins over #38 because it tackles a more fundamental biological problem (single-cell ADC response) with higher potential impact than the incremental biomarker-conditioned embedding approach in #38.",
+      "target": 41,
+      "timestamp": "2026-08-30T01:05:28.272951+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 40,
+      "outcome": "win",
+      "reason": "#41 wins over #40 because it focuses on a concrete, clinically actionable prediction problem (ADC response at single-cell resolution) rather than the more abstract and less directly applicable natural-language-conditioned embeddings in #40.",
+      "target": 41,
+      "timestamp": "2026-08-30T01:05:28.272951+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 36,
+      "outcome": "win",
+      "reason": "#41 wins over #36 because it addresses a well-defined, high-impact problem in oncology (ADC resistance) with clear data pathways, while #36's adaptive evidence acquisition is more speculative and less tied to immediate biomedical needs.",
+      "target": 41,
+      "timestamp": "2026-08-30T01:05:28.272951+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "#41 wins over #12 because it has stronger clinical relevance (ADC resistance directly impacts cancer treatment efficacy) compared to #12's more theoretical perturbation space decomposition with unclear immediate applications.",
+      "target": 41,
+      "timestamp": "2026-08-30T01:05:28.272951+00:00"
     }
   ],
   "k_factor": 24,
@@ -2895,6 +2940,41 @@
         "9": 1431.22
       },
       "timestamp": "2026-08-29T21:23:22.277150+00:00"
+    },
+    {
+      "ratings": {
+        "10": 1419.94,
+        "11": 1457.58,
+        "12": 1451.13,
+        "13": 1457.04,
+        "14": 1457.12,
+        "15": 1462.04,
+        "16": 1451.63,
+        "17": 1316.71,
+        "19": 1492.55,
+        "20": 1484.29,
+        "21": 1489.54,
+        "3": 1368.81,
+        "30": 1486.53,
+        "31": 1534.53,
+        "32": 1637.77,
+        "33": 1662.44,
+        "34": 1667.01,
+        "35": 1453.29,
+        "36": 1598.17,
+        "37": 1431.98,
+        "38": 1540.37,
+        "39": 1523.6,
+        "4": 1438.5,
+        "40": 1595.85,
+        "41": 1602.53,
+        "42": 1554.63,
+        "43": 1622.1,
+        "44": 1542.15,
+        "7": 1368.95,
+        "9": 1431.22
+      },
+      "timestamp": "2026-08-30T01:05:29.118246+00:00"
     }
   ],
   "ratings": {
@@ -2958,8 +3038,8 @@
     },
     "12": {
       "draws": 0,
-      "games": 26,
-      "losses": 15,
+      "games": 27,
+      "losses": 16,
       "opponents": [
         3,
         4,
@@ -2985,9 +3065,10 @@
         37,
         38,
         40,
+        41,
         42
       ],
-      "rating": 1458.65,
+      "rating": 1451.13,
       "wins": 11
     },
     "13": {
@@ -3327,8 +3408,8 @@
     },
     "31": {
       "draws": 0,
-      "games": 25,
-      "losses": 9,
+      "games": 26,
+      "losses": 10,
       "opponents": [
         3,
         4,
@@ -3352,11 +3433,12 @@
         36,
         38,
         40,
+        41,
         42,
         43,
         44
       ],
-      "rating": 1546.6,
+      "rating": 1534.53,
       "wins": 16
     },
     "32": {
@@ -3472,8 +3554,8 @@
     },
     "36": {
       "draws": 0,
-      "games": 12,
-      "losses": 1,
+      "games": 13,
+      "losses": 2,
       "opponents": [
         12,
         13,
@@ -3485,10 +3567,11 @@
         21,
         30,
         31,
+        41,
         43,
         44
       ],
-      "rating": 1611.17,
+      "rating": 1598.17,
       "wins": 11
     },
     "37": {
@@ -3514,8 +3597,8 @@
     },
     "38": {
       "draws": 0,
-      "games": 15,
-      "losses": 5,
+      "games": 16,
+      "losses": 6,
       "opponents": [
         12,
         13,
@@ -3529,11 +3612,12 @@
         37,
         39,
         40,
+        41,
         42,
         43,
         44
       ],
-      "rating": 1552.21,
+      "rating": 1540.37,
       "wins": 10
     },
     "39": {
@@ -3578,8 +3662,8 @@
     },
     "40": {
       "draws": 0,
-      "games": 12,
-      "losses": 1,
+      "games": 13,
+      "losses": 2,
       "opponents": [
         12,
         15,
@@ -3591,30 +3675,36 @@
         31,
         37,
         38,
+        41,
         43,
         44
       ],
-      "rating": 1609.25,
+      "rating": 1595.85,
       "wins": 11
     },
     "41": {
       "draws": 0,
-      "games": 10,
+      "games": 15,
       "losses": 3,
       "opponents": [
+        12,
         15,
         16,
         19,
         20,
         21,
         30,
+        31,
         35,
+        36,
+        38,
+        40,
         42,
         43,
         44
       ],
-      "rating": 1544.7,
-      "wins": 7
+      "rating": 1602.53,
+      "wins": 12
     },
     "42": {
       "draws": 0,
