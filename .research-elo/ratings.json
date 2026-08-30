@@ -2789,6 +2789,51 @@
       "reason": "#37 wins over #36 because it proposes a novel relational representation for drug combinations that could unlock new drug discovery paradigms, while #36's evidence acquisition problem is already being addressed in #35 with better experimental focus.",
       "target": 36,
       "timestamp": "2026-08-30T18:28:59.948115+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "#38 wins over #15 because it has a clearer, more concrete question with a defined evaluation method, while #15's question is vague about how to rank mechanisms and lacks a specific benchmark.",
+      "target": 38,
+      "timestamp": "2026-08-30T21:23:27.671739+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "#38 wins over #10 because it addresses a specific, actionable problem (biomarker-conditioned embeddings) with a feasible evaluation plan, while #10's question about transferable structures is too abstract and lacks a clear path to testing.",
+      "target": 38,
+      "timestamp": "2026-08-30T21:23:27.671739+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "#38 wins over #11 because it proposes a direct, testable method for biomarker-conditioned embeddings with a clear comparison plan, while #11's focus on intervention geometry is less concrete and depends on unverified assumptions about perturbation operators.",
+      "target": 38,
+      "timestamp": "2026-08-30T21:23:27.671739+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "#38 wins over #4 because it has a well-defined problem (biomarker-conditioned embeddings) with a clear evaluation method, while #4's question about spatial microenvironments is highly uncertain due to potential confounding factors in existing datasets.",
+      "target": 38,
+      "timestamp": "2026-08-30T21:23:27.671739+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "#38 wins over #9 because it proposes a specific, testable research direction (biomarker-conditioned embeddings) with a defined evaluation plan, while #9's question about evaluating multiple mechanisms is too vague and depends on unverified curation of multiple valid mechanisms.",
+      "target": 38,
+      "timestamp": "2026-08-30T21:23:27.671739+00:00"
     }
   ],
   "k_factor": 24,
@@ -2979,12 +3024,12 @@
     },
     {
       "ratings": {
-        "10": 1439.44,
-        "11": 1423.56,
+        "10": 1430.39,
+        "11": 1415.3,
         "12": 1463.72,
         "13": 1504.68,
         "14": 1471.3,
-        "15": 1447.58,
+        "15": 1437.95,
         "16": 1429.68,
         "17": 1348.33,
         "19": 1506.01,
@@ -2999,25 +3044,25 @@
         "35": 1485.85,
         "36": 1613.28,
         "37": 1476.26,
-        "38": 1517.02,
+        "38": 1559.2,
         "39": 1523.6,
-        "4": 1418.02,
+        "4": 1410.19,
         "40": 1549.12,
         "41": 1597.64,
         "42": 1618.2,
         "43": 1621.39,
         "44": 1495.59,
         "7": 1403.26,
-        "9": 1411.84
+        "9": 1404.43
       },
-      "timestamp": "2026-08-30T18:29:00.681544+00:00"
+      "timestamp": "2026-08-30T21:23:28.339074+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 0,
-      "games": 27,
-      "losses": 18,
+      "games": 28,
+      "losses": 19,
       "opponents": [
         3,
         4,
@@ -3040,15 +3085,16 @@
         34,
         35,
         37,
+        38,
         41
       ],
-      "rating": 1439.44,
+      "rating": 1430.39,
       "wins": 9
     },
     "11": {
       "draws": 0,
-      "games": 30,
-      "losses": 19,
+      "games": 31,
+      "losses": 20,
       "opponents": [
         3,
         4,
@@ -3070,9 +3116,10 @@
         33,
         34,
         35,
-        37
+        37,
+        38
       ],
-      "rating": 1423.56,
+      "rating": 1415.3,
       "wins": 11
     },
     "12": {
@@ -3181,8 +3228,8 @@
     },
     "15": {
       "draws": 0,
-      "games": 31,
-      "losses": 18,
+      "games": 32,
+      "losses": 19,
       "opponents": [
         3,
         4,
@@ -3206,12 +3253,13 @@
         35,
         36,
         37,
+        38,
         40,
         41,
         43,
         44
       ],
-      "rating": 1447.58,
+      "rating": 1437.95,
       "wins": 13
     },
     "16": {
@@ -3681,12 +3729,17 @@
     },
     "38": {
       "draws": 0,
-      "games": 20,
+      "games": 25,
       "losses": 9,
       "opponents": [
+        4,
+        9,
+        10,
+        11,
         12,
         13,
         14,
+        15,
         16,
         19,
         20,
@@ -3703,8 +3756,8 @@
         43,
         44
       ],
-      "rating": 1517.02,
-      "wins": 11
+      "rating": 1559.2,
+      "wins": 16
     },
     "39": {
       "draws": 0,
@@ -3719,8 +3772,8 @@
     },
     "4": {
       "draws": 0,
-      "games": 25,
-      "losses": 17,
+      "games": 26,
+      "losses": 18,
       "opponents": [
         3,
         7,
@@ -3743,9 +3796,10 @@
         34,
         35,
         37,
+        38,
         41
       ],
-      "rating": 1418.02,
+      "rating": 1410.19,
       "wins": 8
     },
     "40": {
@@ -3915,8 +3969,8 @@
     },
     "9": {
       "draws": 0,
-      "games": 29,
-      "losses": 20,
+      "games": 30,
+      "losses": 21,
       "opponents": [
         3,
         4,
@@ -3939,9 +3993,10 @@
         34,
         35,
         36,
-        37
+        37,
+        38
       ],
-      "rating": 1411.84,
+      "rating": 1404.43,
       "wins": 9
     }
   },
