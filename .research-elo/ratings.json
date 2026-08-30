@@ -2843,6 +2843,51 @@
       "reason": "Issue #37's question is more foundational and broadly applicable to drug combination research than Issue #19's focus on failure modes of perturbation transfer. Issue #37's core idea has higher novelty potential and clearer practical impact for improving drug synergy prediction.",
       "target": 37,
       "timestamp": "2026-08-30T06:38:54.386978+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 33,
+      "outcome": "win",
+      "reason": "#43 wins over #33 because it addresses a clear, practical problem in ADC discovery with a well-defined question and immediate applicability, while #33's multi-agent uncertainty approach lacks concrete evidence of novelty and has higher data/implementation complexity for a six-month project.",
+      "target": 43,
+      "timestamp": "2026-08-30T09:26:58.746028+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 34,
+      "outcome": "win",
+      "reason": "#43 wins over #34 because it focuses on a specific, actionable uncertainty estimation problem with a clear evaluation framework, whereas #34's evidence sufficiency reframing is more abstract and lacks a defined path to measurable outcomes within six months.",
+      "target": 43,
+      "timestamp": "2026-08-30T09:26:58.746028+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 37,
+      "outcome": "win",
+      "reason": "#43 wins over #37 because it tackles a well-scoped problem with immediate relevance to ADC response prediction (a core workflow), while #37's partner-conditioned embeddings face significant data sparsity challenges that make it less tractable for a six-month project.",
+      "target": 43,
+      "timestamp": "2026-08-30T09:26:58.746028+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "#43 wins over #15 because it addresses a concrete, high-impact problem in drug discovery (uncertainty-aware predictions) with a clear evaluation plan, while #15's mechanism arbitration lacks a defined benchmark and has higher uncertainty about feasibility.",
+      "target": 43,
+      "timestamp": "2026-08-30T09:26:58.746028+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 14,
+      "outcome": "win",
+      "reason": "#43 wins over #14 because it has a well-defined, testable question with a clear path to evaluation (calibration metrics, risk-coverage curves), whereas #14's causal geometry concept is too abstract and lacks a practical definition for empirical testing within six months.",
+      "target": 43,
+      "timestamp": "2026-08-30T09:26:58.746028+00:00"
     }
   ],
   "k_factor": 24,
@@ -3037,8 +3082,8 @@
         "11": 1445.89,
         "12": 1451.13,
         "13": 1457.04,
-        "14": 1457.12,
-        "15": 1462.04,
+        "14": 1451.46,
+        "15": 1456.11,
         "16": 1451.63,
         "17": 1316.71,
         "19": 1471.36,
@@ -3048,23 +3093,23 @@
         "30": 1486.53,
         "31": 1534.53,
         "32": 1624.43,
-        "33": 1662.44,
-        "34": 1667.01,
+        "33": 1649.05,
+        "34": 1653.92,
         "35": 1453.29,
         "36": 1585.13,
-        "37": 1490.4,
+        "37": 1483.51,
         "38": 1540.37,
         "39": 1523.6,
         "4": 1426.69,
         "40": 1582.43,
         "41": 1602.53,
         "42": 1612.06,
-        "43": 1622.1,
+        "43": 1667.06,
         "44": 1542.15,
         "7": 1368.95,
         "9": 1419.25
       },
-      "timestamp": "2026-08-30T06:38:55.143766+00:00"
+      "timestamp": "2026-08-30T09:26:59.467161+00:00"
     }
   ],
   "ratings": {
@@ -3198,8 +3243,8 @@
     },
     "14": {
       "draws": 0,
-      "games": 24,
-      "losses": 14,
+      "games": 25,
+      "losses": 15,
       "opponents": [
         3,
         4,
@@ -3224,15 +3269,16 @@
         36,
         37,
         38,
-        42
+        42,
+        43
       ],
-      "rating": 1457.12,
+      "rating": 1451.46,
       "wins": 10
     },
     "15": {
       "draws": 0,
-      "games": 25,
-      "losses": 14,
+      "games": 26,
+      "losses": 15,
       "opponents": [
         3,
         4,
@@ -3257,9 +3303,10 @@
         36,
         37,
         40,
-        41
+        41,
+        43
       ],
-      "rating": 1462.04,
+      "rating": 1456.11,
       "wins": 11
     },
     "16": {
@@ -3568,8 +3615,8 @@
     },
     "33": {
       "draws": 0,
-      "games": 20,
-      "losses": 1,
+      "games": 21,
+      "losses": 2,
       "opponents": [
         3,
         4,
@@ -3590,15 +3637,16 @@
         31,
         32,
         34,
+        43,
         44
       ],
-      "rating": 1662.44,
+      "rating": 1649.05,
       "wins": 19
     },
     "34": {
       "draws": 0,
-      "games": 20,
-      "losses": 1,
+      "games": 21,
+      "losses": 2,
       "opponents": [
         3,
         4,
@@ -3618,9 +3666,10 @@
         30,
         31,
         32,
-        33
+        33,
+        43
       ],
-      "rating": 1667.01,
+      "rating": 1653.92,
       "wins": 19
     },
     "35": {
@@ -3673,8 +3722,8 @@
     },
     "37": {
       "draws": 0,
-      "games": 17,
-      "losses": 9,
+      "games": 18,
+      "losses": 10,
       "opponents": [
         4,
         9,
@@ -3692,9 +3741,10 @@
         35,
         38,
         39,
-        40
+        40,
+        43
       ],
-      "rating": 1490.4,
+      "rating": 1483.51,
       "wins": 8
     },
     "38": {
@@ -3837,24 +3887,29 @@
     },
     "43": {
       "draws": 0,
-      "games": 12,
+      "games": 17,
       "losses": 1,
       "opponents": [
+        14,
+        15,
         19,
         20,
         21,
         30,
         31,
         32,
+        33,
+        34,
         36,
+        37,
         38,
         40,
         41,
         42,
         44
       ],
-      "rating": 1622.1,
-      "wins": 11
+      "rating": 1667.06,
+      "wins": 16
     },
     "44": {
       "draws": 0,
