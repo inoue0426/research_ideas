@@ -2888,6 +2888,51 @@
       "reason": "#43 wins over #14 because it has a well-defined, testable question with a clear path to evaluation (calibration metrics, risk-coverage curves), whereas #14's causal geometry concept is too abstract and lacks a practical definition for empirical testing within six months.",
       "target": 43,
       "timestamp": "2026-08-30T09:26:58.746028+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 37,
+      "outcome": "loss",
+      "reason": "#37 wins over #44 due to higher novelty potential and leverage in modeling context-dependent drug representations, addressing a fundamental gap in drug combination research that is more tractable than mechanism-specific ADC modeling.",
+      "target": 44,
+      "timestamp": "2026-08-30T12:34:38.183505+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "#13 wins over #44 due to its foundational question about representation properties, which has broader scientific importance and higher falsifiability than ADC mechanism modeling.",
+      "target": 44,
+      "timestamp": "2026-08-30T12:34:38.183505+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "#44 wins over #15 due to clearer problem definition and higher tractability, with a more concrete path to validation than the uncertain evidence arbitration approach.",
+      "target": 44,
+      "timestamp": "2026-08-30T12:34:38.183505+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 35,
+      "outcome": "loss",
+      "reason": "#35 wins over #44 due to its strong falsifiability and immediate experimental validation plan, addressing a critical LLM reasoning failure mode with clear metrics.",
+      "target": 44,
+      "timestamp": "2026-08-30T12:34:38.183505+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "loss",
+      "reason": "#16 wins over #44 due to higher importance and leverage, providing a principled explanation for foundation model utility in cross-domain translation that could unlock broader applications.",
+      "target": 44,
+      "timestamp": "2026-08-30T12:34:38.183505+00:00"
     }
   ],
   "k_factor": 24,
@@ -3081,10 +3126,10 @@
         "10": 1409.17,
         "11": 1445.89,
         "12": 1451.13,
-        "13": 1457.04,
+        "13": 1471.46,
         "14": 1451.46,
-        "15": 1456.11,
-        "16": 1451.63,
+        "15": 1446.08,
+        "16": 1465.61,
         "17": 1316.71,
         "19": 1471.36,
         "20": 1484.29,
@@ -3095,9 +3140,9 @@
         "32": 1624.43,
         "33": 1649.05,
         "34": 1653.92,
-        "35": 1453.29,
+        "35": 1467.69,
         "36": 1585.13,
-        "37": 1483.51,
+        "37": 1497.52,
         "38": 1540.37,
         "39": 1523.6,
         "4": 1426.69,
@@ -3105,11 +3150,11 @@
         "41": 1602.53,
         "42": 1612.06,
         "43": 1667.06,
-        "44": 1542.15,
+        "44": 1495.37,
         "7": 1368.95,
         "9": 1419.25
       },
-      "timestamp": "2026-08-30T09:26:59.467161+00:00"
+      "timestamp": "2026-08-30T12:34:39.081975+00:00"
     }
   ],
   "ratings": {
@@ -3210,7 +3255,7 @@
     },
     "13": {
       "draws": 0,
-      "games": 25,
+      "games": 26,
       "losses": 15,
       "opponents": [
         3,
@@ -3236,10 +3281,11 @@
         36,
         37,
         38,
-        42
+        42,
+        44
       ],
-      "rating": 1457.04,
-      "wins": 10
+      "rating": 1471.46,
+      "wins": 11
     },
     "14": {
       "draws": 0,
@@ -3277,8 +3323,8 @@
     },
     "15": {
       "draws": 0,
-      "games": 26,
-      "losses": 15,
+      "games": 27,
+      "losses": 16,
       "opponents": [
         3,
         4,
@@ -3304,14 +3350,15 @@
         37,
         40,
         41,
-        43
+        43,
+        44
       ],
-      "rating": 1456.11,
+      "rating": 1446.08,
       "wins": 11
     },
     "16": {
       "draws": 0,
-      "games": 27,
+      "games": 28,
       "losses": 15,
       "opponents": [
         3,
@@ -3339,10 +3386,11 @@
         38,
         40,
         41,
-        42
+        42,
+        44
       ],
-      "rating": 1451.63,
-      "wins": 12
+      "rating": 1465.61,
+      "wins": 13
     },
     "17": {
       "draws": 0,
@@ -3674,7 +3722,7 @@
     },
     "35": {
       "draws": 0,
-      "games": 16,
+      "games": 17,
       "losses": 10,
       "opponents": [
         3,
@@ -3692,10 +3740,11 @@
         21,
         30,
         37,
-        41
+        41,
+        44
       ],
-      "rating": 1453.29,
-      "wins": 6
+      "rating": 1467.69,
+      "wins": 7
     },
     "36": {
       "draws": 0,
@@ -3722,7 +3771,7 @@
     },
     "37": {
       "draws": 0,
-      "games": 18,
+      "games": 19,
       "losses": 10,
       "opponents": [
         4,
@@ -3742,10 +3791,11 @@
         38,
         39,
         40,
-        43
+        43,
+        44
       ],
-      "rating": 1483.51,
-      "wins": 8
+      "rating": 1497.52,
+      "wins": 9
     },
     "38": {
       "draws": 0,
@@ -3913,9 +3963,12 @@
     },
     "44": {
       "draws": 0,
-      "games": 13,
-      "losses": 5,
+      "games": 18,
+      "losses": 9,
       "opponents": [
+        13,
+        15,
+        16,
         19,
         20,
         21,
@@ -3923,15 +3976,17 @@
         31,
         32,
         33,
+        35,
         36,
+        37,
         38,
         40,
         41,
         42,
         43
       ],
-      "rating": 1542.15,
-      "wins": 8
+      "rating": 1495.37,
+      "wins": 9
     },
     "7": {
       "draws": 0,
