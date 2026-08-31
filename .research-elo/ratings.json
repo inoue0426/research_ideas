@@ -3059,6 +3059,51 @@
       "reason": "Issue #16 explores a foundational question about foundation models enabling non-identifiable translation, which could provide a principled explanation for biological transfer learning, while issue #43's uncertainty estimation is a more routine methodological refinement.",
       "target": 43,
       "timestamp": "2026-08-31T12:39:47.480873+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "Issue #36 addresses a fundamental gap in LLM reasoning (adaptive evidence acquisition) with clear experimental validation, while Issue #10 lacks specificity on measurable structures and has high uncertainty about transferability.",
+      "target": 36,
+      "timestamp": "2026-08-31T15:28:34.007515+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 11,
+      "outcome": "loss",
+      "reason": "Issue #11 offers a focused, testable hypothesis about intervention geometry transferability with direct relevance to drug-response prediction, whereas Issue #36's MCTS approach is less novel and more methodological.",
+      "target": 36,
+      "timestamp": "2026-08-31T15:28:34.007515+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "Issue #36's evidence acquisition framework has broader applicability to biomedical reasoning and clear experimental paths, while Issue #4's spatial microenvironment question lacks sufficient data to validate the core claim.",
+      "target": 36,
+      "timestamp": "2026-08-31T15:28:34.007515+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Issue #36's adaptive evidence acquisition problem is more foundational and testable than Issue #7's INR uncertainty question, which depends on unverified dataset availability and lacks clear novelty over existing methods.",
+      "target": 36,
+      "timestamp": "2026-08-31T15:28:34.007515+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "Issue #36's problem is a clear, falsifiable research question with high leverage for LLM reasoning, while Issue #17's human-in-the-loop approach risks being HCI-focused without strong evidence of improved biological validity.",
+      "target": 36,
+      "timestamp": "2026-08-31T15:28:34.007515+00:00"
     }
   ],
   "k_factor": 24,
@@ -3284,14 +3329,14 @@
     },
     {
       "ratings": {
-        "10": 1447.4,
-        "11": 1422.35,
+        "10": 1440.73,
+        "11": 1440.52,
         "12": 1469.72,
         "13": 1512.27,
         "14": 1466.25,
         "15": 1431.78,
         "16": 1445.89,
-        "17": 1348.33,
+        "17": 1344.05,
         "19": 1506.01,
         "20": 1522.04,
         "21": 1461.1,
@@ -3302,27 +3347,27 @@
         "33": 1618.09,
         "34": 1620.11,
         "35": 1531.84,
-        "36": 1613.28,
+        "36": 1617.88,
         "37": 1485.31,
         "38": 1559.2,
         "39": 1523.6,
-        "4": 1417.32,
+        "4": 1411.15,
         "40": 1569.02,
         "41": 1597.61,
         "42": 1634.45,
         "43": 1540.83,
         "44": 1473.27,
-        "7": 1403.26,
+        "7": 1397.61,
         "9": 1404.43
       },
-      "timestamp": "2026-08-31T12:39:48.205484+00:00"
+      "timestamp": "2026-08-31T15:28:34.946437+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 0,
-      "games": 32,
-      "losses": 21,
+      "games": 33,
+      "losses": 22,
       "opponents": [
         3,
         4,
@@ -3344,6 +3389,7 @@
         33,
         34,
         35,
+        36,
         37,
         38,
         40,
@@ -3352,12 +3398,12 @@
         43,
         44
       ],
-      "rating": 1447.4,
+      "rating": 1440.73,
       "wins": 11
     },
     "11": {
       "draws": 0,
-      "games": 33,
+      "games": 34,
       "losses": 21,
       "opponents": [
         3,
@@ -3380,13 +3426,14 @@
         33,
         34,
         35,
+        36,
         37,
         38,
         40,
         44
       ],
-      "rating": 1422.35,
-      "wins": 12
+      "rating": 1440.52,
+      "wins": 13
     },
     "12": {
       "draws": 0,
@@ -3575,8 +3622,8 @@
     },
     "17": {
       "draws": 0,
-      "games": 31,
-      "losses": 26,
+      "games": 32,
+      "losses": 27,
       "opponents": [
         3,
         4,
@@ -3598,9 +3645,10 @@
         33,
         34,
         35,
+        36,
         41
       ],
-      "rating": 1348.33,
+      "rating": 1344.05,
       "wins": 5
     },
     "19": {
@@ -3948,15 +3996,20 @@
     },
     "36": {
       "draws": 0,
-      "games": 24,
-      "losses": 6,
+      "games": 29,
+      "losses": 7,
       "opponents": [
+        4,
+        7,
         9,
+        10,
+        11,
         12,
         13,
         14,
         15,
         16,
+        17,
         19,
         20,
         21,
@@ -3974,8 +4027,8 @@
         43,
         44
       ],
-      "rating": 1613.28,
-      "wins": 18
+      "rating": 1617.88,
+      "wins": 22
     },
     "37": {
       "draws": 0,
@@ -4055,8 +4108,8 @@
     },
     "4": {
       "draws": 0,
-      "games": 28,
-      "losses": 19,
+      "games": 29,
+      "losses": 20,
       "opponents": [
         3,
         7,
@@ -4078,13 +4131,14 @@
         33,
         34,
         35,
+        36,
         37,
         38,
         40,
         41,
         44
       ],
-      "rating": 1417.32,
+      "rating": 1411.15,
       "wins": 9
     },
     "40": {
@@ -4250,8 +4304,8 @@
     },
     "7": {
       "draws": 0,
-      "games": 26,
-      "losses": 19,
+      "games": 27,
+      "losses": 20,
       "opponents": [
         3,
         4,
@@ -4272,9 +4326,10 @@
         33,
         34,
         35,
+        36,
         42
       ],
-      "rating": 1403.26,
+      "rating": 1397.61,
       "wins": 7
     },
     "9": {
