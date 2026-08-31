@@ -2969,6 +2969,51 @@
       "reason": "#40 wins over #4 because #40's problem is more directly applicable to drug discovery with a clear path to validation, while #4's spatial microenvironment question is highly dependent on data availability that is uncertain.",
       "target": 40,
       "timestamp": "2026-08-31T06:53:04.043032+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 33,
+      "outcome": "win",
+      "reason": "#42 wins over #33 because it addresses a clear, high-impact problem in ADC response prediction with well-defined evaluation settings, while #33's uncertainty about agent disagreement's correlation with errors remains unverified and less directly tied to a critical bottleneck in biomedical reasoning.",
+      "target": 42,
+      "timestamp": "2026-08-31T09:35:56.238995+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 35,
+      "outcome": "loss",
+      "reason": "#35 wins over #42 because it proposes a novel, testable approach to adaptive evidence search in noisy biomedical contexts with clear experimental design, whereas #42's cold-start benchmark depends on unverified data sparsity in ADCpedia.",
+      "target": 42,
+      "timestamp": "2026-08-31T09:35:56.238995+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 37,
+      "outcome": "win",
+      "reason": "#42 wins over #37 because it focuses on a more immediately actionable and well-defined cold-start problem in ADC response prediction, while #37's partner-conditioned embeddings face significant data sparsity challenges with no clear path to validation.",
+      "target": 42,
+      "timestamp": "2026-08-31T09:35:56.238995+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "#42 wins over #15 because it addresses a concrete, measurable problem (cold-start generalization) with a clear evaluation framework, whereas #15's mechanism arbitration lacks a defined benchmark and relies on unverified conflicting evidence scenarios.",
+      "target": 42,
+      "timestamp": "2026-08-31T09:35:56.238995+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "#42 wins over #10 because it tackles a specific, high-impact application (ADC response prediction) with a well-structured evaluation plan, while #10's question about transferable biological structures is too abstract and lacks a concrete experimental path.",
+      "target": 42,
+      "timestamp": "2026-08-31T09:35:56.238995+00:00"
     }
   ],
   "k_factor": 24,
@@ -3194,12 +3239,12 @@
     },
     {
       "ratings": {
-        "10": 1436.7,
+        "10": 1430.72,
         "11": 1422.35,
         "12": 1453.22,
         "13": 1496.62,
         "14": 1466.25,
-        "15": 1437.95,
+        "15": 1431.78,
         "16": 1429.68,
         "17": 1348.33,
         "19": 1506.01,
@@ -3209,30 +3254,30 @@
         "30": 1489.63,
         "31": 1547.02,
         "32": 1609.54,
-        "33": 1630.52,
+        "33": 1618.09,
         "34": 1620.11,
-        "35": 1500.01,
+        "35": 1516.32,
         "36": 1613.28,
-        "37": 1493.29,
+        "37": 1485.31,
         "38": 1559.2,
         "39": 1523.6,
         "4": 1417.32,
         "40": 1569.02,
         "41": 1597.61,
-        "42": 1618.2,
+        "42": 1634.45,
         "43": 1621.39,
         "44": 1473.27,
         "7": 1403.26,
         "9": 1404.43
       },
-      "timestamp": "2026-08-31T06:53:04.904999+00:00"
+      "timestamp": "2026-08-31T09:35:56.970118+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 0,
-      "games": 30,
-      "losses": 20,
+      "games": 31,
+      "losses": 21,
       "opponents": [
         3,
         4,
@@ -3258,9 +3303,10 @@
         38,
         40,
         41,
+        42,
         44
       ],
-      "rating": 1436.7,
+      "rating": 1430.72,
       "wins": 10
     },
     "11": {
@@ -3407,8 +3453,8 @@
     },
     "15": {
       "draws": 0,
-      "games": 32,
-      "losses": 19,
+      "games": 33,
+      "losses": 20,
       "opponents": [
         3,
         4,
@@ -3435,10 +3481,11 @@
         38,
         40,
         41,
+        42,
         43,
         44
       ],
-      "rating": 1437.95,
+      "rating": 1431.78,
       "wins": 13
     },
     "16": {
@@ -3754,8 +3801,8 @@
     },
     "33": {
       "draws": 0,
-      "games": 27,
-      "losses": 5,
+      "games": 28,
+      "losses": 6,
       "opponents": [
         3,
         4,
@@ -3779,10 +3826,11 @@
         36,
         40,
         41,
+        42,
         43,
         44
       ],
-      "rating": 1630.52,
+      "rating": 1618.09,
       "wins": 22
     },
     "34": {
@@ -3820,7 +3868,7 @@
     },
     "35": {
       "draws": 0,
-      "games": 23,
+      "games": 24,
       "losses": 12,
       "opponents": [
         3,
@@ -3842,10 +3890,11 @@
         38,
         40,
         41,
+        42,
         44
       ],
-      "rating": 1500.01,
-      "wins": 11
+      "rating": 1516.32,
+      "wins": 12
     },
     "36": {
       "draws": 0,
@@ -3880,8 +3929,8 @@
     },
     "37": {
       "draws": 0,
-      "games": 27,
-      "losses": 15,
+      "games": 28,
+      "losses": 16,
       "opponents": [
         4,
         9,
@@ -3904,10 +3953,11 @@
         39,
         40,
         41,
+        42,
         43,
         44
       ],
-      "rating": 1493.29,
+      "rating": 1485.31,
       "wins": 12
     },
     "38": {
@@ -4055,13 +4105,15 @@
     },
     "42": {
       "draws": 0,
-      "games": 22,
-      "losses": 5,
+      "games": 27,
+      "losses": 6,
       "opponents": [
         7,
+        10,
         12,
         13,
         14,
+        15,
         16,
         19,
         20,
@@ -4069,16 +4121,19 @@
         30,
         31,
         32,
+        33,
         34,
+        35,
         36,
+        37,
         38,
         40,
         41,
         43,
         44
       ],
-      "rating": 1618.2,
-      "wins": 17
+      "rating": 1634.45,
+      "wins": 21
     },
     "43": {
       "draws": 0,
