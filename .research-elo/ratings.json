@@ -2834,6 +2834,51 @@
       "reason": "#38 wins over #9 because it proposes a specific, testable research direction (biomarker-conditioned embeddings) with a defined evaluation plan, while #9's question about evaluating multiple mechanisms is too vague and depends on unverified curation of multiple valid mechanisms.",
       "target": 38,
       "timestamp": "2026-08-30T21:23:27.671739+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 32,
+      "outcome": "win",
+      "reason": "#41 wins over #32 due to higher importance in addressing a critical gap in ADC therapy modeling with clear clinical relevance, while #32's novelty is uncertain and lacks a strong evidence base for its Pareto-aware LLM approach.",
+      "target": 41,
+      "timestamp": "2026-08-31T01:07:02.817214+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 34,
+      "outcome": "win",
+      "reason": "#41 wins over #34 due to stronger scientific importance in cancer therapy modeling versus #34's focus on a benchmark refinement with less direct clinical impact.",
+      "target": 41,
+      "timestamp": "2026-08-31T01:07:02.817214+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "#41 wins over #13 due to clearer tractability and higher importance in addressing tumor heterogeneity in ADC response, while #13's question is more abstract and lacks a defined evaluation framework.",
+      "target": 41,
+      "timestamp": "2026-08-31T01:07:02.817214+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 37,
+      "outcome": "loss",
+      "reason": "#37 wins over #41 due to higher novelty potential in drug combination representation learning and stronger leverage for broader applications in drug synergy prediction.",
+      "target": 41,
+      "timestamp": "2026-08-31T01:07:02.817214+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 14,
+      "outcome": "loss",
+      "reason": "#14 wins over #41 due to higher novelty potential in establishing causal geometry across modalities, which could unlock fundamental insights in multimodal representation learning with broader applicability than #41's ADC-specific focus.",
+      "target": 41,
+      "timestamp": "2026-08-31T01:07:02.817214+00:00"
     }
   ],
   "k_factor": 24,
@@ -3056,6 +3101,41 @@
         "9": 1404.43
       },
       "timestamp": "2026-08-30T21:23:28.339074+00:00"
+    },
+    {
+      "ratings": {
+        "10": 1430.39,
+        "11": 1415.3,
+        "12": 1463.72,
+        "13": 1496.62,
+        "14": 1487.98,
+        "15": 1437.95,
+        "16": 1429.68,
+        "17": 1348.33,
+        "19": 1506.01,
+        "20": 1522.04,
+        "21": 1461.1,
+        "3": 1329.05,
+        "30": 1489.63,
+        "31": 1547.02,
+        "32": 1609.54,
+        "33": 1630.52,
+        "34": 1620.11,
+        "35": 1485.85,
+        "36": 1613.28,
+        "37": 1493.29,
+        "38": 1559.2,
+        "39": 1523.6,
+        "4": 1410.19,
+        "40": 1549.12,
+        "41": 1597.61,
+        "42": 1618.2,
+        "43": 1621.39,
+        "44": 1495.59,
+        "7": 1403.26,
+        "9": 1404.43
+      },
+      "timestamp": "2026-08-31T01:07:03.516311+00:00"
     }
   ],
   "ratings": {
@@ -3159,8 +3239,8 @@
     },
     "13": {
       "draws": 0,
-      "games": 32,
-      "losses": 17,
+      "games": 33,
+      "losses": 18,
       "opponents": [
         3,
         4,
@@ -3186,15 +3266,16 @@
         37,
         38,
         40,
+        41,
         42,
         44
       ],
-      "rating": 1504.68,
+      "rating": 1496.62,
       "wins": 15
     },
     "14": {
       "draws": 0,
-      "games": 27,
+      "games": 28,
       "losses": 15,
       "opponents": [
         3,
@@ -3220,11 +3301,12 @@
         36,
         37,
         38,
+        41,
         42,
         43
       ],
-      "rating": 1471.3,
-      "wins": 12
+      "rating": 1487.98,
+      "wins": 13
     },
     "15": {
       "draws": 0,
@@ -3541,8 +3623,8 @@
     },
     "32": {
       "draws": 0,
-      "games": 27,
-      "losses": 6,
+      "games": 28,
+      "losses": 7,
       "opponents": [
         3,
         4,
@@ -3565,11 +3647,12 @@
         36,
         37,
         40,
+        41,
         42,
         43,
         44
       ],
-      "rating": 1622.39,
+      "rating": 1609.54,
       "wins": 21
     },
     "33": {
@@ -3607,8 +3690,8 @@
     },
     "34": {
       "draws": 0,
-      "games": 26,
-      "losses": 5,
+      "games": 27,
+      "losses": 6,
       "opponents": [
         3,
         4,
@@ -3631,10 +3714,11 @@
         33,
         36,
         40,
+        41,
         42,
         43
       ],
-      "rating": 1632.88,
+      "rating": 1620.11,
       "wins": 21
     },
     "35": {
@@ -3698,7 +3782,7 @@
     },
     "37": {
       "draws": 0,
-      "games": 26,
+      "games": 27,
       "losses": 15,
       "opponents": [
         4,
@@ -3721,11 +3805,12 @@
         38,
         39,
         40,
+        41,
         43,
         44
       ],
-      "rating": 1476.26,
-      "wins": 11
+      "rating": 1493.29,
+      "wins": 12
     },
     "38": {
       "draws": 0,
@@ -3832,12 +3917,14 @@
     },
     "41": {
       "draws": 0,
-      "games": 20,
-      "losses": 5,
+      "games": 25,
+      "losses": 7,
       "opponents": [
         4,
         10,
         12,
+        13,
+        14,
         15,
         16,
         17,
@@ -3846,17 +3933,20 @@
         21,
         30,
         31,
+        32,
         33,
+        34,
         35,
         36,
+        37,
         38,
         40,
         42,
         43,
         44
       ],
-      "rating": 1597.64,
-      "wins": 15
+      "rating": 1597.61,
+      "wins": 18
     },
     "42": {
       "draws": 0,
