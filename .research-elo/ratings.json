@@ -2924,6 +2924,51 @@
       "reason": "#4 wins over #44 due to higher importance in understanding emergent drug response properties, stronger novelty potential in spatial biology, and more direct practical impact on drug development.",
       "target": 44,
       "timestamp": "2026-08-31T03:34:59.866234+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 35,
+      "outcome": "loss",
+      "reason": "#35 wins over #40 because it has a clear, testable hypothesis with defined baselines and experiments, while #40's novelty is uncertain and lacks a concrete validation plan beyond a small study.",
+      "target": 40,
+      "timestamp": "2026-08-31T06:53:04.043032+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 14,
+      "outcome": "win",
+      "reason": "#40 wins over #14 because it proposes a concrete, actionable research question with a defined validation method, whereas #14's 'causal geometry' concept is too vague and lacks a measurable test.",
+      "target": 40,
+      "timestamp": "2026-08-31T06:53:04.043032+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "#40 wins over #10 because it directly addresses a specific, actionable problem (contextual drug embeddings) with a clear experimental plan, while #10's question about 'transferable structures' is too abstract and lacks a defined methodology.",
+      "target": 40,
+      "timestamp": "2026-08-31T06:53:04.043032+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "#40 wins over #11 because it offers a more concrete and testable research direction (natural-language-conditioned embeddings) compared to #11's focus on intervention geometry, which lacks a clear validation path.",
+      "target": 40,
+      "timestamp": "2026-08-31T06:53:04.043032+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "#40 wins over #4 because #40's problem is more directly applicable to drug discovery with a clear path to validation, while #4's spatial microenvironment question is highly dependent on data availability that is uncertain.",
+      "target": 40,
+      "timestamp": "2026-08-31T06:53:04.043032+00:00"
     }
   ],
   "k_factor": 24,
@@ -3149,11 +3194,11 @@
     },
     {
       "ratings": {
-        "10": 1445.35,
-        "11": 1430.26,
+        "10": 1436.7,
+        "11": 1422.35,
         "12": 1453.22,
         "13": 1496.62,
-        "14": 1476.24,
+        "14": 1466.25,
         "15": 1437.95,
         "16": 1429.68,
         "17": 1348.33,
@@ -3166,13 +3211,13 @@
         "32": 1609.54,
         "33": 1630.52,
         "34": 1620.11,
-        "35": 1485.85,
+        "35": 1500.01,
         "36": 1613.28,
         "37": 1493.29,
         "38": 1559.2,
         "39": 1523.6,
-        "4": 1424.83,
-        "40": 1549.12,
+        "4": 1417.32,
+        "40": 1569.02,
         "41": 1597.61,
         "42": 1618.2,
         "43": 1621.39,
@@ -3180,14 +3225,14 @@
         "7": 1403.26,
         "9": 1404.43
       },
-      "timestamp": "2026-08-31T03:35:00.741904+00:00"
+      "timestamp": "2026-08-31T06:53:04.904999+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 0,
-      "games": 29,
-      "losses": 19,
+      "games": 30,
+      "losses": 20,
       "opponents": [
         3,
         4,
@@ -3211,16 +3256,17 @@
         35,
         37,
         38,
+        40,
         41,
         44
       ],
-      "rating": 1445.35,
+      "rating": 1436.7,
       "wins": 10
     },
     "11": {
       "draws": 0,
-      "games": 32,
-      "losses": 20,
+      "games": 33,
+      "losses": 21,
       "opponents": [
         3,
         4,
@@ -3244,9 +3290,10 @@
         35,
         37,
         38,
+        40,
         44
       ],
-      "rating": 1430.26,
+      "rating": 1422.35,
       "wins": 12
     },
     "12": {
@@ -3323,8 +3370,8 @@
     },
     "14": {
       "draws": 0,
-      "games": 29,
-      "losses": 16,
+      "games": 30,
+      "losses": 17,
       "opponents": [
         3,
         4,
@@ -3349,12 +3396,13 @@
         36,
         37,
         38,
+        40,
         41,
         42,
         43,
         44
       ],
-      "rating": 1476.24,
+      "rating": 1466.25,
       "wins": 13
     },
     "15": {
@@ -3772,7 +3820,7 @@
     },
     "35": {
       "draws": 0,
-      "games": 22,
+      "games": 23,
       "losses": 12,
       "opponents": [
         3,
@@ -3792,11 +3840,12 @@
         36,
         37,
         38,
+        40,
         41,
         44
       ],
-      "rating": 1485.85,
-      "wins": 10
+      "rating": 1500.01,
+      "wins": 11
     },
     "36": {
       "draws": 0,
@@ -3906,8 +3955,8 @@
     },
     "4": {
       "draws": 0,
-      "games": 27,
-      "losses": 18,
+      "games": 28,
+      "losses": 19,
       "opponents": [
         3,
         7,
@@ -3931,19 +3980,24 @@
         35,
         37,
         38,
+        40,
         41,
         44
       ],
-      "rating": 1424.83,
+      "rating": 1417.32,
       "wins": 9
     },
     "40": {
       "draws": 0,
-      "games": 21,
-      "losses": 8,
+      "games": 26,
+      "losses": 9,
       "opponents": [
+        4,
+        10,
+        11,
         12,
         13,
+        14,
         15,
         16,
         19,
@@ -3954,6 +4008,7 @@
         32,
         33,
         34,
+        35,
         36,
         37,
         38,
@@ -3962,8 +4017,8 @@
         43,
         44
       ],
-      "rating": 1549.12,
-      "wins": 13
+      "rating": 1569.02,
+      "wins": 17
     },
     "41": {
       "draws": 0,
