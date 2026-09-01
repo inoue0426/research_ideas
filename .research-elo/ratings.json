@@ -3374,6 +3374,51 @@
       "reason": "Issue #42 wins over #3 due to stronger importance (ADC response prediction is a critical bottleneck in drug development) versus #3's more niche focus on mechanism arbitration with less immediate practical relevance.",
       "target": 42,
       "timestamp": "2026-09-01T09:32:20.090114+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 11,
+      "outcome": "loss",
+      "reason": "#11 wins over #43 because it addresses a fundamental question about transferability of intervention geometry, which has broader implications for cross-domain biology, while #43 focuses on a specific technical refinement of uncertainty estimation with limited novelty and higher data constraints.",
+      "target": 43,
+      "timestamp": "2026-09-01T13:37:31.467274+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "#43 wins over #4 because it directly addresses a critical operational need in drug discovery (reliability of predictions for decision-making), whereas #4's question about spatial microenvironment is less clearly defined and has higher uncertainty about data availability.",
+      "target": 43,
+      "timestamp": "2026-09-01T13:37:31.467274+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "#43 wins over #9 because it has clearer practical importance in drug discovery workflows and more concrete evaluation metrics, while #9's question about evaluating multiple valid mechanisms is highly abstract and lacks a clear path to validation.",
+      "target": 43,
+      "timestamp": "2026-09-01T13:37:31.467274+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "#43 wins over #7 because it addresses a more immediate and well-defined problem (uncertainty in ADC response prediction) with a clear path to evaluation, while #7's focus on INRs for spatial data is more speculative and lacks evidence of superiority over existing methods.",
+      "target": 43,
+      "timestamp": "2026-09-01T13:37:31.467274+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "#43 wins over #17 because it has stronger practical importance in drug discovery decision-making and a more concrete evaluation plan, while #17's human-in-the-loop approach is more speculative and lacks clear evidence of measurable improvement over existing methods.",
+      "target": 43,
+      "timestamp": "2026-09-01T13:37:31.467274+00:00"
     }
   ],
   "k_factor": 24,
@@ -3635,13 +3680,13 @@
     {
       "ratings": {
         "10": 1440.73,
-        "11": 1451.86,
+        "11": 1466.87,
         "12": 1469.72,
         "13": 1512.27,
         "14": 1466.25,
         "15": 1431.78,
         "16": 1445.89,
-        "17": 1324.31,
+        "17": 1319.1,
         "19": 1495.71,
         "20": 1510.38,
         "21": 1461.1,
@@ -3656,16 +3701,16 @@
         "37": 1485.31,
         "38": 1587.55,
         "39": 1523.6,
-        "4": 1405.51,
+        "4": 1397.51,
         "40": 1601.72,
         "41": 1630.54,
         "42": 1633.68,
-        "43": 1540.83,
+        "43": 1552.55,
         "44": 1519.96,
-        "7": 1371.43,
-        "9": 1378.08
+        "7": 1364.86,
+        "9": 1371.13
       },
-      "timestamp": "2026-09-01T09:32:21.025677+00:00"
+      "timestamp": "2026-09-01T13:37:32.298663+00:00"
     }
   ],
   "ratings": {
@@ -3708,7 +3753,7 @@
     },
     "11": {
       "draws": 0,
-      "games": 36,
+      "games": 37,
       "losses": 22,
       "opponents": [
         3,
@@ -3737,10 +3782,11 @@
         40,
         41,
         42,
+        43,
         44
       ],
-      "rating": 1451.86,
-      "wins": 14
+      "rating": 1466.87,
+      "wins": 15
     },
     "12": {
       "draws": 0,
@@ -3929,8 +3975,8 @@
     },
     "17": {
       "draws": 0,
-      "games": 36,
-      "losses": 31,
+      "games": 37,
+      "losses": 32,
       "opponents": [
         3,
         4,
@@ -3957,9 +4003,10 @@
         40,
         41,
         42,
+        43,
         44
       ],
-      "rating": 1324.31,
+      "rating": 1319.1,
       "wins": 5
     },
     "19": {
@@ -4442,8 +4489,8 @@
     },
     "4": {
       "draws": 0,
-      "games": 30,
-      "losses": 21,
+      "games": 31,
+      "losses": 22,
       "opponents": [
         3,
         7,
@@ -4471,9 +4518,10 @@
         40,
         41,
         42,
+        43,
         44
       ],
-      "rating": 1405.51,
+      "rating": 1397.51,
       "wins": 9
     },
     "40": {
@@ -4589,15 +4637,20 @@
     },
     "43": {
       "draws": 0,
-      "games": 27,
-      "losses": 10,
+      "games": 32,
+      "losses": 11,
       "opponents": [
+        4,
+        7,
+        9,
         10,
+        11,
         12,
         13,
         14,
         15,
         16,
+        17,
         19,
         20,
         21,
@@ -4615,8 +4668,8 @@
         42,
         44
       ],
-      "rating": 1540.83,
-      "wins": 17
+      "rating": 1552.55,
+      "wins": 21
     },
     "44": {
       "draws": 0,
@@ -4657,8 +4710,8 @@
     },
     "7": {
       "draws": 0,
-      "games": 31,
-      "losses": 24,
+      "games": 32,
+      "losses": 25,
       "opponents": [
         3,
         4,
@@ -4684,15 +4737,16 @@
         40,
         41,
         42,
+        43,
         44
       ],
-      "rating": 1371.43,
+      "rating": 1364.86,
       "wins": 7
     },
     "9": {
       "draws": 0,
-      "games": 34,
-      "losses": 25,
+      "games": 35,
+      "losses": 26,
       "opponents": [
         3,
         4,
@@ -4720,9 +4774,10 @@
         40,
         41,
         42,
+        43,
         44
       ],
-      "rating": 1378.08,
+      "rating": 1371.13,
       "wins": 9
     }
   },
