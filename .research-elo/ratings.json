@@ -3464,6 +3464,51 @@
       "reason": "#3 wins over #37 because it proposes a focused iterative refinement method with a clear evaluation target, whereas #37's data sparsity uncertainty makes it less feasible for a six-month project.",
       "target": 37,
       "timestamp": "2026-09-01T15:44:19.848452+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "#36 wins over #3 by having a clearer, more focused research question about adaptive evidence acquisition in LLMs, with well-defined experiments and a stronger potential for scientific impact in biomedical reasoning.",
+      "target": 36,
+      "timestamp": "2026-09-01T18:34:02.415909+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 32,
+      "outcome": "win",
+      "reason": "#36 wins over #32 by addressing a fundamental problem in LLM reasoning (evidence sufficiency) with a more tractable and novel approach compared to the speculative Pareto-aware molecular generation.",
+      "target": 36,
+      "timestamp": "2026-09-01T18:34:02.415909+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 41,
+      "outcome": "win",
+      "reason": "#36 wins over #41 due to higher tractability and clearer experimental design; #41's success depends on uncertain data availability that is not yet confirmed.",
+      "target": 36,
+      "timestamp": "2026-09-01T18:34:02.415909+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 42,
+      "outcome": "win",
+      "reason": "#36 wins over #42 by having a more immediate and testable research question about LLM evidence acquisition, whereas #42's cold-start ADC prediction relies on unverified data diversity.",
+      "target": 36,
+      "timestamp": "2026-09-01T18:34:02.415909+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 40,
+      "outcome": "win",
+      "reason": "#36 wins over #40 by offering a more concrete, falsifiable research problem in LLM reasoning rather than the speculative natural-language-conditioned embeddings.",
+      "target": 36,
+      "timestamp": "2026-09-01T18:34:02.415909+00:00"
     }
   ],
   "k_factor": 24,
@@ -3735,27 +3780,27 @@
         "19": 1495.71,
         "20": 1510.38,
         "21": 1461.1,
-        "3": 1328.37,
+        "3": 1324.56,
         "30": 1489.63,
         "31": 1534.9,
-        "32": 1606.77,
+        "32": 1595.29,
         "33": 1599.03,
         "34": 1598.79,
         "35": 1569.96,
-        "36": 1617.88,
+        "36": 1666.81,
         "37": 1443.88,
         "38": 1587.55,
         "39": 1523.6,
         "4": 1397.51,
-        "40": 1601.72,
-        "41": 1630.54,
-        "42": 1633.68,
+        "40": 1591.6,
+        "41": 1618.63,
+        "42": 1622.07,
         "43": 1552.55,
         "44": 1519.96,
         "7": 1380.34,
         "9": 1371.13
       },
-      "timestamp": "2026-09-01T15:44:20.676822+00:00"
+      "timestamp": "2026-09-01T18:34:03.214849+00:00"
     }
   ],
   "ratings": {
@@ -4168,8 +4213,8 @@
     },
     "3": {
       "draws": 0,
-      "games": 32,
-      "losses": 27,
+      "games": 33,
+      "losses": 28,
       "opponents": [
         4,
         7,
@@ -4191,13 +4236,14 @@
         33,
         34,
         35,
+        36,
         37,
         40,
         41,
         42,
         44
       ],
-      "rating": 1328.37,
+      "rating": 1324.56,
       "wins": 5
     },
     "30": {
@@ -4276,8 +4322,8 @@
     },
     "32": {
       "draws": 0,
-      "games": 30,
-      "losses": 8,
+      "games": 31,
+      "losses": 9,
       "opponents": [
         3,
         4,
@@ -4307,7 +4353,7 @@
         43,
         44
       ],
-      "rating": 1606.77,
+      "rating": 1595.29,
       "wins": 22
     },
     "33": {
@@ -4421,9 +4467,10 @@
     },
     "36": {
       "draws": 0,
-      "games": 29,
+      "games": 34,
       "losses": 7,
       "opponents": [
+        3,
         4,
         7,
         9,
@@ -4452,8 +4499,8 @@
         43,
         44
       ],
-      "rating": 1617.88,
-      "wins": 22
+      "rating": 1666.81,
+      "wins": 27
     },
     "37": {
       "draws": 0,
@@ -4580,8 +4627,8 @@
     },
     "40": {
       "draws": 0,
-      "games": 31,
-      "losses": 9,
+      "games": 32,
+      "losses": 10,
       "opponents": [
         3,
         4,
@@ -4612,13 +4659,13 @@
         43,
         44
       ],
-      "rating": 1601.72,
+      "rating": 1591.6,
       "wins": 22
     },
     "41": {
       "draws": 0,
-      "games": 30,
-      "losses": 7,
+      "games": 31,
+      "losses": 8,
       "opponents": [
         3,
         4,
@@ -4649,13 +4696,13 @@
         43,
         44
       ],
-      "rating": 1630.54,
+      "rating": 1618.63,
       "wins": 23
     },
     "42": {
       "draws": 0,
-      "games": 32,
-      "losses": 7,
+      "games": 33,
+      "losses": 8,
       "opponents": [
         3,
         4,
@@ -4686,7 +4733,7 @@
         43,
         44
       ],
-      "rating": 1633.68,
+      "rating": 1622.07,
       "wins": 25
     },
     "43": {
