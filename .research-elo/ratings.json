@@ -3329,6 +3329,51 @@
       "reason": "#40 wins over #35 because it has higher importance and novelty potential in the context of drug discovery, while #35's focus on LLM reasoning with biomedical graphs is more incremental and less directly tied to a high-impact application.",
       "target": 40,
       "timestamp": "2026-09-01T06:45:10.247978+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 11,
+      "outcome": "loss",
+      "reason": "Issue #11 wins over #42 due to clearer question quality (intervention geometry vs. state geometry) and stronger leverage for cross-domain transfer, with a more direct path to falsifiability via matched perturbation data checks.",
+      "target": 42,
+      "timestamp": "2026-09-01T09:32:20.090114+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "Issue #42 wins over #4 due to higher importance (ADC response prediction is a high-impact drug discovery problem) and more concrete evaluation framework for cold-start scenarios, though #4 has strong novelty potential.",
+      "target": 42,
+      "timestamp": "2026-09-01T09:32:20.090114+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "Issue #42 wins over #9 due to greater tractability (clear evaluation settings for cold-start ADC prediction) versus #9's uncertainty about curating multiple valid mechanisms for evaluation.",
+      "target": 42,
+      "timestamp": "2026-09-01T09:32:20.090114+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "Issue #42 wins over #17 due to higher importance (ADC response prediction directly impacts drug discovery) versus #17's focus on human-in-the-loop refinement, which has lower leverage for broad scientific impact.",
+      "target": 42,
+      "timestamp": "2026-09-01T09:32:20.090114+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "Issue #42 wins over #3 due to stronger importance (ADC response prediction is a critical bottleneck in drug development) versus #3's more niche focus on mechanism arbitration with less immediate practical relevance.",
+      "target": 42,
+      "timestamp": "2026-09-01T09:32:20.090114+00:00"
     }
   ],
   "k_factor": 24,
@@ -3590,17 +3635,17 @@
     {
       "ratings": {
         "10": 1440.73,
-        "11": 1433.6,
+        "11": 1451.86,
         "12": 1469.72,
         "13": 1512.27,
         "14": 1466.25,
         "15": 1431.78,
         "16": 1445.89,
-        "17": 1327.96,
+        "17": 1324.31,
         "19": 1495.71,
         "20": 1510.38,
         "21": 1461.1,
-        "3": 1314.87,
+        "3": 1311.51,
         "30": 1489.63,
         "31": 1534.9,
         "32": 1606.77,
@@ -3611,16 +3656,16 @@
         "37": 1485.31,
         "38": 1587.55,
         "39": 1523.6,
-        "4": 1411.15,
+        "4": 1405.51,
         "40": 1601.72,
         "41": 1630.54,
-        "42": 1634.45,
+        "42": 1633.68,
         "43": 1540.83,
         "44": 1519.96,
         "7": 1371.43,
-        "9": 1382.92
+        "9": 1378.08
       },
-      "timestamp": "2026-09-01T06:45:11.156758+00:00"
+      "timestamp": "2026-09-01T09:32:21.025677+00:00"
     }
   ],
   "ratings": {
@@ -3663,7 +3708,7 @@
     },
     "11": {
       "draws": 0,
-      "games": 35,
+      "games": 36,
       "losses": 22,
       "opponents": [
         3,
@@ -3691,10 +3736,11 @@
         38,
         40,
         41,
+        42,
         44
       ],
-      "rating": 1433.6,
-      "wins": 13
+      "rating": 1451.86,
+      "wins": 14
     },
     "12": {
       "draws": 0,
@@ -3883,8 +3929,8 @@
     },
     "17": {
       "draws": 0,
-      "games": 35,
-      "losses": 30,
+      "games": 36,
+      "losses": 31,
       "opponents": [
         3,
         4,
@@ -3910,9 +3956,10 @@
         38,
         40,
         41,
+        42,
         44
       ],
-      "rating": 1327.96,
+      "rating": 1324.31,
       "wins": 5
     },
     "19": {
@@ -4028,8 +4075,8 @@
     },
     "3": {
       "draws": 0,
-      "games": 30,
-      "losses": 26,
+      "games": 31,
+      "losses": 27,
       "opponents": [
         4,
         7,
@@ -4053,9 +4100,10 @@
         35,
         40,
         41,
+        42,
         44
       ],
-      "rating": 1314.87,
+      "rating": 1311.51,
       "wins": 4
     },
     "30": {
@@ -4394,8 +4442,8 @@
     },
     "4": {
       "draws": 0,
-      "games": 29,
-      "losses": 20,
+      "games": 30,
+      "losses": 21,
       "opponents": [
         3,
         7,
@@ -4422,9 +4470,10 @@
         38,
         40,
         41,
+        42,
         44
       ],
-      "rating": 1411.15,
+      "rating": 1405.51,
       "wins": 9
     },
     "40": {
@@ -4503,16 +4552,21 @@
     },
     "42": {
       "draws": 0,
-      "games": 27,
-      "losses": 6,
+      "games": 32,
+      "losses": 7,
       "opponents": [
+        3,
+        4,
         7,
+        9,
         10,
+        11,
         12,
         13,
         14,
         15,
         16,
+        17,
         19,
         20,
         21,
@@ -4530,8 +4584,8 @@
         43,
         44
       ],
-      "rating": 1634.45,
-      "wins": 21
+      "rating": 1633.68,
+      "wins": 25
     },
     "43": {
       "draws": 0,
@@ -4637,8 +4691,8 @@
     },
     "9": {
       "draws": 0,
-      "games": 33,
-      "losses": 24,
+      "games": 34,
+      "losses": 25,
       "opponents": [
         3,
         4,
@@ -4665,9 +4719,10 @@
         38,
         40,
         41,
+        42,
         44
       ],
-      "rating": 1382.92,
+      "rating": 1378.08,
       "wins": 9
     }
   },
