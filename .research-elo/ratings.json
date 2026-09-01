@@ -3239,6 +3239,51 @@
       "reason": "#41 wins over #35 due to immediate applicability in oncology drug development versus #35's focus on LLM reasoning which is less directly impactful for core biomedical research goals.",
       "target": 41,
       "timestamp": "2026-09-01T01:13:14.044241+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "#44 wins over #9 because it addresses a concrete, well-defined problem in ADC response prediction with clear biological relevance and a specific model architecture, while #9's question about evaluating mechanistic reasoning is too abstract and lacks a defined evaluation framework.",
+      "target": 44,
+      "timestamp": "2026-09-01T03:35:23.835318+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "#44 wins over #7 because it has a more concrete problem statement with clear biological mechanisms and a defined architecture, while #7's spatial INR approach lacks evidence of dataset availability and a clear advantage over existing methods.",
+      "target": 44,
+      "timestamp": "2026-09-01T03:35:23.835318+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 34,
+      "outcome": "win",
+      "reason": "#44 wins over #34 because it addresses a specific prediction problem with clear biological context and a defined architecture, while #34's CTD evidence sufficiency idea is more abstract and lacks a clear path to evaluation.",
+      "target": 44,
+      "timestamp": "2026-09-01T03:35:23.835318+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "#44 wins over #17 because it has a clear, testable hypothesis with defined biological mechanisms, while #17's human-in-the-loop refinement is more about HCI than a novel scientific contribution.",
+      "target": 44,
+      "timestamp": "2026-09-01T03:35:23.835318+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "#44 wins over #3 because it has a well-defined problem with clear biological mechanisms and a specific architecture, while #3's iterative optimization idea lacks a concrete benchmark or evaluation method.",
+      "target": 44,
+      "timestamp": "2026-09-01T03:35:23.835318+00:00"
     }
   ],
   "k_factor": 24,
@@ -3506,16 +3551,16 @@
         "14": 1466.25,
         "15": 1431.78,
         "16": 1445.89,
-        "17": 1339.2,
+        "17": 1332.59,
         "19": 1495.71,
         "20": 1510.38,
         "21": 1461.1,
-        "3": 1325.18,
+        "3": 1319.12,
         "30": 1489.63,
         "31": 1534.9,
         "32": 1606.77,
         "33": 1590.83,
-        "34": 1606.13,
+        "34": 1590.31,
         "35": 1581.67,
         "36": 1617.88,
         "37": 1485.31,
@@ -3526,11 +3571,11 @@
         "41": 1630.54,
         "42": 1634.45,
         "43": 1540.83,
-        "44": 1473.27,
-        "7": 1385.99,
-        "9": 1398.67
+        "44": 1519.96,
+        "7": 1377.25,
+        "9": 1389.21
       },
-      "timestamp": "2026-09-01T01:13:14.921388+00:00"
+      "timestamp": "2026-09-01T03:35:24.437601+00:00"
     }
   ],
   "ratings": {
@@ -3793,8 +3838,8 @@
     },
     "17": {
       "draws": 0,
-      "games": 33,
-      "losses": 28,
+      "games": 34,
+      "losses": 29,
       "opponents": [
         3,
         4,
@@ -3818,9 +3863,10 @@
         35,
         36,
         38,
-        41
+        41,
+        44
       ],
-      "rating": 1339.2,
+      "rating": 1332.59,
       "wins": 5
     },
     "19": {
@@ -3936,8 +3982,8 @@
     },
     "3": {
       "draws": 0,
-      "games": 28,
-      "losses": 24,
+      "games": 29,
+      "losses": 25,
       "opponents": [
         4,
         7,
@@ -3959,9 +4005,10 @@
         33,
         34,
         35,
-        41
+        41,
+        44
       ],
-      "rating": 1325.18,
+      "rating": 1319.12,
       "wins": 4
     },
     "30": {
@@ -4112,8 +4159,8 @@
     },
     "34": {
       "draws": 0,
-      "games": 28,
-      "losses": 7,
+      "games": 29,
+      "losses": 8,
       "opponents": [
         3,
         4,
@@ -4139,9 +4186,10 @@
         40,
         41,
         42,
-        43
+        43,
+        44
       ],
-      "rating": 1606.13,
+      "rating": 1590.31,
       "wins": 21
     },
     "35": {
@@ -4467,10 +4515,13 @@
     },
     "44": {
       "draws": 0,
-      "games": 25,
+      "games": 30,
       "losses": 13,
       "opponents": [
+        3,
         4,
+        7,
+        9,
         10,
         11,
         12,
@@ -4478,6 +4529,7 @@
         14,
         15,
         16,
+        17,
         19,
         20,
         21,
@@ -4485,6 +4537,7 @@
         31,
         32,
         33,
+        34,
         35,
         36,
         37,
@@ -4494,13 +4547,13 @@
         42,
         43
       ],
-      "rating": 1473.27,
-      "wins": 12
+      "rating": 1519.96,
+      "wins": 17
     },
     "7": {
       "draws": 0,
-      "games": 29,
-      "losses": 22,
+      "games": 30,
+      "losses": 23,
       "opponents": [
         3,
         4,
@@ -4524,15 +4577,16 @@
         36,
         38,
         41,
-        42
+        42,
+        44
       ],
-      "rating": 1385.99,
+      "rating": 1377.25,
       "wins": 7
     },
     "9": {
       "draws": 0,
-      "games": 31,
-      "losses": 22,
+      "games": 32,
+      "losses": 23,
       "opponents": [
         3,
         4,
@@ -4557,9 +4611,10 @@
         36,
         37,
         38,
-        41
+        41,
+        44
       ],
-      "rating": 1398.67,
+      "rating": 1389.21,
       "wins": 9
     }
   },
