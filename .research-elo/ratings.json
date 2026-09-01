@@ -3509,6 +3509,51 @@
       "reason": "#36 wins over #40 by offering a more concrete, falsifiable research problem in LLM reasoning rather than the speculative natural-language-conditioned embeddings.",
       "target": 36,
       "timestamp": "2026-09-01T18:34:02.415909+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "Issue #14 addresses a fundamental gap in multimodal representation learning by seeking to validate shared latent spaces through causal geometry, which is more scientifically foundational than Issue #11's focus on intervention geometry transferability.",
+      "target": 14,
+      "timestamp": "2026-09-01T21:25:49.635208+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "loss",
+      "reason": "Issue #12 proposes a more concrete decomposition of perturbation responses into interpretable components (shared target-driven, chemical-specific, etc.), offering clearer novelty and tractability compared to Issue #14's abstract 'causal geometry' concept.",
+      "target": 14,
+      "timestamp": "2026-09-01T21:25:49.635208+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "loss",
+      "reason": "Issue #21 directly tackles a critical distinction between predictive and mechanistic representations with a clear testable question, while Issue #14's 'causal geometry' remains undefined and untestable without additional data.",
+      "target": 14,
+      "timestamp": "2026-09-01T21:25:49.635208+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "loss",
+      "reason": "Issue #30 addresses a well-defined practical problem in ADC drug development with a clear path to impact (context-aware prediction), whereas Issue #14's theoretical focus lacks immediate applicability to a specific biomedical challenge.",
+      "target": 14,
+      "timestamp": "2026-09-01T21:25:49.635208+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 10,
+      "outcome": "loss",
+      "reason": "Issue #10 identifies a general principle for transfer learning that could guide multiple future projects, while Issue #14's narrow focus on causal geometry lacks the broad leverage of Issue #10's structural transferability question.",
+      "target": 14,
+      "timestamp": "2026-09-01T21:25:49.635208+00:00"
     }
   ],
   "k_factor": 24,
@@ -3769,19 +3814,19 @@
     },
     {
       "ratings": {
-        "10": 1440.73,
-        "11": 1466.87,
-        "12": 1469.72,
+        "10": 1452.81,
+        "11": 1454.85,
+        "12": 1482.02,
         "13": 1512.27,
-        "14": 1466.25,
+        "14": 1430.95,
         "15": 1431.78,
         "16": 1445.89,
         "17": 1311.51,
         "19": 1495.71,
         "20": 1510.38,
-        "21": 1461.1,
+        "21": 1473.27,
         "3": 1324.56,
-        "30": 1489.63,
+        "30": 1500.4,
         "31": 1534.9,
         "32": 1595.29,
         "33": 1599.03,
@@ -3800,13 +3845,13 @@
         "7": 1380.34,
         "9": 1371.13
       },
-      "timestamp": "2026-09-01T18:34:03.214849+00:00"
+      "timestamp": "2026-09-01T21:25:50.459697+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 0,
-      "games": 33,
+      "games": 34,
       "losses": 22,
       "opponents": [
         3,
@@ -3838,13 +3883,13 @@
         43,
         44
       ],
-      "rating": 1440.73,
-      "wins": 11
+      "rating": 1452.81,
+      "wins": 12
     },
     "11": {
       "draws": 0,
-      "games": 37,
-      "losses": 22,
+      "games": 38,
+      "losses": 23,
       "opponents": [
         3,
         4,
@@ -3875,12 +3920,12 @@
         43,
         44
       ],
-      "rating": 1466.87,
+      "rating": 1454.85,
       "wins": 15
     },
     "12": {
       "draws": 0,
-      "games": 32,
+      "games": 33,
       "losses": 18,
       "opponents": [
         3,
@@ -3912,8 +3957,8 @@
         43,
         44
       ],
-      "rating": 1469.72,
-      "wins": 14
+      "rating": 1482.02,
+      "wins": 15
     },
     "13": {
       "draws": 0,
@@ -3954,8 +3999,8 @@
     },
     "14": {
       "draws": 0,
-      "games": 30,
-      "losses": 17,
+      "games": 35,
+      "losses": 21,
       "opponents": [
         3,
         4,
@@ -3986,8 +4031,8 @@
         43,
         44
       ],
-      "rating": 1466.25,
-      "wins": 13
+      "rating": 1430.95,
+      "wins": 14
     },
     "15": {
       "draws": 0,
@@ -4176,7 +4221,7 @@
     },
     "21": {
       "draws": 0,
-      "games": 37,
+      "games": 38,
       "losses": 20,
       "opponents": [
         3,
@@ -4208,8 +4253,8 @@
         43,
         44
       ],
-      "rating": 1461.1,
-      "wins": 17
+      "rating": 1473.27,
+      "wins": 18
     },
     "3": {
       "draws": 0,
@@ -4248,7 +4293,7 @@
     },
     "30": {
       "draws": 0,
-      "games": 31,
+      "games": 32,
       "losses": 15,
       "opponents": [
         3,
@@ -4280,8 +4325,8 @@
         43,
         44
       ],
-      "rating": 1489.63,
-      "wins": 16
+      "rating": 1500.4,
+      "wins": 17
     },
     "31": {
       "draws": 0,
