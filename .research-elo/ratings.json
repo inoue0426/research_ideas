@@ -3554,6 +3554,51 @@
       "reason": "Issue #10 identifies a general principle for transfer learning that could guide multiple future projects, while Issue #14's narrow focus on causal geometry lacks the broad leverage of Issue #10's structural transferability question.",
       "target": 14,
       "timestamp": "2026-09-01T21:25:49.635208+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "Issue #31 addresses a clear, actionable problem (separating evidence selection from sufficiency detection) with strong practical relevance to biomedical LLM reliability, higher novelty potential (distinct capabilities), and more concrete next steps than Issue #19's vague failure mode characterization.",
+      "target": 31,
+      "timestamp": "2026-09-02T01:08:13.069353+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "Issue #31's question is more focused on a specific, testable distinction (evidence selection vs. sufficiency) with pilot evidence, while Issue #11's 'intervention geometry' idea lacks direct evidence and risks being too abstract for a six-month project.",
+      "target": 31,
+      "timestamp": "2026-09-02T01:08:13.069353+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "Issue #31 has clearer importance (reliable reasoning) and tractability (pilot results) compared to Issue #10's broad, undefined 'structural transfer' question, which lacks concrete metrics for testing.",
+      "target": 31,
+      "timestamp": "2026-09-02T01:08:13.069353+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "Issue #31's problem (abstention in reasoning) is more immediately impactful for biomedical AI than Issue #15's 'mechanism arbitration' which depends on unverified benchmarks and lacks clear testing paths.",
+      "target": 31,
+      "timestamp": "2026-09-02T01:08:13.069353+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 14,
+      "outcome": "win",
+      "reason": "Issue #31 provides a specific, testable question with pilot data, while Issue #14's 'causal geometry' concept is too vague and lacks a defined empirical test for a six-month project.",
+      "target": 31,
+      "timestamp": "2026-09-02T01:08:13.069353+00:00"
     }
   ],
   "k_factor": 24,
@@ -3846,13 +3891,48 @@
         "9": 1371.13
       },
       "timestamp": "2026-09-01T21:25:50.459697+00:00"
+    },
+    {
+      "ratings": {
+        "10": 1444.22,
+        "11": 1445.91,
+        "12": 1482.02,
+        "13": 1512.27,
+        "14": 1423.53,
+        "15": 1424.11,
+        "16": 1445.89,
+        "17": 1311.51,
+        "19": 1485.06,
+        "20": 1510.38,
+        "21": 1473.27,
+        "3": 1324.56,
+        "30": 1500.4,
+        "31": 1578.17,
+        "32": 1595.29,
+        "33": 1599.03,
+        "34": 1598.79,
+        "35": 1569.96,
+        "36": 1666.81,
+        "37": 1443.88,
+        "38": 1587.55,
+        "39": 1523.6,
+        "4": 1397.51,
+        "40": 1591.6,
+        "41": 1618.63,
+        "42": 1622.07,
+        "43": 1552.55,
+        "44": 1519.96,
+        "7": 1380.34,
+        "9": 1371.13
+      },
+      "timestamp": "2026-09-02T01:08:13.923155+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 0,
-      "games": 34,
-      "losses": 22,
+      "games": 35,
+      "losses": 23,
       "opponents": [
         3,
         4,
@@ -3883,13 +3963,13 @@
         43,
         44
       ],
-      "rating": 1452.81,
+      "rating": 1444.22,
       "wins": 12
     },
     "11": {
       "draws": 0,
-      "games": 38,
-      "losses": 23,
+      "games": 39,
+      "losses": 24,
       "opponents": [
         3,
         4,
@@ -3920,7 +4000,7 @@
         43,
         44
       ],
-      "rating": 1454.85,
+      "rating": 1445.91,
       "wins": 15
     },
     "12": {
@@ -3999,8 +4079,8 @@
     },
     "14": {
       "draws": 0,
-      "games": 35,
-      "losses": 21,
+      "games": 36,
+      "losses": 22,
       "opponents": [
         3,
         4,
@@ -4031,13 +4111,13 @@
         43,
         44
       ],
-      "rating": 1430.95,
+      "rating": 1423.53,
       "wins": 14
     },
     "15": {
       "draws": 0,
-      "games": 33,
-      "losses": 20,
+      "games": 34,
+      "losses": 21,
       "opponents": [
         3,
         4,
@@ -4068,7 +4148,7 @@
         43,
         44
       ],
-      "rating": 1431.78,
+      "rating": 1424.11,
       "wins": 13
     },
     "16": {
@@ -4147,8 +4227,8 @@
     },
     "19": {
       "draws": 0,
-      "games": 31,
-      "losses": 15,
+      "games": 32,
+      "losses": 16,
       "opponents": [
         3,
         4,
@@ -4179,7 +4259,7 @@
         43,
         44
       ],
-      "rating": 1495.71,
+      "rating": 1485.06,
       "wins": 16
     },
     "20": {
@@ -4330,7 +4410,7 @@
     },
     "31": {
       "draws": 0,
-      "games": 30,
+      "games": 35,
       "losses": 12,
       "opponents": [
         3,
@@ -4362,8 +4442,8 @@
         43,
         44
       ],
-      "rating": 1534.9,
-      "wins": 18
+      "rating": 1578.17,
+      "wins": 23
     },
     "32": {
       "draws": 0,
