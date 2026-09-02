@@ -3869,6 +3869,51 @@
       "reason": "Issue #20's compositional algebra question has stronger novelty and practical importance than #14's causal geometry idea, as it directly enables prediction of unseen perturbations rather than requiring untestable causal assumptions.",
       "target": 20,
       "timestamp": "2026-09-02T18:33:45.774653+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "#38 wins over #3 by being a clearer, more focused question with stronger novelty potential and tractability. #3's iterative optimization idea lacks concrete evaluation metrics and seems to rely on untested assumptions about evidence conflict resolution.",
+      "target": 38,
+      "timestamp": "2026-09-02T21:25:06.124301+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 40,
+      "outcome": "loss",
+      "reason": "#40 wins over #38 by providing a more comprehensive problem statement with explicit evaluation criteria and a clearer path to novelty through natural-language conditioning. #38's proposal is redundant with #40's more detailed approach.",
+      "target": 38,
+      "timestamp": "2026-09-02T21:25:06.124301+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "#38 wins over #31 by having a more concrete, testable problem with clear biological grounding. #31's evidence selection vs sufficiency distinction is vague and lacks a defined evaluation framework.",
+      "target": 38,
+      "timestamp": "2026-09-02T21:25:06.124301+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 33,
+      "outcome": "win",
+      "reason": "#38 wins over #33 by being more focused on a specific technical problem (embedding conditioning) rather than a broader uncertainty framework. #33's multi-agent uncertainty idea is less tractable and lacks clear differentiation from existing approaches.",
+      "target": 38,
+      "timestamp": "2026-09-02T21:25:06.124301+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 44,
+      "outcome": "loss",
+      "reason": "#44 wins over #38 by addressing a more significant biological problem (ADC mechanism specificity) with clearer importance and a well-defined evaluation plan. #38's biomarker-conditioned embeddings are less novel and more speculative than #44's mechanism-aware modeling.",
+      "target": 38,
+      "timestamp": "2026-09-02T21:25:06.124301+00:00"
     }
   ],
   "k_factor": 24,
@@ -4175,27 +4220,27 @@
         "19": 1483.21,
         "20": 1547.41,
         "21": 1473.27,
-        "3": 1324.56,
+        "3": 1320.23,
         "30": 1489.86,
-        "31": 1578.17,
+        "31": 1566.23,
         "32": 1645.02,
-        "33": 1575.86,
+        "33": 1564.41,
         "34": 1563.61,
         "35": 1572.73,
         "36": 1666.81,
         "37": 1443.88,
-        "38": 1587.53,
+        "38": 1590.28,
         "39": 1523.6,
         "4": 1413.83,
-        "40": 1592.13,
+        "40": 1604.12,
         "41": 1629.1,
         "42": 1622.07,
         "43": 1540.58,
-        "44": 1574.73,
+        "44": 1587.71,
         "7": 1363.98,
         "9": 1371.13
       },
-      "timestamp": "2026-09-02T18:33:46.454457+00:00"
+      "timestamp": "2026-09-02T21:25:07.115415+00:00"
     }
   ],
   "ratings": {
@@ -4608,8 +4653,8 @@
     },
     "3": {
       "draws": 0,
-      "games": 33,
-      "losses": 28,
+      "games": 34,
+      "losses": 29,
       "opponents": [
         4,
         7,
@@ -4633,12 +4678,13 @@
         35,
         36,
         37,
+        38,
         40,
         41,
         42,
         44
       ],
-      "rating": 1324.56,
+      "rating": 1320.23,
       "wins": 5
     },
     "30": {
@@ -4680,8 +4726,8 @@
     },
     "31": {
       "draws": 0,
-      "games": 35,
-      "losses": 12,
+      "games": 36,
+      "losses": 13,
       "opponents": [
         3,
         4,
@@ -4712,7 +4758,7 @@
         43,
         44
       ],
-      "rating": 1578.17,
+      "rating": 1566.23,
       "wins": 23
     },
     "32": {
@@ -4754,8 +4800,8 @@
     },
     "33": {
       "draws": 0,
-      "games": 33,
-      "losses": 10,
+      "games": 34,
+      "losses": 11,
       "opponents": [
         3,
         4,
@@ -4786,7 +4832,7 @@
         43,
         44
       ],
-      "rating": 1575.86,
+      "rating": 1564.41,
       "wins": 23
     },
     "34": {
@@ -4940,9 +4986,10 @@
     },
     "38": {
       "draws": 0,
-      "games": 32,
-      "losses": 11,
+      "games": 37,
+      "losses": 13,
       "opponents": [
+        3,
         4,
         7,
         9,
@@ -4972,8 +5019,8 @@
         43,
         44
       ],
-      "rating": 1587.53,
-      "wins": 21
+      "rating": 1590.28,
+      "wins": 24
     },
     "39": {
       "draws": 0,
@@ -5025,7 +5072,7 @@
     },
     "40": {
       "draws": 0,
-      "games": 34,
+      "games": 35,
       "losses": 11,
       "opponents": [
         3,
@@ -5057,8 +5104,8 @@
         43,
         44
       ],
-      "rating": 1592.13,
-      "wins": 23
+      "rating": 1604.12,
+      "wins": 24
     },
     "41": {
       "draws": 0,
@@ -5172,7 +5219,7 @@
     },
     "44": {
       "draws": 0,
-      "games": 35,
+      "games": 36,
       "losses": 13,
       "opponents": [
         3,
@@ -5204,8 +5251,8 @@
         42,
         43
       ],
-      "rating": 1574.73,
-      "wins": 22
+      "rating": 1587.71,
+      "wins": 23
     },
     "7": {
       "draws": 0,
