@@ -3599,6 +3599,51 @@
       "reason": "Issue #31 provides a specific, testable question with pilot data, while Issue #14's 'causal geometry' concept is too vague and lacks a defined empirical test for a six-month project.",
       "target": 31,
       "timestamp": "2026-09-02T01:08:13.069353+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 35,
+      "outcome": "loss",
+      "reason": "Issue #35 addresses a clear, actionable problem (distractor-induced evidence neglect) with a well-defined hypothesis and testable experiments, while Issue #34's evidence sufficiency framing lacks concrete novelty and relies on existing CTD pipeline without addressing core limitations like distractor handling.",
+      "target": 34,
+      "timestamp": "2026-09-02T03:33:41.461370+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 33,
+      "outcome": "win",
+      "reason": "Issue #34 proposes a more focused, testable question about answerability estimation with clear evaluation metrics, whereas Issue #33's multi-agent uncertainty idea is vague and lacks a concrete experimental plan beyond a retrospective check.",
+      "target": 34,
+      "timestamp": "2026-09-02T03:33:41.461370+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 40,
+      "outcome": "loss",
+      "reason": "Issue #40 offers a novel, biologically grounded question about context-dependent drug embeddings with a clear diagnostic test, while Issue #34's evidence sufficiency problem is less novel and lacks a strong connection to practical biomedical applications.",
+      "target": 34,
+      "timestamp": "2026-09-02T03:33:41.461370+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 38,
+      "outcome": "loss",
+      "reason": "Issue #38 provides a more focused, feasible approach to biomarker-conditioned embeddings with a clear comparison plan, whereas Issue #34's evidence sufficiency framing is less directly applicable to drug discovery than Issue #38's biomarker-specific problem.",
+      "target": 34,
+      "timestamp": "2026-09-02T03:33:41.461370+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 41,
+      "outcome": "loss",
+      "reason": "Issue #41 addresses a critical gap in ADC modeling with a clear biological rationale and a concrete next step (dataset search), while Issue #34's evidence sufficiency problem is less urgent and lacks a strong practical impact in the biomedical domain.",
+      "target": 34,
+      "timestamp": "2026-09-02T03:33:41.461370+00:00"
     }
   ],
   "k_factor": 24,
@@ -3909,23 +3954,23 @@
         "30": 1500.4,
         "31": 1578.17,
         "32": 1595.29,
-        "33": 1599.03,
-        "34": 1598.79,
-        "35": 1569.96,
+        "33": 1586.57,
+        "34": 1563.61,
+        "35": 1582.95,
         "36": 1666.81,
         "37": 1443.88,
-        "38": 1587.55,
+        "38": 1599.5,
         "39": 1523.6,
         "4": 1397.51,
-        "40": 1591.6,
-        "41": 1618.63,
+        "40": 1603.83,
+        "41": 1629.1,
         "42": 1622.07,
         "43": 1552.55,
         "44": 1519.96,
         "7": 1380.34,
         "9": 1371.13
       },
-      "timestamp": "2026-09-02T01:08:13.923155+00:00"
+      "timestamp": "2026-09-02T03:33:42.233210+00:00"
     }
   ],
   "ratings": {
@@ -4483,8 +4528,8 @@
     },
     "33": {
       "draws": 0,
-      "games": 31,
-      "losses": 8,
+      "games": 32,
+      "losses": 9,
       "opponents": [
         3,
         4,
@@ -4515,13 +4560,13 @@
         43,
         44
       ],
-      "rating": 1599.03,
+      "rating": 1586.57,
       "wins": 23
     },
     "34": {
       "draws": 0,
-      "games": 30,
-      "losses": 8,
+      "games": 35,
+      "losses": 12,
       "opponents": [
         3,
         4,
@@ -4542,6 +4587,7 @@
         31,
         32,
         33,
+        35,
         36,
         37,
         38,
@@ -4551,12 +4597,12 @@
         43,
         44
       ],
-      "rating": 1598.79,
-      "wins": 22
+      "rating": 1563.61,
+      "wins": 23
     },
     "35": {
       "draws": 0,
-      "games": 32,
+      "games": 33,
       "losses": 14,
       "opponents": [
         3,
@@ -4578,6 +4624,7 @@
         31,
         32,
         33,
+        34,
         36,
         37,
         38,
@@ -4587,8 +4634,8 @@
         43,
         44
       ],
-      "rating": 1569.96,
-      "wins": 18
+      "rating": 1582.95,
+      "wins": 19
     },
     "36": {
       "draws": 0,
@@ -4667,7 +4714,7 @@
     },
     "38": {
       "draws": 0,
-      "games": 30,
+      "games": 31,
       "losses": 10,
       "opponents": [
         4,
@@ -4699,8 +4746,8 @@
         43,
         44
       ],
-      "rating": 1587.55,
-      "wins": 20
+      "rating": 1599.5,
+      "wins": 21
     },
     "39": {
       "draws": 0,
@@ -4752,7 +4799,7 @@
     },
     "40": {
       "draws": 0,
-      "games": 32,
+      "games": 33,
       "losses": 10,
       "opponents": [
         3,
@@ -4784,12 +4831,12 @@
         43,
         44
       ],
-      "rating": 1591.6,
-      "wins": 22
+      "rating": 1603.83,
+      "wins": 23
     },
     "41": {
       "draws": 0,
-      "games": 31,
+      "games": 32,
       "losses": 8,
       "opponents": [
         3,
@@ -4821,8 +4868,8 @@
         43,
         44
       ],
-      "rating": 1618.63,
-      "wins": 23
+      "rating": 1629.1,
+      "wins": 24
     },
     "42": {
       "draws": 0,
