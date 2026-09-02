@@ -3689,6 +3689,51 @@
       "reason": "#44 wins over #19 because #44's question is directly tied to a specific, well-defined problem in ADC response prediction with clear evaluation metrics, whereas #19's failure mode analysis is more exploratory and lacks a concrete application.",
       "target": 44,
       "timestamp": "2026-09-02T06:47:53.838451+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 14,
+      "outcome": "win",
+      "reason": "Issue #4 addresses a clear, important question about spatial microenvironment overriding cell-intrinsic drug sensitivity, with strong scientific relevance and a well-defined uncertainty check. Issue #14's 'causal geometry' concept lacks a concrete empirical definition for testing.",
+      "target": 4,
+      "timestamp": "2026-09-02T09:31:35.762732+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "loss",
+      "reason": "Issue #15 tackles a practical problem in mechanistic AI (resolving conflicting evidence) with a clear question and immediate relevance to biological reasoning, while Issue #4's spatial question has higher uncertainty about data availability.",
+      "target": 4,
+      "timestamp": "2026-09-02T09:31:35.762732+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "Issue #4's question about spatial microenvironment effects is more directly actionable than Issue #10's abstract 'transferable structures' question, which lacks a clear path to empirical validation.",
+      "target": 4,
+      "timestamp": "2026-09-02T09:31:35.762732+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "loss",
+      "reason": "Issue #19 identifies a critical practical limitation in perturbation transfer (failure modes) with clear criteria for evaluation, whereas Issue #4's question is less immediately actionable for improving drug response prediction.",
+      "target": 4,
+      "timestamp": "2026-09-02T09:31:35.762732+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Issue #4's question about spatial microenvironment effects has broader scientific importance than Issue #7's technical focus on INR uncertainty, which depends on unverified data advantages over existing methods.",
+      "target": 4,
+      "timestamp": "2026-09-02T09:31:35.762732+00:00"
     }
   ],
   "k_factor": 24,
@@ -3984,15 +4029,15 @@
     },
     {
       "ratings": {
-        "10": 1444.22,
+        "10": 1430.66,
         "11": 1445.91,
         "12": 1482.02,
         "13": 1500.54,
-        "14": 1423.53,
-        "15": 1424.11,
+        "14": 1410.63,
+        "15": 1435.64,
         "16": 1445.89,
         "17": 1311.51,
-        "19": 1475.79,
+        "19": 1485.63,
         "20": 1499.12,
         "21": 1473.27,
         "3": 1324.56,
@@ -4006,23 +4051,23 @@
         "37": 1443.88,
         "38": 1599.5,
         "39": 1523.6,
-        "4": 1397.51,
+        "4": 1413.83,
         "40": 1603.83,
         "41": 1629.1,
         "42": 1622.07,
         "43": 1540.58,
         "44": 1574.73,
-        "7": 1380.34,
+        "7": 1369.11,
         "9": 1371.13
       },
-      "timestamp": "2026-09-02T06:47:54.772230+00:00"
+      "timestamp": "2026-09-02T09:31:36.583457+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 0,
-      "games": 35,
-      "losses": 23,
+      "games": 36,
+      "losses": 24,
       "opponents": [
         3,
         4,
@@ -4053,7 +4098,7 @@
         43,
         44
       ],
-      "rating": 1444.22,
+      "rating": 1430.66,
       "wins": 12
     },
     "11": {
@@ -4169,8 +4214,8 @@
     },
     "14": {
       "draws": 0,
-      "games": 36,
-      "losses": 22,
+      "games": 37,
+      "losses": 23,
       "opponents": [
         3,
         4,
@@ -4201,12 +4246,12 @@
         43,
         44
       ],
-      "rating": 1423.53,
+      "rating": 1410.63,
       "wins": 14
     },
     "15": {
       "draws": 0,
-      "games": 34,
+      "games": 35,
       "losses": 21,
       "opponents": [
         3,
@@ -4238,8 +4283,8 @@
         43,
         44
       ],
-      "rating": 1424.11,
-      "wins": 13
+      "rating": 1435.64,
+      "wins": 14
     },
     "16": {
       "draws": 0,
@@ -4317,7 +4362,7 @@
     },
     "19": {
       "draws": 0,
-      "games": 33,
+      "games": 34,
       "losses": 17,
       "opponents": [
         3,
@@ -4349,8 +4394,8 @@
         43,
         44
       ],
-      "rating": 1475.79,
-      "wins": 16
+      "rating": 1485.63,
+      "wins": 17
     },
     "20": {
       "draws": 0,
@@ -4807,8 +4852,8 @@
     },
     "4": {
       "draws": 0,
-      "games": 31,
-      "losses": 22,
+      "games": 36,
+      "losses": 24,
       "opponents": [
         3,
         7,
@@ -4839,8 +4884,8 @@
         43,
         44
       ],
-      "rating": 1397.51,
-      "wins": 9
+      "rating": 1413.83,
+      "wins": 12
     },
     "40": {
       "draws": 0,
@@ -5028,8 +5073,8 @@
     },
     "7": {
       "draws": 0,
-      "games": 33,
-      "losses": 25,
+      "games": 34,
+      "losses": 26,
       "opponents": [
         3,
         4,
@@ -5059,7 +5104,7 @@
         43,
         44
       ],
-      "rating": 1380.34,
+      "rating": 1369.11,
       "wins": 8
     },
     "9": {
