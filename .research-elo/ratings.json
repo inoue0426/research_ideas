@@ -3734,6 +3734,51 @@
       "reason": "Issue #4's question about spatial microenvironment effects has broader scientific importance than Issue #7's technical focus on INR uncertainty, which depends on unverified data advantages over existing methods.",
       "target": 4,
       "timestamp": "2026-09-02T09:31:35.762732+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "#32 is more important and novel than #7, as it addresses a core challenge in multi-objective drug design with a clear, testable LLM-guided Pareto search approach, while #7's INR uncertainty application lacks clear differentiation from existing spatial modeling methods.",
+      "target": 32,
+      "timestamp": "2026-09-02T12:40:34.780646+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 38,
+      "outcome": "win",
+      "reason": "#32 offers a more concrete and testable research direction than #38, which overlaps significantly with #40 and has less clear novelty in biomarker-conditioned embeddings compared to the Pareto-aware LLM search.",
+      "target": 32,
+      "timestamp": "2026-09-02T12:40:34.780646+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 40,
+      "outcome": "win",
+      "reason": "#32's Pareto-aware LLM search for molecular generation has stronger novelty and tractability than #40's natural-language-conditioned embeddings, which face uncertainty about whether language conditioning adds value beyond categorical features.",
+      "target": 32,
+      "timestamp": "2026-09-02T12:40:34.780646+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 33,
+      "outcome": "win",
+      "reason": "#32's research question is more clearly defined and testable than #33's multi-agent uncertainty, which relies on unverified assumptions about agent disagreement correlating with errors and lacks a clear path to validation.",
+      "target": 32,
+      "timestamp": "2026-09-02T12:40:34.780646+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 35,
+      "outcome": "win",
+      "reason": "#32's frontier-conditioned molecular generation has higher importance and tractability than #35's adaptive evidence search, which is overly complex and lacks a clear failure mode beyond general LLM limitations.",
+      "target": 32,
+      "timestamp": "2026-09-02T12:40:34.780646+00:00"
     }
   ],
   "k_factor": 24,
@@ -4043,24 +4088,24 @@
         "3": 1324.56,
         "30": 1489.86,
         "31": 1578.17,
-        "32": 1595.29,
-        "33": 1586.57,
+        "32": 1645.02,
+        "33": 1575.86,
         "34": 1563.61,
-        "35": 1582.95,
+        "35": 1572.73,
         "36": 1666.81,
         "37": 1443.88,
-        "38": 1599.5,
+        "38": 1587.53,
         "39": 1523.6,
         "4": 1413.83,
-        "40": 1603.83,
+        "40": 1592.13,
         "41": 1629.1,
         "42": 1622.07,
         "43": 1540.58,
         "44": 1574.73,
-        "7": 1369.11,
+        "7": 1363.98,
         "9": 1371.13
       },
-      "timestamp": "2026-09-02T09:31:36.583457+00:00"
+      "timestamp": "2026-09-02T12:40:35.486074+00:00"
     }
   ],
   "ratings": {
@@ -4582,11 +4627,12 @@
     },
     "32": {
       "draws": 0,
-      "games": 31,
+      "games": 36,
       "losses": 9,
       "opponents": [
         3,
         4,
+        7,
         9,
         10,
         11,
@@ -4613,13 +4659,13 @@
         43,
         44
       ],
-      "rating": 1595.29,
-      "wins": 22
+      "rating": 1645.02,
+      "wins": 27
     },
     "33": {
       "draws": 0,
-      "games": 32,
-      "losses": 9,
+      "games": 33,
+      "losses": 10,
       "opponents": [
         3,
         4,
@@ -4650,7 +4696,7 @@
         43,
         44
       ],
-      "rating": 1586.57,
+      "rating": 1575.86,
       "wins": 23
     },
     "34": {
@@ -4692,8 +4738,8 @@
     },
     "35": {
       "draws": 0,
-      "games": 33,
-      "losses": 14,
+      "games": 34,
+      "losses": 15,
       "opponents": [
         3,
         4,
@@ -4724,7 +4770,7 @@
         43,
         44
       ],
-      "rating": 1582.95,
+      "rating": 1572.73,
       "wins": 19
     },
     "36": {
@@ -4804,8 +4850,8 @@
     },
     "38": {
       "draws": 0,
-      "games": 31,
-      "losses": 10,
+      "games": 32,
+      "losses": 11,
       "opponents": [
         4,
         7,
@@ -4836,7 +4882,7 @@
         43,
         44
       ],
-      "rating": 1599.5,
+      "rating": 1587.53,
       "wins": 21
     },
     "39": {
@@ -4889,8 +4935,8 @@
     },
     "40": {
       "draws": 0,
-      "games": 33,
-      "losses": 10,
+      "games": 34,
+      "losses": 11,
       "opponents": [
         3,
         4,
@@ -4921,7 +4967,7 @@
         43,
         44
       ],
-      "rating": 1603.83,
+      "rating": 1592.13,
       "wins": 23
     },
     "41": {
@@ -5073,8 +5119,8 @@
     },
     "7": {
       "draws": 0,
-      "games": 34,
-      "losses": 26,
+      "games": 35,
+      "losses": 27,
       "opponents": [
         3,
         4,
@@ -5092,6 +5138,7 @@
         21,
         30,
         31,
+        32,
         33,
         34,
         35,
@@ -5104,7 +5151,7 @@
         43,
         44
       ],
-      "rating": 1369.11,
+      "rating": 1363.98,
       "wins": 8
     },
     "9": {
