@@ -28,15 +28,15 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 | ≈4 | [#33 — \[Idea\] Multi-Agent Uncertainty and Abstention for Biomedical Drug Reasoning](https://github.com/inoue0426/research_ideas/issues/33) | **1587** | **-67** | 32 | 28 | 🟢 Established | 23W / 0D / 9L |
 | ≈8 | [#35 — Adaptive Evidence Search for LLM Reasoning under Distracting Biomedical Graph Context](https://github.com/inoue0426/research_ideas/issues/35) | **1583** | **+177** | 33 | 28 | 🟢 Established | 19W / 0D / 14L |
 | ≈8 | [#31 — \[Idea\] Reliable Biomedical Evidence Reasoning: Separating Evidence Selection from Evidence Sufficiency](https://github.com/inoue0426/research_ideas/issues/31) | **1578** | **-16** | 35 | 28 | 🟢 Established | 23W / 0D / 12L |
+| ≈8 | [#44 — \[Idea\] Mechanism-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/44) | **1575** | — | 35 | 28 | 🟢 Established | 22W / 0D / 13L |
 | ≈8 | [#34 — \[Idea\] CTD: Evidence Sufficiency and Selective Abstention](https://github.com/inoue0426/research_ideas/issues/34) | **1564** | **-103** | 35 | 28 | 🟢 Established | 23W / 0D / 12L |
-| 11 | [#43 — \[Idea\] Uncertainty-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/43) | **1553** | — | 32 | 27 | 🟢 Established | 21W / 0D / 11L |
-| ≈12 | [#44 — \[Idea\] Mechanism-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/44) | **1520** | — | 30 | 28 | 🟢 Established | 17W / 0D / 13L |
-| ≈12 | [#13 — \[Idea\] What makes a representation preserve intervention geometry?](https://github.com/inoue0426/research_ideas/issues/13) | **1512** | **+48** | 34 | 28 | 🟢 Established | 16W / 0D / 18L |
-| ≈12 | [#20 — \[Idea\] Is there a compositional algebra of biological perturbations?](https://github.com/inoue0426/research_ideas/issues/20) | **1510** | **-44** | 31 | 28 | 🟢 Established | 17W / 0D / 14L |
-| ≈12 | [#30 — \[Idea\] context-aware ADC](https://github.com/inoue0426/research_ideas/issues/30) | **1500** | **-46** | 32 | 28 | 🟢 Established | 17W / 0D / 15L |
-| ≈16 | [#19 — \[Idea\] When does perturbation transfer fail across biological domains?](https://github.com/inoue0426/research_ideas/issues/19) | **1485** | **-79** | 32 | 28 | 🟢 Established | 16W / 0D / 16L |
-| ≈16 | [#12 — \[Idea\] Context-aware chemical ↔ genetic shared perturbation space](https://github.com/inoue0426/research_ideas/issues/12) | **1482** | **-22** | 33 | 28 | 🟢 Established | 15W / 0D / 18L |
-| ≈16 | [#21 — \[Idea\] Can response-relevant perturbation geometry be separated from mechanistically faithful perturbation geometry?](https://github.com/inoue0426/research_ideas/issues/21) | **1473** | **-75** | 38 | 28 | 🟢 Established | 18W / 0D / 20L |
+| 12 | [#43 — \[Idea\] Uncertainty-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/43) | **1541** | — | 33 | 27 | 🟢 Established | 21W / 0D / 12L |
+| ≈13 | [#13 — \[Idea\] What makes a representation preserve intervention geometry?](https://github.com/inoue0426/research_ideas/issues/13) | **1501** | **+36** | 35 | 28 | 🟢 Established | 16W / 0D / 19L |
+| ≈13 | [#20 — \[Idea\] Is there a compositional algebra of biological perturbations?](https://github.com/inoue0426/research_ideas/issues/20) | **1499** | **-55** | 32 | 28 | 🟢 Established | 17W / 0D / 15L |
+| ≈13 | [#30 — \[Idea\] context-aware ADC](https://github.com/inoue0426/research_ideas/issues/30) | **1490** | **-57** | 33 | 28 | 🟢 Established | 17W / 0D / 16L |
+| ≈13 | [#12 — \[Idea\] Context-aware chemical ↔ genetic shared perturbation space](https://github.com/inoue0426/research_ideas/issues/12) | **1482** | **-22** | 33 | 28 | 🟢 Established | 15W / 0D / 18L |
+| ≈17 | [#19 — \[Idea\] When does perturbation transfer fail across biological domains?](https://github.com/inoue0426/research_ideas/issues/19) | **1476** | **-88** | 33 | 28 | 🟢 Established | 16W / 0D / 17L |
+| ≈17 | [#21 — \[Idea\] Can response-relevant perturbation geometry be separated from mechanistically faithful perturbation geometry?](https://github.com/inoue0426/research_ideas/issues/21) | **1473** | **-75** | 38 | 28 | 🟢 Established | 18W / 0D / 20L |
 | ≈19 | [#11 — \[Idea\] Intervention geometry may transfer better than state geometry](https://github.com/inoue0426/research_ideas/issues/11) | **1446** | **-12** | 39 | 28 | 🟢 Established | 15W / 0D / 24L |
 | ≈19 | [#16 — \[Idea\] Foundation models as enablers of otherwise impossible cross-domain translation](https://github.com/inoue0426/research_ideas/issues/16) | **1446** | **-61** | 32 | 28 | 🟢 Established | 14W / 0D / 18L |
 | ≈19 | [#10 — \[Idea\] What biological structures remain transferable across domain shifts?](https://github.com/inoue0426/research_ideas/issues/10) | **1444** | **+24** | 35 | 28 | 🟢 Established | 12W / 0D / 23L |
@@ -53,12 +53,12 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 
 - 🚀 [#35 — Adaptive Evidence Search for LLM Reasoning under Distracting Biomedical Graph Context](https://github.com/inoue0426/research_ideas/issues/35): **+177 Elo**
 - 🚀 [#36 — When Is Evidence Enough? Adaptive Evidence Acquisition for LLM Biomedical Reasoning](https://github.com/inoue0426/research_ideas/issues/36): **+111 Elo**
-- 🚀 [#13 — \[Idea\] What makes a representation preserve intervention geometry?](https://github.com/inoue0426/research_ideas/issues/13): **+48 Elo**
+- 🚀 [#13 — \[Idea\] What makes a representation preserve intervention geometry?](https://github.com/inoue0426/research_ideas/issues/13): **+36 Elo**
 - 📉 [#34 — \[Idea\] CTD: Evidence Sufficiency and Selective Abstention](https://github.com/inoue0426/research_ideas/issues/34): **-103 Elo**
-- 📉 [#19 — \[Idea\] When does perturbation transfer fail across biological domains?](https://github.com/inoue0426/research_ideas/issues/19): **-79 Elo**
+- 📉 [#19 — \[Idea\] When does perturbation transfer fail across biological domains?](https://github.com/inoue0426/research_ideas/issues/19): **-88 Elo**
 - 📉 [#21 — \[Idea\] Can response-relevant perturbation geometry be separated from mechanistically faithful perturbation geometry?](https://github.com/inoue0426/research_ideas/issues/21): **-75 Elo**
 
-_Updated automatically by Research Elo workflows. Last update: 2026-09-02 03:33 UTC._
+_Updated automatically by Research Elo workflows. Last update: 2026-09-02 06:47 UTC._
 <!-- RESEARCH_ELO_END -->
 
 <!-- RESEARCH_MAPS_START -->

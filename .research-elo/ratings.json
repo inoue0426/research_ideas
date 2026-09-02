@@ -3644,6 +3644,51 @@
       "reason": "Issue #41 addresses a critical gap in ADC modeling with a clear biological rationale and a concrete next step (dataset search), while Issue #34's evidence sufficiency problem is less urgent and lacks a strong practical impact in the biomedical domain.",
       "target": 34,
       "timestamp": "2026-09-02T03:33:41.461370+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "#44 wins over #13 because it addresses a concrete, high-impact problem in ADC response prediction with clear biological grounding, while #13's question about representation properties is more abstract and lacks a defined evaluation framework.",
+      "target": 44,
+      "timestamp": "2026-09-02T06:47:53.838451+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
+      "outcome": "win",
+      "reason": "#44 wins over #20 because it focuses on a specific, actionable improvement to ADC prediction models with direct clinical relevance, whereas #20's compositional algebra question is highly speculative and lacks a clear path to validation.",
+      "target": 44,
+      "timestamp": "2026-09-02T06:47:53.838451+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "win",
+      "reason": "#44 wins over #30 because #44's mechanism-aware approach directly addresses a documented limitation in current ADC models (ignoring payload mechanisms), while #30's context-aware model depends on unverified data availability and lacks a clear path to implementation.",
+      "target": 44,
+      "timestamp": "2026-09-02T06:47:53.838451+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 43,
+      "outcome": "win",
+      "reason": "#44 wins over #43 because #44's mechanism-aware modeling has a clear biological rationale and potential for immediate impact on ADC development, while #43's uncertainty estimation is a more incremental improvement with limited novelty and high data constraints.",
+      "target": 44,
+      "timestamp": "2026-09-02T06:47:53.838451+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "#44 wins over #19 because #44's question is directly tied to a specific, well-defined problem in ADC response prediction with clear evaluation metrics, whereas #19's failure mode analysis is more exploratory and lacks a concrete application.",
+      "target": 44,
+      "timestamp": "2026-09-02T06:47:53.838451+00:00"
     }
   ],
   "k_factor": 24,
@@ -3942,16 +3987,16 @@
         "10": 1444.22,
         "11": 1445.91,
         "12": 1482.02,
-        "13": 1512.27,
+        "13": 1500.54,
         "14": 1423.53,
         "15": 1424.11,
         "16": 1445.89,
         "17": 1311.51,
-        "19": 1485.06,
-        "20": 1510.38,
+        "19": 1475.79,
+        "20": 1499.12,
         "21": 1473.27,
         "3": 1324.56,
-        "30": 1500.4,
+        "30": 1489.86,
         "31": 1578.17,
         "32": 1595.29,
         "33": 1586.57,
@@ -3965,12 +4010,12 @@
         "40": 1603.83,
         "41": 1629.1,
         "42": 1622.07,
-        "43": 1552.55,
-        "44": 1519.96,
+        "43": 1540.58,
+        "44": 1574.73,
         "7": 1380.34,
         "9": 1371.13
       },
-      "timestamp": "2026-09-02T03:33:42.233210+00:00"
+      "timestamp": "2026-09-02T06:47:54.772230+00:00"
     }
   ],
   "ratings": {
@@ -4087,8 +4132,8 @@
     },
     "13": {
       "draws": 0,
-      "games": 34,
-      "losses": 18,
+      "games": 35,
+      "losses": 19,
       "opponents": [
         3,
         4,
@@ -4119,7 +4164,7 @@
         43,
         44
       ],
-      "rating": 1512.27,
+      "rating": 1500.54,
       "wins": 16
     },
     "14": {
@@ -4272,8 +4317,8 @@
     },
     "19": {
       "draws": 0,
-      "games": 32,
-      "losses": 16,
+      "games": 33,
+      "losses": 17,
       "opponents": [
         3,
         4,
@@ -4304,13 +4349,13 @@
         43,
         44
       ],
-      "rating": 1485.06,
+      "rating": 1475.79,
       "wins": 16
     },
     "20": {
       "draws": 0,
-      "games": 31,
-      "losses": 14,
+      "games": 32,
+      "losses": 15,
       "opponents": [
         3,
         4,
@@ -4341,7 +4386,7 @@
         43,
         44
       ],
-      "rating": 1510.38,
+      "rating": 1499.12,
       "wins": 17
     },
     "21": {
@@ -4418,8 +4463,8 @@
     },
     "30": {
       "draws": 0,
-      "games": 32,
-      "losses": 15,
+      "games": 33,
+      "losses": 16,
       "opponents": [
         3,
         4,
@@ -4450,7 +4495,7 @@
         43,
         44
       ],
-      "rating": 1500.4,
+      "rating": 1489.86,
       "wins": 17
     },
     "31": {
@@ -4910,8 +4955,8 @@
     },
     "43": {
       "draws": 0,
-      "games": 32,
-      "losses": 11,
+      "games": 33,
+      "losses": 12,
       "opponents": [
         4,
         7,
@@ -4941,12 +4986,12 @@
         42,
         44
       ],
-      "rating": 1552.55,
+      "rating": 1540.58,
       "wins": 21
     },
     "44": {
       "draws": 0,
-      "games": 30,
+      "games": 35,
       "losses": 13,
       "opponents": [
         3,
@@ -4978,8 +5023,8 @@
         42,
         43
       ],
-      "rating": 1519.96,
-      "wins": 17
+      "rating": 1574.73,
+      "wins": 22
     },
     "7": {
       "draws": 0,
