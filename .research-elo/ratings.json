@@ -3824,6 +3824,51 @@
       "reason": "Issue #17 wins over #16 by proposing a human-in-the-loop approach that directly addresses trustworthiness in mechanistic AI, with a concrete validation path (expert corrections improving downstream validity) that is more immediately applicable than #16's theoretical foundation model question.",
       "target": 16,
       "timestamp": "2026-09-02T15:31:49.333515+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "Issue #20 is more important and tractable than #19, as it directly addresses a fundamental question about perturbation compositionality with clear potential for generalizable solutions, while #19 focuses on failure modes which are less actionable without prior compositional understanding.",
+      "target": 20,
+      "timestamp": "2026-09-02T18:33:45.774653+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "Issue #20's question about compositional algebra of perturbations is clearer and more foundational than #11's focus on intervention geometry, with stronger novelty potential and direct practical implications for predicting drug combinations.",
+      "target": 20,
+      "timestamp": "2026-09-02T18:33:45.774653+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "Issue #20's core question about perturbation compositionality has higher importance and novelty than #15's mechanism arbitration, as it addresses a broader, more fundamental problem with clearer paths to validation and application.",
+      "target": 20,
+      "timestamp": "2026-09-02T18:33:45.774653+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "Issue #20's compositional algebra question is more specific and tractable than #10's broad question about transferable structures, with a clearer path to testing and higher potential for impactful generalizable insights.",
+      "target": 20,
+      "timestamp": "2026-09-02T18:33:45.774653+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 14,
+      "outcome": "win",
+      "reason": "Issue #20's compositional algebra question has stronger novelty and practical importance than #14's causal geometry idea, as it directly enables prediction of unseen perturbations rather than requiring untestable causal assumptions.",
+      "target": 20,
+      "timestamp": "2026-09-02T18:33:45.774653+00:00"
     }
   ],
   "k_factor": 24,
@@ -4119,16 +4164,16 @@
     },
     {
       "ratings": {
-        "10": 1442.36,
-        "11": 1457.91,
+        "10": 1433.35,
+        "11": 1447.73,
         "12": 1482.02,
         "13": 1500.54,
-        "14": 1410.63,
-        "15": 1447.58,
+        "14": 1402.89,
+        "15": 1438.08,
         "16": 1385.79,
         "17": 1326.53,
-        "19": 1495.07,
-        "20": 1499.12,
+        "19": 1483.21,
+        "20": 1547.41,
         "21": 1473.27,
         "3": 1324.56,
         "30": 1489.86,
@@ -4150,14 +4195,14 @@
         "7": 1363.98,
         "9": 1371.13
       },
-      "timestamp": "2026-09-02T15:31:50.313692+00:00"
+      "timestamp": "2026-09-02T18:33:46.454457+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 0,
-      "games": 37,
-      "losses": 24,
+      "games": 38,
+      "losses": 25,
       "opponents": [
         3,
         4,
@@ -4188,13 +4233,13 @@
         43,
         44
       ],
-      "rating": 1442.36,
+      "rating": 1433.35,
       "wins": 13
     },
     "11": {
       "draws": 0,
-      "games": 40,
-      "losses": 24,
+      "games": 41,
+      "losses": 25,
       "opponents": [
         3,
         4,
@@ -4225,7 +4270,7 @@
         43,
         44
       ],
-      "rating": 1457.91,
+      "rating": 1447.73,
       "wins": 16
     },
     "12": {
@@ -4304,8 +4349,8 @@
     },
     "14": {
       "draws": 0,
-      "games": 37,
-      "losses": 23,
+      "games": 38,
+      "losses": 24,
       "opponents": [
         3,
         4,
@@ -4336,13 +4381,13 @@
         43,
         44
       ],
-      "rating": 1410.63,
+      "rating": 1402.89,
       "wins": 14
     },
     "15": {
       "draws": 0,
-      "games": 36,
-      "losses": 21,
+      "games": 37,
+      "losses": 22,
       "opponents": [
         3,
         4,
@@ -4373,7 +4418,7 @@
         43,
         44
       ],
-      "rating": 1447.58,
+      "rating": 1438.08,
       "wins": 15
     },
     "16": {
@@ -4452,8 +4497,8 @@
     },
     "19": {
       "draws": 0,
-      "games": 35,
-      "losses": 17,
+      "games": 36,
+      "losses": 18,
       "opponents": [
         3,
         4,
@@ -4484,12 +4529,12 @@
         43,
         44
       ],
-      "rating": 1495.07,
+      "rating": 1483.21,
       "wins": 18
     },
     "20": {
       "draws": 0,
-      "games": 32,
+      "games": 37,
       "losses": 15,
       "opponents": [
         3,
@@ -4521,8 +4566,8 @@
         43,
         44
       ],
-      "rating": 1499.12,
-      "wins": 17
+      "rating": 1547.41,
+      "wins": 22
     },
     "21": {
       "draws": 0,
