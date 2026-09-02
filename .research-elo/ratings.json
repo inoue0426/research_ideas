@@ -3779,6 +3779,51 @@
       "reason": "#32's frontier-conditioned molecular generation has higher importance and tractability than #35's adaptive evidence search, which is overly complex and lacks a clear failure mode beyond general LLM limitations.",
       "target": 32,
       "timestamp": "2026-09-02T12:40:34.780646+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 11,
+      "outcome": "loss",
+      "reason": "Issue #11 wins over #16 by focusing on a clear, testable question about intervention geometry transferability, with a concrete next check (e.g., matched post-treatment data) that directly addresses a key uncertainty in current biological transfer learning.",
+      "target": 16,
+      "timestamp": "2026-09-02T15:31:49.333515+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "loss",
+      "reason": "Issue #15 wins over #16 by addressing a critical gap in mechanistic AI (conflicting evidence resolution) with a well-defined question and a clear path to validation via real-world benchmarks, avoiding the abstract nature of #16's foundation model focus.",
+      "target": 16,
+      "timestamp": "2026-09-02T15:31:49.333515+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 10,
+      "outcome": "loss",
+      "reason": "Issue #10 wins over #16 by proposing a systematic, measurable framework for identifying transferable biological structures (e.g., neighborhood structure, perturbation operators), which is more tractable and directly addresses domain shift challenges than #16's foundation model identifiability claims.",
+      "target": 16,
+      "timestamp": "2026-09-02T15:31:49.333515+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "loss",
+      "reason": "Issue #19 wins over #16 by focusing on failure mode characterization (a practical, actionable insight) rather than abstract identifiability, with a clear next check (separating correlated failure factors) that directly enables better decision-making in biological applications.",
+      "target": 16,
+      "timestamp": "2026-09-02T15:31:49.333515+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 17,
+      "outcome": "loss",
+      "reason": "Issue #17 wins over #16 by proposing a human-in-the-loop approach that directly addresses trustworthiness in mechanistic AI, with a concrete validation path (expert corrections improving downstream validity) that is more immediately applicable than #16's theoretical foundation model question.",
+      "target": 16,
+      "timestamp": "2026-09-02T15:31:49.333515+00:00"
     }
   ],
   "k_factor": 24,
@@ -4074,15 +4119,15 @@
     },
     {
       "ratings": {
-        "10": 1430.66,
-        "11": 1445.91,
+        "10": 1442.36,
+        "11": 1457.91,
         "12": 1482.02,
         "13": 1500.54,
         "14": 1410.63,
-        "15": 1435.64,
-        "16": 1445.89,
-        "17": 1311.51,
-        "19": 1485.63,
+        "15": 1447.58,
+        "16": 1385.79,
+        "17": 1326.53,
+        "19": 1495.07,
         "20": 1499.12,
         "21": 1473.27,
         "3": 1324.56,
@@ -4105,13 +4150,13 @@
         "7": 1363.98,
         "9": 1371.13
       },
-      "timestamp": "2026-09-02T12:40:35.486074+00:00"
+      "timestamp": "2026-09-02T15:31:50.313692+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 0,
-      "games": 36,
+      "games": 37,
       "losses": 24,
       "opponents": [
         3,
@@ -4143,12 +4188,12 @@
         43,
         44
       ],
-      "rating": 1430.66,
-      "wins": 12
+      "rating": 1442.36,
+      "wins": 13
     },
     "11": {
       "draws": 0,
-      "games": 39,
+      "games": 40,
       "losses": 24,
       "opponents": [
         3,
@@ -4180,8 +4225,8 @@
         43,
         44
       ],
-      "rating": 1445.91,
-      "wins": 15
+      "rating": 1457.91,
+      "wins": 16
     },
     "12": {
       "draws": 0,
@@ -4296,7 +4341,7 @@
     },
     "15": {
       "draws": 0,
-      "games": 35,
+      "games": 36,
       "losses": 21,
       "opponents": [
         3,
@@ -4328,13 +4373,13 @@
         43,
         44
       ],
-      "rating": 1435.64,
-      "wins": 14
+      "rating": 1447.58,
+      "wins": 15
     },
     "16": {
       "draws": 0,
-      "games": 32,
-      "losses": 18,
+      "games": 37,
+      "losses": 23,
       "opponents": [
         3,
         4,
@@ -4365,12 +4410,12 @@
         43,
         44
       ],
-      "rating": 1445.89,
+      "rating": 1385.79,
       "wins": 14
     },
     "17": {
       "draws": 0,
-      "games": 38,
+      "games": 39,
       "losses": 33,
       "opponents": [
         3,
@@ -4402,12 +4447,12 @@
         43,
         44
       ],
-      "rating": 1311.51,
-      "wins": 5
+      "rating": 1326.53,
+      "wins": 6
     },
     "19": {
       "draws": 0,
-      "games": 34,
+      "games": 35,
       "losses": 17,
       "opponents": [
         3,
@@ -4439,8 +4484,8 @@
         43,
         44
       ],
-      "rating": 1485.63,
-      "wins": 17
+      "rating": 1495.07,
+      "wins": 18
     },
     "20": {
       "draws": 0,
