@@ -4049,6 +4049,51 @@
       "reason": "Issue #17 is more deserving than #30 because it proposes a human-in-the-loop approach that directly addresses trustworthiness in mechanistic AI with a clear path to validation, whereas #30's data availability uncertainty makes it less feasible for a six-month project.",
       "target": 30,
       "timestamp": "2026-09-03T06:44:06.164125+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "#43 wins over #3 by having a clearer, more actionable question focused on a practical need in drug discovery (uncertainty-aware predictions), while #3's question about iterative optimization is vague and lacks a concrete benchmark for evaluation.",
+      "target": 43,
+      "timestamp": "2026-09-03T09:31:37.736135+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
+      "outcome": "win",
+      "reason": "#43 wins over #20 by addressing a well-defined, immediately applicable problem (uncertainty in ADC predictions) with a clear evaluation plan, whereas #20's compositional algebra question is highly speculative and lacks a feasible path to validation.",
+      "target": 43,
+      "timestamp": "2026-09-03T09:31:37.736135+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 35,
+      "outcome": "win",
+      "reason": "#43 wins over #35 by having a more tractable problem with a defined evaluation framework (calibration metrics, OOD testing), while #35's LLM evidence search proposal is overly complex and lacks a clear failure mode to test.",
+      "target": 43,
+      "timestamp": "2026-09-03T09:31:37.736135+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "#43 wins over #19 by addressing a specific, actionable need (uncertainty in predictions) with a concrete next step (calibration metrics), while #19's question about perturbation transfer failure modes is too broad and lacks a clear evaluation plan.",
+      "target": 43,
+      "timestamp": "2026-09-03T09:31:37.736135+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 38,
+      "outcome": "win",
+      "reason": "#43 wins over #38 by having a more immediately applicable problem (uncertainty in ADC predictions) with a clear evaluation framework, while #38's biomarker-conditioned embeddings are speculative and lack a strong justification for why natural language conditioning would outperform simpler methods.",
+      "target": 43,
+      "timestamp": "2026-09-03T09:31:37.736135+00:00"
     }
   ],
   "k_factor": 24,
@@ -4387,30 +4432,30 @@
         "15": 1441.22,
         "16": 1385.79,
         "17": 1336.12,
-        "19": 1506.99,
-        "20": 1547.41,
+        "19": 1497.16,
+        "20": 1535.36,
         "21": 1473.27,
-        "3": 1320.23,
+        "3": 1314.96,
         "30": 1445.67,
         "31": 1581.01,
         "32": 1632.88,
         "33": 1564.41,
         "34": 1563.61,
-        "35": 1572.73,
+        "35": 1560.22,
         "36": 1666.81,
         "37": 1443.88,
-        "38": 1580.42,
+        "38": 1568.41,
         "39": 1523.6,
         "4": 1413.83,
         "40": 1604.12,
         "41": 1633.52,
         "42": 1610.31,
-        "43": 1540.58,
+        "43": 1592.25,
         "44": 1602.27,
         "7": 1363.98,
         "9": 1371.13
       },
-      "timestamp": "2026-09-03T06:44:06.847875+00:00"
+      "timestamp": "2026-09-03T09:31:38.637975+00:00"
     }
   ],
   "ratings": {
@@ -4712,8 +4757,8 @@
     },
     "19": {
       "draws": 0,
-      "games": 38,
-      "losses": 18,
+      "games": 39,
+      "losses": 19,
       "opponents": [
         3,
         4,
@@ -4744,13 +4789,13 @@
         43,
         44
       ],
-      "rating": 1506.99,
+      "rating": 1497.16,
       "wins": 20
     },
     "20": {
       "draws": 0,
-      "games": 37,
-      "losses": 15,
+      "games": 38,
+      "losses": 16,
       "opponents": [
         3,
         4,
@@ -4781,7 +4826,7 @@
         43,
         44
       ],
-      "rating": 1547.41,
+      "rating": 1535.36,
       "wins": 22
     },
     "21": {
@@ -4823,8 +4868,8 @@
     },
     "3": {
       "draws": 0,
-      "games": 34,
-      "losses": 29,
+      "games": 35,
+      "losses": 30,
       "opponents": [
         4,
         7,
@@ -4852,9 +4897,10 @@
         40,
         41,
         42,
+        43,
         44
       ],
-      "rating": 1320.23,
+      "rating": 1314.96,
       "wins": 5
     },
     "30": {
@@ -5044,8 +5090,8 @@
     },
     "35": {
       "draws": 0,
-      "games": 34,
-      "losses": 15,
+      "games": 35,
+      "losses": 16,
       "opponents": [
         3,
         4,
@@ -5076,7 +5122,7 @@
         43,
         44
       ],
-      "rating": 1572.73,
+      "rating": 1560.22,
       "wins": 19
     },
     "36": {
@@ -5156,8 +5202,8 @@
     },
     "38": {
       "draws": 0,
-      "games": 38,
-      "losses": 14,
+      "games": 39,
+      "losses": 15,
       "opponents": [
         3,
         4,
@@ -5189,7 +5235,7 @@
         43,
         44
       ],
-      "rating": 1580.42,
+      "rating": 1568.41,
       "wins": 24
     },
     "39": {
@@ -5353,9 +5399,10 @@
     },
     "43": {
       "draws": 0,
-      "games": 33,
+      "games": 38,
       "losses": 12,
       "opponents": [
+        3,
         4,
         7,
         9,
@@ -5384,8 +5431,8 @@
         42,
         44
       ],
-      "rating": 1540.58,
-      "wins": 21
+      "rating": 1592.25,
+      "wins": 26
     },
     "44": {
       "draws": 0,
