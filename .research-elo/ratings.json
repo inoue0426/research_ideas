@@ -4094,6 +4094,51 @@
       "reason": "#43 wins over #38 by having a more immediately applicable problem (uncertainty in ADC predictions) with a clear evaluation framework, while #38's biomarker-conditioned embeddings are speculative and lack a strong justification for why natural language conditioning would outperform simpler methods.",
       "target": 43,
       "timestamp": "2026-09-03T09:31:37.736135+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "win",
+      "reason": "#37 wins over #30 because it addresses a more fundamental representation-learning problem with clearer scientific motivation and a more concrete path to validation through existing datasets, while #30's data uncertainty is more severe and its problem is narrower in scope.",
+      "target": 37,
+      "timestamp": "2026-09-03T12:40:21.814479+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "#37 wins over #15 because it has higher importance (drug combinations are a major therapeutic challenge) and more tractable novelty (conditioned embeddings are a natural extension of existing work), while #15's problem is more abstract and lacks clear validation pathways.",
+      "target": 37,
+      "timestamp": "2026-09-03T12:40:21.814479+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "#37 wins over #10 because it has stronger novelty potential (partner-conditioned embeddings are a new concept) and higher leverage (could transform drug combination research), while #10's question is more speculative and lacks a clear path to empirical validation.",
+      "target": 37,
+      "timestamp": "2026-09-03T12:40:21.814479+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "#37 wins over #4 because it addresses a more widespread and impactful problem (drug combinations) with clearer scientific motivation, while #4's spatial microenvironment question is more niche and has higher data uncertainty.",
+      "target": 37,
+      "timestamp": "2026-09-03T12:40:21.814479+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 14,
+      "outcome": "win",
+      "reason": "#37 wins over #14 because it has higher importance (drug combinations are clinically critical) and more concrete novelty (conditioned embeddings are a direct extension of MolEmb), while #14's causal geometry concept is more abstract and lacks a clear empirical validation method.",
+      "target": 37,
+      "timestamp": "2026-09-03T12:40:21.814479+00:00"
     }
   ],
   "k_factor": 24,
@@ -4424,29 +4469,29 @@
     },
     {
       "ratings": {
-        "10": 1460.41,
+        "10": 1448.65,
         "11": 1425.48,
         "12": 1484.89,
         "13": 1500.54,
-        "14": 1402.89,
-        "15": 1441.22,
+        "14": 1393.8,
+        "15": 1429.73,
         "16": 1385.79,
         "17": 1336.12,
         "19": 1497.16,
         "20": 1535.36,
         "21": 1473.27,
         "3": 1314.96,
-        "30": 1445.67,
+        "30": 1433.61,
         "31": 1581.01,
         "32": 1632.88,
         "33": 1564.41,
         "34": 1563.61,
         "35": 1560.22,
         "36": 1666.81,
-        "37": 1443.88,
+        "37": 1498.05,
         "38": 1568.41,
         "39": 1523.6,
-        "4": 1413.83,
+        "4": 1404.06,
         "40": 1604.12,
         "41": 1633.52,
         "42": 1610.31,
@@ -4455,14 +4500,14 @@
         "7": 1363.98,
         "9": 1371.13
       },
-      "timestamp": "2026-09-03T09:31:38.637975+00:00"
+      "timestamp": "2026-09-03T12:40:22.662080+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 0,
-      "games": 40,
-      "losses": 25,
+      "games": 41,
+      "losses": 26,
       "opponents": [
         3,
         4,
@@ -4493,7 +4538,7 @@
         43,
         44
       ],
-      "rating": 1460.41,
+      "rating": 1448.65,
       "wins": 15
     },
     "11": {
@@ -4609,8 +4654,8 @@
     },
     "14": {
       "draws": 0,
-      "games": 38,
-      "losses": 24,
+      "games": 39,
+      "losses": 25,
       "opponents": [
         3,
         4,
@@ -4641,13 +4686,13 @@
         43,
         44
       ],
-      "rating": 1402.89,
+      "rating": 1393.8,
       "wins": 14
     },
     "15": {
       "draws": 0,
-      "games": 39,
-      "losses": 23,
+      "games": 40,
+      "losses": 24,
       "opponents": [
         3,
         4,
@@ -4678,7 +4723,7 @@
         43,
         44
       ],
-      "rating": 1441.22,
+      "rating": 1429.73,
       "wins": 16
     },
     "16": {
@@ -4905,8 +4950,8 @@
     },
     "30": {
       "draws": 0,
-      "games": 38,
-      "losses": 20,
+      "games": 39,
+      "losses": 21,
       "opponents": [
         3,
         4,
@@ -4937,7 +4982,7 @@
         43,
         44
       ],
-      "rating": 1445.67,
+      "rating": 1433.61,
       "wins": 18
     },
     "31": {
@@ -5164,7 +5209,7 @@
     },
     "37": {
       "draws": 0,
-      "games": 33,
+      "games": 38,
       "losses": 20,
       "opponents": [
         3,
@@ -5197,8 +5242,8 @@
         43,
         44
       ],
-      "rating": 1443.88,
-      "wins": 13
+      "rating": 1498.05,
+      "wins": 18
     },
     "38": {
       "draws": 0,
@@ -5251,8 +5296,8 @@
     },
     "4": {
       "draws": 0,
-      "games": 36,
-      "losses": 24,
+      "games": 37,
+      "losses": 25,
       "opponents": [
         3,
         7,
@@ -5283,7 +5328,7 @@
         43,
         44
       ],
-      "rating": 1413.83,
+      "rating": 1404.06,
       "wins": 12
     },
     "40": {
