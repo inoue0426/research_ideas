@@ -4184,6 +4184,51 @@
       "reason": "#33 wins over #40 because it addresses a more critical problem (reducing false predictions) with a clear, actionable research plan, while #40's natural-language-conditioned embeddings are highly speculative and lack a strong justification for why language conditioning would provide genuine compositional generalization beyond categorical encoding.",
       "target": 33,
       "timestamp": "2026-09-03T15:30:45.684025+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 33,
+      "outcome": "loss",
+      "reason": "#33 wins over #42 because it addresses a more immediate and actionable uncertainty in biomedical reasoning systems, with a clear next step to validate agent disagreement as a reliable uncertainty signal, whereas #42's cold-start benchmark depends on unverified data diversity.",
+      "target": 42,
+      "timestamp": "2026-09-03T18:34:17.303846+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 43,
+      "outcome": "loss",
+      "reason": "#43 wins over #42 because it directly tackles the operational need for uncertainty-aware predictions in drug discovery workflows, with a feasible next step to evaluate lightweight uncertainty methods on existing data, while #42's cold-start evaluation requires unverified data sparsity checks.",
+      "target": 42,
+      "timestamp": "2026-09-03T18:34:17.303846+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 40,
+      "outcome": "loss",
+      "reason": "#40 wins over #42 because it proposes a novel contextualized drug representation learning approach with clear biological relevance to pharmacogenomics, whereas #42's cold-start benchmark lacks novelty in its evaluation framework and depends on unverified data diversity.",
+      "target": 42,
+      "timestamp": "2026-09-03T18:34:17.303846+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 44,
+      "outcome": "loss",
+      "reason": "#44 wins over #42 because it explicitly models mechanism-specific biological pathways for ADC response prediction, offering improved interpretability and potential for better generalization, while #42's cold-start benchmark is limited to evaluating existing models without proposing new biological insights.",
+      "target": 42,
+      "timestamp": "2026-09-03T18:34:17.303846+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 32,
+      "outcome": "loss",
+      "reason": "#32 wins over #42 because it introduces a novel frontier-conditioned molecular generation approach using LLMs for Pareto-aware optimization, which is more actionable and aligned with current trends in multi-objective drug design, whereas #42's cold-start benchmark is a derivative evaluation task with high data dependency uncertainty.",
+      "target": 42,
+      "timestamp": "2026-09-03T18:34:17.303846+00:00"
     }
   ],
   "k_factor": 24,
@@ -4528,8 +4573,8 @@
         "3": 1314.96,
         "30": 1433.61,
         "31": 1568.02,
-        "32": 1632.88,
-        "33": 1601.65,
+        "32": 1642.48,
+        "33": 1613.95,
         "34": 1563.61,
         "35": 1572.36,
         "36": 1666.81,
@@ -4537,15 +4582,15 @@
         "38": 1568.41,
         "39": 1523.6,
         "4": 1404.06,
-        "40": 1591.6,
+        "40": 1603.4,
         "41": 1633.52,
-        "42": 1610.31,
-        "43": 1592.25,
-        "44": 1589.37,
+        "42": 1552.94,
+        "43": 1604.45,
+        "44": 1600.84,
         "7": 1363.98,
         "9": 1371.13
       },
-      "timestamp": "2026-09-03T15:30:46.549697+00:00"
+      "timestamp": "2026-09-03T18:34:18.170997+00:00"
     }
   ],
   "ratings": {
@@ -5069,7 +5114,7 @@
     },
     "32": {
       "draws": 0,
-      "games": 37,
+      "games": 38,
       "losses": 10,
       "opponents": [
         3,
@@ -5101,12 +5146,12 @@
         43,
         44
       ],
-      "rating": 1632.88,
-      "wins": 27
+      "rating": 1642.48,
+      "wins": 28
     },
     "33": {
       "draws": 0,
-      "games": 39,
+      "games": 40,
       "losses": 12,
       "opponents": [
         3,
@@ -5138,8 +5183,8 @@
         43,
         44
       ],
-      "rating": 1601.65,
-      "wins": 27
+      "rating": 1613.95,
+      "wins": 28
     },
     "34": {
       "draws": 0,
@@ -5378,7 +5423,7 @@
     },
     "40": {
       "draws": 0,
-      "games": 36,
+      "games": 37,
       "losses": 12,
       "opponents": [
         3,
@@ -5410,8 +5455,8 @@
         43,
         44
       ],
-      "rating": 1591.6,
-      "wins": 24
+      "rating": 1603.4,
+      "wins": 25
     },
     "41": {
       "draws": 0,
@@ -5452,8 +5497,8 @@
     },
     "42": {
       "draws": 0,
-      "games": 34,
-      "losses": 9,
+      "games": 39,
+      "losses": 14,
       "opponents": [
         3,
         4,
@@ -5484,12 +5529,12 @@
         43,
         44
       ],
-      "rating": 1610.31,
+      "rating": 1552.94,
       "wins": 25
     },
     "43": {
       "draws": 0,
-      "games": 38,
+      "games": 39,
       "losses": 12,
       "opponents": [
         3,
@@ -5521,12 +5566,12 @@
         42,
         44
       ],
-      "rating": 1592.25,
-      "wins": 26
+      "rating": 1604.45,
+      "wins": 27
     },
     "44": {
       "draws": 0,
-      "games": 38,
+      "games": 39,
       "losses": 14,
       "opponents": [
         3,
@@ -5558,8 +5603,8 @@
         42,
         43
       ],
-      "rating": 1589.37,
-      "wins": 24
+      "rating": 1600.84,
+      "wins": 25
     },
     "7": {
       "draws": 0,
