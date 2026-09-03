@@ -4004,6 +4004,51 @@
       "reason": "Issue #12 wins over #17 by offering a more scientifically grounded contribution (latent space decomposition) versus #17's HCI-focused human-in-the-loop approach with unclear scientific novelty.",
       "target": 12,
       "timestamp": "2026-09-03T04:46:41.043836+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "loss",
+      "reason": "Issue #19 is more deserving than #30 because it addresses a critical gap in transfer learning with a clear, testable question about failure modes, which has immediate practical implications for when to trust transfer learning in biological contexts. Issue #30's data dependency uncertainty is a significant barrier to tractability.",
+      "target": 30,
+      "timestamp": "2026-09-03T06:44:06.164125+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 10,
+      "outcome": "loss",
+      "reason": "Issue #10 is more deserving than #30 because it proposes a fundamental question about transferable biological structures with higher novelty potential and broader leverage, while #30's data availability uncertainty makes it less tractable.",
+      "target": 30,
+      "timestamp": "2026-09-03T06:44:06.164125+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "Issue #30 is more deserving than #11 because it directly addresses a well-identified gap in ADCNet with a clear, actionable question and higher practical importance for cancer therapy, whereas #11's focus on intervention geometry is more speculative with less immediate application.",
+      "target": 30,
+      "timestamp": "2026-09-03T06:44:06.164125+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "loss",
+      "reason": "Issue #15 is more deserving than #30 because it tackles a critical limitation in mechanistic AI (conflicting evidence resolution) with a clear, testable question and higher practical importance for biological decision-making, while #30's data dependency remains a major uncertainty.",
+      "target": 30,
+      "timestamp": "2026-09-03T06:44:06.164125+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 17,
+      "outcome": "loss",
+      "reason": "Issue #17 is more deserving than #30 because it proposes a human-in-the-loop approach that directly addresses trustworthiness in mechanistic AI with a clear path to validation, whereas #30's data availability uncertainty makes it less feasible for a six-month project.",
+      "target": 30,
+      "timestamp": "2026-09-03T06:44:06.164125+00:00"
     }
   ],
   "k_factor": 24,
@@ -4334,19 +4379,19 @@
     },
     {
       "ratings": {
-        "10": 1447.35,
-        "11": 1436.5,
+        "10": 1460.41,
+        "11": 1425.48,
         "12": 1484.89,
         "13": 1500.54,
         "14": 1402.89,
-        "15": 1427.56,
+        "15": 1441.22,
         "16": 1385.79,
-        "17": 1319.45,
-        "19": 1495.17,
+        "17": 1336.12,
+        "19": 1506.99,
         "20": 1547.41,
         "21": 1473.27,
         "3": 1320.23,
-        "30": 1489.86,
+        "30": 1445.67,
         "31": 1581.01,
         "32": 1632.88,
         "33": 1564.41,
@@ -4365,13 +4410,13 @@
         "7": 1363.98,
         "9": 1371.13
       },
-      "timestamp": "2026-09-03T04:46:41.915624+00:00"
+      "timestamp": "2026-09-03T06:44:06.847875+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 0,
-      "games": 39,
+      "games": 40,
       "losses": 25,
       "opponents": [
         3,
@@ -4403,13 +4448,13 @@
         43,
         44
       ],
-      "rating": 1447.35,
-      "wins": 14
+      "rating": 1460.41,
+      "wins": 15
     },
     "11": {
       "draws": 0,
-      "games": 42,
-      "losses": 26,
+      "games": 43,
+      "losses": 27,
       "opponents": [
         3,
         4,
@@ -4440,7 +4485,7 @@
         43,
         44
       ],
-      "rating": 1436.5,
+      "rating": 1425.48,
       "wins": 16
     },
     "12": {
@@ -4556,7 +4601,7 @@
     },
     "15": {
       "draws": 0,
-      "games": 38,
+      "games": 39,
       "losses": 23,
       "opponents": [
         3,
@@ -4588,8 +4633,8 @@
         43,
         44
       ],
-      "rating": 1427.56,
-      "wins": 15
+      "rating": 1441.22,
+      "wins": 16
     },
     "16": {
       "draws": 0,
@@ -4630,7 +4675,7 @@
     },
     "17": {
       "draws": 0,
-      "games": 40,
+      "games": 41,
       "losses": 34,
       "opponents": [
         3,
@@ -4662,12 +4707,12 @@
         43,
         44
       ],
-      "rating": 1319.45,
-      "wins": 6
+      "rating": 1336.12,
+      "wins": 7
     },
     "19": {
       "draws": 0,
-      "games": 37,
+      "games": 38,
       "losses": 18,
       "opponents": [
         3,
@@ -4699,8 +4744,8 @@
         43,
         44
       ],
-      "rating": 1495.17,
-      "wins": 19
+      "rating": 1506.99,
+      "wins": 20
     },
     "20": {
       "draws": 0,
@@ -4814,8 +4859,8 @@
     },
     "30": {
       "draws": 0,
-      "games": 33,
-      "losses": 16,
+      "games": 38,
+      "losses": 20,
       "opponents": [
         3,
         4,
@@ -4846,8 +4891,8 @@
         43,
         44
       ],
-      "rating": 1489.86,
-      "wins": 17
+      "rating": 1445.67,
+      "wins": 18
     },
     "31": {
       "draws": 0,
