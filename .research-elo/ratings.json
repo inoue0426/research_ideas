@@ -4229,6 +4229,51 @@
       "reason": "#32 wins over #42 because it introduces a novel frontier-conditioned molecular generation approach using LLMs for Pareto-aware optimization, which is more actionable and aligned with current trends in multi-objective drug design, whereas #42's cold-start benchmark is a derivative evaluation task with high data dependency uncertainty.",
       "target": 42,
       "timestamp": "2026-09-03T18:34:17.303846+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 33,
+      "outcome": "loss",
+      "reason": "#33 wins over #36 because it directly addresses a critical gap in biomedical reasoning systems (abstention under uncertainty) with a clear, testable hypothesis, while #36's adaptive evidence acquisition is less distinct from existing retrieval methods and lacks a strong justification for why MCTS is necessary.",
+      "target": 36,
+      "timestamp": "2026-09-03T21:25:43.088897+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 44,
+      "outcome": "loss",
+      "reason": "#44 wins over #36 because it tackles a fundamental limitation in ADC response modeling (ignoring mechanism-specific biology) with a clear, biologically grounded question, while #36's focus on evidence acquisition is less novel and more incremental compared to the potential impact of mechanism-aware modeling.",
+      "target": 36,
+      "timestamp": "2026-09-03T21:25:43.088897+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 35,
+      "outcome": "loss",
+      "reason": "#35 wins over #36 because it explicitly identifies and tests a specific failure mode (distractor-induced evidence neglect) with controlled experiments, while #36's adaptive evidence acquisition lacks a clear problem statement and conflates method proposal with research question.",
+      "target": 36,
+      "timestamp": "2026-09-03T21:25:43.088897+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 38,
+      "outcome": "win",
+      "reason": "#36 wins over #38 because it addresses a more fundamental problem (adaptive evidence acquisition for reasoning) with a broader scope and clearer experimental design, while #38's biomarker-conditioned embeddings are more narrowly focused and less likely to yield transformative insights.",
+      "target": 36,
+      "timestamp": "2026-09-03T21:25:43.088897+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "loss",
+      "reason": "#31 wins over #36 because it cleanly separates two critical capabilities (evidence selection vs. sufficiency detection) with a clear experimental plan to validate them independently, while #36's proposal is vague about why adaptive evidence acquisition is needed over simpler methods.",
+      "target": 36,
+      "timestamp": "2026-09-03T21:25:43.088897+00:00"
     }
   ],
   "k_factor": 24,
@@ -4572,25 +4617,25 @@
         "21": 1473.27,
         "3": 1314.96,
         "30": 1433.61,
-        "31": 1568.02,
+        "31": 1582.3,
         "32": 1642.48,
-        "33": 1613.95,
+        "33": 1627.76,
         "34": 1563.61,
-        "35": 1572.36,
-        "36": 1666.81,
+        "35": 1586.64,
+        "36": 1620.71,
         "37": 1498.05,
-        "38": 1568.41,
+        "38": 1558.35,
         "39": 1523.6,
         "4": 1404.06,
         "40": 1603.4,
         "41": 1633.52,
         "42": 1552.94,
         "43": 1604.45,
-        "44": 1600.84,
+        "44": 1614.63,
         "7": 1363.98,
         "9": 1371.13
       },
-      "timestamp": "2026-09-03T18:34:18.170997+00:00"
+      "timestamp": "2026-09-03T21:25:43.997064+00:00"
     }
   ],
   "ratings": {
@@ -5077,7 +5122,7 @@
     },
     "31": {
       "draws": 0,
-      "games": 38,
+      "games": 39,
       "losses": 14,
       "opponents": [
         3,
@@ -5109,8 +5154,8 @@
         43,
         44
       ],
-      "rating": 1568.02,
-      "wins": 24
+      "rating": 1582.3,
+      "wins": 25
     },
     "32": {
       "draws": 0,
@@ -5151,7 +5196,7 @@
     },
     "33": {
       "draws": 0,
-      "games": 40,
+      "games": 41,
       "losses": 12,
       "opponents": [
         3,
@@ -5183,8 +5228,8 @@
         43,
         44
       ],
-      "rating": 1613.95,
-      "wins": 28
+      "rating": 1627.76,
+      "wins": 29
     },
     "34": {
       "draws": 0,
@@ -5225,7 +5270,7 @@
     },
     "35": {
       "draws": 0,
-      "games": 36,
+      "games": 37,
       "losses": 16,
       "opponents": [
         3,
@@ -5257,13 +5302,13 @@
         43,
         44
       ],
-      "rating": 1572.36,
-      "wins": 20
+      "rating": 1586.64,
+      "wins": 21
     },
     "36": {
       "draws": 0,
-      "games": 34,
-      "losses": 7,
+      "games": 39,
+      "losses": 11,
       "opponents": [
         3,
         4,
@@ -5294,8 +5339,8 @@
         43,
         44
       ],
-      "rating": 1666.81,
-      "wins": 27
+      "rating": 1620.71,
+      "wins": 28
     },
     "37": {
       "draws": 0,
@@ -5337,8 +5382,8 @@
     },
     "38": {
       "draws": 0,
-      "games": 39,
-      "losses": 15,
+      "games": 40,
+      "losses": 16,
       "opponents": [
         3,
         4,
@@ -5370,7 +5415,7 @@
         43,
         44
       ],
-      "rating": 1568.41,
+      "rating": 1558.35,
       "wins": 24
     },
     "39": {
@@ -5571,7 +5616,7 @@
     },
     "44": {
       "draws": 0,
-      "games": 39,
+      "games": 40,
       "losses": 14,
       "opponents": [
         3,
@@ -5603,8 +5648,8 @@
         42,
         43
       ],
-      "rating": 1600.84,
-      "wins": 25
+      "rating": 1614.63,
+      "wins": 26
     },
     "7": {
       "draws": 0,
