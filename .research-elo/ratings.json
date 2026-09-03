@@ -3959,6 +3959,51 @@
       "reason": "#31 wins over #41 because it tackles a foundational problem in biomedical AI (reliable evidence reasoning) with a clear distinction between evidence selection and sufficiency detection, which is critical for real-world clinical decision support, while #41's single-cell ADC modeling faces unresolved data challenges.",
       "target": 41,
       "timestamp": "2026-09-03T01:03:42.691467+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "loss",
+      "reason": "Issue #19 wins over #12 by addressing a critical practical uncertainty (when transfer fails) with clear criteria for failure modes, which is more actionable than #12's latent space decomposition that depends on uncertain data coverage.",
+      "target": 12,
+      "timestamp": "2026-09-03T04:46:41.043836+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "Issue #12 wins over #11 by posing a clearer, more testable question about decomposing perturbation components, while #11's focus on intervention geometry lacks concrete evidence of transferability.",
+      "target": 12,
+      "timestamp": "2026-09-03T04:46:41.043836+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "Issue #12 wins over #15 by having a more concrete question (latent space decomposition) versus #15's vague mechanism arbitration that depends on unverified benchmarks.",
+      "target": 12,
+      "timestamp": "2026-09-03T04:46:41.043836+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 10,
+      "outcome": "loss",
+      "reason": "Issue #10 wins over #12 by identifying a broader, more generalizable principle (which structures transfer) rather than a specific method (latent space decomposition), with clearer leverage for future work.",
+      "target": 12,
+      "timestamp": "2026-09-03T04:46:41.043836+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "Issue #12 wins over #17 by offering a more scientifically grounded contribution (latent space decomposition) versus #17's HCI-focused human-in-the-loop approach with unclear scientific novelty.",
+      "target": 12,
+      "timestamp": "2026-09-03T04:46:41.043836+00:00"
     }
   ],
   "k_factor": 24,
@@ -4289,15 +4334,15 @@
     },
     {
       "ratings": {
-        "10": 1433.35,
-        "11": 1447.73,
-        "12": 1482.02,
+        "10": 1447.35,
+        "11": 1436.5,
+        "12": 1484.89,
         "13": 1500.54,
         "14": 1402.89,
-        "15": 1438.08,
+        "15": 1427.56,
         "16": 1385.79,
-        "17": 1326.53,
-        "19": 1483.21,
+        "17": 1319.45,
+        "19": 1495.17,
         "20": 1547.41,
         "21": 1473.27,
         "3": 1320.23,
@@ -4320,13 +4365,13 @@
         "7": 1363.98,
         "9": 1371.13
       },
-      "timestamp": "2026-09-03T01:03:43.344471+00:00"
+      "timestamp": "2026-09-03T04:46:41.915624+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 0,
-      "games": 38,
+      "games": 39,
       "losses": 25,
       "opponents": [
         3,
@@ -4358,13 +4403,13 @@
         43,
         44
       ],
-      "rating": 1433.35,
-      "wins": 13
+      "rating": 1447.35,
+      "wins": 14
     },
     "11": {
       "draws": 0,
-      "games": 41,
-      "losses": 25,
+      "games": 42,
+      "losses": 26,
       "opponents": [
         3,
         4,
@@ -4395,13 +4440,13 @@
         43,
         44
       ],
-      "rating": 1447.73,
+      "rating": 1436.5,
       "wins": 16
     },
     "12": {
       "draws": 0,
-      "games": 33,
-      "losses": 18,
+      "games": 38,
+      "losses": 20,
       "opponents": [
         3,
         4,
@@ -4432,8 +4477,8 @@
         43,
         44
       ],
-      "rating": 1482.02,
-      "wins": 15
+      "rating": 1484.89,
+      "wins": 18
     },
     "13": {
       "draws": 0,
@@ -4511,8 +4556,8 @@
     },
     "15": {
       "draws": 0,
-      "games": 37,
-      "losses": 22,
+      "games": 38,
+      "losses": 23,
       "opponents": [
         3,
         4,
@@ -4543,7 +4588,7 @@
         43,
         44
       ],
-      "rating": 1438.08,
+      "rating": 1427.56,
       "wins": 15
     },
     "16": {
@@ -4585,8 +4630,8 @@
     },
     "17": {
       "draws": 0,
-      "games": 39,
-      "losses": 33,
+      "games": 40,
+      "losses": 34,
       "opponents": [
         3,
         4,
@@ -4617,12 +4662,12 @@
         43,
         44
       ],
-      "rating": 1326.53,
+      "rating": 1319.45,
       "wins": 6
     },
     "19": {
       "draws": 0,
-      "games": 36,
+      "games": 37,
       "losses": 18,
       "opponents": [
         3,
@@ -4654,8 +4699,8 @@
         43,
         44
       ],
-      "rating": 1483.21,
-      "wins": 18
+      "rating": 1495.17,
+      "wins": 19
     },
     "20": {
       "draws": 0,
