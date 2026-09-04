@@ -4364,6 +4364,51 @@
       "reason": "#20 wins over #46 because it explores a fundamental compositional structure with high leverage for generalization, while #46's method is a narrow technical extension without clear differentiation.",
       "target": 46,
       "timestamp": "2026-09-04T02:13:54.587899+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "Issue #46 addresses a clear, novel question about inferring perturbation dynamics from distribution mismatch, with strong scientific importance in improving model refinement. Issue #10's question is vague and lacks concrete testing plans, making it less tractable.",
+      "target": 46,
+      "timestamp": "2026-09-04T02:18:13.908565+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "win",
+      "reason": "Issue #46's core question is well-defined and falsifiable, with a clear path to testing. Issue #15's focus on 'mechanism arbitration' lacks specificity and a concrete benchmark, reducing its novelty and tractability.",
+      "target": 46,
+      "timestamp": "2026-09-04T02:18:13.908565+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 30,
+      "outcome": "win",
+      "reason": "Issue #46's problem is scientifically significant and has a clear testing strategy. Issue #30's feasibility is highly uncertain due to data availability concerns, making it less promising for a six-month project.",
+      "target": 46,
+      "timestamp": "2026-09-04T02:18:13.908565+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "Issue #46's question is more precise and falsifiable than Issue #11's vague claim about 'intervention geometry.' Issue #46 also provides a concrete method (Schrödinger Bridges) for testing.",
+      "target": 46,
+      "timestamp": "2026-09-04T02:18:13.908565+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "win",
+      "reason": "Issue #46's problem is clearly defined with a testable hypothesis, while Issue #21's question is ambiguous and lacks a clear path to validation, reducing its novelty and tractability.",
+      "target": 46,
+      "timestamp": "2026-09-04T02:18:13.908565+00:00"
     }
   ],
   "k_factor": 24,
@@ -4729,19 +4774,19 @@
     },
     {
       "ratings": {
-        "10": 1448.65,
-        "11": 1425.48,
+        "10": 1436.5,
+        "11": 1415.3,
         "12": 1496.21,
         "13": 1512.52,
         "14": 1403.12,
-        "15": 1437.62,
+        "15": 1426.27,
         "16": 1394.32,
         "17": 1336.12,
         "19": 1514.02,
         "20": 1533.99,
-        "21": 1473.27,
+        "21": 1461.81,
         "3": 1273.89,
-        "30": 1433.61,
+        "30": 1422.79,
         "31": 1582.3,
         "32": 1642.48,
         "33": 1627.76,
@@ -4757,18 +4802,18 @@
         "42": 1552.94,
         "43": 1604.45,
         "44": 1614.63,
-        "46": 1444.37,
+        "46": 1500.33,
         "7": 1373.53,
         "9": 1371.13
       },
-      "timestamp": "2026-09-04T02:13:55.535908+00:00"
+      "timestamp": "2026-09-04T02:18:14.959281+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 0,
-      "games": 41,
-      "losses": 26,
+      "games": 42,
+      "losses": 27,
       "opponents": [
         3,
         4,
@@ -4797,15 +4842,16 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1448.65,
+      "rating": 1436.5,
       "wins": 15
     },
     "11": {
       "draws": 0,
-      "games": 43,
-      "losses": 27,
+      "games": 44,
+      "losses": 28,
       "opponents": [
         3,
         4,
@@ -4834,9 +4880,10 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1425.48,
+      "rating": 1415.3,
       "wins": 16
     },
     "12": {
@@ -4954,8 +5001,8 @@
     },
     "15": {
       "draws": 0,
-      "games": 41,
-      "losses": 24,
+      "games": 42,
+      "losses": 25,
       "opponents": [
         3,
         4,
@@ -4984,9 +5031,10 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1437.62,
+      "rating": 1426.27,
       "wins": 17
     },
     "16": {
@@ -5141,8 +5189,8 @@
     },
     "21": {
       "draws": 0,
-      "games": 38,
-      "losses": 20,
+      "games": 39,
+      "losses": 21,
       "opponents": [
         3,
         4,
@@ -5171,9 +5219,10 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1473.27,
+      "rating": 1461.81,
       "wins": 18
     },
     "3": {
@@ -5215,8 +5264,8 @@
     },
     "30": {
       "draws": 0,
-      "games": 39,
-      "losses": 21,
+      "games": 40,
+      "losses": 22,
       "opponents": [
         3,
         4,
@@ -5245,9 +5294,10 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1433.61,
+      "rating": 1422.79,
       "wins": 18
     },
     "31": {
@@ -5784,17 +5834,22 @@
     },
     "46": {
       "draws": 0,
-      "games": 5,
+      "games": 10,
       "losses": 5,
       "opponents": [
+        10,
+        11,
         12,
         13,
+        15,
         19,
         20,
+        21,
+        30,
         37
       ],
-      "rating": 1444.37,
-      "wins": 0
+      "rating": 1500.33,
+      "wins": 5
     },
     "7": {
       "draws": 0,
