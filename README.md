@@ -26,18 +26,18 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 | ≈4 | [#44 — \[Idea\] Mechanism-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/44) | **1615** | — | 40 | 28 | 🟢 Established | 26W / 0D / 14L |
 | ≈4 | [#43 — \[Idea\] Uncertainty-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/43) | **1604** | — | 39 | 28 | 🟢 Established | 27W / 0D / 12L |
 | ≈4 | [#40 — \[Idea\] Natural-Language-Conditioned Drug Embeddings for Pharmacogenomic Context](https://github.com/inoue0426/research_ideas/issues/40) | **1603** | **-7** | 37 | 28 | 🟢 Established | 25W / 0D / 12L |
-| ≈8 | [#35 — Adaptive Evidence Search for LLM Reasoning under Distracting Biomedical Graph Context](https://github.com/inoue0426/research_ideas/issues/35) | **1587** | **+181** | 37 | 28 | 🟢 Established | 21W / 0D / 16L |
-| ≈8 | [#31 — \[Idea\] Reliable Biomedical Evidence Reasoning: Separating Evidence Selection from Evidence Sufficiency](https://github.com/inoue0426/research_ideas/issues/31) | **1582** | **+24** | 39 | 28 | 🟢 Established | 25W / 0D / 14L |
-| ≈10 | [#34 — \[Idea\] CTD: Evidence Sufficiency and Selective Abstention](https://github.com/inoue0426/research_ideas/issues/34) | **1564** | **-103** | 35 | 28 | 🟢 Established | 23W / 0D / 12L |
-| ≈10 | [#38 — \[Idea\] Biomarker-Conditioned Molecular Embeddings for Pharmacogenomic Retrieval](https://github.com/inoue0426/research_ideas/issues/38) | **1558** | **-31** | 40 | 29 | 🟢 Established | 24W / 0D / 16L |
-| ≈10 | [#42 — \[Idea\] Cold-Start / OOD ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/42) | **1553** | — | 39 | 28 | 🟢 Established | 25W / 0D / 14L |
+| 8 | [#35 — Adaptive Evidence Search for LLM Reasoning under Distracting Biomedical Graph Context](https://github.com/inoue0426/research_ideas/issues/35) | **1595** | **+189** | 38 | 29 | 🟢 Established | 22W / 0D / 16L |
+| ≈9 | [#34 — \[Idea\] CTD: Evidence Sufficiency and Selective Abstention](https://github.com/inoue0426/research_ideas/issues/34) | **1573** | **-94** | 36 | 29 | 🟢 Established | 24W / 0D / 12L |
+| ≈9 | [#38 — \[Idea\] Biomarker-Conditioned Molecular Embeddings for Pharmacogenomic Retrieval](https://github.com/inoue0426/research_ideas/issues/38) | **1568** | **-22** | 41 | 30 | 🟢 Established | 25W / 0D / 16L |
+| ≈9 | [#31 — \[Idea\] Reliable Biomedical Evidence Reasoning: Separating Evidence Selection from Evidence Sufficiency](https://github.com/inoue0426/research_ideas/issues/31) | **1567** | **+8** | 40 | 29 | 🟢 Established | 25W / 0D / 15L |
+| ≈9 | [#42 — \[Idea\] Cold-Start / OOD ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/42) | **1563** | — | 40 | 29 | 🟢 Established | 26W / 0D / 14L |
 | ≈13 | [#20 — \[Idea\] Is there a compositional algebra of biological perturbations?](https://github.com/inoue0426/research_ideas/issues/20) | **1534** | **+4** | 40 | 29 | 🟢 Established | 23W / 0D / 17L |
 | ≈13 | [#19 — \[Idea\] When does perturbation transfer fail across biological domains?](https://github.com/inoue0426/research_ideas/issues/19) | **1514** | **-14** | 41 | 29 | 🟢 Established | 22W / 0D / 19L |
 | ≈15 | [#13 — \[Idea\] What makes a representation preserve intervention geometry?](https://github.com/inoue0426/research_ideas/issues/13) | **1513** | **+45** | 36 | 29 | 🟢 Established | 17W / 0D / 19L |
 | ≈15 | [#37 — \[Idea\] Partner- and Context-Conditioned Molecular Embeddings for Drug Combination Response](https://github.com/inoue0426/research_ideas/issues/37) | **1510** | **+65** | 39 | 30 | 🟢 Established | 19W / 0D / 20L |
-| ≈15 | [#46 — \[Idea\] Perturbation-Conditioned Schrödinger Bridges with Drifting Loss](https://github.com/inoue0426/research_ideas/issues/46) | **1500** | — | 10 | 10 | 🟢 Established | 5W / 0D / 5L |
 | ≈15 | [#12 — \[Idea\] Context-aware chemical ↔ genetic shared perturbation space](https://github.com/inoue0426/research_ideas/issues/12) | **1496** | **+27** | 39 | 29 | 🟢 Established | 19W / 0D / 20L |
-| 19 | [#21 — \[Idea\] Can response-relevant perturbation geometry be separated from mechanistically faithful perturbation geometry?](https://github.com/inoue0426/research_ideas/issues/21) | **1462** | **-65** | 39 | 29 | 🟢 Established | 18W / 0D / 21L |
+| ≈18 | [#46 — \[Idea\] Perturbation-Conditioned Schrödinger Bridges with Drifting Loss](https://github.com/inoue0426/research_ideas/issues/46) | **1478** | — | 15 | 15 | 🟢 Established | 6W / 0D / 9L |
+| ≈18 | [#21 — \[Idea\] Can response-relevant perturbation geometry be separated from mechanistically faithful perturbation geometry?](https://github.com/inoue0426/research_ideas/issues/21) | **1462** | **-65** | 39 | 29 | 🟢 Established | 18W / 0D / 21L |
 | ≈20 | [#10 — \[Idea\] What biological structures remain transferable across domain shifts?](https://github.com/inoue0426/research_ideas/issues/10) | **1436** | **+17** | 42 | 29 | 🟢 Established | 15W / 0D / 27L |
 | ≈20 | [#15 — \[Idea\] Mechanism arbitration under conflicting evidence](https://github.com/inoue0426/research_ideas/issues/15) | **1426** | **-48** | 42 | 29 | 🟢 Established | 17W / 0D / 25L |
 | ≈20 | [#30 — \[Idea\] context-aware ADC](https://github.com/inoue0426/research_ideas/issues/30) | **1423** | **-101** | 40 | 29 | 🟢 Established | 18W / 0D / 22L |
@@ -52,14 +52,14 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 
 ### Weekly movers
 
-- 🚀 [#35 — Adaptive Evidence Search for LLM Reasoning under Distracting Biomedical Graph Context](https://github.com/inoue0426/research_ideas/issues/35): **+181 Elo**
+- 🚀 [#35 — Adaptive Evidence Search for LLM Reasoning under Distracting Biomedical Graph Context](https://github.com/inoue0426/research_ideas/issues/35): **+189 Elo**
 - 🚀 [#37 — \[Idea\] Partner- and Context-Conditioned Molecular Embeddings for Drug Combination Response](https://github.com/inoue0426/research_ideas/issues/37): **+65 Elo**
 - 🚀 [#13 — \[Idea\] What makes a representation preserve intervention geometry?](https://github.com/inoue0426/research_ideas/issues/13): **+45 Elo**
 - 📉 [#3 — \[Idea\] Can iterative optimization improve mechanism arbitration under conflicting evidence?](https://github.com/inoue0426/research_ideas/issues/3): **-106 Elo**
-- 📉 [#34 — \[Idea\] CTD: Evidence Sufficiency and Selective Abstention](https://github.com/inoue0426/research_ideas/issues/34): **-103 Elo**
 - 📉 [#30 — \[Idea\] context-aware ADC](https://github.com/inoue0426/research_ideas/issues/30): **-101 Elo**
+- 📉 [#34 — \[Idea\] CTD: Evidence Sufficiency and Selective Abstention](https://github.com/inoue0426/research_ideas/issues/34): **-94 Elo**
 
-_Updated automatically by Research Elo workflows. Last update: 2026-09-04 02:18 UTC._
+_Updated automatically by Research Elo workflows. Last update: 2026-09-04 13:05 UTC._
 <!-- RESEARCH_ELO_END -->
 
 <!-- RESEARCH_MAPS_START -->

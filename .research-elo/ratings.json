@@ -4409,6 +4409,51 @@
       "reason": "Issue #46's problem is clearly defined with a testable hypothesis, while Issue #21's question is ambiguous and lacks a clear path to validation, reducing its novelty and tractability.",
       "target": 46,
       "timestamp": "2026-09-04T02:18:13.908565+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 42,
+      "outcome": "loss",
+      "reason": "Issue #42 is more important and tractable than #46. #42 addresses a critical practical gap in ADC response prediction (cold-start generalization), which directly impacts drug discovery. #46's perturbation dynamics question is highly theoretical with unclear practical path. #42 has clear evaluation metrics (cold-start settings) and existing data (ADCpedia), while #46's identifiability question lacks a clear test plan beyond 'controlled setting'.",
+      "target": 46,
+      "timestamp": "2026-09-04T13:05:57.982190+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 38,
+      "outcome": "loss",
+      "reason": "Issue #38 is more novel and tractable than #46. #38 proposes a concrete, feasible extension to existing MolEmb work (biomarker-conditioned embeddings) with clear evaluation (retrieval task). #46's Schrödinger Bridge approach is highly technical with unproven novelty and no clear path to validation beyond theoretical speculation.",
+      "target": 46,
+      "timestamp": "2026-09-04T13:05:57.982190+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 34,
+      "outcome": "loss",
+      "reason": "Issue #34 is more important and falsifiable than #46. #34 reframes CTD as an evidence sufficiency problem with clear testable hypotheses (e.g., 'does uncertainty predict errors?'). #46's question about residual dynamics is vague and lacks a concrete falsification method beyond 'controlled setting'.",
+      "target": 46,
+      "timestamp": "2026-09-04T13:05:57.982190+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "Issue #46 is more novel and leverages existing work than #31. #46 proposes a novel theoretical framework (residual dynamics from distribution mismatch) with potential to unlock new model refinement methods. #31's evidence selection vs sufficiency question is incremental and lacks clear differentiation from existing work.",
+      "target": 46,
+      "timestamp": "2026-09-04T13:05:57.982190+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 35,
+      "outcome": "loss",
+      "reason": "Issue #35 is more tractable and has clearer evaluation than #46. #35 proposes concrete experiments (distractor scaling, search behavior analysis) with measurable outcomes. #46's identifiability question is too vague and lacks a defined test plan beyond 'controlled setting'.",
+      "target": 46,
+      "timestamp": "2026-09-04T13:05:57.982190+00:00"
     }
   ],
   "k_factor": 24,
@@ -4787,26 +4832,26 @@
         "21": 1461.81,
         "3": 1273.89,
         "30": 1422.79,
-        "31": 1582.3,
+        "31": 1566.59,
         "32": 1642.48,
         "33": 1627.76,
-        "34": 1563.61,
-        "35": 1586.64,
+        "34": 1572.79,
+        "35": 1595.29,
         "36": 1620.71,
         "37": 1509.7,
-        "38": 1558.35,
+        "38": 1568.02,
         "39": 1523.6,
         "4": 1404.06,
         "40": 1603.4,
         "41": 1633.52,
-        "42": 1552.94,
+        "42": 1563.14,
         "43": 1604.45,
         "44": 1614.63,
-        "46": 1500.33,
+        "46": 1478.34,
         "7": 1373.53,
         "9": 1371.13
       },
-      "timestamp": "2026-09-04T02:18:14.959281+00:00"
+      "timestamp": "2026-09-04T13:05:58.686105+00:00"
     }
   ],
   "ratings": {
@@ -5302,8 +5347,8 @@
     },
     "31": {
       "draws": 0,
-      "games": 39,
-      "losses": 14,
+      "games": 40,
+      "losses": 15,
       "opponents": [
         3,
         4,
@@ -5332,9 +5377,10 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1582.3,
+      "rating": 1566.59,
       "wins": 25
     },
     "32": {
@@ -5413,7 +5459,7 @@
     },
     "34": {
       "draws": 0,
-      "games": 35,
+      "games": 36,
       "losses": 12,
       "opponents": [
         3,
@@ -5443,14 +5489,15 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1563.61,
-      "wins": 23
+      "rating": 1572.79,
+      "wins": 24
     },
     "35": {
       "draws": 0,
-      "games": 37,
+      "games": 38,
       "losses": 16,
       "opponents": [
         3,
@@ -5480,10 +5527,11 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1586.64,
-      "wins": 21
+      "rating": 1595.29,
+      "wins": 22
     },
     "36": {
       "draws": 0,
@@ -5563,7 +5611,7 @@
     },
     "38": {
       "draws": 0,
-      "games": 40,
+      "games": 41,
       "losses": 16,
       "opponents": [
         3,
@@ -5594,10 +5642,11 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1558.35,
-      "wins": 24
+      "rating": 1568.02,
+      "wins": 25
     },
     "39": {
       "draws": 0,
@@ -5723,7 +5772,7 @@
     },
     "42": {
       "draws": 0,
-      "games": 39,
+      "games": 40,
       "losses": 14,
       "opponents": [
         3,
@@ -5753,10 +5802,11 @@
         40,
         41,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1552.94,
-      "wins": 25
+      "rating": 1563.14,
+      "wins": 26
     },
     "43": {
       "draws": 0,
@@ -5834,8 +5884,8 @@
     },
     "46": {
       "draws": 0,
-      "games": 10,
-      "losses": 5,
+      "games": 15,
+      "losses": 9,
       "opponents": [
         10,
         11,
@@ -5846,10 +5896,15 @@
         20,
         21,
         30,
-        37
+        31,
+        34,
+        35,
+        37,
+        38,
+        42
       ],
-      "rating": 1500.33,
-      "wins": 5
+      "rating": 1478.34,
+      "wins": 6
     },
     "7": {
       "draws": 0,
