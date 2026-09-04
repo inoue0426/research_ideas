@@ -4454,6 +4454,51 @@
       "reason": "Issue #35 is more tractable and has clearer evaluation than #46. #35 proposes concrete experiments (distractor scaling, search behavior analysis) with measurable outcomes. #46's identifiability question is too vague and lacks a defined test plan beyond 'controlled setting'.",
       "target": 46,
       "timestamp": "2026-09-04T13:05:57.982190+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "Issue #46 addresses a clear, novel question about inferring perturbation dynamics from distributional mismatch, with strong potential for practical impact in refining biological models. Issue #4 has a less specific question and lacks a clear path to validation.",
+      "target": 46,
+      "timestamp": "2026-09-04T15:28:07.165305+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 14,
+      "outcome": "win",
+      "reason": "Issue #46's question about recovering residual dynamics from distributional mismatch is more precise and testable than Issue #14's vague 'causal geometry' concept, which lacks a concrete definition for empirical testing.",
+      "target": 46,
+      "timestamp": "2026-09-04T15:28:07.165305+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "win",
+      "reason": "Issue #46 provides a clear, falsifiable framework for correcting perturbation models using Schrödinger Bridges, while Issue #16's question about foundation models is too abstract and lacks a specific testable hypothesis.",
+      "target": 46,
+      "timestamp": "2026-09-04T15:28:07.165305+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 7,
+      "outcome": "win",
+      "reason": "Issue #46's focus on inferring dynamics from distributional mismatch has higher tractability and potential impact than Issue #7's INR approach, which faces uncertainty about dataset availability and model advantages over alternatives.",
+      "target": 46,
+      "timestamp": "2026-09-04T15:28:07.165305+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 9,
+      "outcome": "win",
+      "reason": "Issue #46's question about recovering missing dynamics from distributional mismatch is more concrete and testable than Issue #9's abstract evaluation of mechanistic reasoning, which lacks a clear path to validation.",
+      "target": 46,
+      "timestamp": "2026-09-04T15:28:07.165305+00:00"
     }
   ],
   "k_factor": 24,
@@ -4823,9 +4868,9 @@
         "11": 1415.3,
         "12": 1496.21,
         "13": 1512.52,
-        "14": 1403.12,
+        "14": 1393.99,
         "15": 1426.27,
-        "16": 1394.32,
+        "16": 1385.76,
         "17": 1336.12,
         "19": 1514.02,
         "20": 1533.99,
@@ -4841,17 +4886,17 @@
         "37": 1509.7,
         "38": 1568.02,
         "39": 1523.6,
-        "4": 1404.06,
+        "4": 1394.59,
         "40": 1603.4,
         "41": 1633.52,
         "42": 1563.14,
         "43": 1604.45,
         "44": 1614.63,
-        "46": 1478.34,
-        "7": 1373.53,
-        "9": 1371.13
+        "46": 1520.5,
+        "7": 1365.88,
+        "9": 1363.78
       },
-      "timestamp": "2026-09-04T13:05:58.686105+00:00"
+      "timestamp": "2026-09-04T15:28:07.929970+00:00"
     }
   ],
   "ratings": {
@@ -5009,8 +5054,8 @@
     },
     "14": {
       "draws": 0,
-      "games": 40,
-      "losses": 25,
+      "games": 41,
+      "losses": 26,
       "opponents": [
         3,
         4,
@@ -5039,9 +5084,10 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1403.12,
+      "rating": 1393.99,
       "wins": 15
     },
     "15": {
@@ -5084,8 +5130,8 @@
     },
     "16": {
       "draws": 0,
-      "games": 38,
-      "losses": 23,
+      "games": 39,
+      "losses": 24,
       "opponents": [
         3,
         4,
@@ -5114,9 +5160,10 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1394.32,
+      "rating": 1385.76,
       "wins": 15
     },
     "17": {
@@ -5661,8 +5708,8 @@
     },
     "4": {
       "draws": 0,
-      "games": 37,
-      "losses": 25,
+      "games": 38,
+      "losses": 26,
       "opponents": [
         3,
         7,
@@ -5691,9 +5738,10 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1404.06,
+      "rating": 1394.59,
       "wins": 12
     },
     "40": {
@@ -5884,14 +5932,19 @@
     },
     "46": {
       "draws": 0,
-      "games": 15,
+      "games": 20,
       "losses": 9,
       "opponents": [
+        4,
+        7,
+        9,
         10,
         11,
         12,
         13,
+        14,
         15,
+        16,
         19,
         20,
         21,
@@ -5903,13 +5956,13 @@
         38,
         42
       ],
-      "rating": 1478.34,
-      "wins": 6
+      "rating": 1520.5,
+      "wins": 11
     },
     "7": {
       "draws": 0,
-      "games": 36,
-      "losses": 27,
+      "games": 37,
+      "losses": 28,
       "opponents": [
         3,
         4,
@@ -5938,15 +5991,16 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1373.53,
+      "rating": 1365.88,
       "wins": 9
     },
     "9": {
       "draws": 0,
-      "games": 35,
-      "losses": 26,
+      "games": 36,
+      "losses": 27,
       "opponents": [
         3,
         4,
@@ -5975,9 +6029,10 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1371.13,
+      "rating": 1363.78,
       "wins": 9
     }
   },
