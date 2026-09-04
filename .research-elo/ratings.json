@@ -4274,6 +4274,51 @@
       "reason": "#31 wins over #36 because it cleanly separates two critical capabilities (evidence selection vs. sufficiency detection) with a clear experimental plan to validate them independently, while #36's proposal is vague about why adaptive evidence acquisition is needed over simpler methods.",
       "target": 36,
       "timestamp": "2026-09-03T21:25:43.088897+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 14,
+      "outcome": "loss",
+      "reason": "Issue #14 has clearer causal focus and more concrete validation path than #3, addressing a fundamental gap in multimodal representation learning.",
+      "target": 3,
+      "timestamp": "2026-09-04T02:10:41.719878+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 15,
+      "outcome": "loss",
+      "reason": "Issue #15 directly tackles the core problem of mechanism arbitration with a more actionable question than #3's iterative refinement proposal.",
+      "target": 3,
+      "timestamp": "2026-09-04T02:10:41.719878+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "loss",
+      "reason": "Issue #19 identifies a critical failure mode in perturbation transfer with practical implications for when transfer is applicable, unlike #3's more abstract question.",
+      "target": 3,
+      "timestamp": "2026-09-04T02:10:41.719878+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 7,
+      "outcome": "loss",
+      "reason": "Issue #7 offers a concrete application of INRs to spatial drug response with clear uncertainty quantification needs, more tractable than #3's mechanism arbitration.",
+      "target": 3,
+      "timestamp": "2026-09-04T02:10:41.719878+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 16,
+      "outcome": "loss",
+      "reason": "Issue #16 provides a principled framework for foundation models' role in domain transfer, addressing a fundamental question beyond #3's narrow focus.",
+      "target": 3,
+      "timestamp": "2026-09-04T02:10:41.719878+00:00"
     }
   ],
   "k_factor": 24,
@@ -4636,6 +4681,41 @@
         "9": 1371.13
       },
       "timestamp": "2026-09-03T21:25:43.997064+00:00"
+    },
+    {
+      "ratings": {
+        "10": 1448.65,
+        "11": 1425.48,
+        "12": 1484.89,
+        "13": 1500.54,
+        "14": 1403.12,
+        "15": 1437.62,
+        "16": 1394.32,
+        "17": 1336.12,
+        "19": 1502.94,
+        "20": 1524.39,
+        "21": 1473.27,
+        "3": 1273.89,
+        "30": 1433.61,
+        "31": 1582.3,
+        "32": 1642.48,
+        "33": 1627.76,
+        "34": 1563.61,
+        "35": 1586.64,
+        "36": 1620.71,
+        "37": 1498.05,
+        "38": 1558.35,
+        "39": 1523.6,
+        "4": 1404.06,
+        "40": 1603.4,
+        "41": 1633.52,
+        "42": 1552.94,
+        "43": 1604.45,
+        "44": 1614.63,
+        "7": 1373.53,
+        "9": 1371.13
+      },
+      "timestamp": "2026-09-04T02:10:42.649246+00:00"
     }
   ],
   "ratings": {
@@ -4789,7 +4869,7 @@
     },
     "14": {
       "draws": 0,
-      "games": 39,
+      "games": 40,
       "losses": 25,
       "opponents": [
         3,
@@ -4821,12 +4901,12 @@
         43,
         44
       ],
-      "rating": 1393.8,
-      "wins": 14
+      "rating": 1403.12,
+      "wins": 15
     },
     "15": {
       "draws": 0,
-      "games": 40,
+      "games": 41,
       "losses": 24,
       "opponents": [
         3,
@@ -4858,12 +4938,12 @@
         43,
         44
       ],
-      "rating": 1429.73,
-      "wins": 16
+      "rating": 1437.62,
+      "wins": 17
     },
     "16": {
       "draws": 0,
-      "games": 37,
+      "games": 38,
       "losses": 23,
       "opponents": [
         3,
@@ -4895,8 +4975,8 @@
         43,
         44
       ],
-      "rating": 1385.79,
-      "wins": 14
+      "rating": 1394.32,
+      "wins": 15
     },
     "17": {
       "draws": 0,
@@ -4937,7 +5017,7 @@
     },
     "19": {
       "draws": 0,
-      "games": 39,
+      "games": 40,
       "losses": 19,
       "opponents": [
         3,
@@ -4969,8 +5049,8 @@
         43,
         44
       ],
-      "rating": 1497.16,
-      "wins": 20
+      "rating": 1502.94,
+      "wins": 21
     },
     "20": {
       "draws": 0,
@@ -5048,8 +5128,8 @@
     },
     "3": {
       "draws": 0,
-      "games": 35,
-      "losses": 30,
+      "games": 40,
+      "losses": 35,
       "opponents": [
         4,
         7,
@@ -5080,7 +5160,7 @@
         43,
         44
       ],
-      "rating": 1314.96,
+      "rating": 1273.89,
       "wins": 5
     },
     "30": {
@@ -5653,7 +5733,7 @@
     },
     "7": {
       "draws": 0,
-      "games": 35,
+      "games": 36,
       "losses": 27,
       "opponents": [
         3,
@@ -5685,8 +5765,8 @@
         43,
         44
       ],
-      "rating": 1363.98,
-      "wins": 8
+      "rating": 1373.53,
+      "wins": 9
     },
     "9": {
       "draws": 0,
