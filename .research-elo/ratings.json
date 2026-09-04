@@ -4499,6 +4499,51 @@
       "reason": "Issue #46's question about recovering missing dynamics from distributional mismatch is more concrete and testable than Issue #9's abstract evaluation of mechanistic reasoning, which lacks a clear path to validation.",
       "target": 46,
       "timestamp": "2026-09-04T15:28:07.165305+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 40,
+      "outcome": "loss",
+      "reason": "Issue #40 is more deserving than #46 due to clearer importance (contextual drug embeddings directly address a known gap in pharmacogenomics), higher novelty potential (natural language conditioning for drug context is underexplored), and better tractability (small controlled study feasible with existing datasets). Issue #46's identifiability uncertainty remains unresolved and lacks immediate practical application.",
+      "target": 46,
+      "timestamp": "2026-09-04T18:30:40.446933+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 43,
+      "outcome": "win",
+      "reason": "Issue #46 has stronger novelty potential (recovery of perturbation dynamics from distribution mismatch) and higher importance (enables iterative model refinement without paired data), while issue #43's uncertainty focus is less differentiated and more incremental.",
+      "target": 46,
+      "timestamp": "2026-09-04T18:30:40.446933+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 44,
+      "outcome": "loss",
+      "reason": "Issue #44 addresses a clear biological gap (mechanism-specific ADC response) with higher importance and novelty potential than #46's theoretical dynamics recovery, and has better tractability (dataset structure already supports mechanism separation).",
+      "target": 46,
+      "timestamp": "2026-09-04T18:30:40.446933+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 36,
+      "outcome": "loss",
+      "reason": "Issue #36 has higher importance (fundamental shift in LLM reasoning paradigm), stronger novelty (adaptive evidence acquisition as a unified problem), and better leverage (applicable beyond biomedical domain), while #46 remains highly speculative with unresolved identifiability.",
+      "target": 46,
+      "timestamp": "2026-09-04T18:30:40.446933+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 33,
+      "outcome": "loss",
+      "reason": "Issue #33 has higher importance (reducing unsupported biomedical claims) and better tractability (retrospective experiment possible with existing DrugAgent data), while #46's theoretical focus lacks immediate practical validation.",
+      "target": 46,
+      "timestamp": "2026-09-04T18:30:40.446933+00:00"
     }
   ],
   "k_factor": 24,
@@ -4879,24 +4924,24 @@
         "30": 1422.79,
         "31": 1566.59,
         "32": 1642.48,
-        "33": 1627.76,
+        "33": 1635.81,
         "34": 1572.79,
         "35": 1595.29,
-        "36": 1620.71,
+        "36": 1629.24,
         "37": 1509.7,
         "38": 1568.02,
         "39": 1523.6,
         "4": 1394.59,
-        "40": 1603.4,
+        "40": 1612.59,
         "41": 1633.52,
         "42": 1563.14,
-        "43": 1604.45,
-        "44": 1614.63,
-        "46": 1520.5,
+        "43": 1589.31,
+        "44": 1623.65,
+        "46": 1500.85,
         "7": 1365.88,
         "9": 1363.78
       },
-      "timestamp": "2026-09-04T15:28:07.929970+00:00"
+      "timestamp": "2026-09-04T18:30:41.245349+00:00"
     }
   ],
   "ratings": {
@@ -5469,7 +5514,7 @@
     },
     "33": {
       "draws": 0,
-      "games": 41,
+      "games": 42,
       "losses": 12,
       "opponents": [
         3,
@@ -5499,10 +5544,11 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1627.76,
-      "wins": 29
+      "rating": 1635.81,
+      "wins": 30
     },
     "34": {
       "draws": 0,
@@ -5582,7 +5628,7 @@
     },
     "36": {
       "draws": 0,
-      "games": 39,
+      "games": 40,
       "losses": 11,
       "opponents": [
         3,
@@ -5612,10 +5658,11 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1620.71,
-      "wins": 28
+      "rating": 1629.24,
+      "wins": 29
     },
     "37": {
       "draws": 0,
@@ -5746,7 +5793,7 @@
     },
     "40": {
       "draws": 0,
-      "games": 37,
+      "games": 38,
       "losses": 12,
       "opponents": [
         3,
@@ -5776,10 +5823,11 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1603.4,
-      "wins": 25
+      "rating": 1612.59,
+      "wins": 26
     },
     "41": {
       "draws": 0,
@@ -5858,8 +5906,8 @@
     },
     "43": {
       "draws": 0,
-      "games": 39,
-      "losses": 12,
+      "games": 40,
+      "losses": 13,
       "opponents": [
         3,
         4,
@@ -5888,14 +5936,15 @@
         40,
         41,
         42,
-        44
+        44,
+        46
       ],
-      "rating": 1604.45,
+      "rating": 1589.31,
       "wins": 27
     },
     "44": {
       "draws": 0,
-      "games": 40,
+      "games": 41,
       "losses": 14,
       "opponents": [
         3,
@@ -5925,15 +5974,16 @@
         40,
         41,
         42,
-        43
+        43,
+        46
       ],
-      "rating": 1614.63,
-      "wins": 26
+      "rating": 1623.65,
+      "wins": 27
     },
     "46": {
       "draws": 0,
-      "games": 20,
-      "losses": 9,
+      "games": 25,
+      "losses": 13,
       "opponents": [
         4,
         7,
@@ -5950,14 +6000,19 @@
         21,
         30,
         31,
+        33,
         34,
         35,
+        36,
         37,
         38,
-        42
+        40,
+        42,
+        43,
+        44
       ],
-      "rating": 1520.5,
-      "wins": 11
+      "rating": 1500.85,
+      "wins": 12
     },
     "7": {
       "draws": 0,
