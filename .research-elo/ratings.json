@@ -4319,6 +4319,51 @@
       "reason": "Issue #16 provides a principled framework for foundation models' role in domain transfer, addressing a fundamental question beyond #3's narrow focus.",
       "target": 3,
       "timestamp": "2026-09-04T02:10:41.719878+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "#13 wins over #46 because it asks a clear, fundamental question about representation properties that could guide future work, while #46 proposes a technical method without clear novelty or tractability.",
+      "target": 46,
+      "timestamp": "2026-09-04T02:13:54.587899+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 37,
+      "outcome": "loss",
+      "reason": "#37 wins over #46 because it addresses a practical problem (drug combination representation) with clear potential applications, while #46's technical proposal lacks evidence of novelty or feasibility.",
+      "target": 46,
+      "timestamp": "2026-09-04T02:13:54.587899+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "loss",
+      "reason": "#19 wins over #46 because it identifies a critical failure mode in transfer learning with actionable criteria, while #46's methodological proposal is speculative and lacks falsifiability.",
+      "target": 46,
+      "timestamp": "2026-09-04T02:13:54.587899+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "loss",
+      "reason": "#12 wins over #46 because it proposes a decomposable latent space with clear biological interpretation, while #46's technical approach is overly complex and untested.",
+      "target": 46,
+      "timestamp": "2026-09-04T02:13:54.587899+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
+      "outcome": "loss",
+      "reason": "#20 wins over #46 because it explores a fundamental compositional structure with high leverage for generalization, while #46's method is a narrow technical extension without clear differentiation.",
+      "target": 46,
+      "timestamp": "2026-09-04T02:13:54.587899+00:00"
     }
   ],
   "k_factor": 24,
@@ -4686,14 +4731,14 @@
       "ratings": {
         "10": 1448.65,
         "11": 1425.48,
-        "12": 1484.89,
-        "13": 1500.54,
+        "12": 1496.21,
+        "13": 1512.52,
         "14": 1403.12,
         "15": 1437.62,
         "16": 1394.32,
         "17": 1336.12,
-        "19": 1502.94,
-        "20": 1524.39,
+        "19": 1514.02,
+        "20": 1533.99,
         "21": 1473.27,
         "3": 1273.89,
         "30": 1433.61,
@@ -4703,7 +4748,7 @@
         "34": 1563.61,
         "35": 1586.64,
         "36": 1620.71,
-        "37": 1498.05,
+        "37": 1509.7,
         "38": 1558.35,
         "39": 1523.6,
         "4": 1404.06,
@@ -4712,10 +4757,11 @@
         "42": 1552.94,
         "43": 1604.45,
         "44": 1614.63,
+        "46": 1444.37,
         "7": 1373.53,
         "9": 1371.13
       },
-      "timestamp": "2026-09-04T02:10:42.649246+00:00"
+      "timestamp": "2026-09-04T02:13:55.535908+00:00"
     }
   ],
   "ratings": {
@@ -4795,7 +4841,7 @@
     },
     "12": {
       "draws": 0,
-      "games": 38,
+      "games": 39,
       "losses": 20,
       "opponents": [
         3,
@@ -4825,14 +4871,15 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1484.89,
-      "wins": 18
+      "rating": 1496.21,
+      "wins": 19
     },
     "13": {
       "draws": 0,
-      "games": 35,
+      "games": 36,
       "losses": 19,
       "opponents": [
         3,
@@ -4862,10 +4909,11 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1500.54,
-      "wins": 16
+      "rating": 1512.52,
+      "wins": 17
     },
     "14": {
       "draws": 0,
@@ -5017,7 +5065,7 @@
     },
     "19": {
       "draws": 0,
-      "games": 40,
+      "games": 41,
       "losses": 19,
       "opponents": [
         3,
@@ -5047,14 +5095,15 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1502.94,
-      "wins": 21
+      "rating": 1514.02,
+      "wins": 22
     },
     "20": {
       "draws": 0,
-      "games": 39,
+      "games": 40,
       "losses": 17,
       "opponents": [
         3,
@@ -5084,10 +5133,11 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1524.39,
-      "wins": 22
+      "rating": 1533.99,
+      "wins": 23
     },
     "21": {
       "draws": 0,
@@ -5424,7 +5474,7 @@
     },
     "37": {
       "draws": 0,
-      "games": 38,
+      "games": 39,
       "losses": 20,
       "opponents": [
         3,
@@ -5455,10 +5505,11 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1498.05,
-      "wins": 18
+      "rating": 1509.7,
+      "wins": 19
     },
     "38": {
       "draws": 0,
@@ -5730,6 +5781,20 @@
       ],
       "rating": 1614.63,
       "wins": 26
+    },
+    "46": {
+      "draws": 0,
+      "games": 5,
+      "losses": 5,
+      "opponents": [
+        12,
+        13,
+        19,
+        20,
+        37
+      ],
+      "rating": 1444.37,
+      "wins": 0
     },
     "7": {
       "draws": 0,
