@@ -4544,6 +4544,51 @@
       "reason": "Issue #33 has higher importance (reducing unsupported biomedical claims) and better tractability (retrospective experiment possible with existing DrugAgent data), while #46's theoretical focus lacks immediate practical validation.",
       "target": 46,
       "timestamp": "2026-09-04T18:30:40.446933+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 41,
+      "outcome": "loss",
+      "reason": "#41 wins over #46 because it addresses a high-impact clinical problem (ADC resistance) with clear practical relevance, while #46's question is highly technical and its feasibility is uncertain due to data and identifiability challenges.",
+      "target": 46,
+      "timestamp": "2026-09-04T21:24:35.783934+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 32,
+      "outcome": "loss",
+      "reason": "#32 wins over #46 because it proposes a novel LLM-based approach to multi-objective molecular design with clear potential for practical impact in drug discovery, while #46's core question lacks sufficient evidence of feasibility and novelty.",
+      "target": 46,
+      "timestamp": "2026-09-04T21:24:35.783934+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 17,
+      "outcome": "win",
+      "reason": "#46 wins over #17 because it poses a well-defined technical question with a clear path to testing (identifiability check), while #17's question is vague and lacks concrete evaluation metrics for expert corrections.",
+      "target": 46,
+      "timestamp": "2026-09-04T21:24:35.783934+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 3,
+      "outcome": "win",
+      "reason": "#46 wins over #3 because it has a more concrete technical question with a defined test (identifiability check), while #3's evaluation target is unclear and lacks a benchmark definition.",
+      "target": 46,
+      "timestamp": "2026-09-04T21:24:35.783934+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "#46 wins over #12 because it has a clearer technical question with a defined test (identifiability check), while #12's feasibility depends on uncertain data coverage and lacks a concrete evaluation plan.",
+      "target": 46,
+      "timestamp": "2026-09-04T21:24:35.783934+00:00"
     }
   ],
   "k_factor": 24,
@@ -4911,19 +4956,19 @@
       "ratings": {
         "10": 1436.5,
         "11": 1415.3,
-        "12": 1496.21,
+        "12": 1484.29,
         "13": 1512.52,
         "14": 1393.99,
         "15": 1426.27,
         "16": 1385.76,
-        "17": 1336.12,
+        "17": 1329.0,
         "19": 1514.02,
         "20": 1533.99,
         "21": 1461.81,
-        "3": 1273.89,
+        "3": 1268.6,
         "30": 1422.79,
         "31": 1566.59,
-        "32": 1642.48,
+        "32": 1649.62,
         "33": 1635.81,
         "34": 1572.79,
         "35": 1595.29,
@@ -4933,15 +4978,15 @@
         "39": 1523.6,
         "4": 1394.59,
         "40": 1612.59,
-        "41": 1633.52,
+        "41": 1641.15,
         "42": 1563.14,
         "43": 1589.31,
         "44": 1623.65,
-        "46": 1500.85,
+        "46": 1510.41,
         "7": 1365.88,
         "9": 1363.78
       },
-      "timestamp": "2026-09-04T18:30:41.245349+00:00"
+      "timestamp": "2026-09-04T21:24:36.483463+00:00"
     }
   ],
   "ratings": {
@@ -5023,8 +5068,8 @@
     },
     "12": {
       "draws": 0,
-      "games": 39,
-      "losses": 20,
+      "games": 40,
+      "losses": 21,
       "opponents": [
         3,
         4,
@@ -5056,7 +5101,7 @@
         44,
         46
       ],
-      "rating": 1496.21,
+      "rating": 1484.29,
       "wins": 19
     },
     "13": {
@@ -5213,8 +5258,8 @@
     },
     "17": {
       "draws": 0,
-      "games": 41,
-      "losses": 34,
+      "games": 42,
+      "losses": 35,
       "opponents": [
         3,
         4,
@@ -5243,9 +5288,10 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1336.12,
+      "rating": 1329.0,
       "wins": 7
     },
     "19": {
@@ -5364,8 +5410,8 @@
     },
     "3": {
       "draws": 0,
-      "games": 40,
-      "losses": 35,
+      "games": 41,
+      "losses": 36,
       "opponents": [
         4,
         7,
@@ -5394,9 +5440,10 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1273.89,
+      "rating": 1268.6,
       "wins": 5
     },
     "30": {
@@ -5477,7 +5524,7 @@
     },
     "32": {
       "draws": 0,
-      "games": 38,
+      "games": 39,
       "losses": 10,
       "opponents": [
         3,
@@ -5507,10 +5554,11 @@
         41,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1642.48,
-      "wins": 28
+      "rating": 1649.62,
+      "wins": 29
     },
     "33": {
       "draws": 0,
@@ -5831,7 +5879,7 @@
     },
     "41": {
       "draws": 0,
-      "games": 37,
+      "games": 38,
       "losses": 10,
       "opponents": [
         3,
@@ -5861,10 +5909,11 @@
         40,
         42,
         43,
-        44
+        44,
+        46
       ],
-      "rating": 1633.52,
-      "wins": 27
+      "rating": 1641.15,
+      "wins": 28
     },
     "42": {
       "draws": 0,
@@ -5982,9 +6031,10 @@
     },
     "46": {
       "draws": 0,
-      "games": 25,
-      "losses": 13,
+      "games": 30,
+      "losses": 15,
       "opponents": [
+        3,
         4,
         7,
         9,
@@ -5995,11 +6045,13 @@
         14,
         15,
         16,
+        17,
         19,
         20,
         21,
         30,
         31,
+        32,
         33,
         34,
         35,
@@ -6007,12 +6059,13 @@
         37,
         38,
         40,
+        41,
         42,
         43,
         44
       ],
-      "rating": 1500.85,
-      "wins": 12
+      "rating": 1510.41,
+      "wins": 15
     },
     "7": {
       "draws": 0,
