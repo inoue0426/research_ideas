@@ -4904,6 +4904,51 @@
       "reason": "#40 wins over #19 because it proposes a more directly actionable and scientifically grounded approach to contextual drug representation with clear evaluation criteria, while #19's perturbation transfer failure analysis is more exploratory and less likely to yield immediately useful insights for drug discovery.",
       "target": 40,
       "timestamp": "2026-09-05T18:28:39.677742+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 33,
+      "outcome": "loss",
+      "reason": "#33 wins over #41 because it addresses a clear, actionable uncertainty in a current system (DrugAgent) with a well-defined next step, while #41's feasibility hinges on unverified data availability.",
+      "target": 41,
+      "timestamp": "2026-09-05T21:23:15.115906+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 43,
+      "outcome": "loss",
+      "reason": "#43 wins over #41 because it focuses on a practical, immediate need (uncertainty-aware predictions) within the existing ADC model's constraints, avoiding the data dependency of #41.",
+      "target": 41,
+      "timestamp": "2026-09-05T21:23:15.115906+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
+      "outcome": "loss",
+      "reason": "#20 wins over #41 because it poses a fundamental question about biological perturbation compositionality with clear potential for generalization, unlike #41's data-dependent scope.",
+      "target": 41,
+      "timestamp": "2026-09-05T21:23:15.115906+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 46,
+      "outcome": "loss",
+      "reason": "#46 wins over #41 because it proposes a novel method to leverage distributional mismatch for model correction, offering a tractable path to improve perturbation models without requiring new data.",
+      "target": 41,
+      "timestamp": "2026-09-05T21:23:15.115906+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "loss",
+      "reason": "#19 wins over #41 because it investigates transfer failure modes with actionable criteria for when perturbation models can be trusted, addressing a critical gap in current transfer learning.",
+      "target": 41,
+      "timestamp": "2026-09-05T21:23:15.115906+00:00"
     }
   ],
   "k_factor": 24,
@@ -5313,14 +5358,14 @@
         "15": 1435.85,
         "16": 1406.12,
         "17": 1345.95,
-        "19": 1508.82,
-        "20": 1514.48,
+        "19": 1523.41,
+        "20": 1529.88,
         "21": 1453.02,
         "3": 1268.6,
         "30": 1422.79,
         "31": 1557.11,
         "32": 1649.62,
-        "33": 1635.81,
+        "33": 1647.99,
         "34": 1551.05,
         "35": 1606.85,
         "36": 1638.9,
@@ -5329,15 +5374,15 @@
         "39": 1523.6,
         "4": 1404.55,
         "40": 1661.46,
-        "41": 1641.15,
+        "41": 1570.53,
         "42": 1587.14,
-        "43": 1587.43,
+        "43": 1600.86,
         "44": 1621.5,
-        "46": 1510.79,
+        "46": 1525.81,
         "7": 1320.5,
         "9": 1316.17
       },
-      "timestamp": "2026-09-05T18:28:40.367247+00:00"
+      "timestamp": "2026-09-05T21:23:15.807601+00:00"
     }
   ],
   "ratings": {
@@ -5647,7 +5692,7 @@
     },
     "19": {
       "draws": 0,
-      "games": 45,
+      "games": 46,
       "losses": 21,
       "opponents": [
         3,
@@ -5680,12 +5725,12 @@
         44,
         46
       ],
-      "rating": 1508.82,
-      "wins": 24
+      "rating": 1523.41,
+      "wins": 25
     },
     "20": {
       "draws": 0,
-      "games": 42,
+      "games": 43,
       "losses": 19,
       "opponents": [
         3,
@@ -5718,8 +5763,8 @@
         44,
         46
       ],
-      "rating": 1514.48,
-      "wins": 23
+      "rating": 1529.88,
+      "wins": 24
     },
     "21": {
       "draws": 0,
@@ -5913,7 +5958,7 @@
     },
     "33": {
       "draws": 0,
-      "games": 42,
+      "games": 43,
       "losses": 12,
       "opponents": [
         3,
@@ -5946,8 +5991,8 @@
         44,
         46
       ],
-      "rating": 1635.81,
-      "wins": 30
+      "rating": 1647.99,
+      "wins": 31
     },
     "34": {
       "draws": 0,
@@ -6230,8 +6275,8 @@
     },
     "41": {
       "draws": 0,
-      "games": 38,
-      "losses": 10,
+      "games": 43,
+      "losses": 15,
       "opponents": [
         3,
         4,
@@ -6263,7 +6308,7 @@
         44,
         46
       ],
-      "rating": 1641.15,
+      "rating": 1570.53,
       "wins": 28
     },
     "42": {
@@ -6306,7 +6351,7 @@
     },
     "43": {
       "draws": 0,
-      "games": 42,
+      "games": 43,
       "losses": 14,
       "opponents": [
         3,
@@ -6339,8 +6384,8 @@
         44,
         46
       ],
-      "rating": 1587.43,
-      "wins": 28
+      "rating": 1600.86,
+      "wins": 29
     },
     "44": {
       "draws": 0,
@@ -6382,7 +6427,7 @@
     },
     "46": {
       "draws": 0,
-      "games": 40,
+      "games": 41,
       "losses": 20,
       "opponents": [
         3,
@@ -6415,8 +6460,8 @@
         43,
         44
       ],
-      "rating": 1510.79,
-      "wins": 20
+      "rating": 1525.81,
+      "wins": 21
     },
     "7": {
       "draws": 0,

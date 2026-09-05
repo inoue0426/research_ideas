@@ -21,20 +21,20 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 |---:|---|---:|---:|---:|---:|---|---:|
 | ≈1 | [#40 — \[Idea\] Natural-Language-Conditioned Drug Embeddings for Pharmacogenomic Context](https://github.com/inoue0426/research_ideas/issues/40) | **1661** | **+51** | 43 | 29 | 🟢 Established | 31W / 0D / 12L |
 | ≈1 | [#32 — \[Idea\] Frontier-Conditioned Molecular Generation with Large Language Models](https://github.com/inoue0426/research_ideas/issues/32) | **1650** | **+8** | 39 | 29 | 🟢 Established | 29W / 0D / 10L |
-| ≈3 | [#41 — \[Idea\] Single-Cell and Spatial Modeling of ADC Response and Resistance](https://github.com/inoue0426/research_ideas/issues/41) | **1641** | **+152** | 38 | 29 | 🟢 Established | 28W / 0D / 10L |
-| ≈3 | [#36 — When Is Evidence Enough? Adaptive Evidence Acquisition for LLM Biomedical Reasoning](https://github.com/inoue0426/research_ideas/issues/36) | **1639** | **+26** | 41 | 29 | 🟢 Established | 30W / 0D / 11L |
-| ≈3 | [#33 — \[Idea\] Multi-Agent Uncertainty and Abstention for Biomedical Drug Reasoning](https://github.com/inoue0426/research_ideas/issues/33) | **1636** | **-18** | 42 | 29 | 🟢 Established | 30W / 0D / 12L |
-| ≈3 | [#44 — \[Idea\] Mechanism-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/44) | **1622** | **+50** | 43 | 29 | 🟢 Established | 28W / 0D / 15L |
-| ≈7 | [#35 — Adaptive Evidence Search for LLM Reasoning under Distracting Biomedical Graph Context](https://github.com/inoue0426/research_ideas/issues/35) | **1607** | **+144** | 39 | 29 | 🟢 Established | 23W / 0D / 16L |
-| ≈7 | [#43 — \[Idea\] Uncertainty-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/43) | **1587** | **+39** | 42 | 29 | 🟢 Established | 28W / 0D / 14L |
-| ≈7 | [#42 — \[Idea\] Cold-Start / OOD ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/42) | **1587** | **+45** | 42 | 29 | 🟢 Established | 28W / 0D / 14L |
-| 10 | [#38 — \[Idea\] Biomarker-Conditioned Molecular Embeddings for Pharmacogenomic Retrieval](https://github.com/inoue0426/research_ideas/issues/38) | **1580** | **-10** | 42 | 30 | 🟢 Established | 26W / 0D / 16L |
+| ≈1 | [#33 — \[Idea\] Multi-Agent Uncertainty and Abstention for Biomedical Drug Reasoning](https://github.com/inoue0426/research_ideas/issues/33) | **1648** | **-6** | 43 | 29 | 🟢 Established | 31W / 0D / 12L |
+| ≈4 | [#36 — When Is Evidence Enough? Adaptive Evidence Acquisition for LLM Biomedical Reasoning](https://github.com/inoue0426/research_ideas/issues/36) | **1639** | **+26** | 41 | 29 | 🟢 Established | 30W / 0D / 11L |
+| ≈4 | [#44 — \[Idea\] Mechanism-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/44) | **1622** | **+50** | 43 | 29 | 🟢 Established | 28W / 0D / 15L |
+| ≈6 | [#35 — Adaptive Evidence Search for LLM Reasoning under Distracting Biomedical Graph Context](https://github.com/inoue0426/research_ideas/issues/35) | **1607** | **+144** | 39 | 29 | 🟢 Established | 23W / 0D / 16L |
+| ≈6 | [#43 — \[Idea\] Uncertainty-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/43) | **1601** | **+53** | 43 | 29 | 🟢 Established | 29W / 0D / 14L |
+| ≈6 | [#42 — \[Idea\] Cold-Start / OOD ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/42) | **1587** | **+45** | 42 | 29 | 🟢 Established | 28W / 0D / 14L |
+| ≈9 | [#38 — \[Idea\] Biomarker-Conditioned Molecular Embeddings for Pharmacogenomic Retrieval](https://github.com/inoue0426/research_ideas/issues/38) | **1580** | **-10** | 42 | 30 | 🟢 Established | 26W / 0D / 16L |
+| ≈9 | [#41 — \[Idea\] Single-Cell and Spatial Modeling of ADC Response and Resistance](https://github.com/inoue0426/research_ideas/issues/41) | **1571** | **+82** | 43 | 29 | 🟢 Established | 28W / 0D / 15L |
 | ≈11 | [#31 — \[Idea\] Reliable Biomedical Evidence Reasoning: Separating Evidence Selection from Evidence Sufficiency](https://github.com/inoue0426/research_ideas/issues/31) | **1557** | **+10** | 43 | 29 | 🟢 Established | 26W / 0D / 17L |
 | ≈11 | [#34 — \[Idea\] CTD: Evidence Sufficiency and Selective Abstention](https://github.com/inoue0426/research_ideas/issues/34) | **1551** | **-116** | 42 | 29 | 🟢 Established | 26W / 0D / 16L |
-| ≈13 | [#20 — \[Idea\] Is there a compositional algebra of biological perturbations?](https://github.com/inoue0426/research_ideas/issues/20) | **1514** | **+8** | 42 | 29 | 🟢 Established | 23W / 0D / 19L |
-| ≈13 | [#46 — \[Idea\] Perturbation-Conditioned Schrödinger Bridges with Drifting Loss](https://github.com/inoue0426/research_ideas/issues/46) | **1511** | — | 40 | 29 | 🟢 Established | 20W / 0D / 20L |
-| ≈13 | [#19 — \[Idea\] When does perturbation transfer fail across biological domains?](https://github.com/inoue0426/research_ideas/issues/19) | **1509** | **+4** | 45 | 29 | 🟢 Established | 24W / 0D / 21L |
-| ≈13 | [#37 — \[Idea\] Partner- and Context-Conditioned Molecular Embeddings for Drug Combination Response](https://github.com/inoue0426/research_ideas/issues/37) | **1509** | **+77** | 41 | 30 | 🟢 Established | 20W / 0D / 21L |
+| ≈13 | [#20 — \[Idea\] Is there a compositional algebra of biological perturbations?](https://github.com/inoue0426/research_ideas/issues/20) | **1530** | **+23** | 43 | 29 | 🟢 Established | 24W / 0D / 19L |
+| ≈13 | [#46 — \[Idea\] Perturbation-Conditioned Schrödinger Bridges with Drifting Loss](https://github.com/inoue0426/research_ideas/issues/46) | **1526** | — | 41 | 29 | 🟢 Established | 21W / 0D / 20L |
+| ≈13 | [#19 — \[Idea\] When does perturbation transfer fail across biological domains?](https://github.com/inoue0426/research_ideas/issues/19) | **1523** | **+19** | 46 | 29 | 🟢 Established | 25W / 0D / 21L |
+| 16 | [#37 — \[Idea\] Partner- and Context-Conditioned Molecular Embeddings for Drug Combination Response](https://github.com/inoue0426/research_ideas/issues/37) | **1509** | **+77** | 41 | 30 | 🟢 Established | 20W / 0D / 21L |
 | 17 | [#12 — \[Idea\] Context-aware chemical ↔ genetic shared perturbation space](https://github.com/inoue0426/research_ideas/issues/12) | **1484** | **+26** | 40 | 29 | 🟢 Established | 19W / 0D / 21L |
 | ≈18 | [#13 — \[Idea\] What makes a representation preserve intervention geometry?](https://github.com/inoue0426/research_ideas/issues/13) | **1454** | **-4** | 42 | 29 | 🟢 Established | 18W / 0D / 24L |
 | ≈18 | [#21 — \[Idea\] Can response-relevant perturbation geometry be separated from mechanistically faithful perturbation geometry?](https://github.com/inoue0426/research_ideas/issues/21) | **1453** | **-49** | 40 | 29 | 🟢 Established | 18W / 0D / 22L |
@@ -52,14 +52,14 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 
 ### Weekly movers
 
-- 🚀 [#41 — \[Idea\] Single-Cell and Spatial Modeling of ADC Response and Resistance](https://github.com/inoue0426/research_ideas/issues/41): **+152 Elo**
 - 🚀 [#35 — Adaptive Evidence Search for LLM Reasoning under Distracting Biomedical Graph Context](https://github.com/inoue0426/research_ideas/issues/35): **+144 Elo**
+- 🚀 [#41 — \[Idea\] Single-Cell and Spatial Modeling of ADC Response and Resistance](https://github.com/inoue0426/research_ideas/issues/41): **+82 Elo**
 - 🚀 [#37 — \[Idea\] Partner- and Context-Conditioned Molecular Embeddings for Drug Combination Response](https://github.com/inoue0426/research_ideas/issues/37): **+77 Elo**
 - 📉 [#34 — \[Idea\] CTD: Evidence Sufficiency and Selective Abstention](https://github.com/inoue0426/research_ideas/issues/34): **-116 Elo**
 - 📉 [#9 — \[Idea\] How should mechanistic reasoning in drug response be evaluated when multiple explanations may be valid?](https://github.com/inoue0426/research_ideas/issues/9): **-115 Elo**
 - 📉 [#3 — \[Idea\] Can iterative optimization improve mechanism arbitration under conflicting evidence?](https://github.com/inoue0426/research_ideas/issues/3): **-100 Elo**
 
-_Updated automatically by Research Elo workflows. Last update: 2026-09-05 18:28 UTC._
+_Updated automatically by Research Elo workflows. Last update: 2026-09-05 21:23 UTC._
 <!-- RESEARCH_ELO_END -->
 
 <!-- RESEARCH_MAPS_START -->
