@@ -4859,6 +4859,51 @@
       "reason": "#36 wins over #34 because it frames evidence acquisition as an active process (not just a binary sufficiency check) with a clear experimental path to test adaptive search strategies, making it more tractable and novel than #34's more abstract sufficiency question.",
       "target": 34,
       "timestamp": "2026-09-05T15:24:32.668408+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 43,
+      "outcome": "win",
+      "reason": "#40 wins over #43 because it addresses a more fundamental and novel representation learning problem with broader potential applications in drug discovery, while #43 focuses on a narrower uncertainty estimation task with limited novelty and higher feasibility concerns due to small dataset size.",
+      "target": 40,
+      "timestamp": "2026-09-05T18:28:39.677742+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 44,
+      "outcome": "win",
+      "reason": "#40 wins over #44 because it proposes a more foundational and generalizable approach to contextual drug representation learning, whereas #44's mechanism-aware modeling is constrained by dataset imbalance and may not yield significant improvements over existing methods.",
+      "target": 40,
+      "timestamp": "2026-09-05T18:28:39.677742+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "#40 wins over #31 because it tackles a more impactful and scientifically novel problem in drug representation learning with clear potential for broader applications, while #31's evidence reasoning focus is more incremental and less directly applicable to core drug discovery challenges.",
+      "target": 40,
+      "timestamp": "2026-09-05T18:28:39.677742+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
+      "outcome": "win",
+      "reason": "#40 wins over #20 because it addresses a more concrete and immediately applicable problem in drug discovery with clear evaluation metrics, while #20's compositional algebra question is highly abstract and lacks a clear path to practical validation within six months.",
+      "target": 40,
+      "timestamp": "2026-09-05T18:28:39.677742+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "#40 wins over #19 because it proposes a more directly actionable and scientifically grounded approach to contextual drug representation with clear evaluation criteria, while #19's perturbation transfer failure analysis is more exploratory and less likely to yield immediately useful insights for drug discovery.",
+      "target": 40,
+      "timestamp": "2026-09-05T18:28:39.677742+00:00"
     }
   ],
   "k_factor": 24,
@@ -5268,12 +5313,12 @@
         "15": 1435.85,
         "16": 1406.12,
         "17": 1345.95,
-        "19": 1516.3,
-        "20": 1522.38,
+        "19": 1508.82,
+        "20": 1514.48,
         "21": 1453.02,
         "3": 1268.6,
         "30": 1422.79,
-        "31": 1566.73,
+        "31": 1557.11,
         "32": 1649.62,
         "33": 1635.81,
         "34": 1551.05,
@@ -5283,16 +5328,16 @@
         "38": 1579.53,
         "39": 1523.6,
         "4": 1404.55,
-        "40": 1612.59,
+        "40": 1661.46,
         "41": 1641.15,
         "42": 1587.14,
-        "43": 1598.96,
-        "44": 1633.84,
+        "43": 1587.43,
+        "44": 1621.5,
         "46": 1510.79,
         "7": 1320.5,
         "9": 1316.17
       },
-      "timestamp": "2026-09-05T15:24:33.463921+00:00"
+      "timestamp": "2026-09-05T18:28:40.367247+00:00"
     }
   ],
   "ratings": {
@@ -5602,8 +5647,8 @@
     },
     "19": {
       "draws": 0,
-      "games": 44,
-      "losses": 20,
+      "games": 45,
+      "losses": 21,
       "opponents": [
         3,
         4,
@@ -5635,13 +5680,13 @@
         44,
         46
       ],
-      "rating": 1516.3,
+      "rating": 1508.82,
       "wins": 24
     },
     "20": {
       "draws": 0,
-      "games": 41,
-      "losses": 18,
+      "games": 42,
+      "losses": 19,
       "opponents": [
         3,
         4,
@@ -5673,7 +5718,7 @@
         44,
         46
       ],
-      "rating": 1522.38,
+      "rating": 1514.48,
       "wins": 23
     },
     "21": {
@@ -5792,8 +5837,8 @@
     },
     "31": {
       "draws": 0,
-      "games": 42,
-      "losses": 16,
+      "games": 43,
+      "losses": 17,
       "opponents": [
         3,
         4,
@@ -5825,7 +5870,7 @@
         44,
         46
       ],
-      "rating": 1566.73,
+      "rating": 1557.11,
       "wins": 26
     },
     "32": {
@@ -6147,7 +6192,7 @@
     },
     "40": {
       "draws": 0,
-      "games": 38,
+      "games": 43,
       "losses": 12,
       "opponents": [
         3,
@@ -6180,8 +6225,8 @@
         44,
         46
       ],
-      "rating": 1612.59,
-      "wins": 26
+      "rating": 1661.46,
+      "wins": 31
     },
     "41": {
       "draws": 0,
@@ -6261,8 +6306,8 @@
     },
     "43": {
       "draws": 0,
-      "games": 41,
-      "losses": 13,
+      "games": 42,
+      "losses": 14,
       "opponents": [
         3,
         4,
@@ -6294,13 +6339,13 @@
         44,
         46
       ],
-      "rating": 1598.96,
+      "rating": 1587.43,
       "wins": 28
     },
     "44": {
       "draws": 0,
-      "games": 42,
-      "losses": 14,
+      "games": 43,
+      "losses": 15,
       "opponents": [
         3,
         4,
@@ -6332,7 +6377,7 @@
         43,
         46
       ],
-      "rating": 1633.84,
+      "rating": 1621.5,
       "wins": 28
     },
     "46": {
