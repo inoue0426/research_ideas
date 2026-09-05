@@ -4589,6 +4589,51 @@
       "reason": "#46 wins over #12 because it has a clearer technical question with a defined test (identifiability check), while #12's feasibility depends on uncertain data coverage and lacks a concrete evaluation plan.",
       "target": 46,
       "timestamp": "2026-09-04T21:24:35.783934+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 37,
+      "outcome": "win",
+      "reason": "#46 wins over #37 because it poses a clear, testable question about recovering perturbation dynamics from distributional mismatch, with a concrete path to validation via Schrödinger Bridges and Drifting Loss, while #37 faces significant data sparsity uncertainty that may prevent meaningful progress within six months.",
+      "target": 46,
+      "timestamp": "2026-09-05T00:59:42.743507+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "#46 wins over #13 because it proposes a specific, actionable method (residual dynamics inference) with a clear validation path, whereas #13 is a broad conceptual question lacking a defined experimental framework for testing representation properties within six months.",
+      "target": 46,
+      "timestamp": "2026-09-05T00:59:42.743507+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "#46 wins over #19 because it directly addresses a core technical challenge (identifiability of residual dynamics) with a well-defined experimental setup, while #19 focuses on characterizing failure modes which requires extensive data collection and analysis beyond six months.",
+      "target": 46,
+      "timestamp": "2026-09-05T00:59:42.743507+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
+      "outcome": "win",
+      "reason": "#46 wins over #20 because it offers a concrete, testable approach to recover perturbation dynamics from distributional mismatch, whereas #20's question about compositional algebra is highly speculative and lacks a clear path to validation within six months.",
+      "target": 46,
+      "timestamp": "2026-09-05T00:59:42.743507+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 21,
+      "outcome": "win",
+      "reason": "#46 wins over #21 because it provides a specific method (Schrödinger Bridges with Drifting Loss) to address a well-defined problem (recovery of residual dynamics), while #21's question about separating response-relevant vs. mechanistic geometry depends on scarce datasets that may not exist for validation within six months.",
+      "target": 46,
+      "timestamp": "2026-09-05T00:59:42.743507+00:00"
     }
   ],
   "k_factor": 24,
@@ -4987,6 +5032,42 @@
         "9": 1363.78
       },
       "timestamp": "2026-09-04T21:24:36.483463+00:00"
+    },
+    {
+      "ratings": {
+        "10": 1436.5,
+        "11": 1415.3,
+        "12": 1484.29,
+        "13": 1500.86,
+        "14": 1393.99,
+        "15": 1426.27,
+        "16": 1385.76,
+        "17": 1329.0,
+        "19": 1502.71,
+        "20": 1522.38,
+        "21": 1453.02,
+        "3": 1268.6,
+        "30": 1422.79,
+        "31": 1566.59,
+        "32": 1649.62,
+        "33": 1635.81,
+        "34": 1572.79,
+        "35": 1595.29,
+        "36": 1629.24,
+        "37": 1497.72,
+        "38": 1568.02,
+        "39": 1523.6,
+        "4": 1394.59,
+        "40": 1612.59,
+        "41": 1641.15,
+        "42": 1563.14,
+        "43": 1589.31,
+        "44": 1623.65,
+        "46": 1565.76,
+        "7": 1365.88,
+        "9": 1363.78
+      },
+      "timestamp": "2026-09-05T00:59:43.550331+00:00"
     }
   ],
   "ratings": {
@@ -5106,8 +5187,8 @@
     },
     "13": {
       "draws": 0,
-      "games": 36,
-      "losses": 19,
+      "games": 37,
+      "losses": 20,
       "opponents": [
         3,
         4,
@@ -5139,7 +5220,7 @@
         44,
         46
       ],
-      "rating": 1512.52,
+      "rating": 1500.86,
       "wins": 17
     },
     "14": {
@@ -5296,8 +5377,8 @@
     },
     "19": {
       "draws": 0,
-      "games": 41,
-      "losses": 19,
+      "games": 42,
+      "losses": 20,
       "opponents": [
         3,
         4,
@@ -5329,13 +5410,13 @@
         44,
         46
       ],
-      "rating": 1514.02,
+      "rating": 1502.71,
       "wins": 22
     },
     "20": {
       "draws": 0,
-      "games": 40,
-      "losses": 17,
+      "games": 41,
+      "losses": 18,
       "opponents": [
         3,
         4,
@@ -5367,13 +5448,13 @@
         44,
         46
       ],
-      "rating": 1533.99,
+      "rating": 1522.38,
       "wins": 23
     },
     "21": {
       "draws": 0,
-      "games": 39,
-      "losses": 21,
+      "games": 40,
+      "losses": 22,
       "opponents": [
         3,
         4,
@@ -5405,7 +5486,7 @@
         44,
         46
       ],
-      "rating": 1461.81,
+      "rating": 1453.02,
       "wins": 18
     },
     "3": {
@@ -5714,8 +5795,8 @@
     },
     "37": {
       "draws": 0,
-      "games": 39,
-      "losses": 20,
+      "games": 40,
+      "losses": 21,
       "opponents": [
         3,
         4,
@@ -5748,7 +5829,7 @@
         44,
         46
       ],
-      "rating": 1509.7,
+      "rating": 1497.72,
       "wins": 19
     },
     "38": {
@@ -6031,7 +6112,7 @@
     },
     "46": {
       "draws": 0,
-      "games": 30,
+      "games": 35,
       "losses": 15,
       "opponents": [
         3,
@@ -6064,8 +6145,8 @@
         43,
         44
       ],
-      "rating": 1510.41,
-      "wins": 15
+      "rating": 1565.76,
+      "wins": 20
     },
     "7": {
       "draws": 0,
