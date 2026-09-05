@@ -4634,6 +4634,51 @@
       "reason": "#46 wins over #21 because it provides a specific method (Schrödinger Bridges with Drifting Loss) to address a well-defined problem (recovery of residual dynamics), while #21's question about separating response-relevant vs. mechanistic geometry depends on scarce datasets that may not exist for validation within six months.",
       "target": 46,
       "timestamp": "2026-09-05T00:59:42.743507+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "loss",
+      "reason": "#31 wins over #46 because it addresses a clear, practical problem (reliable biomedical reasoning) with a well-defined question (evidence selection vs. sufficiency detection), while #46's core question about perturbation dynamics is highly speculative and lacks a clear path to validation within six months.",
+      "target": 46,
+      "timestamp": "2026-09-05T03:31:11.121561+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 38,
+      "outcome": "loss",
+      "reason": "#38 wins over #46 because it proposes a feasible, incremental extension to existing work (MolEmb) with a clear evaluation plan (comparing embedding methods), while #46's perturbation-conditioned Schrödinger Bridges lacks concrete evidence of tractability and relies on untested assumptions.",
+      "target": 46,
+      "timestamp": "2026-09-05T03:31:11.121561+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 42,
+      "outcome": "loss",
+      "reason": "#42 wins over #46 because it tackles a critical practical problem (cold-start ADC prediction) with a systematic evaluation framework that can be validated with existing data, while #46's theoretical question about distribution mismatch has high uncertainty and no clear validation path.",
+      "target": 46,
+      "timestamp": "2026-09-05T03:31:11.121561+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 34,
+      "outcome": "loss",
+      "reason": "#34 wins over #46 because it reframes an existing problem (CTD abstention) into a well-defined, testable research question (evidence sufficiency) with a clear experimental plan, while #46's perturbation dynamics question is too abstract and lacks a concrete validation method.",
+      "target": 46,
+      "timestamp": "2026-09-05T03:31:11.121561+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 43,
+      "outcome": "loss",
+      "reason": "#43 wins over #46 because it focuses on a practical, actionable problem (uncertainty-aware ADC prediction) with a clear evaluation plan (comparing uncertainty methods), while #46's theoretical question about residual dynamics has no clear path to validation within six months.",
+      "target": 46,
+      "timestamp": "2026-09-05T03:31:11.121561+00:00"
     }
   ],
   "k_factor": 24,
@@ -5048,26 +5093,26 @@
         "21": 1453.02,
         "3": 1268.6,
         "30": 1422.79,
-        "31": 1566.59,
+        "31": 1578.56,
         "32": 1649.62,
         "33": 1635.81,
-        "34": 1572.79,
+        "34": 1583.35,
         "35": 1595.29,
         "36": 1629.24,
         "37": 1497.72,
-        "38": 1568.02,
+        "38": 1579.53,
         "39": 1523.6,
         "4": 1394.59,
         "40": 1612.59,
         "41": 1641.15,
-        "42": 1563.14,
-        "43": 1589.31,
+        "42": 1574.42,
+        "43": 1598.96,
         "44": 1623.65,
-        "46": 1565.76,
+        "46": 1510.79,
         "7": 1365.88,
         "9": 1363.78
       },
-      "timestamp": "2026-09-05T00:59:43.550331+00:00"
+      "timestamp": "2026-09-05T03:31:11.807670+00:00"
     }
   ],
   "ratings": {
@@ -5567,7 +5612,7 @@
     },
     "31": {
       "draws": 0,
-      "games": 40,
+      "games": 41,
       "losses": 15,
       "opponents": [
         3,
@@ -5600,8 +5645,8 @@
         44,
         46
       ],
-      "rating": 1566.59,
-      "wins": 25
+      "rating": 1578.56,
+      "wins": 26
     },
     "32": {
       "draws": 0,
@@ -5681,7 +5726,7 @@
     },
     "34": {
       "draws": 0,
-      "games": 36,
+      "games": 37,
       "losses": 12,
       "opponents": [
         3,
@@ -5714,8 +5759,8 @@
         44,
         46
       ],
-      "rating": 1572.79,
-      "wins": 24
+      "rating": 1583.35,
+      "wins": 25
     },
     "35": {
       "draws": 0,
@@ -5834,7 +5879,7 @@
     },
     "38": {
       "draws": 0,
-      "games": 41,
+      "games": 42,
       "losses": 16,
       "opponents": [
         3,
@@ -5868,8 +5913,8 @@
         44,
         46
       ],
-      "rating": 1568.02,
-      "wins": 25
+      "rating": 1579.53,
+      "wins": 26
     },
     "39": {
       "draws": 0,
@@ -5998,7 +6043,7 @@
     },
     "42": {
       "draws": 0,
-      "games": 40,
+      "games": 41,
       "losses": 14,
       "opponents": [
         3,
@@ -6031,12 +6076,12 @@
         44,
         46
       ],
-      "rating": 1563.14,
-      "wins": 26
+      "rating": 1574.42,
+      "wins": 27
     },
     "43": {
       "draws": 0,
-      "games": 40,
+      "games": 41,
       "losses": 13,
       "opponents": [
         3,
@@ -6069,8 +6114,8 @@
         44,
         46
       ],
-      "rating": 1589.31,
-      "wins": 27
+      "rating": 1598.96,
+      "wins": 28
     },
     "44": {
       "draws": 0,
@@ -6112,8 +6157,8 @@
     },
     "46": {
       "draws": 0,
-      "games": 35,
-      "losses": 15,
+      "games": 40,
+      "losses": 20,
       "opponents": [
         3,
         4,
@@ -6145,7 +6190,7 @@
         43,
         44
       ],
-      "rating": 1565.76,
+      "rating": 1510.79,
       "wins": 20
     },
     "7": {
