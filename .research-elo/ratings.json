@@ -4814,6 +4814,51 @@
       "reason": "Issue #37 addresses a practical, data-driven problem (drug combination context dependence) with a clear model structure and measurable outcomes, while Issue #13's question is more theoretical and lacks a direct path to empirical validation.",
       "target": 13,
       "timestamp": "2026-09-05T12:34:14.234821+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "#34 wins over #31 because it clearly defines a novel, testable question about evidence sufficiency and abstention, with a concrete experimental plan to measure uncertainty and answerability, whereas #31 conflates evidence selection with sufficiency detection without a clear distinction in its proposed experiments.",
+      "target": 34,
+      "timestamp": "2026-09-05T15:24:32.668408+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 42,
+      "outcome": "loss",
+      "reason": "#42 wins over #34 because it addresses a critical practical need in ADC drug discovery (cold-start prediction) with a well-defined evaluation framework, while #34's evidence sufficiency problem is more theoretical and less directly applicable to high-impact biomedical applications.",
+      "target": 34,
+      "timestamp": "2026-09-05T15:24:32.668408+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 35,
+      "outcome": "loss",
+      "reason": "#35 wins over #34 because it proposes a more actionable and testable approach to evidence reasoning (adaptive search with MCTS) that directly addresses the distractor problem, whereas #34's focus on evidence sufficiency lacks a clear mechanism for how models would actually acquire missing evidence.",
+      "target": 34,
+      "timestamp": "2026-09-05T15:24:32.668408+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 44,
+      "outcome": "loss",
+      "reason": "#44 wins over #34 because it tackles a fundamental biological insight (mechanism-aware prediction) that could significantly improve ADC response models' interpretability and generalization, while #34's evidence sufficiency question is less directly tied to improving model performance in a high-stakes biomedical context.",
+      "target": 34,
+      "timestamp": "2026-09-05T15:24:32.668408+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 36,
+      "outcome": "loss",
+      "reason": "#36 wins over #34 because it frames evidence acquisition as an active process (not just a binary sufficiency check) with a clear experimental path to test adaptive search strategies, making it more tractable and novel than #34's more abstract sufficiency question.",
+      "target": 34,
+      "timestamp": "2026-09-05T15:24:32.668408+00:00"
     }
   ],
   "k_factor": 24,
@@ -5228,26 +5273,26 @@
         "21": 1453.02,
         "3": 1268.6,
         "30": 1422.79,
-        "31": 1578.56,
+        "31": 1566.73,
         "32": 1649.62,
         "33": 1635.81,
-        "34": 1583.35,
-        "35": 1595.29,
-        "36": 1629.24,
+        "34": 1551.05,
+        "35": 1606.85,
+        "36": 1638.9,
         "37": 1508.57,
         "38": 1579.53,
         "39": 1523.6,
         "4": 1404.55,
         "40": 1612.59,
         "41": 1641.15,
-        "42": 1574.42,
+        "42": 1587.14,
         "43": 1598.96,
-        "44": 1623.65,
+        "44": 1633.84,
         "46": 1510.79,
         "7": 1320.5,
         "9": 1316.17
       },
-      "timestamp": "2026-09-05T12:34:15.020712+00:00"
+      "timestamp": "2026-09-05T15:24:33.463921+00:00"
     }
   ],
   "ratings": {
@@ -5747,8 +5792,8 @@
     },
     "31": {
       "draws": 0,
-      "games": 41,
-      "losses": 15,
+      "games": 42,
+      "losses": 16,
       "opponents": [
         3,
         4,
@@ -5780,7 +5825,7 @@
         44,
         46
       ],
-      "rating": 1578.56,
+      "rating": 1566.73,
       "wins": 26
     },
     "32": {
@@ -5861,8 +5906,8 @@
     },
     "34": {
       "draws": 0,
-      "games": 37,
-      "losses": 12,
+      "games": 42,
+      "losses": 16,
       "opponents": [
         3,
         4,
@@ -5894,12 +5939,12 @@
         44,
         46
       ],
-      "rating": 1583.35,
-      "wins": 25
+      "rating": 1551.05,
+      "wins": 26
     },
     "35": {
       "draws": 0,
-      "games": 38,
+      "games": 39,
       "losses": 16,
       "opponents": [
         3,
@@ -5932,12 +5977,12 @@
         44,
         46
       ],
-      "rating": 1595.29,
-      "wins": 22
+      "rating": 1606.85,
+      "wins": 23
     },
     "36": {
       "draws": 0,
-      "games": 40,
+      "games": 41,
       "losses": 11,
       "opponents": [
         3,
@@ -5970,8 +6015,8 @@
         44,
         46
       ],
-      "rating": 1629.24,
-      "wins": 29
+      "rating": 1638.9,
+      "wins": 30
     },
     "37": {
       "draws": 0,
@@ -6178,7 +6223,7 @@
     },
     "42": {
       "draws": 0,
-      "games": 41,
+      "games": 42,
       "losses": 14,
       "opponents": [
         3,
@@ -6211,8 +6256,8 @@
         44,
         46
       ],
-      "rating": 1574.42,
-      "wins": 27
+      "rating": 1587.14,
+      "wins": 28
     },
     "43": {
       "draws": 0,
@@ -6254,7 +6299,7 @@
     },
     "44": {
       "draws": 0,
-      "games": 41,
+      "games": 42,
       "losses": 14,
       "opponents": [
         3,
@@ -6287,8 +6332,8 @@
         43,
         46
       ],
-      "rating": 1623.65,
-      "wins": 27
+      "rating": 1633.84,
+      "wins": 28
     },
     "46": {
       "draws": 0,
