@@ -5129,6 +5129,51 @@
       "reason": "Issue #4 wins over #21 by addressing a more concrete biological question about spatial microenvironment effects, which has higher importance for understanding drug response variation and a more feasible validation path with existing spatial datasets.",
       "target": 21,
       "timestamp": "2026-09-06T09:26:44.921196+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "loss",
+      "reason": "#4 wins over #12 because it addresses a more immediate and actionable question about spatial microenvironment effects on drug sensitivity, which has clearer practical implications for cancer therapy and is more tractable with existing spatial datasets compared to the more abstract latent space decomposition in #12.",
+      "target": 12,
+      "timestamp": "2026-09-06T12:34:17.258671+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 37,
+      "outcome": "loss",
+      "reason": "#37 wins over #12 because it proposes a novel, context-dependent representation learning approach for drug combinations that directly addresses a critical gap in current drug combination modeling, with clear potential for practical applications in drug discovery and a more concrete path to validation through existing datasets.",
+      "target": 12,
+      "timestamp": "2026-09-06T12:34:17.258671+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "win",
+      "reason": "#12 wins over #13 because it focuses on a specific, well-defined problem (context-aware perturbation space) with a clear path to validation and practical relevance for target validation, whereas #13 is more abstract and lacks a concrete benchmark for evaluation.",
+      "target": 12,
+      "timestamp": "2026-09-06T12:34:17.258671+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 11,
+      "outcome": "win",
+      "reason": "#12 wins over #11 because it provides a more concrete and actionable research question about decomposing perturbation responses into interpretable components, while #11's focus on intervention geometry transfer is more speculative and lacks a clear validation path.",
+      "target": 12,
+      "timestamp": "2026-09-06T12:34:17.258671+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 10,
+      "outcome": "win",
+      "reason": "#12 wins over #10 because it offers a more specific and testable hypothesis about perturbation response decomposition, whereas #10's broader question about transferable biological structures is less focused and harder to validate with current data.",
+      "target": 12,
+      "timestamp": "2026-09-06T12:34:17.258671+00:00"
     }
   ],
   "k_factor": 24,
@@ -5566,10 +5611,10 @@
     },
     {
       "ratings": {
-        "10": 1435.72,
-        "11": 1440.55,
-        "12": 1484.29,
-        "13": 1453.5,
+        "10": 1425.37,
+        "11": 1429.67,
+        "12": 1494.21,
+        "13": 1441.77,
         "14": 1417.89,
         "15": 1424.06,
         "16": 1406.12,
@@ -5585,10 +5630,10 @@
         "34": 1551.05,
         "35": 1636.74,
         "36": 1638.9,
-        "37": 1508.57,
+        "37": 1519.31,
         "38": 1568.48,
         "39": 1523.6,
-        "4": 1475.46,
+        "4": 1487.76,
         "40": 1661.46,
         "41": 1570.53,
         "42": 1575.42,
@@ -5598,14 +5643,14 @@
         "7": 1320.5,
         "9": 1316.17
       },
-      "timestamp": "2026-09-06T09:26:45.592786+00:00"
+      "timestamp": "2026-09-06T12:34:17.910517+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 0,
-      "games": 46,
-      "losses": 29,
+      "games": 47,
+      "losses": 30,
       "opponents": [
         3,
         4,
@@ -5637,13 +5682,13 @@
         44,
         46
       ],
-      "rating": 1435.72,
+      "rating": 1425.37,
       "wins": 17
     },
     "11": {
       "draws": 0,
-      "games": 48,
-      "losses": 29,
+      "games": 49,
+      "losses": 30,
       "opponents": [
         3,
         4,
@@ -5675,13 +5720,13 @@
         44,
         46
       ],
-      "rating": 1440.55,
+      "rating": 1429.67,
       "wins": 19
     },
     "12": {
       "draws": 0,
-      "games": 40,
-      "losses": 21,
+      "games": 45,
+      "losses": 23,
       "opponents": [
         3,
         4,
@@ -5713,13 +5758,13 @@
         44,
         46
       ],
-      "rating": 1484.29,
-      "wins": 19
+      "rating": 1494.21,
+      "wins": 22
     },
     "13": {
       "draws": 0,
-      "games": 42,
-      "losses": 24,
+      "games": 43,
+      "losses": 25,
       "opponents": [
         3,
         4,
@@ -5751,7 +5796,7 @@
         44,
         46
       ],
-      "rating": 1453.5,
+      "rating": 1441.77,
       "wins": 18
     },
     "14": {
@@ -6326,7 +6371,7 @@
     },
     "37": {
       "draws": 0,
-      "games": 41,
+      "games": 42,
       "losses": 21,
       "opponents": [
         3,
@@ -6360,8 +6405,8 @@
         44,
         46
       ],
-      "rating": 1508.57,
-      "wins": 20
+      "rating": 1519.31,
+      "wins": 21
     },
     "38": {
       "draws": 0,
@@ -6415,7 +6460,7 @@
     },
     "4": {
       "draws": 0,
-      "games": 45,
+      "games": 46,
       "losses": 26,
       "opponents": [
         3,
@@ -6448,8 +6493,8 @@
         44,
         46
       ],
-      "rating": 1475.46,
-      "wins": 19
+      "rating": 1487.76,
+      "wins": 20
     },
     "40": {
       "draws": 0,
