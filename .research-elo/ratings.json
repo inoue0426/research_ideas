@@ -5084,6 +5084,51 @@
       "reason": "Issue #20 explores a fundamental question about compositional algebra in biological perturbations with high importance (enabling generalization to unseen combinations) and strong novelty potential (learnable algebraic structure). Issue #32's LLM approach is less novel and lacks a clear mechanism for addressing core limitations in molecular generation.",
       "target": 32,
       "timestamp": "2026-09-06T06:39:20.208052+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 11,
+      "outcome": "loss",
+      "reason": "Issue #11 wins over #21 by addressing a more actionable question about intervention geometry transferability, which has clearer practical implications for cross-domain drug response prediction and a more direct path to validation with existing data.",
+      "target": 21,
+      "timestamp": "2026-09-06T09:26:44.921196+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 10,
+      "outcome": "loss",
+      "reason": "Issue #10 wins over #21 by framing a broader, more foundational question about transferable biological structures, which has higher leverage for generalizing across multiple domain shifts and aligns with the need for principled transfer learning principles.",
+      "target": 21,
+      "timestamp": "2026-09-06T09:26:44.921196+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "loss",
+      "reason": "Issue #19 wins over #21 by focusing on characterizing failure modes of perturbation transfer, which is more immediately useful for practical decision-making and has a clearer path to empirical validation with existing drug-response data.",
+      "target": 21,
+      "timestamp": "2026-09-06T09:26:44.921196+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 17,
+      "outcome": "draw",
+      "reason": "Issue #17 and #21 are both uncertain; #17's human-in-the-loop approach lacks clear evidence of scientific contribution beyond HCI, while #21's question is well-framed but depends on scarce data for validation.",
+      "target": 21,
+      "timestamp": "2026-09-06T09:26:44.921196+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "loss",
+      "reason": "Issue #4 wins over #21 by addressing a more concrete biological question about spatial microenvironment effects, which has higher importance for understanding drug response variation and a more feasible validation path with existing spatial datasets.",
+      "target": 21,
+      "timestamp": "2026-09-06T09:26:44.921196+00:00"
     }
   ],
   "k_factor": 24,
@@ -5521,17 +5566,17 @@
     },
     {
       "ratings": {
-        "10": 1423.13,
-        "11": 1427.68,
+        "10": 1435.72,
+        "11": 1440.55,
         "12": 1484.29,
         "13": 1453.5,
         "14": 1417.89,
         "15": 1424.06,
         "16": 1406.12,
-        "17": 1345.95,
-        "19": 1538.24,
+        "17": 1348.45,
+        "19": 1546.54,
         "20": 1535.59,
-        "21": 1453.02,
+        "21": 1406.42,
         "3": 1268.6,
         "30": 1410.16,
         "31": 1562.24,
@@ -5543,7 +5588,7 @@
         "37": 1508.57,
         "38": 1568.48,
         "39": 1523.6,
-        "4": 1465.12,
+        "4": 1475.46,
         "40": 1661.46,
         "41": 1570.53,
         "42": 1575.42,
@@ -5553,13 +5598,13 @@
         "7": 1320.5,
         "9": 1316.17
       },
-      "timestamp": "2026-09-06T06:39:21.360376+00:00"
+      "timestamp": "2026-09-06T09:26:45.592786+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 0,
-      "games": 45,
+      "games": 46,
       "losses": 29,
       "opponents": [
         3,
@@ -5592,12 +5637,12 @@
         44,
         46
       ],
-      "rating": 1423.13,
-      "wins": 16
+      "rating": 1435.72,
+      "wins": 17
     },
     "11": {
       "draws": 0,
-      "games": 47,
+      "games": 48,
       "losses": 29,
       "opponents": [
         3,
@@ -5630,8 +5675,8 @@
         44,
         46
       ],
-      "rating": 1427.68,
-      "wins": 18
+      "rating": 1440.55,
+      "wins": 19
     },
     "12": {
       "draws": 0,
@@ -5824,8 +5869,8 @@
       "wins": 17
     },
     "17": {
-      "draws": 0,
-      "games": 43,
+      "draws": 1,
+      "games": 44,
       "losses": 35,
       "opponents": [
         3,
@@ -5858,12 +5903,12 @@
         44,
         46
       ],
-      "rating": 1345.95,
+      "rating": 1348.45,
       "wins": 8
     },
     "19": {
       "draws": 0,
-      "games": 47,
+      "games": 48,
       "losses": 21,
       "opponents": [
         3,
@@ -5896,8 +5941,8 @@
         44,
         46
       ],
-      "rating": 1538.24,
-      "wins": 26
+      "rating": 1546.54,
+      "wins": 27
     },
     "20": {
       "draws": 0,
@@ -5938,9 +5983,9 @@
       "wins": 25
     },
     "21": {
-      "draws": 0,
-      "games": 40,
-      "losses": 22,
+      "draws": 1,
+      "games": 45,
+      "losses": 26,
       "opponents": [
         3,
         4,
@@ -5972,7 +6017,7 @@
         44,
         46
       ],
-      "rating": 1453.02,
+      "rating": 1406.42,
       "wins": 18
     },
     "3": {
@@ -6370,7 +6415,7 @@
     },
     "4": {
       "draws": 0,
-      "games": 44,
+      "games": 45,
       "losses": 26,
       "opponents": [
         3,
@@ -6403,8 +6448,8 @@
         44,
         46
       ],
-      "rating": 1465.12,
-      "wins": 18
+      "rating": 1475.46,
+      "wins": 19
     },
     "40": {
       "draws": 0,
