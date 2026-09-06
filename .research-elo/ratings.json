@@ -5039,6 +5039,51 @@
       "reason": "#4 wins over #11 because it directly addresses a well-defined biological question with clear experimental validation path, while #11's 'intervention geometry' concept requires unverified assumptions about cross-domain perturbation operators.",
       "target": 4,
       "timestamp": "2026-09-06T03:32:20.439824+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 44,
+      "outcome": "loss",
+      "reason": "Issue #44 addresses a clear, practical problem in ADC drug development with a well-defined question about mechanism-aware modeling. It has high importance (improving ADC response prediction), strong novelty potential (explicitly separating mechanism pathways), and a clear next check (sample size analysis). Issue #32's Pareto-aware LLM approach risks being incremental over existing methods, with less clear practical impact on drug design.",
+      "target": 32,
+      "timestamp": "2026-09-06T06:39:20.208052+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "loss",
+      "reason": "Issue #31 tackles a fundamental reliability gap in biomedical LLMs (evidence selection vs. sufficiency detection) with a clear, testable question. It has high importance (reliability for clinical use), strong novelty potential (distinct capabilities), and a concrete next check (reproducibility testing). Issue #32's LLM-based molecular generation is less novel and lacks a clear path to practical impact beyond incremental improvements.",
+      "target": 32,
+      "timestamp": "2026-09-06T06:39:20.208052+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 46,
+      "outcome": "loss",
+      "reason": "Issue #46 proposes a novel, testable framework for using distribution mismatch to correct perturbation models, with high importance (improving model reliability) and strong falsifiability (identifiability test). Issue #32's LLM approach is less novel and lacks a clear mechanism for addressing core limitations in molecular generation.",
+      "target": 32,
+      "timestamp": "2026-09-06T06:39:20.208052+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "loss",
+      "reason": "Issue #19 identifies a critical, underexplored failure mode in perturbation transfer (when it fails) with high importance for clinical deployment. It has strong novelty potential (characterizing failure modes) and a clear next check (separating correlated factors). Issue #32's LLM approach is less novel and lacks a clear path to addressing real-world limitations in drug design.",
+      "target": 32,
+      "timestamp": "2026-09-06T06:39:20.208052+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
+      "outcome": "loss",
+      "reason": "Issue #20 explores a fundamental question about compositional algebra in biological perturbations with high importance (enabling generalization to unseen combinations) and strong novelty potential (learnable algebraic structure). Issue #32's LLM approach is less novel and lacks a clear mechanism for addressing core limitations in molecular generation.",
+      "target": 32,
+      "timestamp": "2026-09-06T06:39:20.208052+00:00"
     }
   ],
   "k_factor": 24,
@@ -5484,13 +5529,13 @@
         "15": 1424.06,
         "16": 1406.12,
         "17": 1345.95,
-        "19": 1523.41,
-        "20": 1521.18,
+        "19": 1538.24,
+        "20": 1535.59,
         "21": 1453.02,
         "3": 1268.6,
         "30": 1410.16,
-        "31": 1547.2,
-        "32": 1649.62,
+        "31": 1562.24,
+        "32": 1577.53,
         "33": 1647.99,
         "34": 1551.05,
         "35": 1636.74,
@@ -5503,12 +5548,12 @@
         "41": 1570.53,
         "42": 1575.42,
         "43": 1600.86,
-        "44": 1632.99,
-        "46": 1525.81,
+        "44": 1645.56,
+        "46": 1541.05,
         "7": 1320.5,
         "9": 1316.17
       },
-      "timestamp": "2026-09-06T03:32:21.080491+00:00"
+      "timestamp": "2026-09-06T06:39:21.360376+00:00"
     }
   ],
   "ratings": {
@@ -5818,7 +5863,7 @@
     },
     "19": {
       "draws": 0,
-      "games": 46,
+      "games": 47,
       "losses": 21,
       "opponents": [
         3,
@@ -5851,12 +5896,12 @@
         44,
         46
       ],
-      "rating": 1523.41,
-      "wins": 25
+      "rating": 1538.24,
+      "wins": 26
     },
     "20": {
       "draws": 0,
-      "games": 44,
+      "games": 45,
       "losses": 20,
       "opponents": [
         3,
@@ -5889,8 +5934,8 @@
         44,
         46
       ],
-      "rating": 1521.18,
-      "wins": 24
+      "rating": 1535.59,
+      "wins": 25
     },
     "21": {
       "draws": 0,
@@ -6008,7 +6053,7 @@
     },
     "31": {
       "draws": 0,
-      "games": 44,
+      "games": 45,
       "losses": 18,
       "opponents": [
         3,
@@ -6041,13 +6086,13 @@
         44,
         46
       ],
-      "rating": 1547.2,
-      "wins": 26
+      "rating": 1562.24,
+      "wins": 27
     },
     "32": {
       "draws": 0,
-      "games": 39,
-      "losses": 10,
+      "games": 44,
+      "losses": 15,
       "opponents": [
         3,
         4,
@@ -6079,7 +6124,7 @@
         44,
         46
       ],
-      "rating": 1649.62,
+      "rating": 1577.53,
       "wins": 29
     },
     "33": {
@@ -6515,7 +6560,7 @@
     },
     "44": {
       "draws": 0,
-      "games": 44,
+      "games": 45,
       "losses": 15,
       "opponents": [
         3,
@@ -6548,12 +6593,12 @@
         43,
         46
       ],
-      "rating": 1632.99,
-      "wins": 29
+      "rating": 1645.56,
+      "wins": 30
     },
     "46": {
       "draws": 0,
-      "games": 41,
+      "games": 42,
       "losses": 20,
       "opponents": [
         3,
@@ -6586,8 +6631,8 @@
         43,
         44
       ],
-      "rating": 1525.81,
-      "wins": 21
+      "rating": 1541.05,
+      "wins": 22
     },
     "7": {
       "draws": 0,
