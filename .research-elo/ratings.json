@@ -5489,6 +5489,51 @@
       "reason": "#38 wins over #15 because it has clearer practical application (pharmacogenomic retrieval) and more concrete evaluation plan (comparing conditioning methods), while #15's mechanism arbitration is more abstract and lacks a defined benchmark for 'conflicting evidence'",
       "target": 38,
       "timestamp": "2026-09-07T09:37:07.011997+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 37,
+      "outcome": "loss",
+      "reason": "#37 wins over #43 because it poses a clearer, more novel question about context-dependent molecular representations, with a more concrete next step to check data sparsity, while #43's uncertainty calibration challenge is less novel and more method-focused.",
+      "target": 43,
+      "timestamp": "2026-09-07T12:39:50.022255+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "loss",
+      "reason": "#12 wins over #43 because it addresses a fundamental biological question about decomposing perturbation responses into interpretable components, with a clear feasibility check, while #43's focus on uncertainty calibration is less foundational and more incremental.",
+      "target": 43,
+      "timestamp": "2026-09-07T12:39:50.022255+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "loss",
+      "reason": "#4 wins over #43 because it tackles a critical but underexplored spatial biology question with high practical relevance to drug response, while #43's uncertainty calibration is a narrower methodological refinement.",
+      "target": 43,
+      "timestamp": "2026-09-07T12:39:50.022255+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 10,
+      "outcome": "loss",
+      "reason": "#10 wins over #43 because it asks a broader, more foundational question about transferable biological structures, with a clear path to general principles, while #43's uncertainty calibration is a specific technical problem with limited leverage.",
+      "target": 43,
+      "timestamp": "2026-09-07T12:39:50.022255+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 13,
+      "outcome": "loss",
+      "reason": "#13 wins over #43 because it seeks general principles for representation design rather than a specific method, with higher novelty and potential to guide future work, while #43's focus on uncertainty calibration is less novel and more incremental.",
+      "target": 43,
+      "timestamp": "2026-09-07T12:39:50.022255+00:00"
     }
   ],
   "k_factor": 24,
@@ -5962,10 +6007,10 @@
     },
     {
       "ratings": {
-        "10": 1449.33,
+        "10": 1464.87,
         "11": 1439.37,
-        "12": 1469.3,
-        "13": 1448.67,
+        "12": 1485.19,
+        "13": 1463.73,
         "14": 1428.94,
         "15": 1448.24,
         "16": 1352.59,
@@ -5981,26 +6026,26 @@
         "34": 1601.27,
         "35": 1636.74,
         "36": 1631.89,
-        "37": 1524.41,
+        "37": 1539.01,
         "38": 1612.39,
         "39": 1523.6,
-        "4": 1464.16,
+        "4": 1479.72,
         "40": 1661.46,
         "41": 1570.53,
         "42": 1575.42,
-        "43": 1600.86,
+        "43": 1524.21,
         "44": 1645.56,
         "46": 1556.62,
         "7": 1281.86,
         "9": 1277.23
       },
-      "timestamp": "2026-09-07T09:37:07.798284+00:00"
+      "timestamp": "2026-09-07T12:39:50.929410+00:00"
     }
   ],
   "ratings": {
     "10": {
       "draws": 0,
-      "games": 50,
+      "games": 51,
       "losses": 30,
       "opponents": [
         3,
@@ -6033,8 +6078,8 @@
         44,
         46
       ],
-      "rating": 1449.33,
-      "wins": 20
+      "rating": 1464.87,
+      "wins": 21
     },
     "11": {
       "draws": 0,
@@ -6076,7 +6121,7 @@
     },
     "12": {
       "draws": 0,
-      "games": 48,
+      "games": 49,
       "losses": 26,
       "opponents": [
         3,
@@ -6109,12 +6154,12 @@
         44,
         46
       ],
-      "rating": 1469.3,
-      "wins": 22
+      "rating": 1485.19,
+      "wins": 23
     },
     "13": {
       "draws": 0,
-      "games": 44,
+      "games": 45,
       "losses": 25,
       "opponents": [
         3,
@@ -6147,8 +6192,8 @@
         44,
         46
       ],
-      "rating": 1448.67,
-      "wins": 19
+      "rating": 1463.73,
+      "wins": 20
     },
     "14": {
       "draws": 0,
@@ -6722,7 +6767,7 @@
     },
     "37": {
       "draws": 0,
-      "games": 44,
+      "games": 45,
       "losses": 22,
       "opponents": [
         3,
@@ -6756,8 +6801,8 @@
         44,
         46
       ],
-      "rating": 1524.41,
-      "wins": 22
+      "rating": 1539.01,
+      "wins": 23
     },
     "38": {
       "draws": 0,
@@ -6811,7 +6856,7 @@
     },
     "4": {
       "draws": 0,
-      "games": 49,
+      "games": 50,
       "losses": 29,
       "opponents": [
         3,
@@ -6844,8 +6889,8 @@
         44,
         46
       ],
-      "rating": 1464.16,
-      "wins": 20
+      "rating": 1479.72,
+      "wins": 21
     },
     "40": {
       "draws": 0,
@@ -6963,8 +7008,8 @@
     },
     "43": {
       "draws": 0,
-      "games": 43,
-      "losses": 14,
+      "games": 48,
+      "losses": 19,
       "opponents": [
         3,
         4,
@@ -6996,7 +7041,7 @@
         44,
         46
       ],
-      "rating": 1600.86,
+      "rating": 1524.21,
       "wins": 29
     },
     "44": {
