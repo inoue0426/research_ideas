@@ -5399,6 +5399,51 @@
       "reason": "#15 wins over #7 because it tackles a critical problem in mechanistic reasoning (conflicting evidence arbitration) with direct relevance to biological decision-making, while #7's uncertainty-aware INR is a technical refinement without clear scientific novelty.",
       "target": 7,
       "timestamp": "2026-09-07T03:35:01.903277+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "Issue #34 wins over #19 due to clearer problem framing, higher tractability (using existing CTD pipeline), and stronger falsifiability (measurable evidence degradation axis). #19's failure mode characterization lacks concrete evaluation metrics and depends on unverified data sparsity.",
+      "target": 34,
+      "timestamp": "2026-09-07T06:54:08.999814+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
+      "outcome": "win",
+      "reason": "Issue #34 wins over #20 due to more immediate feasibility (using existing models/datasets) and clearer evaluation metrics (answerability vs. evidence degradation). #20's compositional algebra question is highly speculative without evidence of compositional structure in perturbations.",
+      "target": 34,
+      "timestamp": "2026-09-07T06:54:08.999814+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 37,
+      "outcome": "win",
+      "reason": "Issue #34 wins over #37 due to higher tractability (existing CTD pipeline, no new model design) and stronger falsifiability (measurable evidence sufficiency axis). #37's partner-conditioned embeddings face severe data sparsity uncertainty with no clear path to validation.",
+      "target": 34,
+      "timestamp": "2026-09-07T06:54:08.999814+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 12,
+      "outcome": "win",
+      "reason": "Issue #34 wins over #12 due to clearer problem definition (evidence sufficiency vs. path existence) and higher tractability (using existing CTD pipeline). #12's latent space decomposition lacks concrete evaluation metrics and depends on unverified data coverage.",
+      "target": 34,
+      "timestamp": "2026-09-07T06:54:08.999814+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "Issue #34 wins over #4 due to stronger falsifiability (measurable evidence degradation axis) and higher tractability (existing CTD pipeline). #4's spatial microenvironment question lacks concrete evaluation metrics and depends on unverified dataset coverage.",
+      "target": 34,
+      "timestamp": "2026-09-07T06:54:08.999814+00:00"
     }
   ],
   "k_factor": 24,
@@ -5874,27 +5919,27 @@
       "ratings": {
         "10": 1449.33,
         "11": 1439.37,
-        "12": 1486.27,
+        "12": 1477.57,
         "13": 1448.67,
         "14": 1428.94,
         "15": 1455.36,
         "16": 1352.59,
         "17": 1348.45,
-        "19": 1537.66,
-        "20": 1535.59,
+        "19": 1526.12,
+        "20": 1524.52,
         "21": 1430.63,
         "3": 1258.59,
         "30": 1444.16,
         "31": 1562.24,
         "32": 1577.53,
         "33": 1647.99,
-        "34": 1551.05,
+        "34": 1601.27,
         "35": 1636.74,
         "36": 1631.89,
-        "37": 1535.08,
+        "37": 1524.41,
         "38": 1568.48,
         "39": 1523.6,
-        "4": 1480.25,
+        "4": 1472.01,
         "40": 1661.46,
         "41": 1570.53,
         "42": 1575.42,
@@ -5904,7 +5949,7 @@
         "7": 1281.86,
         "9": 1277.23
       },
-      "timestamp": "2026-09-07T03:35:02.737307+00:00"
+      "timestamp": "2026-09-07T06:54:09.689667+00:00"
     }
   ],
   "ratings": {
@@ -5986,8 +6031,8 @@
     },
     "12": {
       "draws": 0,
-      "games": 46,
-      "losses": 24,
+      "games": 47,
+      "losses": 25,
       "opponents": [
         3,
         4,
@@ -6019,7 +6064,7 @@
         44,
         46
       ],
-      "rating": 1486.27,
+      "rating": 1477.57,
       "wins": 22
     },
     "13": {
@@ -6214,8 +6259,8 @@
     },
     "19": {
       "draws": 0,
-      "games": 49,
-      "losses": 22,
+      "games": 50,
+      "losses": 23,
       "opponents": [
         3,
         4,
@@ -6247,13 +6292,13 @@
         44,
         46
       ],
-      "rating": 1537.66,
+      "rating": 1526.12,
       "wins": 27
     },
     "20": {
       "draws": 0,
-      "games": 45,
-      "losses": 20,
+      "games": 46,
+      "losses": 21,
       "opponents": [
         3,
         4,
@@ -6285,7 +6330,7 @@
         44,
         46
       ],
-      "rating": 1535.59,
+      "rating": 1524.52,
       "wins": 25
     },
     "21": {
@@ -6518,7 +6563,7 @@
     },
     "34": {
       "draws": 0,
-      "games": 42,
+      "games": 47,
       "losses": 16,
       "opponents": [
         3,
@@ -6551,8 +6596,8 @@
         44,
         46
       ],
-      "rating": 1551.05,
-      "wins": 26
+      "rating": 1601.27,
+      "wins": 31
     },
     "35": {
       "draws": 0,
@@ -6632,8 +6677,8 @@
     },
     "37": {
       "draws": 0,
-      "games": 43,
-      "losses": 21,
+      "games": 44,
+      "losses": 22,
       "opponents": [
         3,
         4,
@@ -6666,7 +6711,7 @@
         44,
         46
       ],
-      "rating": 1535.08,
+      "rating": 1524.41,
       "wins": 22
     },
     "38": {
@@ -6721,8 +6766,8 @@
     },
     "4": {
       "draws": 0,
-      "games": 47,
-      "losses": 27,
+      "games": 48,
+      "losses": 28,
       "opponents": [
         3,
         7,
@@ -6754,7 +6799,7 @@
         44,
         46
       ],
-      "rating": 1480.25,
+      "rating": 1472.01,
       "wins": 20
     },
     "40": {
