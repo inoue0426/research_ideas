@@ -19,9 +19,9 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 
 | Rank | Issue | Rating | Δ7d | Games | Opp. | Status | Record |
 |---:|---|---:|---:|---:|---:|---|---:|
-| ≈1 | [#40 — \[Idea\] Natural-Language-Conditioned Drug Embeddings for Pharmacogenomic Context](https://github.com/inoue0426/research_ideas/issues/40) | **1661** | **+112** | 43 | 29 | 🟢 Established | 31W / 0D / 12L |
-| ≈1 | [#33 — \[Idea\] Multi-Agent Uncertainty and Abstention for Biomedical Drug Reasoning](https://github.com/inoue0426/research_ideas/issues/33) | **1648** | **+17** | 43 | 29 | 🟢 Established | 31W / 0D / 12L |
-| ≈1 | [#44 — \[Idea\] Mechanism-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/44) | **1646** | **+150** | 45 | 29 | 🟢 Established | 30W / 0D / 15L |
+| 1 | [#33 — \[Idea\] Multi-Agent Uncertainty and Abstention for Biomedical Drug Reasoning](https://github.com/inoue0426/research_ideas/issues/33) | **1684** | **+53** | 48 | 29 | 🟢 Established | 36W / 0D / 12L |
+| ≈2 | [#40 — \[Idea\] Natural-Language-Conditioned Drug Embeddings for Pharmacogenomic Context](https://github.com/inoue0426/research_ideas/issues/40) | **1661** | **+112** | 43 | 29 | 🟢 Established | 31W / 0D / 12L |
+| ≈2 | [#44 — \[Idea\] Mechanism-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/44) | **1646** | **+150** | 45 | 29 | 🟢 Established | 30W / 0D / 15L |
 | ≈4 | [#35 — Adaptive Evidence Search for LLM Reasoning under Distracting Biomedical Graph Context](https://github.com/inoue0426/research_ideas/issues/35) | **1637** | **+151** | 44 | 29 | 🟢 Established | 27W / 0D / 17L |
 | ≈4 | [#36 — When Is Evidence Enough? Adaptive Evidence Acquisition for LLM Biomedical Reasoning](https://github.com/inoue0426/research_ideas/issues/36) | **1632** | **+19** | 46 | 29 | 🟢 Established | 33W / 0D / 13L |
 | ≈6 | [#38 — \[Idea\] Biomarker-Conditioned Molecular Embeddings for Pharmacogenomic Retrieval](https://github.com/inoue0426/research_ideas/issues/38) | **1612** | **+53** | 48 | 30 | 🟢 Established | 31W / 0D / 17L |
@@ -30,20 +30,20 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 | ≈8 | [#42 — \[Idea\] Cold-Start / OOD ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/42) | **1575** | **-43** | 43 | 29 | 🟢 Established | 28W / 0D / 15L |
 | ≈8 | [#41 — \[Idea\] Single-Cell and Spatial Modeling of ADC Response and Resistance](https://github.com/inoue0426/research_ideas/issues/41) | **1571** | **-27** | 43 | 29 | 🟢 Established | 28W / 0D / 15L |
 | ≈8 | [#31 — \[Idea\] Reliable Biomedical Evidence Reasoning: Separating Evidence Selection from Evidence Sufficiency](https://github.com/inoue0426/research_ideas/issues/31) | **1562** | **+15** | 45 | 29 | 🟢 Established | 27W / 0D / 18L |
-| ≈12 | [#46 — \[Idea\] Perturbation-Conditioned Schrödinger Bridges with Drifting Loss](https://github.com/inoue0426/research_ideas/issues/46) | **1557** | — | 43 | 29 | 🟢 Established | 23W / 0D / 20L |
-| ≈12 | [#37 — \[Idea\] Partner- and Context-Conditioned Molecular Embeddings for Drug Combination Response](https://github.com/inoue0426/research_ideas/issues/37) | **1539** | **+63** | 45 | 30 | 🟢 Established | 23W / 0D / 22L |
+| ≈12 | [#46 — \[Idea\] Perturbation-Conditioned Schrödinger Bridges with Drifting Loss](https://github.com/inoue0426/research_ideas/issues/46) | **1548** | — | 44 | 29 | 🟢 Established | 23W / 0D / 21L |
+| ≈12 | [#37 — \[Idea\] Partner- and Context-Conditioned Molecular Embeddings for Drug Combination Response](https://github.com/inoue0426/research_ideas/issues/37) | **1531** | **+55** | 46 | 30 | 🟢 Established | 23W / 0D / 23L |
 | ≈14 | [#43 — \[Idea\] Uncertainty-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/43) | **1524** | **-97** | 48 | 29 | 🟢 Established | 29W / 0D / 19L |
-| ≈14 | [#19 — \[Idea\] When does perturbation transfer fail across biological domains?](https://github.com/inoue0426/research_ideas/issues/19) | **1516** | **+10** | 51 | 29 | 🟢 Established | 27W / 0D / 24L |
 | ≈14 | [#20 — \[Idea\] Is there a compositional algebra of biological perturbations?](https://github.com/inoue0426/research_ideas/issues/20) | **1514** | **-8** | 47 | 29 | 🟢 Established | 25W / 0D / 22L |
+| ≈14 | [#19 — \[Idea\] When does perturbation transfer fail across biological domains?](https://github.com/inoue0426/research_ideas/issues/19) | **1508** | **+2** | 52 | 29 | 🟢 Established | 27W / 0D / 25L |
 | ≈17 | [#12 — \[Idea\] Context-aware chemical ↔ genetic shared perturbation space](https://github.com/inoue0426/research_ideas/issues/12) | **1485** | **+21** | 49 | 29 | 🟢 Established | 23W / 0D / 26L |
-| ≈17 | [#4 — \[Idea\] When does the spatial microenvironment override cell-intrinsic drug sensitivity?](https://github.com/inoue0426/research_ideas/issues/4) | **1480** | **+70** | 50 | 29 | 🟢 Established | 21W / 0D / 29L |
-| ≈19 | [#10 — \[Idea\] What biological structures remain transferable across domain shifts?](https://github.com/inoue0426/research_ideas/issues/10) | **1465** | **+34** | 51 | 29 | 🟢 Established | 21W / 0D / 30L |
+| ≈17 | [#4 — \[Idea\] When does the spatial microenvironment override cell-intrinsic drug sensitivity?](https://github.com/inoue0426/research_ideas/issues/4) | **1474** | **+64** | 51 | 29 | 🟢 Established | 21W / 0D / 30L |
 | ≈19 | [#13 — \[Idea\] What makes a representation preserve intervention geometry?](https://github.com/inoue0426/research_ideas/issues/13) | **1464** | **-41** | 45 | 29 | 🟢 Established | 20W / 0D / 25L |
+| ≈19 | [#10 — \[Idea\] What biological structures remain transferable across domain shifts?](https://github.com/inoue0426/research_ideas/issues/10) | **1459** | **+29** | 52 | 29 | 🟢 Established | 21W / 0D / 31L |
 | ≈19 | [#15 — \[Idea\] Mechanism arbitration under conflicting evidence](https://github.com/inoue0426/research_ideas/issues/15) | **1448** | **+10** | 49 | 29 | 🟢 Established | 22W / 0D / 27L |
-| ≈22 | [#30 — \[Idea\] context-aware ADC](https://github.com/inoue0426/research_ideas/issues/30) | **1444** | **-45** | 45 | 29 | 🟢 Established | 22W / 0D / 23L |
-| ≈22 | [#11 — \[Idea\] Intervention geometry may transfer better than state geometry](https://github.com/inoue0426/research_ideas/issues/11) | **1439** | **+24** | 50 | 29 | 🟢 Established | 20W / 0D / 30L |
-| ≈22 | [#21 — \[Idea\] Can response-relevant perturbation geometry be separated from mechanistically faithful perturbation geometry?](https://github.com/inoue0426/research_ideas/issues/21) | **1431** | **-30** | 48 | 29 | 🟢 Established | 21W / 1D / 26L |
-| ≈22 | [#14 — \[Idea\] Shared causal geometry across biological modalities](https://github.com/inoue0426/research_ideas/issues/14) | **1429** | **-42** | 49 | 29 | 🟢 Established | 21W / 0D / 28L |
+| ≈19 | [#30 — \[Idea\] context-aware ADC](https://github.com/inoue0426/research_ideas/issues/30) | **1444** | **-45** | 45 | 29 | 🟢 Established | 22W / 0D / 23L |
+| ≈23 | [#11 — \[Idea\] Intervention geometry may transfer better than state geometry](https://github.com/inoue0426/research_ideas/issues/11) | **1439** | **+24** | 50 | 29 | 🟢 Established | 20W / 0D / 30L |
+| ≈23 | [#21 — \[Idea\] Can response-relevant perturbation geometry be separated from mechanistically faithful perturbation geometry?](https://github.com/inoue0426/research_ideas/issues/21) | **1431** | **-30** | 48 | 29 | 🟢 Established | 21W / 1D / 26L |
+| ≈23 | [#14 — \[Idea\] Shared causal geometry across biological modalities](https://github.com/inoue0426/research_ideas/issues/14) | **1429** | **-42** | 49 | 29 | 🟢 Established | 21W / 0D / 28L |
 | ≈26 | [#16 — \[Idea\] Foundation models as enablers of otherwise impossible cross-domain translation](https://github.com/inoue0426/research_ideas/issues/16) | **1353** | **-77** | 46 | 29 | 🟢 Established | 17W / 0D / 29L |
 | ≈26 | [#17 — \[Idea\] Human-in-the-loop mechanism refinement](https://github.com/inoue0426/research_ideas/issues/17) | **1348** | 0 | 44 | 29 | 🟢 Established | 8W / 1D / 35L |
 | ≈28 | [#7 — \[Idea\] Uncertainty-aware Drug-conditioned spatial INR](https://github.com/inoue0426/research_ideas/issues/7) | **1282** | **-121** | 47 | 29 | 🟢 Established | 9W / 0D / 38L |
@@ -59,7 +59,7 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 - 📉 [#7 — \[Idea\] Uncertainty-aware Drug-conditioned spatial INR](https://github.com/inoue0426/research_ideas/issues/7): **-121 Elo**
 - 📉 [#43 — \[Idea\] Uncertainty-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/43): **-97 Elo**
 
-_Updated automatically by Research Elo workflows. Last update: 2026-09-07 12:39 UTC._
+_Updated automatically by Research Elo workflows. Last update: 2026-09-07 15:27 UTC._
 <!-- RESEARCH_ELO_END -->
 
 <!-- RESEARCH_MAPS_START -->
