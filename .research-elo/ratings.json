@@ -5939,6 +5939,51 @@
       "reason": "Issue #37 wins over #51 due to higher novelty potential and leverage; #37 proposes a novel partner- and context-conditioned molecular embedding for drug combinations, which could transform how drug synergy is modeled, while #51's context difficulty question is less innovative and has narrower impact.",
       "target": 51,
       "timestamp": "2026-09-08T21:00:33.063905+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "Issue #52 has a clear, falsifiable question about reproducible functional equivalence classes with a concrete first test using existing data, while Issue #19 focuses on transfer failure without a specific testable hypothesis or clear path to actionable insights.",
+      "target": 52,
+      "timestamp": "2026-09-08T21:01:24.948268+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 37,
+      "outcome": "win",
+      "reason": "Issue #52's question is more clearly defined and testable with existing data, whereas Issue #37's partner-conditioned embeddings face significant data sparsity challenges and lack a clear initial validation plan.",
+      "target": 52,
+      "timestamp": "2026-09-08T21:01:24.948268+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 46,
+      "outcome": "win",
+      "reason": "Issue #52 provides a concrete, falsifiable test with existing data, while Issue #46's 'residual dynamics' concept is highly speculative with no clear path to validation beyond theoretical speculation.",
+      "target": 52,
+      "timestamp": "2026-09-08T21:01:24.948268+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "Issue #52 has a well-defined, testable question with a clear go/no-go experiment, while Issue #31's evidence reasoning focus is more about LLM robustness than a novel biological insight.",
+      "target": 52,
+      "timestamp": "2026-09-08T21:01:24.948268+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
+      "outcome": "win",
+      "reason": "Issue #52's question is more directly testable with existing data and has a clear falsifiable prediction, while Issue #20's compositional algebra idea lacks a specific testable hypothesis and faces significant epistasis challenges.",
+      "target": 52,
+      "timestamp": "2026-09-08T21:01:24.948268+00:00"
     }
   ],
   "k_factor": 24,
@@ -6456,18 +6501,18 @@
         "15": 1448.24,
         "16": 1352.59,
         "17": 1348.45,
-        "19": 1497.24,
-        "20": 1480.99,
+        "19": 1485.37,
+        "20": 1471.24,
         "21": 1430.63,
         "3": 1258.59,
         "30": 1444.16,
-        "31": 1513.75,
+        "31": 1502.51,
         "32": 1554.47,
         "33": 1683.52,
         "34": 1589.64,
         "35": 1636.74,
         "36": 1631.89,
-        "37": 1495.81,
+        "37": 1484.39,
         "38": 1600.78,
         "39": 1523.6,
         "4": 1464.37,
@@ -6476,17 +6521,17 @@
         "42": 1552.51,
         "43": 1478.25,
         "44": 1645.56,
-        "46": 1512.95,
+        "46": 1501.34,
         "47": 1572.1,
         "48": 1603.65,
         "49": 1635.2,
         "50": 1534.33,
         "51": 1475.4,
-        "52": 1500.86,
+        "52": 1556.75,
         "7": 1281.86,
         "9": 1277.23
       },
-      "timestamp": "2026-09-08T21:00:34.094682+00:00"
+      "timestamp": "2026-09-08T21:01:25.896908+00:00"
     }
   ],
   "ratings": {
@@ -6797,8 +6842,8 @@
     },
     "19": {
       "draws": 0,
-      "games": 55,
-      "losses": 27,
+      "games": 56,
+      "losses": 28,
       "opponents": [
         3,
         4,
@@ -6831,15 +6876,16 @@
         46,
         47,
         48,
-        51
+        51,
+        52
       ],
-      "rating": 1497.24,
+      "rating": 1485.37,
       "wins": 28
     },
     "20": {
       "draws": 0,
-      "games": 50,
-      "losses": 25,
+      "games": 51,
+      "losses": 26,
       "opponents": [
         3,
         4,
@@ -6872,9 +6918,10 @@
         46,
         47,
         48,
-        49
+        49,
+        52
       ],
-      "rating": 1480.99,
+      "rating": 1471.24,
       "wins": 25
     },
     "21": {
@@ -6993,8 +7040,8 @@
     },
     "31": {
       "draws": 0,
-      "games": 49,
-      "losses": 22,
+      "games": 50,
+      "losses": 23,
       "opponents": [
         3,
         4,
@@ -7028,9 +7075,10 @@
         47,
         48,
         49,
-        51
+        51,
+        52
       ],
-      "rating": 1513.75,
+      "rating": 1502.51,
       "wins": 27
     },
     "32": {
@@ -7228,8 +7276,8 @@
     },
     "37": {
       "draws": 0,
-      "games": 51,
-      "losses": 27,
+      "games": 52,
+      "losses": 28,
       "opponents": [
         3,
         4,
@@ -7265,9 +7313,10 @@
         48,
         49,
         50,
-        51
+        51,
+        52
       ],
-      "rating": 1495.81,
+      "rating": 1484.39,
       "wins": 24
     },
     "38": {
@@ -7560,8 +7609,8 @@
     },
     "46": {
       "draws": 0,
-      "games": 49,
-      "losses": 25,
+      "games": 50,
+      "losses": 26,
       "opponents": [
         3,
         4,
@@ -7596,9 +7645,10 @@
         48,
         49,
         50,
-        51
+        51,
+        52
       ],
-      "rating": 1512.95,
+      "rating": 1501.34,
       "wins": 24
     },
     "47": {
@@ -7692,14 +7742,19 @@
     },
     "52": {
       "draws": 0,
-      "games": 2,
+      "games": 7,
       "losses": 1,
       "opponents": [
+        19,
+        20,
+        31,
+        37,
+        46,
         50,
         51
       ],
-      "rating": 1500.86,
-      "wins": 1
+      "rating": 1556.75,
+      "wins": 6
     },
     "7": {
       "draws": 0,
