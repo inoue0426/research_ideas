@@ -5804,6 +5804,51 @@
       "reason": "#48 wins over #32 because it focuses on a core scientific reasoning capability (identifying missing evidence) rather than a methodological extension (LLM-guided molecular generation), with stronger importance, novelty, and evaluation clarity.",
       "target": 48,
       "timestamp": "2026-09-08T15:29:53.939660+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 32,
+      "outcome": "win",
+      "reason": "#49 is more important and novel than #32, as it addresses a fundamental gap in biological representation evaluation that could unlock better foundation models, while #32's Pareto-aware LLM approach appears to overlap with existing methods.",
+      "target": 49,
+      "timestamp": "2026-09-08T18:34:17.656420+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 42,
+      "outcome": "win",
+      "reason": "#49 provides a clearer, more fundamental research question about intervention geometry that could unify multiple existing ideas, whereas #42's cold-start ADC prediction lacks sufficient data feasibility evidence.",
+      "target": 49,
+      "timestamp": "2026-09-08T18:34:17.656420+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 41,
+      "outcome": "win",
+      "reason": "#49's intervention geometry benchmark has higher novelty potential and tractability than #41's single-cell ADC modeling, which faces significant data availability uncertainty.",
+      "target": 49,
+      "timestamp": "2026-09-08T18:34:17.656420+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 34,
+      "outcome": "win",
+      "reason": "#49's research question is more clearly defined and falsifiable than #34's evidence sufficiency reframing, which risks being too vague without concrete evaluation metrics.",
+      "target": 49,
+      "timestamp": "2026-09-08T18:34:17.656420+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 38,
+      "outcome": "win",
+      "reason": "#49's intervention geometry benchmark has stronger leverage and importance than #38's biomarker-conditioned embeddings, which appears to be a narrower extension of existing work.",
+      "target": 49,
+      "timestamp": "2026-09-08T18:34:17.656420+00:00"
     }
   ],
   "k_factor": 24,
@@ -6327,28 +6372,28 @@
         "3": 1258.59,
         "30": 1444.16,
         "31": 1526.67,
-        "32": 1566.03,
+        "32": 1554.47,
         "33": 1683.52,
-        "34": 1601.27,
+        "34": 1589.64,
         "35": 1636.74,
         "36": 1631.89,
         "37": 1495.54,
-        "38": 1612.39,
+        "38": 1600.78,
         "39": 1523.6,
         "4": 1464.37,
         "40": 1661.46,
-        "41": 1558.45,
-        "42": 1563.59,
+        "41": 1547.93,
+        "42": 1552.51,
         "43": 1489.49,
         "44": 1645.56,
         "46": 1512.18,
         "47": 1572.1,
         "48": 1603.65,
-        "49": 1578.8,
+        "49": 1635.2,
         "7": 1281.86,
         "9": 1277.23
       },
-      "timestamp": "2026-09-08T15:29:55.080628+00:00"
+      "timestamp": "2026-09-08T18:34:18.535005+00:00"
     }
   ],
   "ratings": {
@@ -6895,8 +6940,8 @@
     },
     "32": {
       "draws": 0,
-      "games": 45,
-      "losses": 16,
+      "games": 46,
+      "losses": 17,
       "opponents": [
         3,
         4,
@@ -6927,9 +6972,10 @@
         43,
         44,
         46,
-        48
+        48,
+        49
       ],
-      "rating": 1566.03,
+      "rating": 1554.47,
       "wins": 29
     },
     "33": {
@@ -6972,8 +7018,8 @@
     },
     "34": {
       "draws": 0,
-      "games": 47,
-      "losses": 16,
+      "games": 48,
+      "losses": 17,
       "opponents": [
         3,
         4,
@@ -7003,9 +7049,10 @@
         42,
         43,
         44,
-        46
+        46,
+        49
       ],
-      "rating": 1601.27,
+      "rating": 1589.64,
       "wins": 31
     },
     "35": {
@@ -7128,8 +7175,8 @@
     },
     "38": {
       "draws": 0,
-      "games": 48,
-      "losses": 17,
+      "games": 49,
+      "losses": 18,
       "opponents": [
         3,
         4,
@@ -7160,9 +7207,10 @@
         42,
         43,
         44,
-        46
+        46,
+        49
       ],
-      "rating": 1612.39,
+      "rating": 1600.78,
       "wins": 31
     },
     "39": {
@@ -7255,8 +7303,8 @@
     },
     "41": {
       "draws": 0,
-      "games": 44,
-      "losses": 16,
+      "games": 45,
+      "losses": 17,
       "opponents": [
         3,
         4,
@@ -7287,15 +7335,16 @@
         43,
         44,
         46,
-        48
+        48,
+        49
       ],
-      "rating": 1558.45,
+      "rating": 1547.93,
       "wins": 28
     },
     "42": {
       "draws": 0,
-      "games": 44,
-      "losses": 16,
+      "games": 45,
+      "losses": 17,
       "opponents": [
         3,
         4,
@@ -7326,9 +7375,10 @@
         43,
         44,
         46,
-        48
+        48,
+        49
       ],
-      "rating": 1563.59,
+      "rating": 1552.51,
       "wins": 28
     },
     "43": {
@@ -7492,19 +7542,24 @@
     },
     "49": {
       "draws": 0,
-      "games": 7,
+      "games": 12,
       "losses": 0,
       "opponents": [
         20,
         31,
+        32,
+        34,
         37,
+        38,
+        41,
+        42,
         43,
         46,
         47,
         48
       ],
-      "rating": 1578.8,
-      "wins": 7
+      "rating": 1635.2,
+      "wins": 12
     },
     "7": {
       "draws": 0,
