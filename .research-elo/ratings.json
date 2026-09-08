@@ -5894,6 +5894,51 @@
       "reason": "#50 wins over #46 because it has a more concrete and immediately testable research question with existing data, while #46's idea about residual dynamics is highly speculative and lacks a clear initial validation path.",
       "target": 50,
       "timestamp": "2026-09-08T20:59:33.896918+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 46,
+      "outcome": "loss",
+      "reason": "Issue #46 wins over #51 due to higher novelty potential and falsifiability; it proposes a novel method to infer missing dynamics from distributional mismatch, with clear falsifiable predictions, while #51's hypothesis is less novel and relies on existing data without a clear methodological innovation.",
+      "target": 51,
+      "timestamp": "2026-09-08T21:00:33.063905+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "Issue #51 wins over #31 due to stronger importance and tractability; #51 addresses a fundamental question about biological context transferability with a clear, testable hypothesis using existing data, while #31's focus on LLM evidence reasoning is less directly impactful for the core research domain.",
+      "target": 51,
+      "timestamp": "2026-09-08T21:00:33.063905+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 52,
+      "outcome": "loss",
+      "reason": "Issue #52 wins over #51 due to higher leverage and novelty potential; #52 proposes a reproducible functional equivalence class for perturbations, which could unlock broader applications in transfer learning and drug combination reasoning, while #51's context difficulty question is more limited in scope.",
+      "target": 51,
+      "timestamp": "2026-09-08T21:00:33.063905+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "loss",
+      "reason": "Issue #19 wins over #51 due to higher importance and timing; #19 addresses a critical practical question about when perturbation transfer fails, which is directly relevant to real-world applications and has a clear path to actionable criteria, while #51's question is more theoretical and less immediately applicable.",
+      "target": 51,
+      "timestamp": "2026-09-08T21:00:33.063905+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 37,
+      "outcome": "loss",
+      "reason": "Issue #37 wins over #51 due to higher novelty potential and leverage; #37 proposes a novel partner- and context-conditioned molecular embedding for drug combinations, which could transform how drug synergy is modeled, while #51's context difficulty question is less innovative and has narrower impact.",
+      "target": 51,
+      "timestamp": "2026-09-08T21:00:33.063905+00:00"
     }
   ],
   "k_factor": 24,
@@ -6411,18 +6456,18 @@
         "15": 1448.24,
         "16": 1352.59,
         "17": 1348.45,
-        "19": 1484.71,
+        "19": 1497.24,
         "20": 1480.99,
         "21": 1430.63,
         "3": 1258.59,
         "30": 1444.16,
-        "31": 1526.67,
+        "31": 1513.75,
         "32": 1554.47,
         "33": 1683.52,
         "34": 1589.64,
         "35": 1636.74,
         "36": 1631.89,
-        "37": 1483.68,
+        "37": 1495.81,
         "38": 1600.78,
         "39": 1523.6,
         "4": 1464.37,
@@ -6431,17 +6476,17 @@
         "42": 1552.51,
         "43": 1478.25,
         "44": 1645.56,
-        "46": 1500.54,
+        "46": 1512.95,
         "47": 1572.1,
         "48": 1603.65,
         "49": 1635.2,
         "50": 1534.33,
-        "51": 1512.41,
-        "52": 1488.0,
+        "51": 1475.4,
+        "52": 1500.86,
         "7": 1281.86,
         "9": 1277.23
       },
-      "timestamp": "2026-09-08T20:59:34.817294+00:00"
+      "timestamp": "2026-09-08T21:00:34.094682+00:00"
     }
   ],
   "ratings": {
@@ -6752,7 +6797,7 @@
     },
     "19": {
       "draws": 0,
-      "games": 54,
+      "games": 55,
       "losses": 27,
       "opponents": [
         3,
@@ -6785,10 +6830,11 @@
         44,
         46,
         47,
-        48
+        48,
+        51
       ],
-      "rating": 1484.71,
-      "wins": 27
+      "rating": 1497.24,
+      "wins": 28
     },
     "20": {
       "draws": 0,
@@ -6947,8 +6993,8 @@
     },
     "31": {
       "draws": 0,
-      "games": 48,
-      "losses": 21,
+      "games": 49,
+      "losses": 22,
       "opponents": [
         3,
         4,
@@ -6981,9 +7027,10 @@
         46,
         47,
         48,
-        49
+        49,
+        51
       ],
-      "rating": 1526.67,
+      "rating": 1513.75,
       "wins": 27
     },
     "32": {
@@ -7181,7 +7228,7 @@
     },
     "37": {
       "draws": 0,
-      "games": 50,
+      "games": 51,
       "losses": 27,
       "opponents": [
         3,
@@ -7217,10 +7264,11 @@
         47,
         48,
         49,
-        50
+        50,
+        51
       ],
-      "rating": 1483.68,
-      "wins": 23
+      "rating": 1495.81,
+      "wins": 24
     },
     "38": {
       "draws": 0,
@@ -7512,7 +7560,7 @@
     },
     "46": {
       "draws": 0,
-      "games": 48,
+      "games": 49,
       "losses": 25,
       "opponents": [
         3,
@@ -7547,10 +7595,11 @@
         47,
         48,
         49,
-        50
+        50,
+        51
       ],
-      "rating": 1500.54,
-      "wins": 23
+      "rating": 1512.95,
+      "wins": 24
     },
     "47": {
       "draws": 0,
@@ -7628,23 +7677,29 @@
     },
     "51": {
       "draws": 0,
-      "games": 1,
-      "losses": 0,
+      "games": 6,
+      "losses": 4,
       "opponents": [
-        50
+        19,
+        31,
+        37,
+        46,
+        50,
+        52
       ],
-      "rating": 1512.41,
-      "wins": 1
+      "rating": 1475.4,
+      "wins": 2
     },
     "52": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 1,
       "opponents": [
-        50
+        50,
+        51
       ],
-      "rating": 1488.0,
-      "wins": 0
+      "rating": 1500.86,
+      "wins": 1
     },
     "7": {
       "draws": 0,
