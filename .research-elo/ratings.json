@@ -5984,6 +5984,51 @@
       "reason": "Issue #52's question is more directly testable with existing data and has a clear falsifiable prediction, while Issue #20's compositional algebra idea lacks a specific testable hypothesis and faces significant epistasis challenges.",
       "target": 52,
       "timestamp": "2026-09-08T21:01:24.948268+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 41,
+      "outcome": "win",
+      "reason": "#50 wins over #41 because it has a clear, falsifiable hypothesis with a concrete first test using existing data, while #41's feasibility depends on uncertain data availability that hasn't been verified.",
+      "target": 50,
+      "timestamp": "2026-09-08T21:23:56.851157+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 42,
+      "outcome": "win",
+      "reason": "#50 wins over #42 because it has a well-defined research question with immediate testability, while #42's evaluation depends on unverified data diversity in ADCpedia.",
+      "target": 50,
+      "timestamp": "2026-09-08T21:23:56.851157+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 32,
+      "outcome": "win",
+      "reason": "#50 wins over #32 because it addresses a fundamental biological question with clear experimental validation, while #32's novelty is uncertain and depends on unverified literature.",
+      "target": 50,
+      "timestamp": "2026-09-08T21:23:56.851157+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "#50 wins over #31 because it has a falsifiable, testable hypothesis with existing data, while #31's claims rely on unverified pilot results and lack clear experimental validation.",
+      "target": 50,
+      "timestamp": "2026-09-08T21:23:56.851157+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "#50 wins over #19 because it has a precise, testable question with a defined first experiment, while #19's failure mode characterization depends on unverified data separation of correlated factors.",
+      "target": 50,
+      "timestamp": "2026-09-08T21:23:56.851157+00:00"
     }
   ],
   "k_factor": 24,
@@ -6501,13 +6546,13 @@
         "15": 1448.24,
         "16": 1352.59,
         "17": 1348.45,
-        "19": 1485.37,
+        "19": 1476.58,
         "20": 1471.24,
         "21": 1430.63,
         "3": 1258.59,
         "30": 1444.16,
-        "31": 1502.51,
-        "32": 1554.47,
+        "31": 1492.84,
+        "32": 1542.63,
         "33": 1683.52,
         "34": 1589.64,
         "35": 1636.74,
@@ -6517,21 +6562,21 @@
         "39": 1523.6,
         "4": 1464.37,
         "40": 1661.46,
-        "41": 1547.93,
-        "42": 1552.51,
+        "41": 1535.46,
+        "42": 1540.31,
         "43": 1478.25,
         "44": 1645.56,
         "46": 1501.34,
         "47": 1572.1,
         "48": 1603.65,
         "49": 1635.2,
-        "50": 1534.33,
+        "50": 1589.3,
         "51": 1475.4,
         "52": 1556.75,
         "7": 1281.86,
         "9": 1277.23
       },
-      "timestamp": "2026-09-08T21:01:25.896908+00:00"
+      "timestamp": "2026-09-08T21:23:57.760875+00:00"
     }
   ],
   "ratings": {
@@ -6842,8 +6887,8 @@
     },
     "19": {
       "draws": 0,
-      "games": 56,
-      "losses": 28,
+      "games": 57,
+      "losses": 29,
       "opponents": [
         3,
         4,
@@ -6876,10 +6921,11 @@
         46,
         47,
         48,
+        50,
         51,
         52
       ],
-      "rating": 1485.37,
+      "rating": 1476.58,
       "wins": 28
     },
     "20": {
@@ -7040,8 +7086,8 @@
     },
     "31": {
       "draws": 0,
-      "games": 50,
-      "losses": 23,
+      "games": 51,
+      "losses": 24,
       "opponents": [
         3,
         4,
@@ -7075,16 +7121,17 @@
         47,
         48,
         49,
+        50,
         51,
         52
       ],
-      "rating": 1502.51,
+      "rating": 1492.84,
       "wins": 27
     },
     "32": {
       "draws": 0,
-      "games": 46,
-      "losses": 17,
+      "games": 47,
+      "losses": 18,
       "opponents": [
         3,
         4,
@@ -7116,9 +7163,10 @@
         44,
         46,
         48,
-        49
+        49,
+        50
       ],
-      "rating": 1554.47,
+      "rating": 1542.63,
       "wins": 29
     },
     "33": {
@@ -7449,8 +7497,8 @@
     },
     "41": {
       "draws": 0,
-      "games": 45,
-      "losses": 17,
+      "games": 46,
+      "losses": 18,
       "opponents": [
         3,
         4,
@@ -7482,15 +7530,16 @@
         44,
         46,
         48,
-        49
+        49,
+        50
       ],
-      "rating": 1547.93,
+      "rating": 1535.46,
       "wins": 28
     },
     "42": {
       "draws": 0,
-      "games": 45,
-      "losses": 17,
+      "games": 46,
+      "losses": 18,
       "opponents": [
         3,
         4,
@@ -7522,9 +7571,10 @@
         44,
         46,
         48,
-        49
+        49,
+        50
       ],
-      "rating": 1552.51,
+      "rating": 1540.31,
       "wins": 28
     },
     "43": {
@@ -7713,17 +7763,22 @@
     },
     "50": {
       "draws": 0,
-      "games": 5,
+      "games": 10,
       "losses": 1,
       "opponents": [
+        19,
+        31,
+        32,
         37,
+        41,
+        42,
         43,
         46,
         51,
         52
       ],
-      "rating": 1534.33,
-      "wins": 4
+      "rating": 1589.3,
+      "wins": 9
     },
     "51": {
       "draws": 0,
