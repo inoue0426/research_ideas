@@ -5714,6 +5714,51 @@
       "reason": "#48 wins over #19 because it provides a more actionable framework for evidence acquisition (identifying missing evidence) compared to #19's focus on characterizing transfer failure modes, which is more descriptive than prescriptive.",
       "target": 48,
       "timestamp": "2026-09-08T14:24:34.033917+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 46,
+      "outcome": "win",
+      "reason": "#49 wins over #46 because it addresses a fundamental gap in evaluating biological representations (intervention geometry) with a clear, systematic benchmark, while #46's focus on residual dynamics is more speculative and lacks a concrete evaluation framework.",
+      "target": 49,
+      "timestamp": "2026-09-08T14:30:33.068799+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 37,
+      "outcome": "win",
+      "reason": "#49 wins over #37 because it tackles a broader, more foundational problem (intervention geometry) with a well-defined benchmark, whereas #37's partner-conditioned embeddings face significant data sparsity challenges and lack a clear path to validation.",
+      "target": 49,
+      "timestamp": "2026-09-08T14:30:33.068799+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 43,
+      "outcome": "win",
+      "reason": "#49 wins over #43 because it addresses a critical gap in representation evaluation (intervention geometry) that underpins all downstream tasks like ADC response prediction, while #43's uncertainty-aware prediction is a narrower, more incremental improvement.",
+      "target": 49,
+      "timestamp": "2026-09-08T14:30:33.068799+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "#49 wins over #31 because it provides a systematic framework for evaluating biological representations (intervention geometry) that could unify multiple research directions, whereas #31's evidence reasoning is more focused on LLMs and less directly tied to core biological representation challenges.",
+      "target": 49,
+      "timestamp": "2026-09-08T14:30:33.068799+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
+      "outcome": "win",
+      "reason": "#49 wins over #20 because it offers a concrete, actionable benchmark for evaluating representations (intervention geometry), while #20's compositional algebra question is more abstract and lacks a clear evaluation method.",
+      "target": 49,
+      "timestamp": "2026-09-08T14:30:33.068799+00:00"
     }
   ],
   "k_factor": 24,
@@ -6232,33 +6277,33 @@
         "16": 1352.59,
         "17": 1348.45,
         "19": 1484.71,
-        "20": 1490.3,
+        "20": 1480.99,
         "21": 1430.63,
         "3": 1258.59,
         "30": 1444.16,
-        "31": 1550.16,
+        "31": 1538.42,
         "32": 1577.53,
         "33": 1683.52,
         "34": 1601.27,
         "35": 1636.74,
         "36": 1631.89,
-        "37": 1506.51,
+        "37": 1495.54,
         "38": 1612.39,
         "39": 1523.6,
         "4": 1464.37,
         "40": 1661.46,
         "41": 1570.53,
         "42": 1575.42,
-        "43": 1499.86,
+        "43": 1489.49,
         "44": 1645.56,
-        "46": 1535.39,
+        "46": 1523.0,
         "47": 1572.1,
         "48": 1545.67,
-        "49": 1524.02,
+        "49": 1578.8,
         "7": 1281.86,
         "9": 1277.23
       },
-      "timestamp": "2026-09-08T14:24:34.861863+00:00"
+      "timestamp": "2026-09-08T14:30:33.962169+00:00"
     }
   ],
   "ratings": {
@@ -6609,8 +6654,8 @@
     },
     "20": {
       "draws": 0,
-      "games": 49,
-      "losses": 24,
+      "games": 50,
+      "losses": 25,
       "opponents": [
         3,
         4,
@@ -6642,9 +6687,10 @@
         44,
         46,
         47,
-        48
+        48,
+        49
       ],
-      "rating": 1490.3,
+      "rating": 1480.99,
       "wins": 25
     },
     "21": {
@@ -6763,8 +6809,8 @@
     },
     "31": {
       "draws": 0,
-      "games": 46,
-      "losses": 19,
+      "games": 47,
+      "losses": 20,
       "opponents": [
         3,
         4,
@@ -6795,9 +6841,10 @@
         43,
         44,
         46,
-        47
+        47,
+        49
       ],
-      "rating": 1550.16,
+      "rating": 1538.42,
       "wins": 27
     },
     "32": {
@@ -6992,8 +7039,8 @@
     },
     "37": {
       "draws": 0,
-      "games": 48,
-      "losses": 25,
+      "games": 49,
+      "losses": 26,
       "opponents": [
         3,
         4,
@@ -7026,9 +7073,10 @@
         44,
         46,
         47,
-        48
+        48,
+        49
       ],
-      "rating": 1506.51,
+      "rating": 1495.54,
       "wins": 23
     },
     "38": {
@@ -7236,8 +7284,8 @@
     },
     "43": {
       "draws": 0,
-      "games": 50,
-      "losses": 21,
+      "games": 51,
+      "losses": 22,
       "opponents": [
         3,
         4,
@@ -7269,9 +7317,10 @@
         44,
         46,
         47,
-        48
+        48,
+        49
       ],
-      "rating": 1499.86,
+      "rating": 1489.49,
       "wins": 29
     },
     "44": {
@@ -7314,8 +7363,8 @@
     },
     "46": {
       "draws": 0,
-      "games": 45,
-      "losses": 22,
+      "games": 46,
+      "losses": 23,
       "opponents": [
         3,
         4,
@@ -7346,9 +7395,10 @@
         42,
         43,
         44,
-        47
+        47,
+        49
       ],
-      "rating": 1535.39,
+      "rating": 1523.0,
       "wins": 23
     },
     "47": {
@@ -7387,14 +7437,19 @@
     },
     "49": {
       "draws": 0,
-      "games": 2,
+      "games": 7,
       "losses": 0,
       "opponents": [
+        20,
+        31,
+        37,
+        43,
+        46,
         47,
         48
       ],
-      "rating": 1524.02,
-      "wins": 2
+      "rating": 1578.8,
+      "wins": 7
     },
     "7": {
       "draws": 0,
