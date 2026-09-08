@@ -1,0 +1,41 @@
+name: Research Idea Lifecycle
+
+on:
+  issues:
+    types: [closed, reopened]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: research-elo
+  cancel-in-progress: false
+
+jobs:
+  refresh-open-idea-views:
+    runs-on: [self-hosted, macOS, ARM64]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Re-render Research Elo using open issues only
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python3 scripts/render_research_elo.py
+
+      - name: Commit refreshed ranking
+        run: |
+          if git diff --quiet -- README.md .research-elo/ratings.json; then
+            echo "No lifecycle-driven ranking change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md .research-elo/ratings.json
+          git commit -m "Refresh research ranking after issue lifecycle change"
+          git push
