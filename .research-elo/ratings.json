@@ -5849,6 +5849,51 @@
       "reason": "#49's intervention geometry benchmark has stronger leverage and importance than #38's biomarker-conditioned embeddings, which appears to be a narrower extension of existing work.",
       "target": 49,
       "timestamp": "2026-09-08T18:34:17.656420+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 52,
+      "outcome": "win",
+      "reason": "#50 wins over #52 because it has a clearer, more focused research question about transferable components of perturbations, with a direct and falsifiable test using existing data, while #52's question about functional equivalence classes is more abstract and lacks a concrete initial test.",
+      "target": 50,
+      "timestamp": "2026-09-08T20:59:33.896918+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 51,
+      "outcome": "loss",
+      "reason": "#51 wins over #50 because it addresses a more fundamental question about context-specific transfer difficulty, with a well-defined statistical test using existing data, while #50's question about perturbation components is already being addressed in related work.",
+      "target": 50,
+      "timestamp": "2026-09-08T20:59:33.896918+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 37,
+      "outcome": "win",
+      "reason": "#50 wins over #37 because it has a more immediate and testable research question with existing data, while #37's idea about partner-conditioned embeddings faces significant data sparsity challenges and lacks a clear initial test.",
+      "target": 50,
+      "timestamp": "2026-09-08T20:59:33.896918+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 43,
+      "outcome": "win",
+      "reason": "#50 wins over #43 because it addresses a core scientific question about perturbation transferability with a direct test, while #43's uncertainty-aware prediction is a more incremental engineering improvement with less scientific novelty.",
+      "target": 50,
+      "timestamp": "2026-09-08T20:59:33.896918+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 46,
+      "outcome": "win",
+      "reason": "#50 wins over #46 because it has a more concrete and immediately testable research question with existing data, while #46's idea about residual dynamics is highly speculative and lacks a clear initial validation path.",
+      "target": 50,
+      "timestamp": "2026-09-08T20:59:33.896918+00:00"
     }
   ],
   "k_factor": 24,
@@ -6377,23 +6422,26 @@
         "34": 1589.64,
         "35": 1636.74,
         "36": 1631.89,
-        "37": 1495.54,
+        "37": 1483.68,
         "38": 1600.78,
         "39": 1523.6,
         "4": 1464.37,
         "40": 1661.46,
         "41": 1547.93,
         "42": 1552.51,
-        "43": 1489.49,
+        "43": 1478.25,
         "44": 1645.56,
-        "46": 1512.18,
+        "46": 1500.54,
         "47": 1572.1,
         "48": 1603.65,
         "49": 1635.2,
+        "50": 1534.33,
+        "51": 1512.41,
+        "52": 1488.0,
         "7": 1281.86,
         "9": 1277.23
       },
-      "timestamp": "2026-09-08T20:13:22.705940+00:00"
+      "timestamp": "2026-09-08T20:59:34.817294+00:00"
     }
   ],
   "ratings": {
@@ -7133,8 +7181,8 @@
     },
     "37": {
       "draws": 0,
-      "games": 49,
-      "losses": 26,
+      "games": 50,
+      "losses": 27,
       "opponents": [
         3,
         4,
@@ -7168,9 +7216,10 @@
         46,
         47,
         48,
-        49
+        49,
+        50
       ],
-      "rating": 1495.54,
+      "rating": 1483.68,
       "wins": 23
     },
     "38": {
@@ -7383,8 +7432,8 @@
     },
     "43": {
       "draws": 0,
-      "games": 51,
-      "losses": 22,
+      "games": 52,
+      "losses": 23,
       "opponents": [
         3,
         4,
@@ -7417,9 +7466,10 @@
         46,
         47,
         48,
-        49
+        49,
+        50
       ],
-      "rating": 1489.49,
+      "rating": 1478.25,
       "wins": 29
     },
     "44": {
@@ -7462,8 +7512,8 @@
     },
     "46": {
       "draws": 0,
-      "games": 47,
-      "losses": 24,
+      "games": 48,
+      "losses": 25,
       "opponents": [
         3,
         4,
@@ -7496,9 +7546,10 @@
         44,
         47,
         48,
-        49
+        49,
+        50
       ],
-      "rating": 1512.18,
+      "rating": 1500.54,
       "wins": 23
     },
     "47": {
@@ -7560,6 +7611,40 @@
       ],
       "rating": 1635.2,
       "wins": 12
+    },
+    "50": {
+      "draws": 0,
+      "games": 5,
+      "losses": 1,
+      "opponents": [
+        37,
+        43,
+        46,
+        51,
+        52
+      ],
+      "rating": 1534.33,
+      "wins": 4
+    },
+    "51": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "opponents": [
+        50
+      ],
+      "rating": 1512.41,
+      "wins": 1
+    },
+    "52": {
+      "draws": 0,
+      "games": 1,
+      "losses": 1,
+      "opponents": [
+        50
+      ],
+      "rating": 1488.0,
+      "wins": 0
     },
     "7": {
       "draws": 0,
