@@ -5759,6 +5759,51 @@
       "reason": "#49 wins over #20 because it offers a concrete, actionable benchmark for evaluating representations (intervention geometry), while #20's compositional algebra question is more abstract and lacks a clear evaluation method.",
       "target": 49,
       "timestamp": "2026-09-08T14:30:33.068799+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "#48 wins over #31 because it addresses a more fundamental gap in scientific reasoning (identifying missing evidence) rather than just improving evidence selection, with clearer evaluation metrics and broader applicability to biomedical reasoning systems.",
+      "target": 48,
+      "timestamp": "2026-09-08T15:29:53.939660+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 46,
+      "outcome": "win",
+      "reason": "#48 wins over #46 because it has higher importance (scientific reasoning vs. perturbation dynamics), clearer question (counterfactual evidence sufficiency vs. distribution mismatch), and more tractable evaluation with known benchmarks.",
+      "target": 48,
+      "timestamp": "2026-09-08T15:29:53.939660+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 41,
+      "outcome": "win",
+      "reason": "#48 wins over #41 because it has higher novelty potential (missing evidence identification vs. single-cell modeling), better tractability (benchmark construction is outlined), and stronger leverage (enables adaptive evidence acquisition rather than just modeling response).",
+      "target": 48,
+      "timestamp": "2026-09-08T15:29:53.939660+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 42,
+      "outcome": "win",
+      "reason": "#48 wins over #42 because it addresses a more foundational problem (evidence sufficiency reasoning) rather than a narrower cold-start prediction challenge, with clearer scientific contribution and more direct path to improving biomedical reasoning systems.",
+      "target": 48,
+      "timestamp": "2026-09-08T15:29:53.939660+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 32,
+      "outcome": "win",
+      "reason": "#48 wins over #32 because it focuses on a core scientific reasoning capability (identifying missing evidence) rather than a methodological extension (LLM-guided molecular generation), with stronger importance, novelty, and evaluation clarity.",
+      "target": 48,
+      "timestamp": "2026-09-08T15:29:53.939660+00:00"
     }
   ],
   "k_factor": 24,
@@ -6281,8 +6326,8 @@
         "21": 1430.63,
         "3": 1258.59,
         "30": 1444.16,
-        "31": 1538.42,
-        "32": 1577.53,
+        "31": 1526.67,
+        "32": 1566.03,
         "33": 1683.52,
         "34": 1601.27,
         "35": 1636.74,
@@ -6292,18 +6337,18 @@
         "39": 1523.6,
         "4": 1464.37,
         "40": 1661.46,
-        "41": 1570.53,
-        "42": 1575.42,
+        "41": 1558.45,
+        "42": 1563.59,
         "43": 1489.49,
         "44": 1645.56,
-        "46": 1523.0,
+        "46": 1512.18,
         "47": 1572.1,
-        "48": 1545.67,
+        "48": 1603.65,
         "49": 1578.8,
         "7": 1281.86,
         "9": 1277.23
       },
-      "timestamp": "2026-09-08T14:30:33.962169+00:00"
+      "timestamp": "2026-09-08T15:29:55.080628+00:00"
     }
   ],
   "ratings": {
@@ -6809,8 +6854,8 @@
     },
     "31": {
       "draws": 0,
-      "games": 47,
-      "losses": 20,
+      "games": 48,
+      "losses": 21,
       "opponents": [
         3,
         4,
@@ -6842,15 +6887,16 @@
         44,
         46,
         47,
+        48,
         49
       ],
-      "rating": 1538.42,
+      "rating": 1526.67,
       "wins": 27
     },
     "32": {
       "draws": 0,
-      "games": 44,
-      "losses": 15,
+      "games": 45,
+      "losses": 16,
       "opponents": [
         3,
         4,
@@ -6880,9 +6926,10 @@
         42,
         43,
         44,
-        46
+        46,
+        48
       ],
-      "rating": 1577.53,
+      "rating": 1566.03,
       "wins": 29
     },
     "33": {
@@ -7208,8 +7255,8 @@
     },
     "41": {
       "draws": 0,
-      "games": 43,
-      "losses": 15,
+      "games": 44,
+      "losses": 16,
       "opponents": [
         3,
         4,
@@ -7239,15 +7286,16 @@
         42,
         43,
         44,
-        46
+        46,
+        48
       ],
-      "rating": 1570.53,
+      "rating": 1558.45,
       "wins": 28
     },
     "42": {
       "draws": 0,
-      "games": 43,
-      "losses": 15,
+      "games": 44,
+      "losses": 16,
       "opponents": [
         3,
         4,
@@ -7277,9 +7325,10 @@
         41,
         43,
         44,
-        46
+        46,
+        48
       ],
-      "rating": 1575.42,
+      "rating": 1563.59,
       "wins": 28
     },
     "43": {
@@ -7363,8 +7412,8 @@
     },
     "46": {
       "draws": 0,
-      "games": 46,
-      "losses": 23,
+      "games": 47,
+      "losses": 24,
       "opponents": [
         3,
         4,
@@ -7396,9 +7445,10 @@
         43,
         44,
         47,
+        48,
         49
       ],
-      "rating": 1523.0,
+      "rating": 1512.18,
       "wins": 23
     },
     "47": {
@@ -7422,18 +7472,23 @@
     },
     "48": {
       "draws": 0,
-      "games": 6,
+      "games": 11,
       "losses": 1,
       "opponents": [
         19,
         20,
+        31,
+        32,
         37,
+        41,
+        42,
         43,
+        46,
         47,
         49
       ],
-      "rating": 1545.67,
-      "wins": 5
+      "rating": 1603.65,
+      "wins": 10
     },
     "49": {
       "draws": 0,

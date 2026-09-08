@@ -25,15 +25,15 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 | ≈4 | [#35 — Adaptive Evidence Search for LLM Reasoning under Distracting Biomedical Graph Context](https://github.com/inoue0426/research_ideas/issues/35) | **1637** | **+44** | 44 | 29 | 🟢 Established | 27W / 0D / 17L |
 | ≈4 | [#36 — When Is Evidence Enough? Adaptive Evidence Acquisition for LLM Biomedical Reasoning](https://github.com/inoue0426/research_ideas/issues/36) | **1632** | **+14** | 46 | 29 | 🟢 Established | 33W / 0D / 13L |
 | ≈6 | [#38 — \[Idea\] Biomarker-Conditioned Molecular Embeddings for Pharmacogenomic Retrieval](https://github.com/inoue0426/research_ideas/issues/38) | **1612** | **+25** | 48 | 30 | 🟢 Established | 31W / 0D / 17L |
+| ≈6 | [#48 — Counterfactual Evidence Sufficiency: What Evidence Is Missing?](https://github.com/inoue0426/research_ideas/issues/48) | **1604** | — | 11 | 11 | 🟢 Established | 10W / 0D / 1L |
 | ≈6 | [#34 — \[Idea\] CTD: Evidence Sufficiency and Selective Abstention](https://github.com/inoue0426/research_ideas/issues/34) | **1601** | **-5** | 47 | 29 | 🟢 Established | 31W / 0D / 16L |
-| ≈8 | [#49 — Intervention Geometry Benchmark: Stress-Testing Biological Representations under Perturbation](https://github.com/inoue0426/research_ideas/issues/49) | **1579** | — | 7 | 7 | 🟡 Provisional | 7W / 0D / 0L |
-| ≈8 | [#32 — \[Idea\] Frontier-Conditioned Molecular Generation with Large Language Models](https://github.com/inoue0426/research_ideas/issues/32) | **1578** | **-29** | 44 | 29 | 🟢 Established | 29W / 0D / 15L |
-| ≈8 | [#42 — \[Idea\] Cold-Start / OOD ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/42) | **1575** | **-59** | 43 | 29 | 🟢 Established | 28W / 0D / 15L |
-| ≈8 | [#47 — Predicting When Perturbation Transfer Should Be Trusted](https://github.com/inoue0426/research_ideas/issues/47) | **1572** | — | 10 | 10 | 🟢 Established | 8W / 0D / 2L |
-| ≈8 | [#41 — \[Idea\] Single-Cell and Spatial Modeling of ADC Response and Resistance](https://github.com/inoue0426/research_ideas/issues/41) | **1571** | **-27** | 43 | 29 | 🟢 Established | 28W / 0D / 15L |
-| ≈13 | [#48 — Counterfactual Evidence Sufficiency: What Evidence Is Missing?](https://github.com/inoue0426/research_ideas/issues/48) | **1546** | — | 6 | 6 | 🟡 Provisional | 5W / 0D / 1L |
-| ≈13 | [#31 — \[Idea\] Reliable Biomedical Evidence Reasoning: Separating Evidence Selection from Evidence Sufficiency](https://github.com/inoue0426/research_ideas/issues/31) | **1538** | **+4** | 47 | 31 | 🟢 Established | 27W / 0D / 20L |
-| 15 | [#46 — \[Idea\] Perturbation-Conditioned Schrödinger Bridges with Drifting Loss](https://github.com/inoue0426/research_ideas/issues/46) | **1523** | — | 46 | 31 | 🟢 Established | 23W / 0D / 23L |
+| ≈9 | [#49 — Intervention Geometry Benchmark: Stress-Testing Biological Representations under Perturbation](https://github.com/inoue0426/research_ideas/issues/49) | **1579** | — | 7 | 7 | 🟡 Provisional | 7W / 0D / 0L |
+| ≈9 | [#47 — Predicting When Perturbation Transfer Should Be Trusted](https://github.com/inoue0426/research_ideas/issues/47) | **1572** | — | 10 | 10 | 🟢 Established | 8W / 0D / 2L |
+| ≈9 | [#32 — \[Idea\] Frontier-Conditioned Molecular Generation with Large Language Models](https://github.com/inoue0426/research_ideas/issues/32) | **1566** | **-41** | 45 | 30 | 🟢 Established | 29W / 0D / 16L |
+| ≈9 | [#42 — \[Idea\] Cold-Start / OOD ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/42) | **1564** | **-71** | 44 | 30 | 🟢 Established | 28W / 0D / 16L |
+| 13 | [#41 — \[Idea\] Single-Cell and Spatial Modeling of ADC Response and Resistance](https://github.com/inoue0426/research_ideas/issues/41) | **1558** | **-39** | 44 | 30 | 🟢 Established | 28W / 0D / 16L |
+| ≈14 | [#31 — \[Idea\] Reliable Biomedical Evidence Reasoning: Separating Evidence Selection from Evidence Sufficiency](https://github.com/inoue0426/research_ideas/issues/31) | **1527** | **-8** | 48 | 32 | 🟢 Established | 27W / 0D / 21L |
+| ≈14 | [#46 — \[Idea\] Perturbation-Conditioned Schrödinger Bridges with Drifting Loss](https://github.com/inoue0426/research_ideas/issues/46) | **1512** | — | 47 | 32 | 🟢 Established | 23W / 0D / 24L |
 | ≈16 | [#37 — \[Idea\] Partner- and Context-Conditioned Molecular Embeddings for Drug Combination Response](https://github.com/inoue0426/research_ideas/issues/37) | **1496** | **+10** | 49 | 33 | 🟢 Established | 23W / 0D / 26L |
 | ≈16 | [#43 — \[Idea\] Uncertainty-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/43) | **1489** | **-51** | 51 | 32 | 🟢 Established | 29W / 0D / 22L |
 | ≈16 | [#19 — \[Idea\] When does perturbation transfer fail across biological domains?](https://github.com/inoue0426/research_ideas/issues/19) | **1485** | **-11** | 54 | 31 | 🟢 Established | 27W / 0D / 27L |
@@ -62,7 +62,7 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 - 📉 [#7 — \[Idea\] Uncertainty-aware Drug-conditioned spatial INR](https://github.com/inoue0426/research_ideas/issues/7): **-109 Elo**
 - 📉 [#16 — \[Idea\] Foundation models as enablers of otherwise impossible cross-domain translation](https://github.com/inoue0426/research_ideas/issues/16): **-93 Elo**
 
-_Updated automatically by Research Elo workflows. Last update: 2026-09-08 14:30 UTC._
+_Updated automatically by Research Elo workflows. Last update: 2026-09-08 15:29 UTC._
 <!-- RESEARCH_ELO_END -->
 
 <!-- RESEARCH_MAPS_START -->
