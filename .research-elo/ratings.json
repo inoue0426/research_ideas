@@ -5624,6 +5624,51 @@
       "reason": "#47 wins over #12 because it provides a more generalizable framework for perturbation transfer that could inform the context-aware space proposed in #12, rather than focusing on a specific decomposition of perturbation responses.",
       "target": 47,
       "timestamp": "2026-09-08T14:21:24.784343+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 43,
+      "outcome": "win",
+      "reason": "#47 wins over #43 by addressing a critical gap in cross-domain perturbation transfer with a clear, testable hypothesis and direct practical impact on safety and interpretability in biological applications.",
+      "target": 47,
+      "timestamp": "2026-09-08T14:22:04.122800+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 37,
+      "outcome": "win",
+      "reason": "#47 wins over #37 by offering a more immediately actionable and testable research direction with stronger novelty potential in transportability uncertainty, while #37 faces significant data sparsity challenges.",
+      "target": 47,
+      "timestamp": "2026-09-08T14:22:04.122800+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 46,
+      "outcome": "win",
+      "reason": "#47 wins over #46 by having a clearer, more focused research question with direct practical implications for perturbation model reliability, whereas #46's focus on residual dynamics is more speculative and less immediately applicable.",
+      "target": 47,
+      "timestamp": "2026-09-08T14:22:04.122800+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 4,
+      "outcome": "win",
+      "reason": "#47 wins over #4 by addressing a more generalizable and scalable problem (perturbation transfer across biological domains) compared to #4's narrower focus on spatial microenvironment effects, which lacks sufficient evidence of feasibility.",
+      "target": 47,
+      "timestamp": "2026-09-08T14:22:04.122800+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "#47 wins over #31 by providing a more concrete, testable research problem with direct relevance to biological modeling, while #31's focus on LLM evidence reasoning is less directly applicable to the core biological modeling challenges addressed in #47.",
+      "target": 47,
+      "timestamp": "2026-09-08T14:22:04.122800+00:00"
     }
   ],
   "k_factor": 24,
@@ -6146,29 +6191,29 @@
         "21": 1430.63,
         "3": 1258.59,
         "30": 1444.16,
-        "31": 1562.24,
+        "31": 1550.16,
         "32": 1577.53,
         "33": 1683.52,
         "34": 1601.27,
         "35": 1636.74,
         "36": 1631.89,
-        "37": 1530.93,
+        "37": 1518.76,
         "38": 1612.39,
         "39": 1523.6,
-        "4": 1473.76,
+        "4": 1464.37,
         "40": 1661.46,
         "41": 1570.53,
         "42": 1575.42,
-        "43": 1524.21,
+        "43": 1511.85,
         "44": 1645.56,
-        "46": 1547.71,
-        "47": 1513.78,
+        "46": 1535.39,
+        "47": 1572.1,
         "48": 1512.0,
         "49": 1511.59,
         "7": 1281.86,
         "9": 1277.23
       },
-      "timestamp": "2026-09-08T14:21:25.721181+00:00"
+      "timestamp": "2026-09-08T14:22:05.164534+00:00"
     }
   ],
   "ratings": {
@@ -6671,8 +6716,8 @@
     },
     "31": {
       "draws": 0,
-      "games": 45,
-      "losses": 18,
+      "games": 46,
+      "losses": 19,
       "opponents": [
         3,
         4,
@@ -6702,9 +6747,10 @@
         42,
         43,
         44,
-        46
+        46,
+        47
       ],
-      "rating": 1562.24,
+      "rating": 1550.16,
       "wins": 27
     },
     "32": {
@@ -6899,8 +6945,8 @@
     },
     "37": {
       "draws": 0,
-      "games": 46,
-      "losses": 23,
+      "games": 47,
+      "losses": 24,
       "opponents": [
         3,
         4,
@@ -6931,9 +6977,10 @@
         42,
         43,
         44,
-        46
+        46,
+        47
       ],
-      "rating": 1530.93,
+      "rating": 1518.76,
       "wins": 23
     },
     "38": {
@@ -6988,8 +7035,8 @@
     },
     "4": {
       "draws": 0,
-      "games": 51,
-      "losses": 30,
+      "games": 52,
+      "losses": 31,
       "opponents": [
         3,
         7,
@@ -7019,9 +7066,10 @@
         42,
         43,
         44,
-        46
+        46,
+        47
       ],
-      "rating": 1473.76,
+      "rating": 1464.37,
       "wins": 21
     },
     "40": {
@@ -7140,8 +7188,8 @@
     },
     "43": {
       "draws": 0,
-      "games": 48,
-      "losses": 19,
+      "games": 49,
+      "losses": 20,
       "opponents": [
         3,
         4,
@@ -7171,9 +7219,10 @@
         41,
         42,
         44,
-        46
+        46,
+        47
       ],
-      "rating": 1524.21,
+      "rating": 1511.85,
       "wins": 29
     },
     "44": {
@@ -7216,8 +7265,8 @@
     },
     "46": {
       "draws": 0,
-      "games": 44,
-      "losses": 21,
+      "games": 45,
+      "losses": 22,
       "opponents": [
         3,
         4,
@@ -7247,24 +7296,30 @@
         41,
         42,
         43,
-        44
+        44,
+        47
       ],
-      "rating": 1547.71,
+      "rating": 1535.39,
       "wins": 23
     },
     "47": {
       "draws": 0,
-      "games": 5,
+      "games": 10,
       "losses": 2,
       "opponents": [
+        4,
         12,
         19,
         20,
+        31,
+        37,
+        43,
+        46,
         48,
         49
       ],
-      "rating": 1513.78,
-      "wins": 3
+      "rating": 1572.1,
+      "wins": 8
     },
     "48": {
       "draws": 0,
