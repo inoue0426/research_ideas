@@ -5669,6 +5669,51 @@
       "reason": "#47 wins over #31 by providing a more concrete, testable research problem with direct relevance to biological modeling, while #31's focus on LLM evidence reasoning is less directly applicable to the core biological modeling challenges addressed in #47.",
       "target": 47,
       "timestamp": "2026-09-08T14:22:04.122800+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 43,
+      "outcome": "win",
+      "reason": "#48 wins over #43 because it addresses a more fundamental scientific gap in evidence reasoning (identifying missing evidence) rather than just improving uncertainty estimation, which is a narrower technical refinement.",
+      "target": 48,
+      "timestamp": "2026-09-08T14:24:34.033917+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 49,
+      "outcome": "loss",
+      "reason": "#49 wins over #48 because it proposes a systematic benchmark for intervention geometry that could reveal critical limitations in existing representations, whereas #48's focus on missing evidence is more incremental.",
+      "target": 48,
+      "timestamp": "2026-09-08T14:24:34.033917+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 37,
+      "outcome": "win",
+      "reason": "#48 wins over #37 because it has clearer evaluation metrics and a more direct path to scientific impact (e.g., hypothesis evaluation), while #37's data sparsity uncertainty makes it less tractable.",
+      "target": 48,
+      "timestamp": "2026-09-08T14:24:34.033917+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 20,
+      "outcome": "win",
+      "reason": "#48 wins over #20 because it defines a concrete, testable problem (minimal missing evidence) with clear evaluation criteria, whereas #20's compositional algebra question is more abstract and lacks a defined benchmark.",
+      "target": 48,
+      "timestamp": "2026-09-08T14:24:34.033917+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "#48 wins over #19 because it provides a more actionable framework for evidence acquisition (identifying missing evidence) compared to #19's focus on characterizing transfer failure modes, which is more descriptive than prescriptive.",
+      "target": 48,
+      "timestamp": "2026-09-08T14:24:34.033917+00:00"
     }
   ],
   "k_factor": 24,
@@ -6186,8 +6231,8 @@
         "15": 1448.24,
         "16": 1352.59,
         "17": 1348.45,
-        "19": 1495.34,
-        "20": 1501.53,
+        "19": 1484.71,
+        "20": 1490.3,
         "21": 1430.63,
         "3": 1258.59,
         "30": 1444.16,
@@ -6197,23 +6242,23 @@
         "34": 1601.27,
         "35": 1636.74,
         "36": 1631.89,
-        "37": 1518.76,
+        "37": 1506.51,
         "38": 1612.39,
         "39": 1523.6,
         "4": 1464.37,
         "40": 1661.46,
         "41": 1570.53,
         "42": 1575.42,
-        "43": 1511.85,
+        "43": 1499.86,
         "44": 1645.56,
         "46": 1535.39,
         "47": 1572.1,
-        "48": 1512.0,
-        "49": 1511.59,
+        "48": 1545.67,
+        "49": 1524.02,
         "7": 1281.86,
         "9": 1277.23
       },
-      "timestamp": "2026-09-08T14:22:05.164534+00:00"
+      "timestamp": "2026-09-08T14:24:34.861863+00:00"
     }
   ],
   "ratings": {
@@ -6524,8 +6569,8 @@
     },
     "19": {
       "draws": 0,
-      "games": 53,
-      "losses": 26,
+      "games": 54,
+      "losses": 27,
       "opponents": [
         3,
         4,
@@ -6556,15 +6601,16 @@
         43,
         44,
         46,
-        47
+        47,
+        48
       ],
-      "rating": 1495.34,
+      "rating": 1484.71,
       "wins": 27
     },
     "20": {
       "draws": 0,
-      "games": 48,
-      "losses": 23,
+      "games": 49,
+      "losses": 24,
       "opponents": [
         3,
         4,
@@ -6595,9 +6641,10 @@
         43,
         44,
         46,
-        47
+        47,
+        48
       ],
-      "rating": 1501.53,
+      "rating": 1490.3,
       "wins": 25
     },
     "21": {
@@ -6945,8 +6992,8 @@
     },
     "37": {
       "draws": 0,
-      "games": 47,
-      "losses": 24,
+      "games": 48,
+      "losses": 25,
       "opponents": [
         3,
         4,
@@ -6978,9 +7025,10 @@
         43,
         44,
         46,
-        47
+        47,
+        48
       ],
-      "rating": 1518.76,
+      "rating": 1506.51,
       "wins": 23
     },
     "38": {
@@ -7188,8 +7236,8 @@
     },
     "43": {
       "draws": 0,
-      "games": 49,
-      "losses": 20,
+      "games": 50,
+      "losses": 21,
       "opponents": [
         3,
         4,
@@ -7220,9 +7268,10 @@
         42,
         44,
         46,
-        47
+        47,
+        48
       ],
-      "rating": 1511.85,
+      "rating": 1499.86,
       "wins": 29
     },
     "44": {
@@ -7323,23 +7372,29 @@
     },
     "48": {
       "draws": 0,
-      "games": 1,
-      "losses": 0,
+      "games": 6,
+      "losses": 1,
       "opponents": [
-        47
+        19,
+        20,
+        37,
+        43,
+        47,
+        49
       ],
-      "rating": 1512.0,
-      "wins": 1
+      "rating": 1545.67,
+      "wins": 5
     },
     "49": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 0,
       "opponents": [
-        47
+        47,
+        48
       ],
-      "rating": 1511.59,
-      "wins": 1
+      "rating": 1524.02,
+      "wins": 2
     },
     "7": {
       "draws": 0,
