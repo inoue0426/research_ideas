@@ -6119,6 +6119,51 @@
       "reason": "#52 wins over #38 due to broader applicability across biological contexts, stronger novelty in functional equivalence classes, and more direct scientific contribution over biomarker-conditioned embeddings.",
       "target": 52,
       "timestamp": "2026-09-09T03:33:11.391736+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 38,
+      "outcome": "win",
+      "reason": "#50 wins over #38 because it addresses a clear, falsifiable question about transferable components of biological perturbations with a concrete test plan, while #38's biomarker-conditioned embeddings lack a strong scientific justification for natural-language conditioning over simpler methods.",
+      "target": 50,
+      "timestamp": "2026-09-09T06:43:57.723011+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 34,
+      "outcome": "win",
+      "reason": "#50 wins over #34 because it has a more concrete, falsifiable research question with a clear test plan, while #34's evidence sufficiency question is less directly tied to a specific scientific gap and lacks a strong falsifiable prediction.",
+      "target": 50,
+      "timestamp": "2026-09-09T06:43:57.723011+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 48,
+      "outcome": "loss",
+      "reason": "#48 wins over #50 because it extends the evidence sufficiency problem to a more scientifically valuable counterfactual missing evidence identification, which has higher leverage for biomedical reasoning and active evidence acquisition.",
+      "target": 50,
+      "timestamp": "2026-09-09T06:43:57.723011+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 36,
+      "outcome": "win",
+      "reason": "#50 wins over #36 because it has a clearer, more focused research question with a concrete test plan, while #36's adaptive evidence acquisition is more of a method proposal without a strong falsifiable core question.",
+      "target": 50,
+      "timestamp": "2026-09-09T06:43:57.723011+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 49,
+      "outcome": "win",
+      "reason": "#50 wins over #49 because it addresses a more specific, falsifiable question about perturbation transferability with a clear test plan, while #49's intervention geometry benchmark is broader and less directly testable within six months.",
+      "target": 50,
+      "timestamp": "2026-09-09T06:43:57.723011+00:00"
     }
   ],
   "k_factor": 24,
@@ -6686,11 +6731,11 @@
         "31": 1492.84,
         "32": 1531.12,
         "33": 1683.52,
-        "34": 1577.65,
+        "34": 1566.46,
         "35": 1636.74,
-        "36": 1631.89,
+        "36": 1618.8,
         "37": 1484.39,
-        "38": 1588.81,
+        "38": 1576.83,
         "39": 1523.6,
         "4": 1453.94,
         "40": 1661.46,
@@ -6700,15 +6745,15 @@
         "44": 1645.56,
         "46": 1501.34,
         "47": 1572.1,
-        "48": 1603.65,
-        "49": 1635.2,
-        "50": 1589.3,
+        "48": 1615.95,
+        "49": 1622.44,
+        "50": 1626.02,
         "51": 1530.56,
         "52": 1613.75,
         "7": 1281.86,
         "9": 1277.23
       },
-      "timestamp": "2026-09-09T03:33:12.049879+00:00"
+      "timestamp": "2026-09-09T06:43:58.648419+00:00"
     }
   ],
   "ratings": {
@@ -7345,8 +7390,8 @@
     },
     "34": {
       "draws": 0,
-      "games": 49,
-      "losses": 18,
+      "games": 50,
+      "losses": 19,
       "opponents": [
         3,
         4,
@@ -7378,9 +7423,10 @@
         44,
         46,
         49,
+        50,
         52
       ],
-      "rating": 1577.65,
+      "rating": 1566.46,
       "wins": 31
     },
     "35": {
@@ -7423,8 +7469,8 @@
     },
     "36": {
       "draws": 0,
-      "games": 46,
-      "losses": 13,
+      "games": 47,
+      "losses": 14,
       "opponents": [
         3,
         4,
@@ -7454,9 +7500,10 @@
         42,
         43,
         44,
-        46
+        46,
+        50
       ],
-      "rating": 1631.89,
+      "rating": 1618.8,
       "wins": 33
     },
     "37": {
@@ -7506,8 +7553,8 @@
     },
     "38": {
       "draws": 0,
-      "games": 50,
-      "losses": 19,
+      "games": 51,
+      "losses": 20,
       "opponents": [
         3,
         4,
@@ -7540,9 +7587,10 @@
         44,
         46,
         49,
+        50,
         52
       ],
-      "rating": 1588.81,
+      "rating": 1576.83,
       "wins": 31
     },
     "39": {
@@ -7864,7 +7912,7 @@
     },
     "48": {
       "draws": 0,
-      "games": 11,
+      "games": 12,
       "losses": 1,
       "opponents": [
         19,
@@ -7877,15 +7925,16 @@
         43,
         46,
         47,
-        49
+        49,
+        50
       ],
-      "rating": 1603.65,
-      "wins": 10
+      "rating": 1615.95,
+      "wins": 11
     },
     "49": {
       "draws": 0,
-      "games": 12,
-      "losses": 0,
+      "games": 13,
+      "losses": 1,
       "opponents": [
         20,
         31,
@@ -7898,29 +7947,35 @@
         43,
         46,
         47,
-        48
+        48,
+        50
       ],
-      "rating": 1635.2,
+      "rating": 1622.44,
       "wins": 12
     },
     "50": {
       "draws": 0,
-      "games": 10,
-      "losses": 1,
+      "games": 15,
+      "losses": 2,
       "opponents": [
         19,
         31,
         32,
+        34,
+        36,
         37,
+        38,
         41,
         42,
         43,
         46,
+        48,
+        49,
         51,
         52
       ],
-      "rating": 1589.3,
-      "wins": 9
+      "rating": 1626.02,
+      "wins": 13
     },
     "51": {
       "draws": 0,
