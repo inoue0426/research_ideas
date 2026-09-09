@@ -6074,6 +6074,51 @@
       "reason": "#51 wins over #13 because it has a falsifiable, context-independent hypothesis with a clear first test, while #13's representation properties question lacks a defined benchmark for validation.",
       "target": 51,
       "timestamp": "2026-09-09T01:02:01.507611+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 32,
+      "outcome": "win",
+      "reason": "#52 wins over #32 due to clearer problem definition, higher novelty potential in functional equivalence classes, and stronger falsifiability with concrete tests.",
+      "target": 52,
+      "timestamp": "2026-09-09T03:33:11.391736+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 42,
+      "outcome": "win",
+      "reason": "#52 wins over #42 due to more tractable initial test, lower data dependency, and stronger evidence of potential impact on fundamental understanding of perturbation effects.",
+      "target": 52,
+      "timestamp": "2026-09-09T03:33:11.391736+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 41,
+      "outcome": "win",
+      "reason": "#52 wins over #41 due to lower data dependency, more immediate feasibility with existing datasets, and clearer falsifiability compared to the data-scarce single-cell challenge.",
+      "target": 52,
+      "timestamp": "2026-09-09T03:33:11.391736+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 34,
+      "outcome": "win",
+      "reason": "#52 wins over #34 due to higher importance in biological understanding, stronger novelty potential in perturbation equivalence, and more direct scientific impact than evidence sufficiency.",
+      "target": 52,
+      "timestamp": "2026-09-09T03:33:11.391736+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 38,
+      "outcome": "win",
+      "reason": "#52 wins over #38 due to broader applicability across biological contexts, stronger novelty in functional equivalence classes, and more direct scientific contribution over biomarker-conditioned embeddings.",
+      "target": 52,
+      "timestamp": "2026-09-09T03:33:11.391736+00:00"
     }
   ],
   "k_factor": 24,
@@ -6639,18 +6684,18 @@
         "3": 1258.59,
         "30": 1444.16,
         "31": 1492.84,
-        "32": 1542.63,
+        "32": 1531.12,
         "33": 1683.52,
-        "34": 1589.64,
+        "34": 1577.65,
         "35": 1636.74,
         "36": 1631.89,
         "37": 1484.39,
-        "38": 1600.78,
+        "38": 1588.81,
         "39": 1523.6,
         "4": 1453.94,
         "40": 1661.46,
-        "41": 1535.46,
-        "42": 1540.31,
+        "41": 1524.97,
+        "42": 1529.27,
         "43": 1466.56,
         "44": 1645.56,
         "46": 1501.34,
@@ -6659,11 +6704,11 @@
         "49": 1635.2,
         "50": 1589.3,
         "51": 1530.56,
-        "52": 1556.75,
+        "52": 1613.75,
         "7": 1281.86,
         "9": 1277.23
       },
-      "timestamp": "2026-09-09T01:02:02.356967+00:00"
+      "timestamp": "2026-09-09T03:33:12.049879+00:00"
     }
   ],
   "ratings": {
@@ -7220,8 +7265,8 @@
     },
     "32": {
       "draws": 0,
-      "games": 47,
-      "losses": 18,
+      "games": 48,
+      "losses": 19,
       "opponents": [
         3,
         4,
@@ -7254,9 +7299,10 @@
         46,
         48,
         49,
-        50
+        50,
+        52
       ],
-      "rating": 1542.63,
+      "rating": 1531.12,
       "wins": 29
     },
     "33": {
@@ -7299,8 +7345,8 @@
     },
     "34": {
       "draws": 0,
-      "games": 48,
-      "losses": 17,
+      "games": 49,
+      "losses": 18,
       "opponents": [
         3,
         4,
@@ -7331,9 +7377,10 @@
         43,
         44,
         46,
-        49
+        49,
+        52
       ],
-      "rating": 1589.64,
+      "rating": 1577.65,
       "wins": 31
     },
     "35": {
@@ -7459,8 +7506,8 @@
     },
     "38": {
       "draws": 0,
-      "games": 49,
-      "losses": 18,
+      "games": 50,
+      "losses": 19,
       "opponents": [
         3,
         4,
@@ -7492,9 +7539,10 @@
         43,
         44,
         46,
-        49
+        49,
+        52
       ],
-      "rating": 1600.78,
+      "rating": 1588.81,
       "wins": 31
     },
     "39": {
@@ -7588,8 +7636,8 @@
     },
     "41": {
       "draws": 0,
-      "games": 46,
-      "losses": 18,
+      "games": 47,
+      "losses": 19,
       "opponents": [
         3,
         4,
@@ -7622,15 +7670,16 @@
         46,
         48,
         49,
-        50
+        50,
+        52
       ],
-      "rating": 1535.46,
+      "rating": 1524.97,
       "wins": 28
     },
     "42": {
       "draws": 0,
-      "games": 46,
-      "losses": 18,
+      "games": 47,
+      "losses": 19,
       "opponents": [
         3,
         4,
@@ -7663,9 +7712,10 @@
         46,
         48,
         49,
-        50
+        50,
+        52
       ],
-      "rating": 1540.31,
+      "rating": 1529.27,
       "wins": 28
     },
     "43": {
@@ -7894,19 +7944,24 @@
     },
     "52": {
       "draws": 0,
-      "games": 7,
+      "games": 12,
       "losses": 1,
       "opponents": [
         19,
         20,
         31,
+        32,
+        34,
         37,
+        38,
+        41,
+        42,
         46,
         50,
         51
       ],
-      "rating": 1556.75,
-      "wins": 6
+      "rating": 1613.75,
+      "wins": 11
     },
     "7": {
       "draws": 0,
