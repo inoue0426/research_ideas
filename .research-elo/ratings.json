@@ -6209,6 +6209,51 @@
       "reason": "#51 wins over #38 because #51 addresses a fundamental biological question with a clear experimental path, while #38's novelty is uncertain and depends on unverified literature about biomarker-conditioned embeddings.",
       "target": 51,
       "timestamp": "2026-09-09T09:31:36.190860+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 55,
+      "outcome": "loss",
+      "reason": "#55 wins over #53 because it directly addresses the core question of whether perturbation structure is better represented as a transport process (geometry of dynamics) rather than a discrete rule, with clear comparative experiments and stronger novelty by building on existing SB work to ask a new question about transferability and geometry, not just proposing another model.",
+      "target": 53,
+      "timestamp": "2026-09-09T12:39:38.802087+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 56,
+      "outcome": "loss",
+      "reason": "#56 wins over #53 because it proposes a more fundamental shift from vector to vector-field geometry, with a clear aim to localize transfer failures spatially and test field-level quantities as predictors of transfer trust, making it more tractable and directly addressing a gap in current intervention geometry analysis.",
+      "target": 53,
+      "timestamp": "2026-09-09T12:39:38.802087+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 54,
+      "outcome": "loss",
+      "reason": "#54 wins over #53 because it systematically compares three distinct representational hypotheses (continuous, discrete deterministic, discrete stochastic) rather than just proposing a new model, with a clear focus on transferability and multimodality as key evaluation criteria, making it more falsifiable and directly addressing a broader question.",
+      "target": 53,
+      "timestamp": "2026-09-09T12:39:38.802087+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 46,
+      "outcome": "loss",
+      "reason": "#46 wins over #53 because it proposes a novel way to use distribution mismatch as a signal for correcting model dynamics, with a clear identifiability question and a practical first test, making it more tractable and directly addressing a gap in how perturbation models are refined.",
+      "target": 53,
+      "timestamp": "2026-09-09T12:39:38.802087+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "loss",
+      "reason": "#31 wins over #53 because it addresses a critical practical problem in biomedical reasoning (reliable evidence selection vs. sufficiency detection) with a clear separation of concerns, high importance for real-world LLM applications, and a well-defined next check for reproducibility, making it more immediately impactful and tractable than the more abstract biological modeling in #53.",
+      "target": 53,
+      "timestamp": "2026-09-09T12:39:38.802087+00:00"
     }
   ],
   "k_factor": 24,
@@ -6773,7 +6818,7 @@
         "21": 1430.63,
         "3": 1258.59,
         "30": 1444.16,
-        "31": 1492.84,
+        "31": 1503.52,
         "32": 1519.1,
         "33": 1683.52,
         "34": 1554.41,
@@ -6788,17 +6833,21 @@
         "42": 1517.73,
         "43": 1466.56,
         "44": 1645.56,
-        "46": 1501.34,
+        "46": 1512.1,
         "47": 1572.1,
         "48": 1615.95,
         "49": 1622.44,
         "50": 1626.02,
         "51": 1589.16,
         "52": 1613.75,
+        "53": 1443.78,
+        "54": 1511.19,
+        "55": 1512.0,
+        "56": 1511.59,
         "7": 1281.86,
         "9": 1277.23
       },
-      "timestamp": "2026-09-09T09:31:37.020024+00:00"
+      "timestamp": "2026-09-09T12:39:39.520553+00:00"
     }
   ],
   "ratings": {
@@ -7311,7 +7360,7 @@
     },
     "31": {
       "draws": 0,
-      "games": 51,
+      "games": 52,
       "losses": 24,
       "opponents": [
         3,
@@ -7348,10 +7397,11 @@
         49,
         50,
         51,
-        52
+        52,
+        53
       ],
-      "rating": 1492.84,
-      "wins": 27
+      "rating": 1503.52,
+      "wins": 28
     },
     "32": {
       "draws": 0,
@@ -7899,7 +7949,7 @@
     },
     "46": {
       "draws": 0,
-      "games": 50,
+      "games": 51,
       "losses": 26,
       "opponents": [
         3,
@@ -7936,10 +7986,11 @@
         49,
         50,
         51,
-        52
+        52,
+        53
       ],
-      "rating": 1501.34,
-      "wins": 24
+      "rating": 1512.1,
+      "wins": 25
     },
     "47": {
       "draws": 0,
@@ -8072,6 +8123,50 @@
       ],
       "rating": 1613.75,
       "wins": 11
+    },
+    "53": {
+      "draws": 0,
+      "games": 5,
+      "losses": 5,
+      "opponents": [
+        31,
+        46,
+        54,
+        55,
+        56
+      ],
+      "rating": 1443.78,
+      "wins": 0
+    },
+    "54": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "opponents": [
+        53
+      ],
+      "rating": 1511.19,
+      "wins": 1
+    },
+    "55": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "opponents": [
+        53
+      ],
+      "rating": 1512.0,
+      "wins": 1
+    },
+    "56": {
+      "draws": 0,
+      "games": 1,
+      "losses": 0,
+      "opponents": [
+        53
+      ],
+      "rating": 1511.59,
+      "wins": 1
     },
     "7": {
       "draws": 0,
