@@ -6254,6 +6254,51 @@
       "reason": "#31 wins over #53 because it addresses a critical practical problem in biomedical reasoning (reliable evidence selection vs. sufficiency detection) with a clear separation of concerns, high importance for real-world LLM applications, and a well-defined next check for reproducibility, making it more immediately impactful and tractable than the more abstract biological modeling in #53.",
       "target": 53,
       "timestamp": "2026-09-09T12:39:38.802087+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 56,
+      "outcome": "loss",
+      "reason": "Issue #56 is more deserving than #54 because it clearly defines a novel geometric representation (drift fields vs. vectors) with concrete analysis goals (transferability, context sensitivity), while #54's discrete vs. continuous debate lacks clear differentiation in testable hypotheses and risks being a methodological comparison rather than a fundamental question.",
+      "target": 54,
+      "timestamp": "2026-09-09T15:30:00.627563+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 55,
+      "outcome": "loss",
+      "reason": "Issue #55 is more deserving than #54 because it proposes a fundamentally different representation (stochastic transport processes) with clear comparative metrics (transport geometry vs. displacement vectors), whereas #54's hypotheses are less distinct and lack a strong justification for why discrete vs. continuous matters beyond modeling choices.",
+      "target": 54,
+      "timestamp": "2026-09-09T15:30:00.627563+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 46,
+      "outcome": "win",
+      "reason": "Issue #54 is more deserving than #46 because it poses a clear, testable question about biological perturbation representation (continuous vs. discrete) with defined experiments, while #46's core idea (residual dynamics from distribution mismatch) is highly speculative with no clear path to validation and depends on unverified identifiability assumptions.",
+      "target": 54,
+      "timestamp": "2026-09-09T15:30:00.627563+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 41,
+      "outcome": "win",
+      "reason": "Issue #54 is more deserving than #41 because it addresses a fundamental question in perturbation modeling (representation type) with a clear experimental design, while #41's focus on single-cell ADC modeling is highly dependent on scarce data availability and lacks a clear path to validation without dataset evidence.",
+      "target": 54,
+      "timestamp": "2026-09-09T15:30:00.627563+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 42,
+      "outcome": "win",
+      "reason": "Issue #54 is more deserving than #42 because it tackles a core theoretical question about perturbation representation (continuous vs. discrete) with a well-defined experimental framework, whereas #42's cold-start ADC prediction is a practical benchmarking task that doesn't address a deeper scientific question and depends on dataset limitations.",
+      "target": 54,
+      "timestamp": "2026-09-09T15:30:00.627563+00:00"
     }
   ],
   "k_factor": 24,
@@ -6829,11 +6874,11 @@
         "39": 1523.6,
         "4": 1453.94,
         "40": 1661.46,
-        "41": 1513.97,
-        "42": 1517.73,
+        "41": 1501.5,
+        "42": 1505.56,
         "43": 1466.56,
         "44": 1645.56,
-        "46": 1512.1,
+        "46": 1499.26,
         "47": 1572.1,
         "48": 1615.95,
         "49": 1622.44,
@@ -6841,13 +6886,13 @@
         "51": 1589.16,
         "52": 1613.75,
         "53": 1443.78,
-        "54": 1511.19,
-        "55": 1512.0,
-        "56": 1511.59,
+        "54": 1525.12,
+        "55": 1523.56,
+        "56": 1523.58,
         "7": 1281.86,
         "9": 1277.23
       },
-      "timestamp": "2026-09-09T12:39:39.520553+00:00"
+      "timestamp": "2026-09-09T15:30:02.313731+00:00"
     }
   ],
   "ratings": {
@@ -7782,8 +7827,8 @@
     },
     "41": {
       "draws": 0,
-      "games": 48,
-      "losses": 20,
+      "games": 49,
+      "losses": 21,
       "opponents": [
         3,
         4,
@@ -7818,15 +7863,16 @@
         49,
         50,
         51,
-        52
+        52,
+        54
       ],
-      "rating": 1513.97,
+      "rating": 1501.5,
       "wins": 28
     },
     "42": {
       "draws": 0,
-      "games": 48,
-      "losses": 20,
+      "games": 49,
+      "losses": 21,
       "opponents": [
         3,
         4,
@@ -7861,9 +7907,10 @@
         49,
         50,
         51,
-        52
+        52,
+        54
       ],
-      "rating": 1517.73,
+      "rating": 1505.56,
       "wins": 28
     },
     "43": {
@@ -7949,8 +7996,8 @@
     },
     "46": {
       "draws": 0,
-      "games": 51,
-      "losses": 26,
+      "games": 52,
+      "losses": 27,
       "opponents": [
         3,
         4,
@@ -7987,9 +8034,10 @@
         50,
         51,
         52,
-        53
+        53,
+        54
       ],
-      "rating": 1512.1,
+      "rating": 1499.26,
       "wins": 25
     },
     "47": {
@@ -8140,33 +8188,40 @@
     },
     "54": {
       "draws": 0,
-      "games": 1,
-      "losses": 0,
+      "games": 6,
+      "losses": 2,
       "opponents": [
-        53
+        41,
+        42,
+        46,
+        53,
+        55,
+        56
       ],
-      "rating": 1511.19,
-      "wins": 1
+      "rating": 1525.12,
+      "wins": 4
     },
     "55": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 0,
       "opponents": [
-        53
+        53,
+        54
       ],
-      "rating": 1512.0,
-      "wins": 1
+      "rating": 1523.56,
+      "wins": 2
     },
     "56": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 0,
       "opponents": [
-        53
+        53,
+        54
       ],
-      "rating": 1511.59,
-      "wins": 1
+      "rating": 1523.58,
+      "wins": 2
     },
     "7": {
       "draws": 0,
