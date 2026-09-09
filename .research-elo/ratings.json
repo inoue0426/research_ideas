@@ -6164,6 +6164,51 @@
       "reason": "#50 wins over #49 because it addresses a more specific, falsifiable question about perturbation transferability with a clear test plan, while #49's intervention geometry benchmark is broader and less directly testable within six months.",
       "target": 50,
       "timestamp": "2026-09-09T06:43:57.723011+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 32,
+      "outcome": "win",
+      "reason": "#51 wins over #32 because it addresses a fundamental scientific question about biological context transferability with clear falsifiable predictions and a low-risk go/no-go experiment, while #32's novelty is uncertain and relies on unverified literature.",
+      "target": 51,
+      "timestamp": "2026-09-09T09:31:36.190860+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 42,
+      "outcome": "win",
+      "reason": "#51 wins over #42 because it has a clearer research question with a defined experimental test and falsifiable predictions, while #42's feasibility depends on uncertain data availability that may not support the cold-start evaluation.",
+      "target": 51,
+      "timestamp": "2026-09-09T09:31:36.190860+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 41,
+      "outcome": "win",
+      "reason": "#51 wins over #41 because it has a well-defined experimental plan with a low-risk go/no-go test, while #41's feasibility is highly uncertain due to potential lack of required single-cell/space data.",
+      "target": 51,
+      "timestamp": "2026-09-09T09:31:36.190860+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 34,
+      "outcome": "win",
+      "reason": "#51 wins over #34 because #51 has a clear, falsifiable research question with a defined experimental test, while #34's question is more methodological and lacks the same level of scientific importance for a six-month project.",
+      "target": 51,
+      "timestamp": "2026-09-09T09:31:36.190860+00:00"
+    },
+    {
+      "judge_model": "qwen3:30b",
+      "judge_provider": "ollama",
+      "opponent": 38,
+      "outcome": "win",
+      "reason": "#51 wins over #38 because #51 addresses a fundamental biological question with a clear experimental path, while #38's novelty is uncertain and depends on unverified literature about biomarker-conditioned embeddings.",
+      "target": 51,
+      "timestamp": "2026-09-09T09:31:36.190860+00:00"
     }
   ],
   "k_factor": 24,
@@ -6729,18 +6774,18 @@
         "3": 1258.59,
         "30": 1444.16,
         "31": 1492.84,
-        "32": 1531.12,
+        "32": 1519.1,
         "33": 1683.52,
-        "34": 1566.46,
+        "34": 1554.41,
         "35": 1636.74,
         "36": 1618.8,
         "37": 1484.39,
-        "38": 1576.83,
+        "38": 1564.84,
         "39": 1523.6,
         "4": 1453.94,
         "40": 1661.46,
-        "41": 1524.97,
-        "42": 1529.27,
+        "41": 1513.97,
+        "42": 1517.73,
         "43": 1466.56,
         "44": 1645.56,
         "46": 1501.34,
@@ -6748,12 +6793,12 @@
         "48": 1615.95,
         "49": 1622.44,
         "50": 1626.02,
-        "51": 1530.56,
+        "51": 1589.16,
         "52": 1613.75,
         "7": 1281.86,
         "9": 1277.23
       },
-      "timestamp": "2026-09-09T06:43:58.648419+00:00"
+      "timestamp": "2026-09-09T09:31:37.020024+00:00"
     }
   ],
   "ratings": {
@@ -7310,8 +7355,8 @@
     },
     "32": {
       "draws": 0,
-      "games": 48,
-      "losses": 19,
+      "games": 49,
+      "losses": 20,
       "opponents": [
         3,
         4,
@@ -7345,9 +7390,10 @@
         48,
         49,
         50,
+        51,
         52
       ],
-      "rating": 1531.12,
+      "rating": 1519.1,
       "wins": 29
     },
     "33": {
@@ -7390,8 +7436,8 @@
     },
     "34": {
       "draws": 0,
-      "games": 50,
-      "losses": 19,
+      "games": 51,
+      "losses": 20,
       "opponents": [
         3,
         4,
@@ -7424,9 +7470,10 @@
         46,
         49,
         50,
+        51,
         52
       ],
-      "rating": 1566.46,
+      "rating": 1554.41,
       "wins": 31
     },
     "35": {
@@ -7553,8 +7600,8 @@
     },
     "38": {
       "draws": 0,
-      "games": 51,
-      "losses": 20,
+      "games": 52,
+      "losses": 21,
       "opponents": [
         3,
         4,
@@ -7588,9 +7635,10 @@
         46,
         49,
         50,
+        51,
         52
       ],
-      "rating": 1576.83,
+      "rating": 1564.84,
       "wins": 31
     },
     "39": {
@@ -7684,8 +7732,8 @@
     },
     "41": {
       "draws": 0,
-      "games": 47,
-      "losses": 19,
+      "games": 48,
+      "losses": 20,
       "opponents": [
         3,
         4,
@@ -7719,15 +7767,16 @@
         48,
         49,
         50,
+        51,
         52
       ],
-      "rating": 1524.97,
+      "rating": 1513.97,
       "wins": 28
     },
     "42": {
       "draws": 0,
-      "games": 47,
-      "losses": 19,
+      "games": 48,
+      "losses": 20,
       "opponents": [
         3,
         4,
@@ -7761,9 +7810,10 @@
         48,
         49,
         50,
+        51,
         52
       ],
-      "rating": 1529.27,
+      "rating": 1517.73,
       "wins": 28
     },
     "43": {
@@ -7979,7 +8029,7 @@
     },
     "51": {
       "draws": 0,
-      "games": 11,
+      "games": 16,
       "losses": 4,
       "opponents": [
         4,
@@ -7988,14 +8038,19 @@
         19,
         20,
         31,
+        32,
+        34,
         37,
+        38,
+        41,
+        42,
         43,
         46,
         50,
         52
       ],
-      "rating": 1530.56,
-      "wins": 7
+      "rating": 1589.16,
+      "wins": 12
     },
     "52": {
       "draws": 0,
