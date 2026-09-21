@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import argparse
 import json
 import os
 import urllib.request
@@ -48,8 +49,18 @@ def load_state():
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        '--unrated-only',
+        action='store_true',
+        help='Only select issues with zero games. Exit 0 with no output if none remain.',
+    )
+    args = parser.parse_args()
+
     issues = fetch_open_owner_issues()
     if not issues:
+        if args.unrated_only:
+            return
         raise RuntimeError('No open owner-authored issues found.')
 
     state = load_state()
@@ -68,12 +79,19 @@ def main():
 
     epoch = datetime(1970, 1, 1, tzinfo=timezone.utc)
 
-    def priority(issue):
+    def games_for(issue):
         number = int(issue['number'])
         entry = ratings.get(str(number), {})
-        games = int(entry.get('games', 0))
-        # Unrated/least-played ideas first, then the one least recently used as target.
-        return (games, last_target.get(number, epoch), number)
+        return int(entry.get('games', 0))
+
+    if args.unrated_only:
+        issues = [issue for issue in issues if games_for(issue) == 0]
+        if not issues:
+            return
+
+    def priority(issue):
+        number = int(issue['number'])
+        return (games_for(issue), last_target.get(number, epoch), number)
 
     selected = min(issues, key=priority)
     print(selected['number'])
