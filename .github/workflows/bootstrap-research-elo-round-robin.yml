@@ -46,7 +46,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-          OLLAMA_MODEL: qwen3:30b
+          OLLAMA_MODEL: qwen3.8:27b
         run: |
           set -euo pipefail
 
