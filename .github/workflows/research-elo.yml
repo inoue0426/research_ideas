@@ -3,6 +3,12 @@ name: Research Elo
 on:
   schedule:
     - cron: "17 */3 * * *"
+
+  issues:
+    types:
+      - opened
+      - reopened
+
   workflow_dispatch:
     inputs:
       issue_number:
@@ -20,57 +26,80 @@ concurrency:
 
 jobs:
   rate:
+    if: >
+      github.event_name != 'issues' ||
+      github.event.issue.user.login == github.repository_owner
+
     runs-on: [self-hosted, macOS, ARM64]
+
     steps:
       - name: Checkout
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
-      - name: Resolve issue number
-        id: issue
+      - name: Rate issues
         env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          OLLAMA_MODEL: qwen3.8:27b
           MANUAL_ISSUE: ${{ inputs.issue_number }}
-          GITHUB_TOKEN: ${{ github.token }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "$MANUAL_ISSUE" ]; then
-            number="$MANUAL_ISSUE"
-          else
-            number="$(python3 scripts/select_research_elo_issue.py)"
+          set -euo pipefail
+
+          rate_issue () {
+            issue="$1"
+
+            echo ""
+            echo "========================================="
+            echo "Rating issue #$issue"
+            echo "========================================="
+
+            python3 scripts/research_elo_core_v2.py prepare \
+              --issue "$issue" \
+              --prompt-file /tmp/research-elo-prompt.txt \
+              --context-file /tmp/research-elo-context.json
+
+            python3 scripts/ollama_judge_v3.py \
+              --prompt-file /tmp/research-elo-prompt.txt \
+              --output-file /tmp/research-elo-result.txt \
+              --retries 3
+
+            python3 scripts/research_elo_core_v2.py apply \
+              --issue "$issue" \
+              --context-file /tmp/research-elo-context.json \
+              --result-file /tmp/research-elo-result.txt
+          }
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] \
+             && [ -n "${MANUAL_ISSUE:-}" ]; then
+            rate_issue "$MANUAL_ISSUE"
           fi
-          echo "Selected issue #$number"
-          echo "number=$number" >> "$GITHUB_OUTPUT"
 
-      - name: Prepare balanced pairwise judging prompt
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-        run: |
-          python3 scripts/research_elo_core_v2.py prepare \
-            --issue "${{ steps.issue.outputs.number }}" \
-            --prompt-file /tmp/research-elo-prompt.txt \
-            --context-file /tmp/research-elo-context.json
+          iteration=0
+          max_iterations=100
 
-      - name: Judge with local Ollama
-        env:
-          OLLAMA_MODEL: qwen3:30b
-        run: |
-          python3 scripts/ollama_judge_v3.py \
-            --prompt-file /tmp/research-elo-prompt.txt \
-            --output-file /tmp/research-elo-result.txt \
-            --retries 3
+          while true; do
+            issue="$(
+              python3 scripts/select_research_elo_issue.py \
+                --unrated-only
+            )"
 
-      - name: Apply Elo updates and comment on issue
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          OLLAMA_MODEL: qwen3:30b
-        run: |
-          python3 scripts/research_elo_core_v2.py apply \
-            --issue "${{ steps.issue.outputs.number }}" \
-            --context-file /tmp/research-elo-context.json \
-            --result-file /tmp/research-elo-result.txt
+            if [ -z "$issue" ]; then
+              echo ""
+              echo "All open owner-authored issues have at least one evaluation."
+              break
+            fi
+
+            iteration=$((iteration + 1))
+
+            if [ "$iteration" -gt "$max_iterations" ]; then
+              echo "Reached safety limit of $max_iterations iterations."
+              exit 1
+            fi
+
+            rate_issue "$issue"
+          done
 
       - name: Render README ranking
         env:
