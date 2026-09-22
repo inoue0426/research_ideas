@@ -32,11 +32,12 @@ jobs:
 
       - name: Judge weekly matches with local Ollama
         env:
-          OLLAMA_MODEL: qwen3:30b
+          OLLAMA_MODEL: qwen3.8:27b
         run: |
-          python3 scripts/ollama_judge.py \
+          python3 scripts/ollama_judge_v3.py \
             --prompt-file /tmp/weekly-research-elo-prompt.txt \
-            --output-file /tmp/weekly-research-elo-result.txt
+            --output-file /tmp/weekly-research-elo-result.txt \
+            --retries 3
 
       - name: Apply weekly Elo updates
         env:
