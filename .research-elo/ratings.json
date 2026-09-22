@@ -6479,6 +6479,51 @@
       "reason": "#66 is a concrete, testable scientific hypothesis with a defined experimental design, whereas #64 is a high-level architectural vision for an AI agent that is too abstract and complex to yield a definitive, falsifiable result in a short-term project.",
       "target": 66,
       "timestamp": "2026-09-22T02:58:38.383260+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 32,
+      "outcome": "win",
+      "reason": "#56 is preferred because it poses a fundamental, falsifiable question about the geometric nature of biological interventions (vector vs. field) with clear experimental aims, whereas #32 is a methodological application of LLMs to molecular generation that explicitly flags high novelty uncertainty and lacks a clear scientific hypothesis.",
+      "target": 56,
+      "timestamp": "2026-09-22T03:01:06.457452+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 34,
+      "outcome": "win",
+      "reason": "#56 is preferred because it addresses a core theoretical question in perturbation biology with a clear hypothesis and evaluation plan, while #34 is a benchmark construction task that is more incremental and dependent on existing model capabilities rather than offering a distinct scientific insight.",
+      "target": 56,
+      "timestamp": "2026-09-22T03:01:06.457452+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 66,
+      "outcome": "win",
+      "reason": "#56 is preferred because it offers a more robust and generalizable framework for understanding intervention geometry that is less dependent on the specific, unverified biological assumption of dose-continuity that #66 relies on, making #56's core question more tractable and scientifically grounded.",
+      "target": 56,
+      "timestamp": "2026-09-22T03:01:06.457452+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 57,
+      "outcome": "win",
+      "reason": "#56 is preferred because it provides a concrete, testable hypothesis about the structure of perturbation dynamics with specific experimental aims, whereas #57 is a broader, more abstract inquiry into 'Platonic representations' that is harder to falsify and lacks the immediate experimental clarity of #56.",
+      "target": 56,
+      "timestamp": "2026-09-22T03:01:06.457452+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 46,
+      "outcome": "win",
+      "reason": "#56 is preferred because it directly addresses a practical and scientific question about how to represent interventions, with clear metrics for success, while #46 is a highly theoretical proposal on identifiability that may be too abstract and difficult to validate within a six-month timeframe.",
+      "target": 56,
+      "timestamp": "2026-09-22T03:01:06.457452+00:00"
     }
   ],
   "k_factor": 24,
@@ -7189,9 +7234,9 @@
         "3": 1258.59,
         "30": 1444.16,
         "31": 1491.96,
-        "32": 1517.78,
+        "32": 1506.39,
         "33": 1683.52,
-        "34": 1554.41,
+        "34": 1542.15,
         "35": 1636.74,
         "36": 1618.8,
         "37": 1484.39,
@@ -7203,7 +7248,7 @@
         "42": 1494.59,
         "43": 1466.56,
         "44": 1645.56,
-        "46": 1511.29,
+        "46": 1501.72,
         "47": 1572.1,
         "48": 1615.95,
         "49": 1622.44,
@@ -7213,19 +7258,19 @@
         "53": 1443.78,
         "54": 1525.12,
         "55": 1556.57,
-        "56": 1535.58,
-        "57": 1556.01,
+        "56": 1592.16,
+        "57": 1544.53,
         "60": 1488.0,
         "61": 1479.14,
         "62": 1443.45,
         "63": 1488.81,
         "64": 1479.13,
         "65": 1488.41,
-        "66": 1555.66,
+        "66": 1543.78,
         "7": 1281.86,
         "9": 1277.23
       },
-      "timestamp": "2026-09-22T02:58:39.782951+00:00"
+      "timestamp": "2026-09-22T03:01:07.958219+00:00"
     }
   ],
   "ratings": {
@@ -7786,8 +7831,8 @@
     },
     "32": {
       "draws": 0,
-      "games": 51,
-      "losses": 21,
+      "games": 52,
+      "losses": 22,
       "opponents": [
         3,
         4,
@@ -7824,9 +7869,10 @@
         51,
         52,
         55,
+        56,
         62
       ],
-      "rating": 1517.78,
+      "rating": 1506.39,
       "wins": 30
     },
     "33": {
@@ -7869,8 +7915,8 @@
     },
     "34": {
       "draws": 0,
-      "games": 51,
-      "losses": 20,
+      "games": 52,
+      "losses": 21,
       "opponents": [
         3,
         4,
@@ -7904,9 +7950,10 @@
         49,
         50,
         51,
-        52
+        52,
+        56
       ],
-      "rating": 1554.41,
+      "rating": 1542.15,
       "wins": 31
     },
     "35": {
@@ -8340,8 +8387,8 @@
     },
     "46": {
       "draws": 0,
-      "games": 53,
-      "losses": 27,
+      "games": 54,
+      "losses": 28,
       "opponents": [
         3,
         4,
@@ -8380,9 +8427,10 @@
         52,
         53,
         54,
+        56,
         62
       ],
-      "rating": 1511.29,
+      "rating": 1501.72,
       "wins": 26
     },
     "47": {
@@ -8564,28 +8612,34 @@
     },
     "56": {
       "draws": 0,
-      "games": 3,
+      "games": 8,
       "losses": 0,
       "opponents": [
+        32,
+        34,
+        46,
         53,
         54,
-        55
+        55,
+        57,
+        66
       ],
-      "rating": 1535.58,
-      "wins": 3
+      "rating": 1592.16,
+      "wins": 8
     },
     "57": {
       "draws": 0,
-      "games": 5,
-      "losses": 0,
+      "games": 6,
+      "losses": 1,
       "opponents": [
+        56,
         60,
         61,
         63,
         64,
         65
       ],
-      "rating": 1556.01,
+      "rating": 1544.53,
       "wins": 5
     },
     "60": {
@@ -8656,16 +8710,17 @@
     },
     "66": {
       "draws": 0,
-      "games": 5,
-      "losses": 0,
+      "games": 6,
+      "losses": 1,
       "opponents": [
         31,
         41,
         42,
+        56,
         61,
         64
       ],
-      "rating": 1555.66,
+      "rating": 1543.78,
       "wins": 5
     },
     "7": {
