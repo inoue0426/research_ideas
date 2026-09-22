@@ -6749,6 +6749,96 @@
       "reason": "#65 investigates the fundamental validity of perturbation models (mechanistic fidelity), which is a more critical and high-leverage scientific question than #43, which applies standard uncertainty quantification techniques to a specific drug response prediction task.",
       "target": 65,
       "timestamp": "2026-09-22T03:11:59.951593+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 68,
+      "outcome": "loss",
+      "reason": "#68 is more tractable and scientifically rigorous because it leverages hard ground truth (lineage barcodes) to supervise dynamics, whereas #67 relies on scarce or pseudo-temporal data for spatial interventions, making #68's core claim more falsifiable and less dependent on data availability risks.",
+      "target": 67,
+      "timestamp": "2026-09-22T12:06:15.581469+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 42,
+      "outcome": "win",
+      "reason": "#67 proposes a novel, high-leverage task (action-conditioned spatial dynamics) with a clear path to a meaningful benchmark, whereas #42 is primarily a benchmarking study on existing models with significant uncertainty about whether the dataset (ADCpedia) has sufficient diversity to support the proposed cold-start evaluations.",
+      "target": 67,
+      "timestamp": "2026-09-22T12:06:15.581469+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 32,
+      "outcome": "win",
+      "reason": "#67 addresses a clear gap in spatial biology with a well-defined task formulation, while #32 has a major novelty risk (LLM+Pareto optimization may already exist) and is a more incremental methodological improvement compared to the new scientific question posed by #67.",
+      "target": 67,
+      "timestamp": "2026-09-22T12:06:15.581469+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 41,
+      "outcome": "win",
+      "reason": "#67 is more feasible for a six-month project because it can start with existing static spatial data for self-supervised benchmarks, whereas #41 is heavily dependent on the availability of matched single-cell/spatial ADC treatment datasets, which is identified as a critical and unresolved uncertainty.",
+      "target": 67,
+      "timestamp": "2026-09-22T12:06:15.581469+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "#67 offers a constructive, forward-looking research direction with a clear task definition, while #19 is an analysis of failure modes that is harder to scope and may yield less reusable insight than the new predictive framework proposed in #67.",
+      "target": 67,
+      "timestamp": "2026-09-22T12:06:15.581469+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 42,
+      "outcome": "win",
+      "reason": "#69 is more tractable and has a clearer evaluation framework (algebraic probes) compared to #42, which is primarily a benchmarking task with significant data sparsity risks that may render it infeasible.",
+      "target": 69,
+      "timestamp": "2026-09-22T12:07:25.190513+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 68,
+      "outcome": "win",
+      "reason": "#69 offers a more robust and well-defined methodological contribution with abundant data, whereas #68 relies on moderate-scale lineage data with high noise (barcode dropout) and smaller effect sizes, making it riskier for a six-month project.",
+      "target": 69,
+      "timestamp": "2026-09-22T12:07:25.190513+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 65,
+      "outcome": "win",
+      "reason": "#69 is a concrete, falsifiable research problem with a clear path to implementation, while #65 is a broad conceptual question that lacks a specific, tractable experimental design for a short-term project.",
+      "target": 69,
+      "timestamp": "2026-09-22T12:07:25.190513+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 46,
+      "outcome": "win",
+      "reason": "#69 is a well-scoped application of operator learning with clear baselines, whereas #46 is a highly theoretical proposal with significant identifiability uncertainties that may not yield a definitive answer within the timeframe.",
+      "target": 69,
+      "timestamp": "2026-09-22T12:07:25.190513+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 37,
+      "outcome": "win",
+      "reason": "#69 provides a stronger, more novel framing (compositional algebra) with a clear evaluation strategy, while #37 is a more incremental representation learning idea with higher risk of data sparsity and less distinct novelty.",
+      "target": 69,
+      "timestamp": "2026-09-22T12:07:25.190513+00:00"
     }
   ],
   "k_factor": 24,
@@ -7453,27 +7543,27 @@
         "15": 1448.24,
         "16": 1352.59,
         "17": 1348.45,
-        "19": 1488.65,
+        "19": 1477.85,
         "20": 1460.2,
         "21": 1430.63,
         "3": 1258.59,
         "30": 1444.16,
         "31": 1478.44,
-        "32": 1493.37,
+        "32": 1481.62,
         "33": 1683.52,
         "34": 1542.15,
         "35": 1636.74,
         "36": 1618.8,
-        "37": 1483.55,
+        "37": 1473.71,
         "38": 1564.84,
         "39": 1523.6,
         "4": 1453.94,
         "40": 1661.46,
-        "41": 1489.71,
-        "42": 1506.38,
+        "41": 1478.49,
+        "42": 1481.97,
         "43": 1478.15,
         "44": 1645.56,
-        "46": 1513.67,
+        "46": 1502.42,
         "47": 1572.1,
         "48": 1615.95,
         "49": 1622.44,
@@ -7490,12 +7580,15 @@
         "62": 1443.45,
         "63": 1410.18,
         "64": 1421.77,
-        "65": 1513.3,
+        "65": 1501.66,
         "66": 1543.78,
+        "67": 1534.4,
+        "68": 1499.99,
+        "69": 1556.52,
         "7": 1281.86,
         "9": 1277.23
       },
-      "timestamp": "2026-09-22T12:02:42.398841+00:00"
+      "timestamp": "2026-09-22T12:07:26.592802+00:00"
     }
   ],
   "ratings": {
@@ -7808,8 +7901,8 @@
     },
     "19": {
       "draws": 0,
-      "games": 60,
-      "losses": 30,
+      "games": 61,
+      "losses": 31,
       "opponents": [
         3,
         4,
@@ -7847,9 +7940,10 @@
         52,
         61,
         63,
-        64
+        64,
+        67
       ],
-      "rating": 1488.65,
+      "rating": 1477.85,
       "wins": 30
     },
     "20": {
@@ -8064,8 +8158,8 @@
     },
     "32": {
       "draws": 0,
-      "games": 53,
-      "losses": 23,
+      "games": 54,
+      "losses": 24,
       "opponents": [
         3,
         4,
@@ -8104,9 +8198,10 @@
         55,
         56,
         62,
-        65
+        65,
+        67
       ],
-      "rating": 1493.37,
+      "rating": 1481.62,
       "wins": 30
     },
     "33": {
@@ -8269,8 +8364,8 @@
     },
     "37": {
       "draws": 0,
-      "games": 54,
-      "losses": 29,
+      "games": 55,
+      "losses": 30,
       "opponents": [
         3,
         4,
@@ -8309,9 +8404,10 @@
         51,
         52,
         60,
-        64
+        64,
+        69
       ],
-      "rating": 1483.55,
+      "rating": 1473.71,
       "wins": 25
     },
     "38": {
@@ -8448,8 +8544,8 @@
     },
     "41": {
       "draws": 0,
-      "games": 56,
-      "losses": 25,
+      "games": 57,
+      "losses": 26,
       "opponents": [
         3,
         4,
@@ -8492,15 +8588,16 @@
         62,
         63,
         64,
-        66
+        66,
+        67
       ],
-      "rating": 1489.71,
+      "rating": 1478.49,
       "wins": 31
     },
     "42": {
       "draws": 0,
-      "games": 53,
-      "losses": 23,
+      "games": 55,
+      "losses": 25,
       "opponents": [
         3,
         4,
@@ -8540,9 +8637,11 @@
         55,
         62,
         65,
-        66
+        66,
+        67,
+        69
       ],
-      "rating": 1506.38,
+      "rating": 1481.97,
       "wins": 30
     },
     "43": {
@@ -8631,8 +8730,8 @@
     },
     "46": {
       "draws": 0,
-      "games": 55,
-      "losses": 28,
+      "games": 56,
+      "losses": 29,
       "opponents": [
         3,
         4,
@@ -8673,9 +8772,10 @@
         54,
         56,
         62,
-        65
+        65,
+        69
       ],
-      "rating": 1513.67,
+      "rating": 1502.42,
       "wins": 27
     },
     "47": {
@@ -8969,8 +9069,8 @@
     },
     "65": {
       "draws": 0,
-      "games": 7,
-      "losses": 3,
+      "games": 8,
+      "losses": 4,
       "opponents": [
         31,
         32,
@@ -8978,9 +9078,10 @@
         43,
         46,
         57,
-        60
+        60,
+        69
       ],
-      "rating": 1513.3,
+      "rating": 1501.66,
       "wins": 4
     },
     "66": {
@@ -8996,6 +9097,45 @@
         64
       ],
       "rating": 1543.78,
+      "wins": 5
+    },
+    "67": {
+      "draws": 0,
+      "games": 5,
+      "losses": 1,
+      "opponents": [
+        19,
+        32,
+        41,
+        42,
+        68
+      ],
+      "rating": 1534.4,
+      "wins": 4
+    },
+    "68": {
+      "draws": 0,
+      "games": 2,
+      "losses": 1,
+      "opponents": [
+        67,
+        69
+      ],
+      "rating": 1499.99,
+      "wins": 1
+    },
+    "69": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "opponents": [
+        37,
+        42,
+        46,
+        65,
+        68
+      ],
+      "rating": 1556.52,
       "wins": 5
     },
     "7": {
