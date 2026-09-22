@@ -6524,6 +6524,51 @@
       "reason": "#56 is preferred because it directly addresses a practical and scientific question about how to represent interventions, with clear metrics for success, while #46 is a highly theoretical proposal on identifiability that may be too abstract and difficult to validate within a six-month timeframe.",
       "target": 56,
       "timestamp": "2026-09-22T03:01:06.457452+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 65,
+      "outcome": "loss",
+      "reason": "#65 is more tractable and scientifically rigorous because it proposes a specific, testable hypothesis about the distinction between predictive and mechanistic fidelity, whereas #60 is a broad, multi-scale framework that is difficult to validate within a six-month timeframe.",
+      "target": 60,
+      "timestamp": "2026-09-22T03:02:55.621110+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 63,
+      "outcome": "win",
+      "reason": "#60 is more tractable and focused on a specific, measurable concept (transfer trust) with clear candidate predictors, whereas #63 is an overly ambitious architectural proposal that attempts to integrate too many disparate components (Boltz, PPI, perturbation models) into a single 'world model'.",
+      "target": 60,
+      "timestamp": "2026-09-22T03:02:55.621110+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 41,
+      "outcome": "win",
+      "reason": "#60 is more feasible because it leverages existing large-scale datasets (Tahoe-100M, LINCS) to test a defined hypothesis, whereas #41 is severely constrained by the acknowledged lack of matched single-cell/spatial ADC response datasets, making it high-risk and potentially untractable.",
+      "target": 60,
+      "timestamp": "2026-09-22T03:02:55.621110+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 37,
+      "outcome": "win",
+      "reason": "#60 has a clearer path to a meaningful result by applying a specific metric (transfer trust) to existing data, whereas #37 is limited by data sparsity in drug-combination datasets and the difficulty of disentangling partner effects from context in a short project.",
+      "target": 60,
+      "timestamp": "2026-09-22T03:02:55.621110+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "#60 addresses a high-leverage, domain-specific scientific problem with clear data availability, whereas #31 is a narrower NLP/LLM evaluation task that, while valid, offers less broad scientific leverage for biological discovery compared to the multi-scale transfer framework in #60.",
+      "target": 60,
+      "timestamp": "2026-09-22T03:02:55.621110+00:00"
     }
   ],
   "k_factor": 24,
@@ -7233,18 +7278,18 @@
         "21": 1430.63,
         "3": 1258.59,
         "30": 1444.16,
-        "31": 1491.96,
+        "31": 1480.65,
         "32": 1506.39,
         "33": 1683.52,
         "34": 1542.15,
         "35": 1636.74,
         "36": 1618.8,
-        "37": 1484.39,
+        "37": 1472.95,
         "38": 1564.84,
         "39": 1523.6,
         "4": 1453.94,
         "40": 1661.46,
-        "41": 1489.7,
+        "41": 1477.66,
         "42": 1494.59,
         "43": 1466.56,
         "44": 1645.56,
@@ -7260,17 +7305,17 @@
         "55": 1556.57,
         "56": 1592.16,
         "57": 1544.53,
-        "60": 1488.0,
+        "60": 1523.24,
         "61": 1479.14,
         "62": 1443.45,
-        "63": 1488.81,
+        "63": 1476.37,
         "64": 1479.13,
-        "65": 1488.41,
+        "65": 1500.4,
         "66": 1543.78,
         "7": 1281.86,
         "9": 1277.23
       },
-      "timestamp": "2026-09-22T03:01:07.958219+00:00"
+      "timestamp": "2026-09-22T03:02:57.243366+00:00"
     }
   ],
   "ratings": {
@@ -7783,8 +7828,8 @@
     },
     "31": {
       "draws": 0,
-      "games": 55,
-      "losses": 26,
+      "games": 56,
+      "losses": 27,
       "opponents": [
         3,
         4,
@@ -7823,10 +7868,11 @@
         52,
         53,
         55,
+        60,
         62,
         66
       ],
-      "rating": 1491.96,
+      "rating": 1480.65,
       "wins": 29
     },
     "32": {
@@ -8035,8 +8081,8 @@
     },
     "37": {
       "draws": 0,
-      "games": 52,
-      "losses": 28,
+      "games": 53,
+      "losses": 29,
       "opponents": [
         3,
         4,
@@ -8073,9 +8119,10 @@
         49,
         50,
         51,
-        52
+        52,
+        60
       ],
-      "rating": 1484.39,
+      "rating": 1472.95,
       "wins": 24
     },
     "38": {
@@ -8212,8 +8259,8 @@
     },
     "41": {
       "draws": 0,
-      "games": 52,
-      "losses": 23,
+      "games": 53,
+      "losses": 24,
       "opponents": [
         3,
         4,
@@ -8251,10 +8298,11 @@
         52,
         54,
         55,
+        60,
         62,
         66
       ],
-      "rating": 1489.7,
+      "rating": 1477.66,
       "wins": 29
     },
     "42": {
@@ -8644,13 +8692,18 @@
     },
     "60": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
+      "games": 6,
+      "losses": 2,
       "opponents": [
-        57
+        31,
+        37,
+        41,
+        57,
+        63,
+        65
       ],
-      "rating": 1488.0,
-      "wins": 0
+      "rating": 1523.24,
+      "wins": 4
     },
     "61": {
       "draws": 0,
@@ -8679,12 +8732,13 @@
     },
     "63": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
+      "games": 2,
+      "losses": 2,
       "opponents": [
-        57
+        57,
+        60
       ],
-      "rating": 1488.81,
+      "rating": 1476.37,
       "wins": 0
     },
     "64": {
@@ -8700,13 +8754,14 @@
     },
     "65": {
       "draws": 0,
-      "games": 1,
+      "games": 2,
       "losses": 1,
       "opponents": [
-        57
+        57,
+        60
       ],
-      "rating": 1488.41,
-      "wins": 0
+      "rating": 1500.4,
+      "wins": 1
     },
     "66": {
       "draws": 0,
