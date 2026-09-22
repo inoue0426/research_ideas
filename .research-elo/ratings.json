@@ -6884,6 +6884,51 @@
       "reason": "#68 is feasible with currently available lineage-tracing datasets, whereas #41 is severely constrained by the lack of matched single-cell/spatial ADC response datasets, making it unlikely to produce a meaningful result in six months.",
       "target": 68,
       "timestamp": "2026-09-22T19:14:12.604628+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 46,
+      "outcome": "loss",
+      "reason": "#46 is more tractable and falsifiable because it proposes a specific controlled test (recovering a known residual field from distribution mismatch) to validate the core hypothesis, whereas #70 relies on a complex decomposition that may be difficult to uniquely identify or validate in a six-month timeframe.",
+      "target": 70,
+      "timestamp": "2026-09-22T19:24:38.385990+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 65,
+      "outcome": "win",
+      "reason": "#70 is more tractable and specific, proposing a concrete decomposition of intervention transitions to test transferability, whereas #65 poses a broad, somewhat philosophical question about 'biological fidelity' that is difficult to operationalize and falsify rigorously within a short project.",
+      "target": 70,
+      "timestamp": "2026-09-22T19:24:38.385990+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "#70 addresses a core scientific question in perturbation modeling with a clear hypothesis about component transferability, offering higher scientific leverage and novelty potential than #31, which focuses on a narrower, more incremental improvement in LLM reasoning reliability.",
+      "target": 70,
+      "timestamp": "2026-09-22T19:24:38.385990+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 43,
+      "outcome": "win",
+      "reason": "#70 tackles a fundamental question about the nature of transferable biological signals with high scientific importance and novelty, whereas #43 is a practical application of standard uncertainty estimation techniques that, while useful, offers less differentiated scientific contribution.",
+      "target": 70,
+      "timestamp": "2026-09-22T19:24:38.385990+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "#70 provides a more mechanistic and theoretically grounded approach to understanding transfer by decomposing the signal, whereas #19 is primarily an empirical characterization of failure modes that may be limited by data availability and lacks the same depth of theoretical insight.",
+      "target": 70,
+      "timestamp": "2026-09-22T19:24:38.385990+00:00"
     }
   ],
   "k_factor": 24,
@@ -7588,12 +7633,12 @@
         "15": 1448.24,
         "16": 1352.59,
         "17": 1348.45,
-        "19": 1477.85,
+        "19": 1467.36,
         "20": 1460.2,
         "21": 1430.63,
         "3": 1258.59,
         "30": 1444.16,
-        "31": 1478.44,
+        "31": 1467.18,
         "32": 1471.43,
         "33": 1683.52,
         "34": 1542.15,
@@ -7606,9 +7651,9 @@
         "40": 1661.46,
         "41": 1468.74,
         "42": 1471.41,
-        "43": 1478.15,
+        "43": 1467.28,
         "44": 1645.56,
-        "46": 1490.75,
+        "46": 1503.07,
         "47": 1572.1,
         "48": 1615.95,
         "49": 1622.44,
@@ -7625,15 +7670,16 @@
         "62": 1443.45,
         "63": 1410.18,
         "64": 1421.77,
-        "65": 1489.6,
+        "65": 1477.53,
         "66": 1543.78,
         "67": 1534.4,
         "68": 1554.22,
         "69": 1556.52,
         "7": 1281.86,
+        "70": 1532.37,
         "9": 1277.23
       },
-      "timestamp": "2026-09-22T19:14:14.430151+00:00"
+      "timestamp": "2026-09-22T19:24:40.547583+00:00"
     }
   ],
   "ratings": {
@@ -7946,8 +7992,8 @@
     },
     "19": {
       "draws": 0,
-      "games": 61,
-      "losses": 31,
+      "games": 62,
+      "losses": 32,
       "opponents": [
         3,
         4,
@@ -7986,9 +8032,10 @@
         61,
         63,
         64,
-        67
+        67,
+        70
       ],
-      "rating": 1477.85,
+      "rating": 1467.36,
       "wins": 30
     },
     "20": {
@@ -8150,8 +8197,8 @@
     },
     "31": {
       "draws": 0,
-      "games": 60,
-      "losses": 29,
+      "games": 61,
+      "losses": 30,
       "opponents": [
         3,
         4,
@@ -8196,9 +8243,10 @@
         63,
         64,
         65,
-        66
+        66,
+        70
       ],
-      "rating": 1478.44,
+      "rating": 1467.18,
       "wins": 31
     },
     "32": {
@@ -8694,8 +8742,8 @@
     },
     "43": {
       "draws": 0,
-      "games": 56,
-      "losses": 25,
+      "games": 57,
+      "losses": 26,
       "opponents": [
         3,
         4,
@@ -8733,9 +8781,10 @@
         51,
         63,
         64,
-        65
+        65,
+        70
       ],
-      "rating": 1478.15,
+      "rating": 1467.28,
       "wins": 31
     },
     "44": {
@@ -8778,7 +8827,7 @@
     },
     "46": {
       "draws": 0,
-      "games": 57,
+      "games": 58,
       "losses": 30,
       "opponents": [
         3,
@@ -8822,10 +8871,11 @@
         62,
         65,
         68,
-        69
+        69,
+        70
       ],
-      "rating": 1490.75,
-      "wins": 27
+      "rating": 1503.07,
+      "wins": 28
     },
     "47": {
       "draws": 0,
@@ -9118,8 +9168,8 @@
     },
     "65": {
       "draws": 0,
-      "games": 9,
-      "losses": 5,
+      "games": 10,
+      "losses": 6,
       "opponents": [
         31,
         32,
@@ -9129,9 +9179,10 @@
         57,
         60,
         68,
-        69
+        69,
+        70
       ],
-      "rating": 1489.6,
+      "rating": 1477.53,
       "wins": 4
     },
     "66": {
@@ -9230,6 +9281,20 @@
       ],
       "rating": 1281.86,
       "wins": 9
+    },
+    "70": {
+      "draws": 0,
+      "games": 5,
+      "losses": 1,
+      "opponents": [
+        19,
+        31,
+        43,
+        46,
+        65
+      ],
+      "rating": 1532.37,
+      "wins": 4
     },
     "9": {
       "draws": 0,
