@@ -136,11 +136,11 @@ PAIRS:
 Return STRICT JSON only, with exactly this schema:
 {{
   "comparisons": [
-    {{"pair_id": "p1", "winner": "A", "reason": "one concise reason"}}
+    {{"pair_id": "p1", "winner_issue": 123, "reason": "#123: one concise reason"}}
   ]
 }}
 
-winner must be exactly "A", "B", or "draw". Include one comparison for every pair and no extra keys or prose.
+For each pair, winner_issue must be the exact numeric GitHub issue number of the winner; use 0 for a draw. Include one comparison for every pair and no extra keys or prose.
 '''
     Path(args.prompt_file).write_text(prompt, encoding='utf-8')
     print(
