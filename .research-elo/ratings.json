@@ -6614,6 +6614,51 @@
       "reason": "#61 is more empirically grounded and falsifiable by testing the limits of existing models, while #63 is a conceptual reformulation of network biology that lacks a clear, immediate experimental protocol and risks being too abstract for a six-month project.",
       "target": 61,
       "timestamp": "2026-09-22T03:04:57.473670+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 41,
+      "outcome": "loss",
+      "reason": "#41 is more tractable and scientifically grounded, focusing on a specific biological mechanism (ADC response) with a clear data-driven path, whereas #63 is a broad conceptual framework that lacks a specific, testable hypothesis and may be too ambitious for a six-month project.",
+      "target": 63,
+      "timestamp": "2026-09-22T03:08:23.740111+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "loss",
+      "reason": "#19 poses a clear, falsifiable question about failure modes of perturbation transfer, which is a concrete and high-leverage problem, while #63 is a vague re-framing of existing concepts without a specific, testable core claim.",
+      "target": 63,
+      "timestamp": "2026-09-22T03:08:23.740111+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 43,
+      "outcome": "loss",
+      "reason": "#43 addresses a practical and well-defined problem (uncertainty quantification in ADC prediction) with clear evaluation metrics, whereas #63 is a high-level theoretical proposal that is difficult to execute and validate within a short timeframe.",
+      "target": 63,
+      "timestamp": "2026-09-22T03:08:23.740111+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 64,
+      "outcome": "loss",
+      "reason": "#64 proposes a concrete empirical test for an agent that learns and revises a biological world model, which is a more specific and testable contribution than the general conceptual re-framing of network biology in #63.",
+      "target": 63,
+      "timestamp": "2026-09-22T03:08:23.740111+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "loss",
+      "reason": "#31 identifies a specific, reproducible gap in biomedical LLM reasoning (evidence selection vs. sufficiency) with a clear experimental plan, while #63 is a broad, abstract idea that lacks the specificity and immediate testability of #31.",
+      "target": 63,
+      "timestamp": "2026-09-22T03:08:23.740111+00:00"
     }
   ],
   "k_factor": 24,
@@ -7318,12 +7363,12 @@
         "15": 1448.24,
         "16": 1352.59,
         "17": 1348.45,
-        "19": 1465.86,
+        "19": 1477.45,
         "20": 1460.2,
         "21": 1430.63,
         "3": 1258.59,
         "30": 1444.16,
-        "31": 1469.41,
+        "31": 1479.73,
         "32": 1506.39,
         "33": 1683.52,
         "34": 1542.15,
@@ -7334,9 +7379,9 @@
         "39": 1523.6,
         "4": 1453.94,
         "40": 1661.46,
-        "41": 1466.13,
+        "41": 1478.13,
         "42": 1494.59,
-        "43": 1466.56,
+        "43": 1477.73,
         "44": 1645.56,
         "46": 1501.72,
         "47": 1572.1,
@@ -7353,14 +7398,14 @@
         "60": 1523.24,
         "61": 1534.97,
         "62": 1443.45,
-        "63": 1466.03,
-        "64": 1467.13,
+        "63": 1410.18,
+        "64": 1477.9,
         "65": 1500.4,
         "66": 1543.78,
         "7": 1281.86,
         "9": 1277.23
       },
-      "timestamp": "2026-09-22T03:04:58.914648+00:00"
+      "timestamp": "2026-09-22T03:08:25.305623+00:00"
     }
   ],
   "ratings": {
@@ -7673,7 +7718,7 @@
     },
     "19": {
       "draws": 0,
-      "games": 58,
+      "games": 59,
       "losses": 30,
       "opponents": [
         3,
@@ -7710,10 +7755,11 @@
         50,
         51,
         52,
-        61
+        61,
+        63
       ],
-      "rating": 1465.86,
-      "wins": 28
+      "rating": 1477.45,
+      "wins": 29
     },
     "20": {
       "draws": 0,
@@ -7874,7 +7920,7 @@
     },
     "31": {
       "draws": 0,
-      "games": 57,
+      "games": 58,
       "losses": 28,
       "opponents": [
         3,
@@ -7917,10 +7963,11 @@
         60,
         61,
         62,
+        63,
         66
       ],
-      "rating": 1469.41,
-      "wins": 29
+      "rating": 1479.73,
+      "wins": 30
     },
     "32": {
       "draws": 0,
@@ -8306,7 +8353,7 @@
     },
     "41": {
       "draws": 0,
-      "games": 54,
+      "games": 55,
       "losses": 25,
       "opponents": [
         3,
@@ -8348,10 +8395,11 @@
         60,
         61,
         62,
+        63,
         66
       ],
-      "rating": 1466.13,
-      "wins": 29
+      "rating": 1478.13,
+      "wins": 30
     },
     "42": {
       "draws": 0,
@@ -8402,7 +8450,7 @@
     },
     "43": {
       "draws": 0,
-      "games": 53,
+      "games": 54,
       "losses": 24,
       "opponents": [
         3,
@@ -8438,10 +8486,11 @@
         48,
         49,
         50,
-        51
+        51,
+        63
       ],
-      "rating": 1466.56,
-      "wins": 29
+      "rating": 1477.73,
+      "wins": 30
     },
     "44": {
       "draws": 0,
@@ -8785,27 +8834,33 @@
     },
     "63": {
       "draws": 0,
-      "games": 3,
-      "losses": 3,
+      "games": 8,
+      "losses": 8,
       "opponents": [
+        19,
+        31,
+        41,
+        43,
         57,
         60,
-        61
+        61,
+        64
       ],
-      "rating": 1466.03,
+      "rating": 1410.18,
       "wins": 0
     },
     "64": {
       "draws": 0,
-      "games": 3,
+      "games": 4,
       "losses": 3,
       "opponents": [
         57,
         61,
+        63,
         66
       ],
-      "rating": 1467.13,
-      "wins": 0
+      "rating": 1477.9,
+      "wins": 1
     },
     "65": {
       "draws": 0,
