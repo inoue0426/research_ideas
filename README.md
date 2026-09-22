@@ -70,7 +70,7 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 - 🚀 [#56 — From intervention vectors to intervention fields: geometry, transfer, and compositionality of perturbation drift](https://github.com/inoue0426/research_ideas/issues/56): **+12 Elo**
 - 📉 [#32 — \[Idea\] Frontier-Conditioned Molecular Generation with Large Language Models](https://github.com/inoue0426/research_ideas/issues/32): **-1 Elo**
 
-_Updated automatically by Research Elo workflows. Last update: 2026-09-21 21:26 UTC._
+_Updated automatically by Research Elo workflows. Last update: 2026-09-22 01:01 UTC._
 <!-- RESEARCH_ELO_END -->
 
 <!-- RESEARCH_MAPS_START -->
