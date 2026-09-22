@@ -6569,6 +6569,51 @@
       "reason": "#60 addresses a high-leverage, domain-specific scientific problem with clear data availability, whereas #31 is a narrower NLP/LLM evaluation task that, while valid, offers less broad scientific leverage for biological discovery compared to the multi-scale transfer framework in #60.",
       "target": 60,
       "timestamp": "2026-09-22T03:02:55.621110+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 64,
+      "outcome": "win",
+      "reason": "#61 is more tractable and falsifiable for a six-month project because it focuses on benchmarking existing simulators and defining transferability metrics, whereas #64 proposes a complex, open-ended agent architecture that is difficult to validate rigorously in a short timeframe.",
+      "target": 61,
+      "timestamp": "2026-09-22T03:04:57.473670+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 41,
+      "outcome": "win",
+      "reason": "#61 is preferred over #41 because #41 explicitly identifies a critical data availability uncertainty (lack of matched single-cell ADC datasets) that could render the project infeasible, while #61 leverages existing public datasets to address a clear, testable question about prediction boundaries.",
+      "target": 61,
+      "timestamp": "2026-09-22T03:04:57.473670+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "#61 offers higher scientific leverage and broader applicability across biological scales compared to #31, which is a narrower NLP/LLM evaluation task with less direct impact on core biological prediction challenges.",
+      "target": 61,
+      "timestamp": "2026-09-22T03:04:57.473670+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 19,
+      "outcome": "win",
+      "reason": "#61 is a more comprehensive and generalizable framework for understanding prediction failure across multiple biological scales, whereas #19 is a specific subset of this problem focused only on perturbation transfer, making #61 the stronger candidate for a broader research contribution.",
+      "target": 61,
+      "timestamp": "2026-09-22T03:04:57.473670+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 63,
+      "outcome": "win",
+      "reason": "#61 is more empirically grounded and falsifiable by testing the limits of existing models, while #63 is a conceptual reformulation of network biology that lacks a clear, immediate experimental protocol and risks being too abstract for a six-month project.",
+      "target": 61,
+      "timestamp": "2026-09-22T03:04:57.473670+00:00"
     }
   ],
   "k_factor": 24,
@@ -7273,12 +7318,12 @@
         "15": 1448.24,
         "16": 1352.59,
         "17": 1348.45,
-        "19": 1476.58,
+        "19": 1465.86,
         "20": 1460.2,
         "21": 1430.63,
         "3": 1258.59,
         "30": 1444.16,
-        "31": 1480.65,
+        "31": 1469.41,
         "32": 1506.39,
         "33": 1683.52,
         "34": 1542.15,
@@ -7289,7 +7334,7 @@
         "39": 1523.6,
         "4": 1453.94,
         "40": 1661.46,
-        "41": 1477.66,
+        "41": 1466.13,
         "42": 1494.59,
         "43": 1466.56,
         "44": 1645.56,
@@ -7306,16 +7351,16 @@
         "56": 1592.16,
         "57": 1544.53,
         "60": 1523.24,
-        "61": 1479.14,
+        "61": 1534.97,
         "62": 1443.45,
-        "63": 1476.37,
-        "64": 1479.13,
+        "63": 1466.03,
+        "64": 1467.13,
         "65": 1500.4,
         "66": 1543.78,
         "7": 1281.86,
         "9": 1277.23
       },
-      "timestamp": "2026-09-22T03:02:57.243366+00:00"
+      "timestamp": "2026-09-22T03:04:58.914648+00:00"
     }
   ],
   "ratings": {
@@ -7628,8 +7673,8 @@
     },
     "19": {
       "draws": 0,
-      "games": 57,
-      "losses": 29,
+      "games": 58,
+      "losses": 30,
       "opponents": [
         3,
         4,
@@ -7664,9 +7709,10 @@
         48,
         50,
         51,
-        52
+        52,
+        61
       ],
-      "rating": 1476.58,
+      "rating": 1465.86,
       "wins": 28
     },
     "20": {
@@ -7828,8 +7874,8 @@
     },
     "31": {
       "draws": 0,
-      "games": 56,
-      "losses": 27,
+      "games": 57,
+      "losses": 28,
       "opponents": [
         3,
         4,
@@ -7869,10 +7915,11 @@
         53,
         55,
         60,
+        61,
         62,
         66
       ],
-      "rating": 1480.65,
+      "rating": 1469.41,
       "wins": 29
     },
     "32": {
@@ -8259,8 +8306,8 @@
     },
     "41": {
       "draws": 0,
-      "games": 53,
-      "losses": 24,
+      "games": 54,
+      "losses": 25,
       "opponents": [
         3,
         4,
@@ -8299,10 +8346,11 @@
         54,
         55,
         60,
+        61,
         62,
         66
       ],
-      "rating": 1477.66,
+      "rating": 1466.13,
       "wins": 29
     },
     "42": {
@@ -8707,14 +8755,19 @@
     },
     "61": {
       "draws": 0,
-      "games": 2,
+      "games": 7,
       "losses": 2,
       "opponents": [
+        19,
+        31,
+        41,
         57,
+        63,
+        64,
         66
       ],
-      "rating": 1479.14,
-      "wins": 0
+      "rating": 1534.97,
+      "wins": 5
     },
     "62": {
       "draws": 0,
@@ -8732,24 +8785,26 @@
     },
     "63": {
       "draws": 0,
-      "games": 2,
-      "losses": 2,
+      "games": 3,
+      "losses": 3,
       "opponents": [
         57,
-        60
+        60,
+        61
       ],
-      "rating": 1476.37,
+      "rating": 1466.03,
       "wins": 0
     },
     "64": {
       "draws": 0,
-      "games": 2,
-      "losses": 2,
+      "games": 3,
+      "losses": 3,
       "opponents": [
         57,
+        61,
         66
       ],
-      "rating": 1479.13,
+      "rating": 1467.13,
       "wins": 0
     },
     "65": {
