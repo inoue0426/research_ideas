@@ -35,15 +35,15 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 | ≈11 | [#61 — Where Does the Biological Simulator Break?](https://github.com/inoue0426/research_ideas/issues/61) | **1535** | — | 7 | 7 | 🟡 Provisional | 5W / 0D / 2L |
 | ≈11 | [#54 — Are biological perturbations continuous, discrete, or stochastic transitions?](https://github.com/inoue0426/research_ideas/issues/54) | **1525** | 0 | 6 | 6 | 🟡 Provisional | 4W / 0D / 2L |
 | ≈16 | [#60 — Transfer Trust Across Biological Scales](https://github.com/inoue0426/research_ideas/issues/60) | **1523** | — | 6 | 6 | 🟡 Provisional | 4W / 0D / 2L |
-| ≈16 | [#32 — \[Idea\] Frontier-Conditioned Molecular Generation with Large Language Models](https://github.com/inoue0426/research_ideas/issues/32) | **1506** | **-13** | 52 | 37 | 🟢 Established | 30W / 0D / 22L |
-| ≈18 | [#46 — \[Idea\] Perturbation-Conditioned Schrödinger Bridges with Drifting Loss](https://github.com/inoue0426/research_ideas/issues/46) | **1502** | **+2** | 54 | 39 | 🟢 Established | 26W / 0D / 28L |
-| ≈18 | [#65 — \[Idea\] Do perturbation models learn biologically faithful mechanisms or merely predictive treatment-conditioned representations?](https://github.com/inoue0426/research_ideas/issues/65) | **1500** | — | 2 | 2 | 🟡 Provisional | 1W / 0D / 1L |
-| ≈18 | [#42 — \[Idea\] Cold-Start / OOD ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/42) | **1495** | **-11** | 52 | 38 | 🟢 Established | 29W / 0D / 23L |
-| ≈18 | [#31 — \[Idea\] Reliable Biomedical Evidence Reasoning: Separating Evidence Selection from Evidence Sufficiency](https://github.com/inoue0426/research_ideas/issues/31) | **1490** | **-13** | 59 | 43 | 🟢 Established | 31W / 0D / 28L |
-| ≈18 | [#43 — \[Idea\] Uncertainty-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/43) | **1490** | **+23** | 55 | 36 | 🟢 Established | 31W / 0D / 24L |
-| ≈18 | [#41 — \[Idea\] Single-Cell and Spatial Modeling of ADC Response and Resistance](https://github.com/inoue0426/research_ideas/issues/41) | **1490** | **-12** | 56 | 42 | 🟢 Established | 31W / 0D / 25L |
-| ≈18 | [#19 — \[Idea\] When does perturbation transfer fail across biological domains?](https://github.com/inoue0426/research_ideas/issues/19) | **1489** | **+12** | 60 | 37 | 🟢 Established | 30W / 0D / 30L |
-| ≈18 | [#37 — \[Idea\] Partner- and Context-Conditioned Molecular Embeddings for Drug Combination Response](https://github.com/inoue0426/research_ideas/issues/37) | **1484** | **-1** | 54 | 38 | 🟢 Established | 25W / 0D / 29L |
+| ≈16 | [#46 — \[Idea\] Perturbation-Conditioned Schrödinger Bridges with Drifting Loss](https://github.com/inoue0426/research_ideas/issues/46) | **1514** | **+14** | 55 | 40 | 🟢 Established | 27W / 0D / 28L |
+| ≈16 | [#65 — \[Idea\] Do perturbation models learn biologically faithful mechanisms or merely predictive treatment-conditioned representations?](https://github.com/inoue0426/research_ideas/issues/65) | **1513** | — | 7 | 7 | 🟡 Provisional | 4W / 0D / 3L |
+| ≈16 | [#42 — \[Idea\] Cold-Start / OOD ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/42) | **1506** | **+1** | 53 | 39 | 🟢 Established | 30W / 0D / 23L |
+| ≈20 | [#32 — \[Idea\] Frontier-Conditioned Molecular Generation with Large Language Models](https://github.com/inoue0426/research_ideas/issues/32) | **1493** | **-26** | 53 | 38 | 🟢 Established | 30W / 0D / 23L |
+| ≈20 | [#41 — \[Idea\] Single-Cell and Spatial Modeling of ADC Response and Resistance](https://github.com/inoue0426/research_ideas/issues/41) | **1490** | **-12** | 56 | 42 | 🟢 Established | 31W / 0D / 25L |
+| ≈20 | [#19 — \[Idea\] When does perturbation transfer fail across biological domains?](https://github.com/inoue0426/research_ideas/issues/19) | **1489** | **+12** | 60 | 37 | 🟢 Established | 30W / 0D / 30L |
+| ≈20 | [#37 — \[Idea\] Partner- and Context-Conditioned Molecular Embeddings for Drug Combination Response](https://github.com/inoue0426/research_ideas/issues/37) | **1484** | **-1** | 54 | 38 | 🟢 Established | 25W / 0D / 29L |
+| ≈20 | [#31 — \[Idea\] Reliable Biomedical Evidence Reasoning: Separating Evidence Selection from Evidence Sufficiency](https://github.com/inoue0426/research_ideas/issues/31) | **1478** | **-25** | 60 | 44 | 🟢 Established | 31W / 0D / 29L |
+| ≈20 | [#43 — \[Idea\] Uncertainty-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/43) | **1478** | **+12** | 56 | 37 | 🟢 Established | 31W / 0D / 25L |
 | ≈26 | [#12 — \[Idea\] Context-aware chemical ↔ genetic shared perturbation space](https://github.com/inoue0426/research_ideas/issues/12) | **1462** | 0 | 51 | 31 | 🟢 Established | 23W / 0D / 28L |
 | ≈26 | [#20 — \[Idea\] Is there a compositional algebra of biological perturbations?](https://github.com/inoue0426/research_ideas/issues/20) | **1460** | 0 | 52 | 34 | 🟢 Established | 25W / 0D / 27L |
 | ≈26 | [#10 — \[Idea\] What biological structures remain transferable across domain shifts?](https://github.com/inoue0426/research_ideas/issues/10) | **1459** | 0 | 52 | 29 | 🟢 Established | 21W / 0D / 31L |
@@ -68,12 +68,12 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 
 - 🚀 [#56 — From intervention vectors to intervention fields: geometry, transfer, and compositionality of perturbation drift](https://github.com/inoue0426/research_ideas/issues/56): **+69 Elo**
 - 🚀 [#55 — Perturbations as stochastic transport: geometry and transfer of Schrödinger bridges](https://github.com/inoue0426/research_ideas/issues/55): **+33 Elo**
-- 🚀 [#43 — \[Idea\] Uncertainty-Aware ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/43): **+23 Elo**
-- 📉 [#31 — \[Idea\] Reliable Biomedical Evidence Reasoning: Separating Evidence Selection from Evidence Sufficiency](https://github.com/inoue0426/research_ideas/issues/31): **-13 Elo**
-- 📉 [#32 — \[Idea\] Frontier-Conditioned Molecular Generation with Large Language Models](https://github.com/inoue0426/research_ideas/issues/32): **-13 Elo**
+- 🚀 [#46 — \[Idea\] Perturbation-Conditioned Schrödinger Bridges with Drifting Loss](https://github.com/inoue0426/research_ideas/issues/46): **+14 Elo**
+- 📉 [#32 — \[Idea\] Frontier-Conditioned Molecular Generation with Large Language Models](https://github.com/inoue0426/research_ideas/issues/32): **-26 Elo**
+- 📉 [#31 — \[Idea\] Reliable Biomedical Evidence Reasoning: Separating Evidence Selection from Evidence Sufficiency](https://github.com/inoue0426/research_ideas/issues/31): **-25 Elo**
 - 📉 [#34 — \[Idea\] CTD: Evidence Sufficiency and Selective Abstention](https://github.com/inoue0426/research_ideas/issues/34): **-12 Elo**
 
-_Updated automatically by Research Elo workflows. Last update: 2026-09-22 03:10 UTC._
+_Updated automatically by Research Elo workflows. Last update: 2026-09-22 03:12 UTC._
 <!-- RESEARCH_ELO_END -->
 
 <!-- RESEARCH_MAPS_START -->

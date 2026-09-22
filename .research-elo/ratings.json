@@ -6704,6 +6704,51 @@
       "reason": "#37 proposes a specific, novel representation learning approach with a clear data-driven validation path, whereas #64 is a high-level conceptual framework that is too ambitious and vague to serve as a concrete research project.",
       "target": 64,
       "timestamp": "2026-09-22T03:10:18.074925+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 46,
+      "outcome": "loss",
+      "reason": "#46 is more tractable and falsifiable because it proposes a specific mathematical framework (Schrödinger Bridges) and a clear identifiability test, whereas #65 poses a broad conceptual question about 'mechanistic fidelity' that is difficult to operationalize and test rigorously within six months.",
+      "target": 65,
+      "timestamp": "2026-09-22T03:11:59.951593+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 42,
+      "outcome": "loss",
+      "reason": "#42 is a concrete, executable benchmarking study with clear evaluation metrics and data checks, making it highly tractable, while #65 is a broad conceptual inquiry into 'biological faithfulness' that lacks a specific, testable hypothesis or methodological path.",
+      "target": 65,
+      "timestamp": "2026-09-22T03:11:59.951593+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 32,
+      "outcome": "win",
+      "reason": "#65 addresses a fundamental scientific gap in the interpretation of perturbation models (predictive vs. mechanistic fidelity), offering higher leverage and importance than #32, which is a methodological application of LLMs to molecular generation with significant novelty uncertainty.",
+      "target": 65,
+      "timestamp": "2026-09-22T03:11:59.951593+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "#65 tackles a core scientific question about the validity of perturbation models in biology, which has broader leverage and importance than #31, which focuses on a specific NLP capability (abstention) that is more incremental and less central to the underlying biological modeling problem.",
+      "target": 65,
+      "timestamp": "2026-09-22T03:11:59.951593+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 43,
+      "outcome": "win",
+      "reason": "#65 investigates the fundamental validity of perturbation models (mechanistic fidelity), which is a more critical and high-leverage scientific question than #43, which applies standard uncertainty quantification techniques to a specific drug response prediction task.",
+      "target": 65,
+      "timestamp": "2026-09-22T03:11:59.951593+00:00"
     }
   ],
   "k_factor": 24,
@@ -7413,8 +7458,8 @@
         "21": 1430.63,
         "3": 1258.59,
         "30": 1444.16,
-        "31": 1490.47,
-        "32": 1506.39,
+        "31": 1478.44,
+        "32": 1493.37,
         "33": 1683.52,
         "34": 1542.15,
         "35": 1636.74,
@@ -7425,10 +7470,10 @@
         "4": 1453.94,
         "40": 1661.46,
         "41": 1489.71,
-        "42": 1494.59,
-        "43": 1489.74,
+        "42": 1506.38,
+        "43": 1478.15,
         "44": 1645.56,
-        "46": 1501.72,
+        "46": 1513.67,
         "47": 1572.1,
         "48": 1615.95,
         "49": 1622.44,
@@ -7445,12 +7490,12 @@
         "62": 1443.45,
         "63": 1410.18,
         "64": 1421.77,
-        "65": 1500.4,
+        "65": 1513.3,
         "66": 1543.78,
         "7": 1281.86,
         "9": 1277.23
       },
-      "timestamp": "2026-09-22T03:10:19.569775+00:00"
+      "timestamp": "2026-09-22T03:12:01.687036+00:00"
     }
   ],
   "ratings": {
@@ -7966,8 +8011,8 @@
     },
     "31": {
       "draws": 0,
-      "games": 59,
-      "losses": 28,
+      "games": 60,
+      "losses": 29,
       "opponents": [
         3,
         4,
@@ -8011,15 +8056,16 @@
         62,
         63,
         64,
+        65,
         66
       ],
-      "rating": 1490.47,
+      "rating": 1478.44,
       "wins": 31
     },
     "32": {
       "draws": 0,
-      "games": 52,
-      "losses": 22,
+      "games": 53,
+      "losses": 23,
       "opponents": [
         3,
         4,
@@ -8057,9 +8103,10 @@
         52,
         55,
         56,
-        62
+        62,
+        65
       ],
-      "rating": 1506.39,
+      "rating": 1493.37,
       "wins": 30
     },
     "33": {
@@ -8452,7 +8499,7 @@
     },
     "42": {
       "draws": 0,
-      "games": 52,
+      "games": 53,
       "losses": 23,
       "opponents": [
         3,
@@ -8492,15 +8539,16 @@
         54,
         55,
         62,
+        65,
         66
       ],
-      "rating": 1494.59,
-      "wins": 29
+      "rating": 1506.38,
+      "wins": 30
     },
     "43": {
       "draws": 0,
-      "games": 55,
-      "losses": 24,
+      "games": 56,
+      "losses": 25,
       "opponents": [
         3,
         4,
@@ -8537,9 +8585,10 @@
         50,
         51,
         63,
-        64
+        64,
+        65
       ],
-      "rating": 1489.74,
+      "rating": 1478.15,
       "wins": 31
     },
     "44": {
@@ -8582,7 +8631,7 @@
     },
     "46": {
       "draws": 0,
-      "games": 54,
+      "games": 55,
       "losses": 28,
       "opponents": [
         3,
@@ -8623,10 +8672,11 @@
         53,
         54,
         56,
-        62
+        62,
+        65
       ],
-      "rating": 1501.72,
-      "wins": 26
+      "rating": 1513.67,
+      "wins": 27
     },
     "47": {
       "draws": 0,
@@ -8919,14 +8969,19 @@
     },
     "65": {
       "draws": 0,
-      "games": 2,
-      "losses": 1,
+      "games": 7,
+      "losses": 3,
       "opponents": [
+        31,
+        32,
+        42,
+        43,
+        46,
         57,
         60
       ],
-      "rating": 1500.4,
-      "wins": 1
+      "rating": 1513.3,
+      "wins": 4
     },
     "66": {
       "draws": 0,
