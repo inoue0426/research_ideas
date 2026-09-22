@@ -73,7 +73,7 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 - 📉 [#31 — \[Idea\] Reliable Biomedical Evidence Reasoning: Separating Evidence Selection from Evidence Sufficiency](https://github.com/inoue0426/research_ideas/issues/31): **-25 Elo**
 - 📉 [#34 — \[Idea\] CTD: Evidence Sufficiency and Selective Abstention](https://github.com/inoue0426/research_ideas/issues/34): **-12 Elo**
 
-_Updated automatically by Research Elo workflows. Last update: 2026-09-22 03:12 UTC._
+_Updated automatically by Research Elo workflows. Last update: 2026-09-22 03:34 UTC._
 <!-- RESEARCH_ELO_END -->
 
 <!-- RESEARCH_MAPS_START -->
