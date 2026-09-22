@@ -6434,6 +6434,51 @@
       "reason": "#41 identifies a critical biological gap (single-cell heterogeneity in ADC response) with a clear data-availability check, offering a more concrete and biologically grounded path than #62, which is a vague, high-level system proposal with unclear immediate scientific value.",
       "target": 62,
       "timestamp": "2026-09-21T15:07:29.618374+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 41,
+      "outcome": "win",
+      "reason": "#66 is more tractable and clearly defined for a six-month project because it specifies a concrete hypothesis (dose-continuity), a specific dataset (Tahoe-100M), and a rigorous evaluation protocol (dose-holdout), whereas #41 is blocked by significant uncertainty regarding the availability of matched single-cell/spatial ADC datasets.",
+      "target": 66,
+      "timestamp": "2026-09-22T02:58:38.383260+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 31,
+      "outcome": "win",
+      "reason": "#66 offers a more substantial scientific contribution with a clear methodological novelty (dose-continuous latent dynamics) and a well-defined experimental setup, while #31 is a narrower, more incremental improvement on LLM reasoning capabilities that may lack the same level of broad biological impact or novelty.",
+      "target": 66,
+      "timestamp": "2026-09-22T02:58:38.383260+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 42,
+      "outcome": "win",
+      "reason": "#66 proposes a novel modeling approach with a clear path to validation using existing data, whereas #42 is primarily a benchmarking task that depends on the diversity of a specific dataset (ADCpedia) and may yield less reusable scientific insight than the mechanistic model proposed in #66.",
+      "target": 66,
+      "timestamp": "2026-09-22T02:58:38.383260+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 61,
+      "outcome": "win",
+      "reason": "#66 is a focused, executable research project with a clear hypothesis and data source, while #61 is a broad, high-level survey/benchmarking concept that is too ambitious and vague to be completed effectively within a six-month timeframe.",
+      "target": 66,
+      "timestamp": "2026-09-22T02:58:38.383260+00:00"
+    },
+    {
+      "judge_model": "qwen3.8:27b",
+      "judge_provider": "ollama",
+      "opponent": 64,
+      "outcome": "win",
+      "reason": "#66 is a concrete, testable scientific hypothesis with a defined experimental design, whereas #64 is a high-level architectural vision for an AI agent that is too abstract and complex to yield a definitive, falsifiable result in a short-term project.",
+      "target": 66,
+      "timestamp": "2026-09-22T02:58:38.383260+00:00"
     }
   ],
   "k_factor": 24,
@@ -7143,7 +7188,7 @@
         "21": 1430.63,
         "3": 1258.59,
         "30": 1444.16,
-        "31": 1503.67,
+        "31": 1491.96,
         "32": 1517.78,
         "33": 1683.52,
         "34": 1554.41,
@@ -7154,8 +7199,8 @@
         "39": 1523.6,
         "4": 1453.94,
         "40": 1661.46,
-        "41": 1501.76,
-        "42": 1505.98,
+        "41": 1489.7,
+        "42": 1494.59,
         "43": 1466.56,
         "44": 1645.56,
         "46": 1511.29,
@@ -7171,15 +7216,16 @@
         "56": 1535.58,
         "57": 1556.01,
         "60": 1488.0,
-        "61": 1489.57,
+        "61": 1479.14,
         "62": 1443.45,
         "63": 1488.81,
-        "64": 1489.2,
+        "64": 1479.13,
         "65": 1488.41,
+        "66": 1555.66,
         "7": 1281.86,
         "9": 1277.23
       },
-      "timestamp": "2026-09-22T01:01:58.320883+00:00"
+      "timestamp": "2026-09-22T02:58:39.782951+00:00"
     }
   ],
   "ratings": {
@@ -7692,8 +7738,8 @@
     },
     "31": {
       "draws": 0,
-      "games": 54,
-      "losses": 25,
+      "games": 55,
+      "losses": 26,
       "opponents": [
         3,
         4,
@@ -7732,9 +7778,10 @@
         52,
         53,
         55,
-        62
+        62,
+        66
       ],
-      "rating": 1503.67,
+      "rating": 1491.96,
       "wins": 29
     },
     "32": {
@@ -8118,8 +8165,8 @@
     },
     "41": {
       "draws": 0,
-      "games": 51,
-      "losses": 22,
+      "games": 52,
+      "losses": 23,
       "opponents": [
         3,
         4,
@@ -8157,15 +8204,16 @@
         52,
         54,
         55,
-        62
+        62,
+        66
       ],
-      "rating": 1501.76,
+      "rating": 1489.7,
       "wins": 29
     },
     "42": {
       "draws": 0,
-      "games": 51,
-      "losses": 22,
+      "games": 52,
+      "losses": 23,
       "opponents": [
         3,
         4,
@@ -8203,9 +8251,10 @@
         52,
         54,
         55,
-        62
+        62,
+        66
       ],
-      "rating": 1505.98,
+      "rating": 1494.59,
       "wins": 29
     },
     "43": {
@@ -8551,12 +8600,13 @@
     },
     "61": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
+      "games": 2,
+      "losses": 2,
       "opponents": [
-        57
+        57,
+        66
       ],
-      "rating": 1489.57,
+      "rating": 1479.14,
       "wins": 0
     },
     "62": {
@@ -8585,12 +8635,13 @@
     },
     "64": {
       "draws": 0,
-      "games": 1,
-      "losses": 1,
+      "games": 2,
+      "losses": 2,
       "opponents": [
-        57
+        57,
+        66
       ],
-      "rating": 1489.2,
+      "rating": 1479.13,
       "wins": 0
     },
     "65": {
@@ -8602,6 +8653,20 @@
       ],
       "rating": 1488.41,
       "wins": 0
+    },
+    "66": {
+      "draws": 0,
+      "games": 5,
+      "losses": 0,
+      "opponents": [
+        31,
+        41,
+        42,
+        61,
+        64
+      ],
+      "rating": 1555.66,
+      "wins": 5
     },
     "7": {
       "draws": 0,
