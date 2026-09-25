@@ -76,7 +76,7 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 - 📉 [#31 — \[Idea\] Reliable Biomedical Evidence Reasoning: Separating Evidence Selection from Evidence Sufficiency](https://github.com/inoue0426/research_ideas/issues/31): **-36 Elo**
 - 📉 [#42 — \[Idea\] Cold-Start / OOD ADC Response Prediction](https://github.com/inoue0426/research_ideas/issues/42): **-34 Elo**
 
-_Updated automatically by Research Elo workflows. Last update: 2026-09-25 13:52 UTC._
+_Updated automatically by Research Elo workflows. Last update: 2026-09-25 15:29 UTC._
 <!-- RESEARCH_ELO_END -->
 
 <!-- RESEARCH_MAPS_START -->
