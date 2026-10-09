@@ -67,7 +67,7 @@ Relative LLM-judge ranking of open research ideas. Ratings are comparative feedb
 | ≈45 | [#9 — \[Idea\] How should mechanistic reasoning in drug response be evaluated when multiple explanations may be valid?](https://github.com/inoue0426/research_ideas/issues/9) | **1277** | 0 | 46 | 29 | 🟢 Established | 9W / 0D / 37L |
 | 47 | [#3 — \[Idea\] Can iterative optimization improve mechanism arbitration under conflicting evidence?](https://github.com/inoue0426/research_ideas/issues/3) | **1259** | 0 | 46 | 29 | 🟢 Established | 6W / 0D / 40L |
 
-_Updated automatically by Research Elo workflows. Last update: 2026-10-09 12:23 UTC._
+_Updated automatically by Research Elo workflows. Last update: 2026-10-09 12:59 UTC._
 <!-- RESEARCH_ELO_END -->
 
 <!-- RESEARCH_MAPS_START -->
